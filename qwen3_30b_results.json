@@ -1,0 +1,1844 @@
+{
+  "model": "/Users/xr/.lmstudio/models/lmstudio-community/Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+  "model_name": "Qwen3-Coder-30B-A3B-Instruct-MLX-4bit",
+  "timestamp": "2025-12-01T10:20:46.213142",
+  "config": {
+    "protocol_count": 10,
+    "context_window": 262144,
+    "max_tokens": 131072,
+    "input_budget": 131072,
+    "output_budget": 131072,
+    "top_p": 0.9,
+    "json_token_bias_count": 7,
+    "force_json": true
+  },
+  "summary": {
+    "total": 10,
+    "successful": 9,
+    "failed": 1,
+    "success_rate": 90.0,
+    "avg_latency_ms": 10846,
+    "avg_schema_score": 100.0,
+    "total_time_s": 121.6
+  },
+  "results": [
+    {
+      "protocol_id": "10051",
+      "title": "Environmental DNA (eDNA) 12S metabarcoding Illumina MiSeq NGS PCR Protocol",
+      "success": false,
+      "latency": 23968,
+      "tokens": 2174,
+      "output": null,
+      "raw_content": "{\"samples\": [ ], \"protocols\": [ { \"name\": \"Primary PCR Amplification\", \"description\": \"Primary PCR amplification of 12S rRNA gene using MiFish_U primers with gDNA template.\", \"inputs\": [ \"gDNA extract template\" ], \"parameters\": [ { \"name\": \"reaction volume\", \"value\": \"20\", \"unit\": \"\u03bcl\", \"description\": \"Total reaction volume\" }, { \"name\": \"template volume\", \"value\": \"2\", \"unit\": \"\u03bcl\", \"description\": \"Volume of gDNA extract template\" }, { \"name\": \"master mix volume\", \"value\": \"10\", \"unit\": \"\u03bcl\", \"description\": \"Volume of Hotstar MasterMix\" }, { \"name\": \"forward primer concentration\", \"value\": \"10\", \"unit\": \"\u03bcM\", \"description\": \"Concentration of untagged forward primer\" }, \"forward primer volume\", \"value\": \"0.8\", \"unit\": \"\u03bcl\" }, { \"name\": \"reverse primer concentration\", \"value\": \"10\", \"unit\": \"\u03bcM\", \"description\": \"Concentration of untagged reverse primer\" }, { \"name\": \"reverse primer volume\", \"value\": \"0.8\", \"unit\": \"\u03bcl\" }, { \"name\": \"water volume\", \"value\": \"7.2\", \"unit\": \"\u03bcl\", \"description\": \"Volume of molecular biology grade water\" }, { \"name\": \"initial denaturation temperature\", \"value\": \"95\", \"unit\": \"\u00b0C\", \"description\": \"Initial denaturation temperature\" }, { \"name\": \"initial denaturation time\", \"value\": \"5\", \"unit\": \"minutes\", \"description\": \"Duration of initial denaturation\" }, { \"name\": \"cycles\", \"value\": \"40\", \"unit\": \"\", \"description\": \"Number of amplification cycles\" }, { \"name\": \"denaturation temperature\", \"value\": \"95\", \"unit\": \"\u00b0C\", \"description\": \"Denaturation temperature\" }, { \"name\": \"denaturation time\", \"value\": \"15\", \"unit\": \"seconds\", \"description\": \"Duration of denaturation\" }, { \"name\": \"annealing temperature\", \"value\": \"55\", \"unit\": \"\u00b0C\", \"description\": \"Annealing temperature\" }, { \"name\": \"annealing time\", \"value\": \"30\", \"unit\": \"seconds\", \"description\": \"Duration of annealing\" }, { \"name\": \"extension temperature\", \"value\": \"72\", \"unit\": \"\u00b0C\", \"description\": \"Extension temperature\" }, { \"name\": \"extension time\", \"value\": \"30\", \"unit\": \"seconds\"",
+      "ground_truth": {
+        "pseudocode": "def primary_pcr(reaction_params, cycling_params):\n    pass\n\ndef secondary_pcr(reaction_params, cycling_params):\n    pass\n\ndef run_agarose_gel(samples):\n    pass\n\ndef purify_pcr_products(method, samples):\n    pass\n\ndef quantify_pcr_products(method, samples):\n    pass\n\ndef construct_pools(samples, pool_concentration):\n    pass\n\ndef library_preparation(kits, sample_location):\n    pass\n\ndef sequencing(samples, run_params, sequencing_primers, addition_of_phiX):\n    pass\n\ndef base_calling(bcl2fastq_version, rta_version):\n    pass\n\n\n# Protocol steps\nprimary_pcr(reaction_params={'template': '2ul gDNA extract (1:10 dilution)',\n                             'mastermix': '10 \u03bcl Hotstar MasterMix (2X)',\n                             'primers': '0.8 \u03bcl of each untagged forward and reverse primer (10 \u03bcM)',\n                             'water': '7.2 \u03bcl molecular biology grade water'},\n            cycling_params={'initial': (95, 5, 'min'), 'cycles': 40,\n                            'denaturation': (95, 15, 'sec'),\n                            'annealing': (55, 30, 'sec'),\n                            'extension': (72, 30, 'sec'),\n                            'final_hold': (4, 'C')})\n\nsecondary_pcr(reaction_params={'mastermix': 'Same as primary PCR',\n                                'primers': '0.8 \u03bcl of each tagged 12S forward and reverse primer (10 \u03bcM)',\n                                'samples': '2 \u03bcl of each purified environmental as well as positive and NTC samples'},\n              cycling_params={'initial': (95, 5, 'min'), 'cycles': 20,\n                              'denaturation': (95, 15, 'sec'),\n                              'annealing': (57, 30, 'sec'),\n                              'extension': (72, 30, 'sec'),\n                              'final_hold': (4, 'C')})\n\nrun_agarose_gel(samples=\"pooled PCR products\")\n\npurify_pcr_products(method=\"Agencourt AMPure XP bead system\", samples=\"PCR products\")\n\nrun_agarose_gel(samples=\"purified PCR products\")\n\nquantify_pcr_products(method=\"Quant-It Picogreen dsDNA Assay\", samples=\"purified products\")\n\nconstruct_pools(samples=\"purified products\", pool_concentration=\"confirmed with Qubit dsDNA HS kit\")\n\nlibrary_preparation(kits=\"KAPA HyperPrep and Library Quantification\", sample_location=\"each location sampled\")\n\nsequencing(samples=\"12S rRNA gene\", run_params=\"MiSeq v2 flow cell, 2x250bp paired end format, v2 500-cycle MiSeq reagent cartridge\", sequencing_primers=\"Custom sequencing primers added to appropriate wells of the reagent cartridge\", addition_of_phiX=\"20% PhiX\")\n\nbase_calling(bcl2fastq_version=\"2.18.0\", rta_version=\"v1.18.54\")\n\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": false,
+        "score": 0,
+        "errors": [
+          "Output is not a valid object"
+        ]
+      }
+    },
+    {
+      "protocol_id": "1007",
+      "title": "Wet-mount Method for Enumeration of Aquatic Viruses",
+      "success": true,
+      "latency": 7745,
+      "tokens": 698,
+      "output": {
+        "samples": [
+          {
+            "name": "Sample",
+            "organism": "",
+            "characteristics": [
+              {
+                "category": "Volume",
+                "value": "1",
+                "unit": "mL",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Concentration",
+                "value": "100",
+                "unit": "fold",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Viral Concentration Method",
+            "description": "Concentrate viral sample using iron chloride flocculation and ascorbic-EDTA buffer",
+            "inputs": [
+              "Sample"
+            ],
+            "parameters": [
+              {
+                "name": "Iron Chloride Solution Volume",
+                "value": "1",
+                "unit": "\u03bcL",
+                "description": "Volume of Iron Chloride Solution added"
+              },
+              {
+                "name": "Centrifugation Time",
+                "value": "20",
+                "unit": "minutes",
+                "description": "Duration of centrifugation"
+              },
+              {
+                "name": "Centrifugation RCF",
+                "value": "14000",
+                "unit": "RCF",
+                "description": "Relative Centrifugal Force"
+              },
+              {
+                "name": "Ascorbic-EDTA Buffer Volume",
+                "value": "10",
+                "unit": "\u03bcL",
+                "description": "Volume of buffer used to dissolve pellet"
+              }
+            ],
+            "outputs": [
+              "Concentrated Sample"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Virus Counting Procedure",
+            "description": "Count viruses using SYBR Gold staining, beads, and epifluorescence microscopy",
+            "inputs": [
+              "Concentrated Sample",
+              "SYBR Gold Working Stock",
+              "Ascorbic Acid Antifade Solution",
+              "Glycerol",
+              "Working Bead Solution"
+            ],
+            "parameters": [
+              {
+                "name": "Sample Volume",
+                "value": "10",
+                "unit": "\u03bcL",
+                "description": "Volume of sample used"
+              },
+              {
+                "name": "SYBR Gold Working Stock Volume",
+                "value": "2",
+                "unit": "\u03bcL",
+                "description": "Volume of SYBR Gold added"
+              },
+              {
+                "name": "Incubation Time",
+                "value": "15",
+                "unit": "minutes",
+                "description": "Time sample is kept in dark"
+              },
+              {
+                "name": "Ascorbic Acid Antifade Solution Volume",
+                "value": "1",
+                "unit": "\u03bcL",
+                "description": "Volume of antifade solution added"
+              },
+              {
+                "name": "Glycerol Volume",
+                "value": "5",
+                "unit": "\u03bcL",
+                "description": "Volume of glycerol added"
+              },
+              {
+                "name": "Working Bead Solution Volume",
+                "value": "2",
+                "unit": "\u03bcL",
+                "description": "Volume of bead solution added"
+              },
+              {
+                "name": "Excitation Wavelength",
+                "value": "495",
+                "unit": "nm",
+                "description": "Excitation wavelength for microscopy"
+              },
+              {
+                "name": "Magnification",
+                "value": "1000",
+                "unit": "X",
+                "description": "Magnification used for counting"
+              }
+            ],
+            "outputs": [
+              "Counted Viruses",
+              "Counted Beads"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"Sample\", \"organism\": \"\", \"characteristics\": [ { \"category\": \"Volume\", \"value\": \"1\", \"unit\": \"mL\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"Concentration\", \"value\": \"100\", \"unit\": \"fold\", \"termSource\": \"\", \"termAccession\": \"\" } ] } ], \"protocols\": [ { \"name\": \"Viral Concentration Method\", \"description\": \"Concentrate viral sample using iron chloride flocculation and ascorbic-EDTA buffer\", \"inputs\": [ \"Sample\" ], \"parameters\": [ { \"name\": \"Iron Chloride Solution Volume\", \"value\": \"1\", \"unit\": \"\u03bcL\", \"description\": \"Volume of Iron Chloride Solution added\" }, { \"name\": \"Centrifugation Time\", \"value\": \"20\", \"unit\": \"minutes\", \"description\": \"Duration of centrifugation\" }, { \"name\": \"Centrifugation RCF\", \"value\": \"14000\", \"unit\": \"RCF\", \"description\": \"Relative Centrifugal Force\" }, { \"name\": \"Ascorbic-EDTA Buffer Volume\", \"value\": \"10\", \"unit\": \"\u03bcL\", \"description\": \"Volume of buffer used to dissolve pellet\" } ], \"outputs\": [ \"Concentrated Sample\" ], \"dataFiles\": [] }, { \"name\": \"Virus Counting Procedure\", \"description\": \"Count viruses using SYBR Gold staining, beads, and epifluorescence microscopy\", \"inputs\": [ \"Concentrated Sample\", \"SYBR Gold Working Stock\", \"Ascorbic Acid Antifade Solution\", \"Glycerol\", \"Working Bead Solution\" ], \"parameters\": [ { \"name\": \"Sample Volume\", \"value\": \"10\", \"unit\": \"\u03bcL\", \"description\": \"Volume of sample used\" }, { \"name\": \"SYBR Gold Working Stock Volume\", \"value\": \"2\", \"unit\": \"\u03bcL\", \"description\": \"Volume of SYBR Gold added\" }, { \"name\": \"Incubation Time\", \"value\": \"15\", \"unit\": \"minutes\", \"description\": \"Time sample is kept in dark\" }, { \"name\": \"Ascorbic Acid Antifade Solution Volume\", \"value\": \"1\", \"unit\": \"\u03bcL\", \"description\": \"Volume of antifade solution added\" }, { \"name\": \"Glycerol Volume\", \"value\": \"5\", \"unit\": \"\u03bcL\", \"description\": \"Volume of glycerol added\" }, { \"name\": \"Working Bead Solution Volume\", \"value\": \"2\", \"unit\": \"\u03bcL\", \"description\": \"Volume of bead solution added\" }, { \"name\": \"Exci",
+      "ground_truth": {
+        "pseudocode": "def place_sample_into_tube(sample, sample_vol):\n    pass\n\ndef add_iron_chloride_solution(sample, iron_chl_solution_vol):\n    pass\n\ndef centrifuge_sample(sample, rcf, time):\n    pass\n\ndef remove_supernatant(sample, pipette_method):\n    pass\n\ndef dissolve_pellet(sample, buffer_vol, buffer_type):\n    pass\n\ndef mix_sample_and_buffer(sample, vortex_method):\n    pass\n\ndef add_stain_and_incubate(sample, stain_vol, incubation_time, dark):\n    pass\n\ndef add_antifade_solution(sample, antifade_solution_vol):\n    pass\n\ndef add_glycerol(sample, glycerol_vol):\n    pass\n\ndef add_working_bead_solution(sample, working_bead_solution_vol):\n    pass\n\ndef clean_glass_slide_and_coverslip(clean_method):\n    pass\n\ndef dispense_sample_onto_slide(sample, sample_vol):\n    pass\n\ndef place_coverslip(sample):\n    pass\n\ndef count_viruses_microscope(sample, excitation_wavelength, magnification):\n    pass\n\ndef count_beads_microscope(sample, light_type, magnification):\n    pass\n\ndef repeat_counting_viruses_beads(sample, n_virus, n_beads, times):\n    pass\n\ndef calculate_virus_concentration(sample, n_virus, n_beads, v_beads, v_sample, c_beads):\n    pass\n\ndef store_prepared_samples(sample, storage_temp):\n    pass\n\n# Protocol steps\nsample = \"aquatic_sample\"\nplace_sample_into_tube(sample, sample_vol=\"1 mL\")\nadd_iron_chloride_solution(sample, iron_chl_solution_vol=\"1 \u03bcL\")\ncentrifuge_sample(sample, rcf=\"14K\", time=\"20 minutes\")\nremove_supernatant(sample, pipette_method=\"leave pellet undisturbed\")\ndissolve_pellet(sample, buffer_vol=\"10 \u03bcL\", buffer_type=\"Ascorbic-EDTA\")\nmix_sample_and_buffer(sample, vortex_method=\"vortex and pipette\")\nadd_stain_and_incubate(sample, stain_vol=\"2 \u03bcL\", incubation_time=\"15 minutes\", dark=True)\n\n# If sample is unconcentrated\nadd_antifade_solution(sample, antifade_solution_vol=\"1 \u03bcL\")\n\nadd_glycerol(sample, glycerol_vol=\"5 \u03bcL\")\nadd_working_bead_solution(sample, working_bead_solution_vol=\"2 \u00b5L\")\nclean_glass_slide_and_coverslip(clean_method=\"isopropanol and Kimwipes\")\ndispense_sample_onto_slide(sample, sample_vol=\"10 \u03bcL\")\nplace_coverslip(sample)\ncount_viruses_microscope(sample, excitation_wavelength=\"495 nm\", magnification=\"1000X\")\ncount_beads_microscope(sample, light_type=\"white light\", magnification=\"1000X\")\nrepeat_counting_viruses_beads(sample, n_virus, n_beads, times=\"multiple fields until at least 100 of each are counted\")\ncalculate_virus_concentration(sample, n_virus, n_beads, v_beads, v_sample, c_beads)\nstore_prepared_samples(sample, storage_temp=\"-20\u00baC\")\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 1,
+        "protocols_count": 2,
+        "parameters_count": 12
+      }
+    },
+    {
+      "protocol_id": "10157",
+      "title": "Flow Cytometry",
+      "success": true,
+      "latency": 16141,
+      "tokens": 1531,
+      "output": {
+        "samples": [
+          {
+            "name": "DH5\u03b1 Pro",
+            "organism": "DH5\u03b1 Pro",
+            "characteristics": [
+              {
+                "category": "antibiotic",
+                "value": "chloramphenicol",
+                "unit": "\u03bcg/ml",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "antibiotic_concentration",
+                "value": "50",
+                "unit": "\u03bcg/ml",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "TOP10",
+            "organism": "TOP10",
+            "characteristics": [
+              {
+                "category": "antibiotic",
+                "value": "chloramphenicol",
+                "unit": "\u03bcg/ml",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "antibiotic_concentration",
+                "value": "50",
+                "unit": "\u03bcg/ml",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Inoculation",
+            "description": "Inoculate single colony of freshly transformed DH5\u03b1 Pro or TOP10 cells in LB medium containing antibiotic",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "antibiotic",
+                "value": "chloramphenicol",
+                "unit": "\u03bcg/ml",
+                "description": "antibiotic in LB medium"
+              },
+              {
+                "name": "antibiotic_concentration",
+                "value": "50",
+                "unit": "\u03bcg/ml",
+                "description": "concentration of antibiotic"
+              },
+              {
+                "name": "culture_volume",
+                "value": "4",
+                "unit": "ml",
+                "description": "volume of LB medium"
+              }
+            ],
+            "outputs": [
+              "DH5\u03b1 Pro culture",
+              "TOP10 culture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Overnight Growth",
+            "description": "Grow the culture overnight at 37\u00b0C with shaking",
+            "inputs": [
+              "DH5\u03b1 Pro culture",
+              "TOP10 culture"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "37",
+                "unit": "\u00b0C",
+                "description": "growth temperature"
+              },
+              {
+                "name": "shaking_speed",
+                "value": "250",
+                "unit": "rpm",
+                "description": "shaking speed"
+              },
+              {
+                "name": "duration",
+                "value": "overnight",
+                "unit": "",
+                "description": "duration of growth"
+              }
+            ],
+            "outputs": [
+              "DH5\u03b1 Pro overnight culture",
+              "TOP10 overnight culture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Re-inoculation",
+            "description": "Re-inoculate cultures into fresh LB medium with varying inducer concentrations",
+            "inputs": [
+              "DH5\u03b1 Pro overnight culture",
+              "TOP10 overnight culture"
+            ],
+            "parameters": [
+              {
+                "name": "culture_volume",
+                "value": "4",
+                "unit": "ml",
+                "description": "volume of fresh LB medium"
+              },
+              {
+                "name": "inducer",
+                "value": "IPTG",
+                "unit": "mM",
+                "description": "inducer type"
+              },
+              {
+                "name": "inducer_concentration_range",
+                "value": "0-1",
+                "unit": "mM",
+                "description": "range of IPTG concentration"
+              },
+              {
+                "name": "alternative_inducer",
+                "value": "aTc",
+                "unit": "ng/ml",
+                "description": "alternative inducer"
+              },
+              {
+                "name": "alternative_inducer_concentration_range",
+                "value": "0-200",
+                "unit": "ng/ml",
+                "description": "range of aTc concentration"
+              }
+            ],
+            "outputs": [
+              "DH5\u03b1 Pro re-inoculated culture",
+              "TOP10 re-inoculated culture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Sample Collection",
+            "description": "Collect samples at different time intervals",
+            "inputs": [
+              "DH5\u03b1 Pro re-inoculated culture",
+              "TOP10 re-inoculated culture"
+            ],
+            "parameters": [
+              {
+                "name": "time_points",
+                "value": "3, 6, 9",
+                "unit": "hours",
+                "description": "time points for sample collection"
+              }
+            ],
+            "outputs": [
+              "Sample_3h",
+              "Sample_6h",
+              "Sample_9h"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Growth Rate Monitoring",
+            "description": "Monitor growth rate by measuring optical density at 600 nm",
+            "inputs": [
+              "Sample_3h",
+              "Sample_6h",
+              "Sample_9h"
+            ],
+            "parameters": [
+              {
+                "name": "wavelength",
+                "value": "600",
+                "unit": "nm",
+                "description": "wavelength for OD measurement"
+              }
+            ],
+            "outputs": [
+              "OD_3h",
+              "OD_6h",
+              "OD_9h"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Fluorescence Measurement",
+            "description": "Measure fluorescence using FACS Calibur flow cytometer",
+            "inputs": [
+              "Sample_3h",
+              "Sample_6h",
+              "Sample_9h"
+            ],
+            "parameters": [
+              {
+                "name": "excitation_wavelength",
+                "value": "488",
+                "unit": "nm",
+                "description": "excitation wavelength"
+              },
+              {
+                "name": "emission_filter_FL1",
+                "value": "515-545",
+                "unit": "nm",
+                "description": "emission filter for FL-1"
+              },
+              {
+                "name": "emission_filter_FL2",
+                "value": "585-610",
+                "unit": "nm",
+                "description": "emission filter for FL-2"
+              },
+              {
+                "name": "flow_rate",
+                "value": "1000",
+                "unit": "events/second",
+                "description": "flow rate for measurement"
+              },
+              {
+                "name": "events_per_sample",
+                "value": "50000",
+                "unit": "events",
+                "description": "number of events per sample"
+              }
+            ],
+            "outputs": [
+              "FL-1 fluorescence data",
+              "FL-2 fluorescence data"
+            ],
+            "dataFiles": [
+              "FL-1 data",
+              "FL-2 data"
+            ]
+          },
+          {
+            "name": "Data Analysis",
+            "description": "Analyze fluorescence data using FlowJo software",
+            "inputs": [
+              "FL-1 fluorescence data",
+              "FL-2 fluorescence data"
+            ],
+            "parameters": [
+              {
+                "name": "analysis_software",
+                "value": "FlowJo",
+                "unit": "",
+                "description": "software used for analysis"
+              }
+            ],
+            "outputs": [
+              "Analyzed FL-1 data",
+              "Analyzed FL-2 data"
+            ],
+            "dataFiles": [
+              "Analyzed FL-1 data",
+              "Analyzed FL-2 data"
+            ]
+          },
+          {
+            "name": "Background Fluorescence Determination",
+            "description": "Determine background fluorescence using controls",
+            "inputs": [
+              "Empty plasmid control"
+            ],
+            "parameters": [
+              {
+                "name": "control_type",
+                "value": "empty plasmid vector",
+                "unit": "",
+                "description": "type of control used"
+              }
+            ],
+            "outputs": [
+              "Background fluorescence value"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"DH5\u03b1 Pro\", \"organism\": \"DH5\u03b1 Pro\", \"characteristics\": [ { \"category\": \"antibiotic\", \"value\": \"chloramphenicol\", \"unit\": \"\u03bcg/ml\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"antibiotic_concentration\", \"value\": \"50\", \"unit\": \"\u03bcg/ml\", \"termSource\": \"\", \"termAccession\": \"\" } ] }, { \"name\": \"TOP10\", \"organism\": \"TOP10\", \"characteristics\": [ { \"category\": \"antibiotic\", \"value\": \"chloramphenicol\", \"unit\": \"\u03bcg/ml\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"antibiotic_concentration\", \"value\": \"50\", \"unit\": \"\u03bcg/ml\", \"termSource\": \"\", \"termAccession\": \"\" } ] } ], \"protocols\": [ { \"name\": \"Inoculation\", \"description\": \"Inoculate single colony of freshly transformed DH5\u03b1 Pro or TOP10 cells in LB medium containing antibiotic\", \"inputs\": [], \"parameters\": [ { \"name\": \"antibiotic\", \"value\": \"chloramphenicol\", \"unit\": \"\u03bcg/ml\", \"description\": \"antibiotic in LB medium\" }, { \"name\": \"antibiotic_concentration\", \"value\": \"50\", \"unit\": \"\u03bcg/ml\", \"description\": \"concentration of antibiotic\" }, { \"name\": \"culture_volume\", \"value\": \"4\", \"unit\": \"ml\", \"description\": \"volume of LB medium\" } ], \"outputs\": [ \"DH5\u03b1 Pro culture\", \"TOP10 culture\" ], \"dataFiles\": [] }, { \"name\": \"Overnight Growth\", \"description\": \"Grow the culture overnight at 37\u00b0C with shaking\", \"inputs\": [ \"DH5\u03b1 Pro culture\", \"TOP10 culture\" ], \"parameters\": [ { \"name\": \"temperature\", \"value\": \"37\", \"unit\": \"\u00b0C\", \"description\": \"growth temperature\" }, { \"name\": \"shaking_speed\", \"value\": \"250\", \"unit\": \"rpm\", \"description\": \"shaking speed\" }, { \"name\": \"duration\", \"value\": \"overnight\", \"unit\": \"\", \"description\": \"duration of growth\" } ], \"outputs\": [ \"DH5\u03b1 Pro overnight culture\", \"TOP10 overnight culture\" ], \"dataFiles\": [] }, { \"name\": \"Re-inoculation\", \"description\": \"Re-inoculate cultures into fresh LB medium with varying inducer concentrations\", \"inputs\": [ \"DH5\u03b1 Pro overnight culture\", \"TOP10 overnight culture\" ], \"parameters\": [ { \"name\": \"culture_volume\", \"value\": \"4\", \"unit\"",
+      "ground_truth": {
+        "pseudocode": "def inoculate_single_colony(colony, media_vol, antibiotic_concentration):\n    pass\n\ndef grow_culture(temperature, rpm, time):\n    pass\n\ndef reinoculate_culture(media_vol, antibiotic_concentration, inducer_concentration):\n    pass\n\ndef collect_samples(time_intervals):\n    pass\n\ndef measure_optical_density(culture):\n    pass\n\ndef measure_fluorescence(flow_cytometer, culture_vol, buffer_vol, flow_rate, events):\n    pass\n\ndef analyze_fluorescence(software, fluorescence_data):\n    pass\n\ndef determine_background_fluorescence(control_cells):\n    pass\n\n# Protocol steps\ninoculate_single_colony(colony=\"freshly transformed DH5-Pro or TOP10\", media_vol=\"4 ml LB\", antibiotic_concentration=\"50 \u03bcg/ml chloramphenicol\")\ngrow_culture(temperature=37, rpm=250, time=\"overnight\")\n\nreinoculate_culture(media_vol=\"4 ml fresh LB\", antibiotic_concentration=\"appropriate antibiotic\", inducer_concentration=\"0-1 mM IPTG or 0-200 ng/ml aTc\")\ngrow_culture(temperature=37, rpm=250, time=\"9 hours\")\n\nsamples = collect_samples(time_intervals=[3, 6, 9])\n\nfor sample in samples:\n    measure_optical_density(culture=sample)\n    measure_fluorescence(flow_cytometer=\"Becton Dickinson FACS Calibur\", culture_vol=\"3-5 \u03bcl\", buffer_vol=\"~1 ml PBS pH-7.5\", flow_rate=\"~1000 events/second\", events=50000)\n\nfluorescence_data = collect_samples(time_intervals=[3, 6, 9])\nanalyze_fluorescence(software=\"FlowJo (BD Biosciences)\", fluorescence_data=fluorescence_data)\n\ncontrol_cells = inoculate_single_colony(colony=\"empty plasmid vector\", media_vol=\"4 ml LB\", antibiotic_concentration=\"appropriate antibiotic\")\ngrow_culture(control_cells, temperature=37, rpm=250, time=\"9 hours\")\n\ndetermine_background_fluorescence(control_cells=control_cells)\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 2,
+        "protocols_count": 8,
+        "parameters_count": 20
+      }
+    },
+    {
+      "protocol_id": "10176",
+      "title": "Personality assessment protocol",
+      "success": true,
+      "latency": 10013,
+      "tokens": 937,
+      "output": {
+        "samples": [
+          {
+            "name": "focal fish",
+            "organism": "fish",
+            "characteristics": [
+              {
+                "category": "species",
+                "value": "poeciliid",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "stimulus fish",
+            "organism": "fish",
+            "characteristics": [
+              {
+                "category": "species",
+                "value": "poeciliid",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "sex",
+                "value": "female",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "mean length",
+                "value": "28.46",
+                "unit": "mm",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "mean length",
+                "value": "22.74",
+                "unit": "mm",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "shelter emergence test",
+            "description": "Fish is introduced to a lateral shelter area and latency to emerge is recorded as a measure of boldness.",
+            "inputs": [
+              "focal fish"
+            ],
+            "parameters": [
+              {
+                "name": "shelter area dimensions",
+                "value": "20 \u00d7 30 cm",
+                "unit": "",
+                "description": "Size of the shelter area in the testing tank"
+              },
+              {
+                "name": "acclimatization time",
+                "value": "2 min",
+                "unit": "min",
+                "description": "Time allowed for fish to acclimatize before trapdoor opens"
+              },
+              {
+                "name": "maximum trial time",
+                "value": "5 min",
+                "unit": "min",
+                "description": "Ceiling time after which trial is terminated"
+              }
+            ],
+            "outputs": [
+              "focal fish"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "swimming activity assessment",
+            "description": "Fish is allowed to explore the tank for habituation, then swimming activity is quantified by counting grid squares crossed.",
+            "inputs": [
+              "focal fish"
+            ],
+            "parameters": [
+              {
+                "name": "habituation period",
+                "value": "5 min",
+                "unit": "min",
+                "description": "Time allowed for fish to habituate before activity measurement"
+              },
+              {
+                "name": "test arena dimensions",
+                "value": "60 \u00d7 30 cm",
+                "unit": "",
+                "description": "Size of the test arena"
+              },
+              {
+                "name": "activity measurement duration",
+                "value": "5 min",
+                "unit": "min",
+                "description": "Duration over which grid squares are counted"
+              }
+            ],
+            "outputs": [
+              "focal fish"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "shoaling behavior test",
+            "description": "Visual contact with a stimulus shoal is established, and time spent in association zone is recorded as a measure of sociability.",
+            "inputs": [
+              "focal fish"
+            ],
+            "parameters": [
+              {
+                "name": "stimulus tank dimensions",
+                "value": "20 \u00d7 20 \u00d7 15 cm",
+                "unit": "",
+                "description": "Size of the tank containing stimulus shoal"
+              },
+              {
+                "name": "stimulus shoal size",
+                "value": "3",
+                "unit": "",
+                "description": "Number of stimulus fish in the shoal"
+              },
+              {
+                "name": "association zone distance",
+                "value": "10 cm",
+                "unit": "cm",
+                "description": "Distance in front of the stimulus tank defining the association zone"
+              },
+              {
+                "name": "observation period",
+                "value": "5 min",
+                "unit": "min",
+                "description": "Duration of observation for shoaling behavior"
+              }
+            ],
+            "outputs": [
+              "focal fish"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{ \n  \"samples\": [\n    {\n      \"name\": \"focal fish\",\n      \"organism\": \"fish\",\n      \"characteristics\": [\n        {\n          \"category\": \"species\",\n          \"value\": \"poeciliid\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"stimulus fish\",\n      \"organism\": \"fish\",\n      \"characteristics\": [\n        {\n          \"category\": \"species\",\n          \"value\": \"poeciliid\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"sex\",\n          \"value\": \"female\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"mean length\",\n          \"value\": \"28.46\",\n          \"unit\": \"mm\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"mean length\",\n          \"value\": \"22.74\",\n          \"unit\": \"mm\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    }\n  ],\n  \"protocols\": [\n    {\n      \"name\": \"shelter emergence test\",\n      \"description\": \"Fish is introduced to a lateral shelter area and latency to emerge is recorded as a measure of boldness.\",\n      \"inputs\": [\"focal fish\"],\n      \"parameters\": [\n        {\n          \"name\": \"shelter area dimensions\",\n          \"value\": \"20 \u00d7 30 cm\",\n          \"unit\": \"\",\n          \"description\": \"Size of the shelter area in the testing tank\"\n        },\n        {\n          \"name\": \"acclimatization time\",\n          \"value\": \"2 min\",\n          \"unit\": \"min\",\n          \"description\": \"Time allowed for fish to acclimatize before trapdoor opens\"\n        },\n        {\n          \"name\": \"maximum trial time\",\n          \"value\": \"5 min\",\n          \"unit\": \"min\",\n          \"description\": \"Ceiling time after which trial is terminated\"\n        }\n      ],\n      \"outputs\": [\"focal fish\"],\n      \"dataFiles\": []\n    },\n    {\n      \"name\": \"swimming activity assessment",
+      "ground_truth": {
+        "pseudocode": "def introduce_focal_fish(shelter_area, acclimatization_time, trapdoor, stimuli):\n    pass\n\ndef measure_boldness(latency_time, maximum_ceiling, fish_movement):\n    pass\n\ndef habituation_period(time_duration):\n    pass\n\ndef assess_activity(activity_count, time_duration, grid_squares):\n    pass\n\ndef stimulus_shoal_setup(divider_removal, stimulus_shoal, tank_dimensions, fish_sources):\n    pass\n\ndef measure_sociability(association_zone, observation_time, focal_individual):\n    pass\n\ndef perform_consecutive_tests(test_arena, minimize_handling_stress):\n    pass\n\n# Protocol steps\nintroduce_focal_fish(shelter_area=\"20 x 30 cm\", acclimatization_time=\"2 min\", trapdoor=\"opaque\", stimuli=[\"small stones\", \"artificial plants\"])\nmeasure_boldness(latency_time=\"time to emerge from shelter\", maximum_ceiling=\"5 min\", fish_movement=\"gentle dip net\")\nhabituation_period(time_duration=\"5 min\")\nassess_activity(activity_count=\"number of squares crossed\", time_duration=\"5 min\", grid_squares=\"60 x 30 cm\")\nstimulus_shoal_setup(divider_removal=\"remove black cardboard divider\", stimulus_shoal=\"3 conspecific fish\", tank_dimensions=\"20 x 20 x 15 cm\", fish_sources=\"different stock tanks\")\nmeasure_sociability(association_zone=\"10 cm in front of stimulus tank\", observation_time=\"5 min\", focal_individual=\"focal fish\")\nperform_consecutive_tests(test_arena=\"same arena for all tests\", minimize_handling_stress=True)\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 2,
+        "protocols_count": 3,
+        "parameters_count": 10
+      }
+    },
+    {
+      "protocol_id": "10238",
+      "title": "Measuring Nucleosome Assembly Activity in vitro with the Nucleosome Assembly and Quantification (NAQ) Assay",
+      "success": true,
+      "latency": 4142,
+      "tokens": 368,
+      "output": {
+        "samples": [
+          {
+            "name": "nucleosome assembly reaction",
+            "organism": "",
+            "characteristics": []
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Micrococcal Nuclease digestion and DNA purification",
+            "description": "Digestion of nucleosome assembly reaction with Micrococcal Nuclease and subsequent DNA purification",
+            "inputs": [
+              "nucleosome assembly reaction"
+            ],
+            "parameters": [
+              {
+                "name": "MNase concentration",
+                "value": "25 U/\u00b5l",
+                "unit": "",
+                "description": "Stock concentration of Micrococcal Nuclease"
+              },
+              {
+                "name": "EDTA concentration",
+                "value": "500 mM",
+                "unit": "",
+                "description": "Concentration of EDTA used to quench reaction"
+              },
+              {
+                "name": "Proteinase K concentration",
+                "value": "20 mg/ml",
+                "unit": "",
+                "description": "Stock concentration of Proteinase K"
+              },
+              {
+                "name": "PB buffer volume",
+                "value": "550 \u00b5l",
+                "unit": "",
+                "description": "Volume of PB buffer from MinElute kit"
+              },
+              {
+                "name": "Na acetate pH",
+                "value": "5.0",
+                "unit": "",
+                "description": "pH of Na acetate solution"
+              },
+              {
+                "name": "loading control DNA concentration",
+                "value": "25 ng/\u00b5l",
+                "unit": "",
+                "description": "Stock concentration of loading control DNA"
+              },
+              {
+                "name": "ddH2O volume",
+                "value": "10 \u00b5l",
+                "unit": "",
+                "description": "Volume of ddH2O applied to spin column"
+              }
+            ],
+            "outputs": [
+              "purified DNA"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"nucleosome assembly reaction\", \"organism\": \"\", \"characteristics\": [] } ], \"protocols\": [ { \"name\": \"Micrococcal Nuclease digestion and DNA purification\", \"description\": \"Digestion of nucleosome assembly reaction with Micrococcal Nuclease and subsequent DNA purification\", \"inputs\": [ \"nucleosome assembly reaction\" ], \"parameters\": [ { \"name\": \"MNase concentration\", \"value\": \"25 U/\u00b5l\", \"unit\": \"\", \"description\": \"Stock concentration of Micrococcal Nuclease\" }, { \"name\": \"EDTA concentration\", \"value\": \"500 mM\", \"unit\": \"\", \"description\": \"Concentration of EDTA used to quench reaction\" }, { \"name\": \"Proteinase K concentration\", \"value\": \"20 mg/ml\", \"unit\": \"\", \"description\": \"Stock concentration of Proteinase K\" }, { \"name\": \"PB buffer volume\", \"value\": \"550 \u00b5l\", \"unit\": \"\", \"description\": \"Volume of PB buffer from MinElute kit\" }, { \"name\": \"Na acetate pH\", \"value\": \"5.0\", \"unit\": \"\", \"description\": \"pH of Na acetate solution\" }, { \"name\": \"loading control DNA concentration\", \"value\": \"25 ng/\u00b5l\", \"unit\": \"\", \"description\": \"Stock concentration of loading control DNA\" }, { \"name\": \"ddH2O volume\", \"value\": \"10 \u00b5l\", \"unit\": \"\", \"description\": \"Volume of ddH2O applied to spin column\" } ], \"outputs\": [ \"purified DNA\" ], \"dataFiles\": [] } ] }",
+      "ground_truth": {
+        "pseudocode": "def mix_reaction_components(nucleosome_assembly_reaction, mnase_buffer, bsa, mnase, water):\n    pass\n\ndef apply_sample_to_spin_column(reaction_sample):\n    pass\n\n# Protocol steps\nreaction_sample = mix_reaction_components(nucleosome_assembly_reaction=25, mnase_buffer=10, bsa=1, mnase=1, water=63)\nincubate_sample(reaction_sample, temperature=\"37 \u00b0C\", time=\"10 min\")\nquench_reaction(reaction_sample, edta_concentration=\"500 mM\")\ntreat_with_proteinase_k(reaction_sample, proteinase_k_concentration=\"20 mg/ml\")\nadd_purification_buffer(reaction_sample, buff_type=\"PB\", volume=550)\nadd_loading_control(reaction_sample, control_dna_stock=\"25 ng/\u00b5l\")\napply_sample_to_spin_column(reaction_sample)\n\n# Steps 9-19 can be condensed into a single loop since they are repetitive centrifuge and flow-through discard steps\nfor i in range(3):\n    if i == 0:\n        wash_membrane(reaction_sample, buffer=\"100 \u00b5l PB\")\n    elif i == 1:\n        wash_membrane(reaction_sample, buffer=\"700 \u00b5l PE\")\n    centrifuge_settings = \"1 min, 16,000 x g, RT\"\n    spin_column_centrifugation(reaction_sample, settings=centrifuge_settings)\n    discard_flow_through(reaction_sample)\n\napply_ddh2o(reaction_sample, quantity=\"10 \u00b5l\", spin_column=True)\nincubate_sample(reaction_sample, room_temperature=True, time=\"10 min\")\nelute_sample_using_spin_column(reaction_sample, clean_tube=\"Eppendorf tube\", centrifuge_settings=\"1 min, 16,000 x g, RT\")",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 1,
+        "protocols_count": 1,
+        "parameters_count": 7
+      }
+    },
+    {
+      "protocol_id": "10256",
+      "title": "1% Agarose Gel Electrophoresis Prep",
+      "success": true,
+      "latency": 7520,
+      "tokens": 682,
+      "output": {
+        "samples": [
+          {
+            "name": "Sample",
+            "organism": "",
+            "characteristics": [
+              {
+                "category": "Volume",
+                "value": "10",
+                "unit": "uL",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Volume",
+                "value": "2",
+                "unit": "uL",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Concentration",
+                "value": "6X",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Gel Prep",
+            "description": "Prepare agarose gel solution with SybrSafe",
+            "inputs": [
+              "2.5g powdered agarose",
+              "250mL 1XTAE buffer"
+            ],
+            "parameters": [
+              {
+                "name": "Agarose concentration",
+                "value": "2.5",
+                "unit": "g",
+                "description": "Amount of agarose to weigh out"
+              },
+              {
+                "name": "Buffer volume",
+                "value": "250",
+                "unit": "mL",
+                "description": "Volume of 1XTAE buffer to use"
+              },
+              {
+                "name": "Microwave heating time",
+                "value": "45",
+                "unit": "seconds",
+                "description": "Initial microwave heating"
+              },
+              {
+                "name": "Additional heating increments",
+                "value": "30",
+                "unit": "seconds",
+                "description": "Additional heating in increments"
+              },
+              {
+                "name": "SybrSafe volume",
+                "value": "5",
+                "unit": "uL",
+                "description": "Volume of SybrSafe to add"
+              }
+            ],
+            "outputs": [
+              "Agarose solution with SybrSafe"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Sample Prep",
+            "description": "Prepare samples for gel loading by adding loading dye",
+            "inputs": [
+              "10uL sample",
+              "2uL 6X loading dye"
+            ],
+            "parameters": [
+              {
+                "name": "Sample volume",
+                "value": "10",
+                "unit": "uL",
+                "description": "Volume of sample to transfer"
+              },
+              {
+                "name": "Loading dye volume",
+                "value": "2",
+                "unit": "uL",
+                "description": "Volume of 6X loading dye to add"
+              }
+            ],
+            "outputs": [
+              "Sample with loading dye"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Loading Gel",
+            "description": "Load samples and ladder into gel and run electrophoresis",
+            "inputs": [
+              "Agarose gel",
+              "Sample with loading dye",
+              "3uL ladder"
+            ],
+            "parameters": [
+              {
+                "name": "Voltage",
+                "value": "130",
+                "unit": "mV",
+                "description": "Voltage setting for electrophoresis"
+              },
+              {
+                "name": "Run time",
+                "value": "30",
+                "unit": "minutes",
+                "description": "Duration of electrophoresis"
+              },
+              {
+                "name": "Buffer height",
+                "value": "2",
+                "unit": "mm",
+                "description": "Height of buffer above gel"
+              }
+            ],
+            "outputs": [
+              "Electrophoresis results"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"Sample\", \"organism\": \"\", \"characteristics\": [ { \"category\": \"Volume\", \"value\": \"10\", \"unit\": \"uL\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"Volume\", \"value\": \"2\", \"unit\": \"uL\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"Concentration\", \"value\": \"6X\", \"unit\": \"\", \"termSource\": \"\", \"termAccession\": \"\" } ] } ], \"protocols\": [ { \"name\": \"Gel Prep\", \"description\": \"Prepare agarose gel solution with SybrSafe\", \"inputs\": [ \"2.5g powdered agarose\", \"250mL 1XTAE buffer\" ], \"parameters\": [ { \"name\": \"Agarose concentration\", \"value\": \"2.5\", \"unit\": \"g\", \"description\": \"Amount of agarose to weigh out\" }, { \"name\": \"Buffer volume\", \"value\": \"250\", \"unit\": \"mL\", \"description\": \"Volume of 1XTAE buffer to use\" }, { \"name\": \"Microwave heating time\", \"value\": \"45\", \"unit\": \"seconds\", \"description\": \"Initial microwave heating\" }, { \"name\": \"Additional heating increments\", \"value\": \"30\", \"unit\": \"seconds\", \"description\": \"Additional heating in increments\" }, { \"name\": \"SybrSafe volume\", \"value\": \"5\", \"unit\": \"uL\", \"description\": \"Volume of SybrSafe to add\" } ], \"outputs\": [ \"Agarose solution with SybrSafe\" ], \"dataFiles\": [] }, { \"name\": \"Sample Prep\", \"description\": \"Prepare samples for gel loading by adding loading dye\", \"inputs\": [ \"10uL sample\", \"2uL 6X loading dye\" ], \"parameters\": [ { \"name\": \"Sample volume\", \"value\": \"10\", \"unit\": \"uL\", \"description\": \"Volume of sample to transfer\" }, { \"name\": \"Loading dye volume\", \"value\": \"2\", \"unit\": \"uL\", \"description\": \"Volume of 6X loading dye to add\" } ], \"outputs\": [ \"Sample with loading dye\" ], \"dataFiles\": [] }, { \"name\": \"Loading Gel\", \"description\": \"Load samples and ladder into gel and run electrophoresis\", \"inputs\": [ \"Agarose gel\", \"Sample with loading dye\", \"3uL ladder\" ], \"parameters\": [ { \"name\": \"Voltage\", \"value\": \"130\", \"unit\": \"mV\", \"description\": \"Voltage setting for electrophoresis\" }, { \"name\": \"Run time\", \"value\": \"30\", \"unit\": \"minutes\", \"description\": \"Duration of ",
+      "ground_truth": {
+        "pseudocode": "def weigh_agarose(agarose_weight):\n    pass\n\ndef add_buffer_in_flask(buffer_volume, flask):\n    pass\n\ndef add_agarose_to_buffer(agarose_weight, buffer_volume, flask):\n    pass\n\ndef heat_agarose_solution(microwave_time, flask):\n    pass\n\ndef cool_solution(flask):\n    pass\n\ndef prepare_equipment(equipment_list):\n    pass\n\ndef add_sybrsafe(flask, sybrsafe_vol):\n    pass\n\ndef pour_agarose_gel(gel_casting_tray):\n    pass\n\ndef prepare_samples(sample_vol, loading_dye_vol, sample_list):\n    pass\n\ndef set_gel_in_rig(gel_casting_tray, rig, wells):\n    pass\n\ndef load_samples(samples_list, ladder_vol, wells):\n    pass\n\ndef run_gel(electrodes, voltage, time, gel_rig):\n    pass\n\n# Protocol steps\nweigh_agarose(agarose_weight=\"2.5g\")\nadd_buffer_in_flask(buffer_volume=\"250mL\", flask=\"1.0L Erlenmeyer\")\nadd_agarose_to_buffer(agarose_weight=\"2.5g\", buffer_volume=\"250mL\", flask=\"1.0L Erlenmeyer\")\nheat_agarose_solution(microwave_time=\"45 seconds\", flask=\"1.0L Erlenmeyer\")\ncool_solution(flask=\"1.0L Erlenmeyer\")\nprepare_equipment(equipment_list=[\"comb\", \"BioRad rig\", \"gel tray\", \"gel-casting tray\"])\nadd_sybrsafe(flask=\"1.0L Erlenmeyer\", sybrsafe_vol=\"5uL\")\npour_agarose_gel(gel_casting_tray=\"BioRad gel-casting tray\")\nprepare_samples(sample_vol=\"10uL\", loading_dye_vol=\"2uL\", sample_list=[\"sample_1\", \"sample_2\", ...])\nset_gel_in_rig(gel_casting_tray=\"BioRad gel-casting tray\", rig=\"BioRad rig\", wells=\"closest to black electrodes\")\nload_samples(samples_list=[\"sample_1\", \"sample_2\", ...], ladder_vol=\"3\u00b5L\", wells=\"respective wells\")\nrun_gel(electrodes=(\"black electrodes\", \"red electrodes\"), voltage=\"130mV\", time=\"30 mins\", gel_rig=\"BioRad rig\")\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 1,
+        "protocols_count": 3,
+        "parameters_count": 10
+      }
+    },
+    {
+      "protocol_id": "10279",
+      "title": "Detection of allele frequencies in the cDNA sample",
+      "success": true,
+      "latency": 8586,
+      "tokens": 814,
+      "output": {
+        "samples": [],
+        "protocols": [
+          {
+            "name": "Reverse transcription of total RNA",
+            "description": "Reverse transcript total RNA to cDNA",
+            "inputs": [],
+            "parameters": [],
+            "outputs": [
+              "cDNA"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Primer design",
+            "description": "Design the PCR primers at conserved regions between alleles, and the amplified region includes target SNP site.",
+            "inputs": [
+              "cDNA"
+            ],
+            "parameters": [],
+            "outputs": [
+              "PCR primers"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "TaqMan probe design",
+            "description": "Design two dye-labeled (FAM and VIC) TaqMan probes for allele-specific detection.",
+            "inputs": [
+              "cDNA"
+            ],
+            "parameters": [],
+            "outputs": [
+              "TaqMan probes"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Preparation of the digital PCR chip",
+            "description": "Prepare the reaction mix (Digital PCR Master Mix (Thermo Fisher Scientific), forward and reverse primers, TaqMan probes, diluted DNA, and water) and load it onto the digital PCR chip (Thermo Fisher Scientific).",
+            "inputs": [
+              "Digital PCR Master Mix",
+              "forward and reverse primers",
+              "TaqMan probes",
+              "diluted DNA",
+              "water"
+            ],
+            "parameters": [],
+            "outputs": [
+              "digital PCR chip"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "PCR",
+            "description": "Perform PCR with the following cycles: (1) 96\u00b0C, 10 min (2) 39 cycles of 56 \u00b0C, 2 min and 98\u00b0C, 30 sec and (3) 56\u00b0C, 2 min.",
+            "inputs": [
+              "digital PCR chip"
+            ],
+            "parameters": [
+              {
+                "name": "Initial denaturation temperature",
+                "value": "96",
+                "unit": "\u00b0C",
+                "description": "Initial denaturation temperature"
+              },
+              {
+                "name": "Initial denaturation time",
+                "value": "10",
+                "unit": "min",
+                "description": "Initial denaturation time"
+              },
+              {
+                "name": "Number of cycles",
+                "value": "39",
+                "unit": "",
+                "description": "Number of cycles"
+              },
+              {
+                "name": "Annealing temperature",
+                "value": "56",
+                "unit": "\u00b0C",
+                "description": "Annealing temperature"
+              },
+              {
+                "name": "Annealing time",
+                "value": "2",
+                "unit": "min",
+                "description": "Annealing time"
+              },
+              {
+                "name": "Denaturation temperature",
+                "value": "98",
+                "unit": "\u00b0C",
+                "description": "Denaturation temperature"
+              },
+              {
+                "name": "Denaturation time",
+                "value": "30",
+                "unit": "sec",
+                "description": "Denaturation time"
+              },
+              {
+                "name": "Final annealing temperature",
+                "value": "56",
+                "unit": "\u00b0C",
+                "description": "Final annealing temperature"
+              },
+              {
+                "name": "Final annealing time",
+                "value": "2",
+                "unit": "min",
+                "description": "Final annealing time"
+              }
+            ],
+            "outputs": [
+              "amplified DNA"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Detection of allele frequencies",
+            "description": "Count the copy number of each allele by detecting fluorescence using the QuantStudioTM 3D (Thermo Fisher Scientific).",
+            "inputs": [
+              "amplified DNA"
+            ],
+            "parameters": [
+              {
+                "name": "Instrument",
+                "value": "QuantStudioTM 3D",
+                "unit": "",
+                "description": "Instrument used for fluorescence detection"
+              }
+            ],
+            "outputs": [
+              "allele frequency data"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ ], \"protocols\": [ { \"name\": \"Reverse transcription of total RNA\", \"description\": \"Reverse transcript total RNA to cDNA\", \"inputs\": [ ], \"parameters\": [ ], \"outputs\": [ \"cDNA\" ], \"dataFiles\": [ ] }, { \"name\": \"Primer design\", \"description\": \"Design the PCR primers at conserved regions between alleles, and the amplified region includes target SNP site.\", \"inputs\": [ \"cDNA\" ], \"parameters\": [ ], \"outputs\": [ \"PCR primers\" ], \"dataFiles\": [ ] }, { \"name\": \"TaqMan probe design\", \"description\": \"Design two dye-labeled (FAM and VIC) TaqMan probes for allele-specific detection.\", \"inputs\": [ \"cDNA\" ], \"parameters\": [ ], \"outputs\": [ \"TaqMan probes\" ], \"dataFiles\": [ ] }, { \"name\": \"Preparation of the digital PCR chip\", \"description\": \"Prepare the reaction mix (Digital PCR Master Mix (Thermo Fisher Scientific), forward and reverse primers, TaqMan probes, diluted DNA, and water) and load it onto the digital PCR chip (Thermo Fisher Scientific).\", \"inputs\": [ \"Digital PCR Master Mix\", \"forward and reverse primers\", \"TaqMan probes\", \"diluted DNA\", \"water\" ], \"parameters\": [ ], \"outputs\": [ \"digital PCR chip\" ], \"dataFiles\": [ ] }, { \"name\": \"PCR\", \"description\": \"Perform PCR with the following cycles: (1) 96\u00b0C, 10 min (2) 39 cycles of 56 \u00b0C, 2 min and 98\u00b0C, 30 sec and (3) 56\u00b0C, 2 min.\", \"inputs\": [ \"digital PCR chip\" ], \"parameters\": [ { \"name\": \"Initial denaturation temperature\", \"value\": \"96\", \"unit\": \"\u00b0C\", \"description\": \"Initial denaturation temperature\" }, { \"name\": \"Initial denaturation time\", \"value\": \"10\", \"unit\": \"min\", \"description\": \"Initial denaturation time\" }, { \"name\": \"Number of cycles\", \"value\": \"39\", \"unit\": \"\", \"description\": \"Number of cycles\" }, { \"name\": \"Annealing temperature\", \"value\": \"56\", \"unit\": \"\u00b0C\", \"description\": \"Annealing temperature\" }, { \"name\": \"Annealing time\", \"value\": \"2\", \"unit\": \"min\", \"description\": \"Annealing time\" }, { \"name\": \"Denaturation temperature\", \"value\": \"98\", \"unit\": \"\u00b0C\", \"description\": \"Denaturation temperatur",
+      "ground_truth": {
+        "pseudocode": "I apologize for the oversight. I have carefully reviewed the protocol and have made changes according to your request. Here is the updated python pseudocode:\n\ndef reverse_transcription(rna_sample):\n    pass\n\ndef design_primers(conserved_regions, snp_site):\n    pass\n\ndef design_taqman_probes(alleles):\n    pass\n\ndef prepare_digital_pcr_chip(reaction_components, chip_type):\n    pass\n\ndef perform_pcr(cycling_conditions):\n    pass\n\ndef detect_allele_frequencies(fluorescence_detector):\n    pass\n\n# Protocol steps\nrna_sample = \"total RNA\"\nconserved_regions = \"between alleles\"\nsnp_site = \"target SNP site\"\nalleles = [\"allele_1\", \"allele_2\"]\nchip_type = \"Thermo Fisher Scientific\"\nreaction_components = {\"Digital PCR Master Mix\": \"Thermo Fisher Scientific\",\n                       \"primers\": \"forward and reverse\",\n                       \"TaqMan probes\": \"FAM and VIC labeled\",\n                       \"DNA\": \"diluted DNA\",\n                       \"water\": \"required volume\"}\ncycling_conditions = [(96, 10, \"min\"),\n                      (39, [(56, 2, \"min\"), (98, 30, \"sec\")]),\n                      (56, 2, \"min\")]\nfluorescence_detector = \"QuantStudioTM 3D\"\n\n# Execute protocol steps\ncDNA_sample = reverse_transcription(rna_sample=rna_sample)\nprimers = design_primers(conserved_regions=conserved_regions, snp_site=snp_site)\ntaqman_probes = design_taqman_probes(alleles=alleles)\ndigital_pcr_chip = prepare_digital_pcr_chip(reaction_components=reaction_components, chip_type=chip_type)\nreaction_mix = prepare_reaction_mix(reaction_components)\nloaded_chip = load_digital_pcr_chip(digital_pcr_chip, reaction_mix)\npcr_result = perform_pcr(cycling_conditions=cycling_conditions)\nallele_frequencies = detect_allele_frequencies(fluorescence_detector=fluorescence_detector)\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 0,
+        "protocols_count": 6,
+        "parameters_count": 10
+      }
+    },
+    {
+      "protocol_id": "10606",
+      "title": "Sex biased collecting strategy for gene expression in mealybugs",
+      "success": true,
+      "latency": 8898,
+      "tokens": 838,
+      "output": {
+        "samples": [
+          {
+            "name": "embryos",
+            "organism": "Egg",
+            "characteristics": [
+              {
+                "category": "sex",
+                "value": "male",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "sex",
+                "value": "female",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Egg collection",
+            "description": "Separate mated females that are about to lay eggs on sprouted potatoes or sprouted beans and wait until the first eggs. Collect embryos every 24 hours as they are laid, and fix them in Carnoy fixative in a 1.5mL Eppendorf tube and store at 4\u00baC for maximum 4 days. If the embryos can only be prepared after 4 days, replace the fixative with 90-100% ethanol and store at 4\u00baC.",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "fixative",
+                "value": "Carnoy fixative",
+                "unit": "",
+                "description": "fixative used for embryos"
+              },
+              {
+                "name": "fixative_volume",
+                "value": "200-500 uL",
+                "unit": "uL",
+                "description": "volume of fixative used"
+              },
+              {
+                "name": "storage_temperature",
+                "value": "4\u00baC",
+                "unit": "Celsius",
+                "description": "storage temperature"
+              },
+              {
+                "name": "max_storage_time",
+                "value": "4 days",
+                "unit": "days",
+                "description": "maximum storage time"
+              },
+              {
+                "name": "fixative_replacement",
+                "value": "90-100% ethanol",
+                "unit": "",
+                "description": "fixative replacement if storage exceeds 4 days"
+              }
+            ],
+            "outputs": [
+              "embryos"
+            ]
+          },
+          {
+            "name": "DAPI staining",
+            "description": "Transfer the embryos on a microscope slide, let the fixation or ethanol evaporate enough to have the slide dry but the embryo still humid. Add 20 uL of DAPI diluted in 1xPBS at 1:1000. Add coverslip, seal with nailpolish and keep in the dark for 10-15 min. The slides can be visualized with a fluorescence compound microscope. The heterochromatin is best seen at 200x",
+            "inputs": [
+              "embryos"
+            ],
+            "parameters": [
+              {
+                "name": "DAPI_dilution",
+                "value": "1:1000",
+                "unit": "",
+                "description": "DAPI dilution ratio"
+              },
+              {
+                "name": "DAPI_volume",
+                "value": "20 uL",
+                "unit": "uL",
+                "description": "volume of DAPI added"
+              },
+              {
+                "name": "exposure_time",
+                "value": "10-15 min",
+                "unit": "minutes",
+                "description": "time in dark"
+              },
+              {
+                "name": "microscope_magnification",
+                "value": "200x",
+                "unit": "",
+                "description": "magnification for visualization"
+              }
+            ],
+            "outputs": [
+              "stained_embryos"
+            ]
+          },
+          {
+            "name": "Counting embryos",
+            "description": "Each slide will have all the embryos from one day of oviposition. For each slide, identify male and female embryos and count the numbers of males and female embryos. Report the sex ratio for each day of oviposition. If possible repeat the process for at least 5 females. Use Excel or R to make a graph of sex ratio",
+            "inputs": [
+              "stained_embryos"
+            ],
+            "parameters": [
+              {
+                "name": "minimum_females",
+                "value": "5",
+                "unit": "",
+                "description": "minimum number of females to repeat process"
+              }
+            ],
+            "outputs": [
+              "sex_ratio_data"
+            ]
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"embryos\", \"organism\": \"Egg\", \"characteristics\": [ { \"category\": \"sex\", \"value\": \"male\", \"unit\": \"\", \"termSource\": \"\", \"termAccession\": \"\" }, { \"category\": \"sex\", \"value\": \"female\", \"unit\": \"\", \"termSource\": \"\", \"termAccession\": \"\" } ] } ], \"protocols\": [ { \"name\": \"Egg collection\", \"description\": \"Separate mated females that are about to lay eggs on sprouted potatoes or sprouted beans and wait until the first eggs. Collect embryos every 24 hours as they are laid, and fix them in Carnoy fixative in a 1.5mL Eppendorf tube and store at 4\u00baC for maximum 4 days. If the embryos can only be prepared after 4 days, replace the fixative with 90-100% ethanol and store at 4\u00baC.\", \"inputs\": [], \"parameters\": [ { \"name\": \"fixative\", \"value\": \"Carnoy fixative\", \"unit\": \"\", \"description\": \"fixative used for embryos\" }, { \"name\": \"fixative_volume\", \"value\": \"200-500 uL\", \"unit\": \"uL\", \"description\": \"volume of fixative used\" }, { \"name\": \"storage_temperature\", \"value\": \"4\u00baC\", \"unit\": \"Celsius\", \"description\": \"storage temperature\" }, { \"name\": \"max_storage_time\", \"value\": \"4 days\", \"unit\": \"days\", \"description\": \"maximum storage time\" }, { \"name\": \"fixative_replacement\", \"value\": \"90-100% ethanol\", \"unit\": \"\", \"description\": \"fixative replacement if storage exceeds 4 days\" } ], \"outputs\": [ \"embryos\" ] }, { \"name\": \"DAPI staining\", \"description\": \"Transfer the embryos on a microscope slide, let the fixation or ethanol evaporate enough to have the slide dry but the embryo still humid. Add 20 uL of DAPI diluted in 1xPBS at 1:1000. Add coverslip, seal with nailpolish and keep in the dark for 10-15 min. The slides can be visualized with a fluorescence compound microscope. The heterochromatin is best seen at 200x\", \"inputs\": [ \"embryos\" ], \"parameters\": [ { \"name\": \"DAPI_dilution\", \"value\": \"1:1000\", \"unit\": \"\", \"description\": \"DAPI dilution ratio\" }, { \"name\": \"DAPI_volume\", \"value\": \"20 uL\", \"unit\": \"uL\", \"description\": \"volume of DAPI added\" }, { \"name\": \"exposu",
+      "ground_truth": {
+        "pseudocode": "def separate_mated_females(plant_material):\n    pass\n\ndef collect_and_fix_embryos(fixative, collection_interval, storage_temp, max_storage_days):\n    pass\n\ndef replace_fixative_if_needed(fixative, storage_temp, max_storage_days):\n    pass\n\ndef prepare_slide(embryos, slide):\n    pass\n\ndef stain_embryos(stain_solution, slide):\n    pass\n\ndef add_coverslip_and_seal(slide, sealant):\n    pass\n\ndef incubate_slide(time, darkness):\n    pass\n\ndef visualize_embryos(slide, microscope_settings):\n    pass\n\ndef identify_and_count_sexes(slide):\n    pass\n\ndef report_sex_ratio(sex_counts, females):\n    pass\n\ndef graph_sex_ratio(sex_ratios, software):\n    pass\n\n# Protocol steps\nseparate_mated_females(plant_material=\"sprouted potatoes or sprouted beans\")\ncollect_and_fix_embryos(fixative=\"Carnoy\", collection_interval=24, storage_temp=4, max_storage_days=4)\nreplace_fixative_if_needed(fixative=\"90-100% ethanol\", storage_temp=4, max_storage_days=4)\nprepare_slide(embryos=\"collected embryos\", slide=\"microscope slide\")\nstain_embryos(stain_solution=\"20uL DAPI in 1xPBS (1:1000)\", slide=\"slide with embryos\")\nadd_coverslip_and_seal(slide=\"stained slide\", sealant=\"nail polish\")\nincubate_slide(time=\"10-15 minutes\", darkness=True)\nvisualize_embryos(slide=\"stained slide\", microscope_settings=\"fluorescence, 200x magnification\")\nsex_counts = identify_and_count_sexes(slide=\"stained slide\")\nsex_ratios = report_sex_ratio(sex_counts=sex_counts, females=5)\ngraph_sex_ratio(sex_ratios=sex_ratios, software=\"Excel or R\")\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 1,
+        "protocols_count": 3,
+        "parameters_count": 10
+      }
+    },
+    {
+      "protocol_id": "10614",
+      "title": "High Efficiency Transformation Protocol using NEB 10-beta Competent E. coli (C3019H)",
+      "success": true,
+      "latency": 22588,
+      "tokens": 2104,
+      "output": {
+        "samples": [
+          {
+            "name": "NEB 10-beta Competent E. coli cells",
+            "organism": "Escherichia coli",
+            "characteristics": [
+              {
+                "category": "cell type",
+                "value": "competent",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "transformation efficiency",
+                "value": "high",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "plasmid DNA",
+            "organism": "artificial",
+            "characteristics": [
+              {
+                "category": "DNA concentration",
+                "value": "1 pg-100 ng",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "transformation mixture",
+            "organism": "E. coli",
+            "characteristics": []
+          },
+          {
+            "name": "selection plates",
+            "organism": "E. coli",
+            "characteristics": [
+              {
+                "category": "temperature",
+                "value": "37",
+                "unit": "\u00b0C",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Thawing Competent Cells",
+            "description": "Thaw a tube of NEB 10-beta Competent E. coli cells on ice for 10 minutes.",
+            "inputs": [
+              "NEB 10-beta Competent E. coli cells"
+            ],
+            "parameters": [
+              {
+                "name": "thawing temperature",
+                "value": "0",
+                "unit": "\u00b0C",
+                "description": "Temperature for thawing"
+              },
+              {
+                "name": "duration",
+                "value": "600",
+                "unit": "s",
+                "description": "Duration of thawing"
+              }
+            ],
+            "outputs": [
+              "NEB 10-beta Competent E. coli cells"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "DNA Addition",
+            "description": "Add 1-5 \u00b5l containing 1 pg-100 ng of plasmid DNA to the cell mixture.",
+            "inputs": [
+              "NEB 10-beta Competent E. coli cells",
+              "plasmid DNA"
+            ],
+            "parameters": [
+              {
+                "name": "DNA volume",
+                "value": "1-5",
+                "unit": "\u00b5l",
+                "description": "Volume of DNA added"
+              },
+              {
+                "name": "DNA concentration",
+                "value": "1 pg-100 ng",
+                "unit": "",
+                "description": "Concentration of DNA added"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Mixing Cells and DNA",
+            "description": "Carefully flick the tube 4-5 times to mix cells and DNA. Do not vortex.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "flicks",
+                "value": "4-5",
+                "unit": "",
+                "description": "Number of times to flick the tube"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Ice Incubation",
+            "description": "Place the mixture on ice for 30 minutes. Do not mix.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "0",
+                "unit": "\u00b0C",
+                "description": "Temperature for incubation"
+              },
+              {
+                "name": "duration",
+                "value": "1800",
+                "unit": "s",
+                "description": "Duration of incubation"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Heat Shock",
+            "description": "Heat shock at exactly 42\u00b0C for exactly 30 seconds.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "42",
+                "unit": "\u00b0C",
+                "description": "Temperature for heat shock"
+              },
+              {
+                "name": "duration",
+                "value": "30",
+                "unit": "s",
+                "description": "Duration of heat shock"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Post Heat Shock Ice Incubation",
+            "description": "Place on ice for 5 minutes. Do not mix.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "0",
+                "unit": "\u00b0C",
+                "description": "Temperature for post heat shock incubation"
+              },
+              {
+                "name": "duration",
+                "value": "300",
+                "unit": "s",
+                "description": "Duration of post heat shock incubation"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Outgrowth Medium Addition",
+            "description": "Pipette 950 \u00b5l of room temperature NEB 10-beta/Stable Outgrowth Medium into the mixture.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "medium volume",
+                "value": "950",
+                "unit": "\u00b5l",
+                "description": "Volume of outgrowth medium added"
+              },
+              {
+                "name": "medium temperature",
+                "value": "20",
+                "unit": "\u00b0C",
+                "description": "Temperature of outgrowth medium"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Outgrowth Incubation",
+            "description": "Place at 37\u00b0C for 60 minutes, shaking vigorously (250 rpm) or rotating.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "37",
+                "unit": "\u00b0C",
+                "description": "Temperature for outgrowth"
+              },
+              {
+                "name": "duration",
+                "value": "3600",
+                "unit": "s",
+                "description": "Duration of outgrowth"
+              },
+              {
+                "name": "shaking rate",
+                "value": "250",
+                "unit": "rpm",
+                "description": "Shaking rate during outgrowth"
+              }
+            ],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Plate Preparation",
+            "description": "Warm selection plates to 37\u00b0C.",
+            "inputs": [
+              "selection plates"
+            ],
+            "parameters": [
+              {
+                "name": "plate temperature",
+                "value": "37",
+                "unit": "\u00b0C",
+                "description": "Temperature to warm selection plates"
+              }
+            ],
+            "outputs": [
+              "selection plates"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Cell Mixing",
+            "description": "Mix the cells thoroughly by flicking the tube and inverting.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [],
+            "outputs": [
+              "transformation mixture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Serial Dilution",
+            "description": "Perform several 10-fold serial dilutions in NEB 10-beta/Stable Outgrowth Medium.",
+            "inputs": [
+              "transformation mixture"
+            ],
+            "parameters": [
+              {
+                "name": "dilution factor",
+                "value": "10",
+                "unit": "",
+                "description": "Dilution factor"
+              },
+              {
+                "name": "medium",
+                "value": "NEB 10-beta/Stable Outgrowth Medium",
+                "unit": "",
+                "description": "Medium used for dilution"
+              }
+            ],
+            "outputs": [
+              "diluted samples"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Plate Spreading",
+            "description": "Spread 50-100 \u00b5l of each dilution onto a selection plate.",
+            "inputs": [
+              "diluted samples",
+              "selection plates"
+            ],
+            "parameters": [
+              {
+                "name": "volume spread",
+                "value": "50-100",
+                "unit": "\u00b5l",
+                "description": "Volume of sample spread per plate"
+              }
+            ],
+            "outputs": [
+              "transformation mixture on plates"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Incubation",
+            "description": "Incubate overnight at 37\u00b0C.",
+            "inputs": [
+              "transformation mixture on plates"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "37",
+                "unit": "\u00b0C",
+                "description": "Temperature for incubation"
+              },
+              {
+                "name": "duration",
+                "value": "54000",
+                "unit": "s",
+                "description": "Duration of incubation"
+              }
+            ],
+            "outputs": [
+              "transformed colonies"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "raw_content": "{ \n  \"samples\": [\n    {  \n      \"name\": \"NEB 10-beta Competent E. coli cells\",\n      \"organism\": \"Escherichia coli\",\n      \"characteristics\": [\n        {\n          \"category\": \"cell type\",\n          \"value\": \"competent\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"transformation efficiency\",\n          \"value\": \"high\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {  \n      \"name\": \"plasmid DNA\",\n      \"organism\": \"artificial\",\n      \"characteristics\": [\n        {\n          \"category\": \"DNA concentration\",\n          \"value\": \"1 pg-100 ng\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {  \n      \"name\": \"transformation mixture\",\n      \"organism\": \"E. coli\",\n      \"characteristics\": []\n    },\n    {  \n      \"name\": \"selection plates\",\n      \"organism\": \"E. coli\",\n      \"characteristics\": [\n        {\n          \"category\": \"temperature\",\n          \"value\": \"37\",\n          \"unit\": \"\u00b0C\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    }\n  ],\n  \"protocols\": [\n    {  \n      \"name\": \"Thawing Competent Cells\",\n      \"description\": \"Thaw a tube of NEB 10-beta Competent E. coli cells on ice for 10 minutes.\",\n      \"inputs\": [\"NEB 10-beta Competent E. coli cells\"],\n      \"parameters\": [\n        {\n          \"name\": \"thawing temperature\",\n          \"value\": \"0\",\n          \"unit\": \"\u00b0C\",\n          \"description\": \"Temperature for thawing\"\n        },\n        {\n          \"name\": \"duration\",\n          \"value\": \"600\",\n          \"unit\": \"s\",\n          \"description\": \"Duration of thawing\"\n        }\n      ],\n      \"outputs\": [\"NEB 10-beta Competent E. coli cells\"],\n      \"dataFiles\": []\n    },\n    {  \n      \"name\": \"DNA Addition\",\n      \"description\": \"Add 1-5 \u00b5l containing 1 pg-100 ng of plasmid DNA to the cell mixture.\",\n      \"inputs\": [\"NEB 10-beta Compet",
+      "ground_truth": {
+        "pseudocode": "def thaw_cells_on_ice(time, temperature):\r\n    pass\r\n\r\ndef add_plasmid_dna(volume, amount):\r\n    pass\r\n\r\ndef mix_cells_flick(times):\r\n    pass\r\n\r\ndef incubate_on_ice_without_mix(time):\r\n    pass\r\n\r\ndef heat_shock_on_cells(temperature, time, mixture):\r\n    pass\r\n\r\ndef incubate_on_ice_after_shock(time, mixture):\r\n    pass\r\n\r\ndef add_outgrowth_medium(volume, mixture):\r\n    pass\r\n\r\ndef incubate_and_shake(time, temperature, rpm, mixture):\r\n    pass\r\n\r\ndef warm_selection_plates(temperature):\r\n    pass\r\n\r\ndef mix_cells_inversion(mixture):\r\n    pass\r\n\r\ndef perform_serial_dilution(outgrowth_medium):\r\n    pass\r\n\r\ndef spread_dilution_on_plate(volume, dilution, plate):\r\n    pass\r\n\r\ndef incubate_plates(time, temperature):\r\n    pass\r\n\r\n# Protocol steps\r\ncells = \"NEB 10-beta Competent E.coli\"\r\nmixture = thaw_cells_on_ice(time=\"10 minutes\", temperature=\"0\u00b0C\")\r\n\r\nadd_plasmid_dna(volume=\"1-5 \u00b5l\", amount=\"1 pg-100 ng\")\r\nmix_cells_flick(times=4)\r\n\r\nincubate_on_ice_without_mix(time=\"30 minutes\")\r\nheat_shock_on_cells(time=\"30 seconds\", temperature=\"42\u00b0C\", mixture=mixture)\r\n\r\nincubate_on_ice_after_shock(time=\"5 minutes\", mixture=mixture)\r\nadd_outgrowth_medium(volume=\"950 \u00b5l\", mixture=mixture)\r\n\r\nincubate_and_shake(time=\"60 minutes\", temperature=\"37\u00b0C\", rpm=250, mixture=mixture)\r\nwarm_selection_plates(temperature=\"37\u00b0C\")\r\n\r\nmix_cells_inversion(mixture=mixture)\r\nperform_serial_dilution(outgrowth_medium=\"NEB 10-beta/Stable Outgrowth Medium\")\r\n\r\nspread_dilution_on_plate(volume=\"50-100 \u00b5l\", dilution=\"10-fold serial dilutions\", plate=\"selection plate\")\r\nincubate_plates(time=\"overnight\", temperature=\"37\u00b0C\")\r\n\r\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 4,
+        "protocols_count": 13,
+        "parameters_count": 22
+      }
+    },
+    {
+      "protocol_id": "10626",
+      "title": "\"Isolating Specific Cell Subsets Directly from Whole Blood Without Columns or Magnets\"",
+      "success": true,
+      "latency": 11984,
+      "tokens": 1104,
+      "output": {
+        "samples": [
+          {
+            "name": "blood sample",
+            "organism": "human",
+            "characteristics": [
+              {
+                "category": "temperature",
+                "value": "15 - 25\u00b0C",
+                "unit": "\u00b0C",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Sample Preparation",
+            "description": "Ensure sample and reagents are at room temperature",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "15 - 25\u00b0C",
+                "unit": "\u00b0C",
+                "description": "Room temperature range"
+              }
+            ],
+            "outputs": [
+              "blood sample"
+            ]
+          },
+          {
+            "name": "Add RosetteSep\u2122 cocktail",
+            "description": "Add RosetteSep\u2122 cocktail to the sample and mix well",
+            "inputs": [
+              "blood sample"
+            ],
+            "parameters": [],
+            "outputs": [
+              "blood sample with RosetteSep\u2122"
+            ]
+          },
+          {
+            "name": "Incubation",
+            "description": "Incubate the sample with RosetteSep\u2122 cocktail at room temperature",
+            "inputs": [
+              "blood sample with RosetteSep\u2122"
+            ],
+            "parameters": [
+              {
+                "name": "duration",
+                "value": "20",
+                "unit": "minutes",
+                "description": "Incubation time"
+              },
+              {
+                "name": "temperature",
+                "value": "15 - 25\u00b0C",
+                "unit": "\u00b0C",
+                "description": "Incubation temperature"
+              }
+            ],
+            "outputs": [
+              "incubated blood sample"
+            ]
+          },
+          {
+            "name": "Dilution",
+            "description": "Dilute the sample with an equal volume of PBS + 2% FBS",
+            "inputs": [
+              "incubated blood sample"
+            ],
+            "parameters": [
+              {
+                "name": "dilution ratio",
+                "value": "1:1",
+                "unit": "",
+                "description": "Equal volume dilution"
+              }
+            ],
+            "outputs": [
+              "diluted blood sample"
+            ]
+          },
+          {
+            "name": "Layering on Density Gradient Medium",
+            "description": "Layer the diluted sample on top of the density gradient medium",
+            "inputs": [
+              "diluted blood sample"
+            ],
+            "parameters": [
+              {
+                "name": "volume",
+                "value": "recommended",
+                "unit": "",
+                "description": "Volume according to protocol guidelines"
+              }
+            ],
+            "outputs": [
+              "layered sample"
+            ]
+          },
+          {
+            "name": "Centrifugation",
+            "description": "Centrifuge at 1200 x g for 20 minutes at room temperature",
+            "inputs": [
+              "layered sample"
+            ],
+            "parameters": [
+              {
+                "name": "g-force",
+                "value": "1200",
+                "unit": "x g",
+                "description": "Centrifugation force"
+              },
+              {
+                "name": "duration",
+                "value": "20",
+                "unit": "minutes",
+                "description": "Centrifugation time"
+              },
+              {
+                "name": "temperature",
+                "value": "15 - 25\u00b0C",
+                "unit": "\u00b0C",
+                "description": "Centrifugation temperature"
+              },
+              {
+                "name": "brake",
+                "value": "off",
+                "unit": "",
+                "description": "Brake setting"
+              }
+            ],
+            "outputs": [
+              "centrifuged sample"
+            ]
+          },
+          {
+            "name": "Cell Recovery",
+            "description": "Remove enriched cells from the density gradient medium:plasma interface",
+            "inputs": [
+              "centrifuged sample"
+            ],
+            "parameters": [],
+            "outputs": [
+              "enriched cells"
+            ]
+          },
+          {
+            "name": "Wash 1",
+            "description": "Wash enriched cells with PBS + 2% FBS",
+            "inputs": [
+              "enriched cells"
+            ],
+            "parameters": [
+              {
+                "name": "g-force",
+                "value": "300",
+                "unit": "x g",
+                "description": "Centrifugation force"
+              },
+              {
+                "name": "duration",
+                "value": "10",
+                "unit": "minutes",
+                "description": "Centrifugation time"
+              },
+              {
+                "name": "brake",
+                "value": "on low",
+                "unit": "",
+                "description": "Brake setting"
+              }
+            ],
+            "outputs": [
+              "washed enriched cells"
+            ]
+          },
+          {
+            "name": "Ammonium Chloride Lysis",
+            "description": "Remove residual red blood cells using ammonium chloride lysis",
+            "inputs": [
+              "washed enriched cells"
+            ],
+            "parameters": [],
+            "outputs": [
+              "lysed enriched cells"
+            ]
+          },
+          {
+            "name": "Wash 2",
+            "description": "Second wash of enriched cells with PBS + 2% FBS",
+            "inputs": [
+              "lysed enriched cells"
+            ],
+            "parameters": [
+              {
+                "name": "g-force",
+                "value": "300",
+                "unit": "x g",
+                "description": "Centrifugation force"
+              },
+              {
+                "name": "duration",
+                "value": "10",
+                "unit": "minutes",
+                "description": "Centrifugation time"
+              },
+              {
+                "name": "brake",
+                "value": "on low",
+                "unit": "",
+                "description": "Brake setting"
+              }
+            ],
+            "outputs": [
+              "final enriched cells"
+            ]
+          }
+        ]
+      },
+      "raw_content": "{\"samples\": [ { \"name\": \"blood sample\", \"organism\": \"human\", \"characteristics\": [ { \"category\": \"temperature\", \"value\": \"15 - 25\u00b0C\", \"unit\": \"\u00b0C\", \"termSource\": \"\", \"termAccession\": \"\" } ] } ], \"protocols\": [ { \"name\": \"Sample Preparation\", \"description\": \"Ensure sample and reagents are at room temperature\", \"inputs\": [], \"parameters\": [ { \"name\": \"temperature\", \"value\": \"15 - 25\u00b0C\", \"unit\": \"\u00b0C\", \"description\": \"Room temperature range\" } ], \"outputs\": [ \"blood sample\" ] }, { \"name\": \"Add RosetteSep\u2122 cocktail\", \"description\": \"Add RosetteSep\u2122 cocktail to the sample and mix well\", \"inputs\": [ \"blood sample\" ], \"parameters\": [], \"outputs\": [ \"blood sample with RosetteSep\u2122\" ] }, { \"name\": \"Incubation\", \"description\": \"Incubate the sample with RosetteSep\u2122 cocktail at room temperature\", \"inputs\": [ \"blood sample with RosetteSep\u2122\" ], \"parameters\": [ { \"name\": \"duration\", \"value\": \"20\", \"unit\": \"minutes\", \"description\": \"Incubation time\" }, { \"name\": \"temperature\", \"value\": \"15 - 25\u00b0C\", \"unit\": \"\u00b0C\", \"description\": \"Incubation temperature\" } ], \"outputs\": [ \"incubated blood sample\" ] }, { \"name\": \"Dilution\", \"description\": \"Dilute the sample with an equal volume of PBS + 2% FBS\", \"inputs\": [ \"incubated blood sample\" ], \"parameters\": [ { \"name\": \"dilution ratio\", \"value\": \"1:1\", \"unit\": \"\", \"description\": \"Equal volume dilution\" } ], \"outputs\": [ \"diluted blood sample\" ] }, { \"name\": \"Layering on Density Gradient Medium\", \"description\": \"Layer the diluted sample on top of the density gradient medium\", \"inputs\": [ \"diluted blood sample\" ], \"parameters\": [ { \"name\": \"volume\", \"value\": \"recommended\", \"unit\": \"\", \"description\": \"Volume according to protocol guidelines\" } ], \"outputs\": [ \"layered sample\" ] }, { \"name\": \"Centrifugation\", \"description\": \"Centrifuge at 1200 x g for 20 minutes at room temperature\", \"inputs\": [ \"layered sample\" ], \"parameters\": [ { \"name\": \"g-force\", \"value\": \"1200\", \"unit\": \"x g\", \"description\": \"Centrifugation force\" }, { \"name\": \"duration\", \"value",
+      "ground_truth": {
+        "pseudocode": "I apologize for the oversight. Here's the revised pseudocode with all the steps included:\n\ndef set_temperature(sample, pbs_fbs, density_gradient_medium, centrifuge, temp):\n    pass\n\ndef add_rosettesep_cocktail(sample, cocktail):\n    pass\n\ndef incubate_sample(sample, time, temperature):\n    pass\n\ndef dilute_sample(sample, pbs_fbs_volume):\n    pass\n\ndef layer_sample_on_density_gradient_medium(sample, density_gradient_medium, volumes):\n    pass\n\ndef centrifuge_sample(sample, centrifugation_params):\n    pass\n\ndef remove_enriched_cells(interface):\n    pass\n\ndef maximize_recovery(sample, density_gradient_medium_volume):\n    pass\n\ndef wash_enriched_cells(sample, pbs_fbs, centrifugation_params):\n    pass\n\ndef remove_residual_rbc(sample, by_ammonium_chloride=True):\n    pass\n\ndef use_enriched_cells(sample):\n    pass\n\n# Protocol steps\nset_temperature(sample=\"blood sample\", pbs_fbs=\"PBS + 2% FBS\", density_gradient_medium=\"Lymphoprep\u2122\", centrifuge=\"centrifuge\", temp=\"room temperature\")\nadd_rosettesep_cocktail(sample=\"blood sample\", cocktail=\"RosetteSep\u2122\")\nincubate_sample(sample=\"blood sample\", time=20, temperature=\"room temperature\")\ndilute_sample(sample=\"blood sample\", pbs_fbs_volume=\"equal volume\")\nlayer_sample_on_density_gradient_medium(sample=\"diluted blood sample\", density_gradient_medium=\"Lymphoprep\u2122\", volumes=\"recommended volumes\")\ncentrifuge_sample(sample=\"sample on density gradient medium\", centrifugation_params=\"1200 x g, 20 minutes, room temperature, brake off\")\nremove_enriched_cells(interface=\"density gradient medium:plasma interface\")\nmaximize_recovery(sample=\"enriched cells\", density_gradient_medium_volume=\"some volume\")  # Optional step for maximizing recovery of rare cells\nwash_enriched_cells(sample=\"enriched cells\", pbs_fbs=\"PBS + 2% FBS\", centrifugation_params=\"300 x g, 10 minutes, brake on low\")\nremove_residual_rbc(sample=\"enriched cells\", by_ammonium_chloride=True)  # Optional, can be part of either wash step\nwash_enriched_cells(sample=\"enriched cells\", pbs_fbs=\"PBS + 2% FBS\", centrifugation_params=\"300 x g, 10 minutes, brake on low\")\nremove_residual_rbc(sample=\"enriched cells\", by_ammonium_chloride=True)  # Optional, can be part of either wash step\nuse_enriched_cells(sample=\"enriched cells\")\n# end of protocol",
+        "step_count": 0
+      },
+      "validation": {
+        "valid": true,
+        "score": 100,
+        "errors": [],
+        "samples_count": 1,
+        "protocols_count": 10,
+        "parameters_count": 15
+      }
+    }
+  ]
+}
