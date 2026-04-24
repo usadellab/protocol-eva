@@ -1,0 +1,17 @@
+Title: Preparation of Glycerol Stocks from storing microbes from Petri Dishes
+
+Description:
+This protocol is meant to provide researchers with a step by step procedure on how to prepare glycerol stocks in order to preserve and store bacteria for long term. 
+Bacterial glycerol stocks are important for long-term storage of plasmids. The addition of glycerol stabilizes the frozen bacteria, preventing damage to the cell membranes and keeping the cells alive. A glycerol stock of bacteria can be stored stably at -80°C for many years and -20°C for several months.
+Glycerol reduces the harmful effects of ice crystals on bacteria which cause dehydration and damage cells through a localised increase in salt concentration leading to the denaturation of proteins. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: From the plate to a PBS eppendorf
+
+## Step 2: Diluting Pure Glycerol to 50% with Distilled water
+
+## Step 3: Filtering the 50% glycerol
+
+## Step 4: Aliquoting the bacterial culture into 50% glycerol and storing

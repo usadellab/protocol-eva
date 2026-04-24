@@ -1,0 +1,38 @@
+Title: NOMADS-MVP: Rapid Genomic Surveillance of Malaria with Nanopore
+
+Description:
+The NOMADS Minimum Viable Panel (MVP) approach enables rapid genomic surveillance of P. falciparum malaria using targeted nanopore sequencing. It includes amplicons targeting key antimalarial drug resistance genes (pfcrt, pfdhfr, pfdhps, pfkelch13, pfmdr1), rapid diagnostic test (RDT) antigens (pfhrp2, pfhrp3), a high diversity gene (pfama1), and the RTS'S vaccine target (pfcsp). From extracted DNA to data takes under one day and results can be visualised real-time using the Nomadic dashboard (https://jasonahendry.github.io/nomadic).
+The protocol uses a single multiplex PCR from extracted DNA without preamplification, combined with the Rapid Barcoding Kit (SQK-RBK114.96) from Oxford Nanopore Technologies (ONT) to accelerate and simplify library preparation. The median read length is typically betweeen 400 - 600bp, and >80 samples can be multiplexed in a run. Across a variety of field dried-blood spot (DBS) sample sets, pass rate is moderate (>70%) for samples with >100p/uL, and good (>90%) for samples with >1000p/uL. The protocol has been validated for SNP detection in clonal samples and hrp2/3 deletion detection.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Important Information 
+
+## Step 2: Important Information 
+
+## Step 3: MVP Multiplex PCR
+
+## Step 4: Post-PCR DNA Clean Up
+
+## Step 5: Post-PCR DNA Clean Up
+
+## Step 6: Rapid Sample Barcoding
+
+## Step 7: Rapid Sample Barcoding
+
+## Step 8: Rapid Sample Barcoding
+
+## Step 9: Rapid Sample Barcoding
+
+## Step 10: Priming and loading the SpotON flow cell
+
+## Step 11: Important Information 
+
+## Step 12: DNA Quantification with Qubit
+
+## Step 13: Rapid Sample Barcoding
+
+## Step 14: Important Information 
+
+## Step 15: Rapid Sample Barcoding

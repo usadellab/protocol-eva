@@ -1,0 +1,99 @@
+Title: Viral Sequencing, from Gunk to Graph (Two-step, strand-switching)
+
+Description:
+This is a fast "gunk to graph" protocol for analysing viral RNA from nasopharyngeal swabs. The approach involves swab lysis and inactivation at the point of sampling, uses a cellulose binding / wash protocol to reduce extraction cost, incorporates sample-specific barcodes during first-strand synthesis, nanopore rapid-attachment primers during PCR amplification, and nanopore sequencing with parallel RAMPART analysis for fast assembly and phylogenetics.
+An alternative protocol using both forward and reverse primers can be found here.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Swab Lysis
+
+## Step 2: Swab Lysis
+
+## Step 3: Swab Lysis
+
+## Step 4: Swab Lysis
+
+## Step 5: Swab Lysis
+
+## Step 6: RNA Wash
+
+## Step 7: RNA Wash
+
+## Step 8: cDNA Synthesis
+
+## Step 9: cDNA Synthesis
+
+## Step 10: cDNA Synthesis
+
+## Step 11: cDNA Synthesis
+
+## Step 12: cDNA Synthesis
+
+## Step 13: cDNA Synthesis
+
+## Step 14: cDNA Synthesis
+
+## Step 15: cDNA Synthesis
+
+## Step 16: cDNA Synthesis
+
+## Step 17: cDNA Synthesis
+
+## Step 18: cDNA Synthesis
+
+## Step 19: PCR amplification
+
+## Step 20: PCR amplification
+
+## Step 21: PCR amplification
+
+## Step 22: PCR amplification
+
+## Step 23: PCR amplification
+
+## Step 24: Bead Cleanup
+
+## Step 25: Bead Cleanup
+
+## Step 26: Bead Cleanup
+
+## Step 27: Bead Cleanup
+
+## Step 28: Bead Cleanup
+
+## Step 29: Bead Cleanup
+
+## Step 30: Bead Cleanup
+
+## Step 31: Bead Cleanup
+
+## Step 32: Bead Cleanup
+
+## Step 33: Bead Cleanup
+
+## Step 34: Bead Cleanup
+
+## Step 35: Adapter Addition
+
+## Step 36: Adapter Addition
+
+## Step 37: Adapter Addition
+
+## Step 38: Adapter Addition
+
+## Step 39: Nanopore Sequencing
+
+## Step 40: Nanopore Sequencing
+
+## Step 41: RAMPART Analysis
+
+## Step 42: Swab Lysis
+
+## Step 43: Swab Lysis
+
+=== MATERIALS ===
+- Q5 Hot Start High-Fidelity 2X Master Mix - 500 rxns
+- MinION sequencer
+- ONT MinION Flow Cell R9.4.1

@@ -1,0 +1,67 @@
+Title: Podocoryna ACME cell dissociations - draft v1.0, May 13 2024
+
+Description:
+This protocol is intended to dissociate and fix cells of the hydrozoan Podocoryna carnea for single-cell RNA sequencing on the 10X Chromium platform following a FACS sorting step. ACME-fixed Podocoryna cells maintain their morphology for use in microscopy and can also be frozen at -20C for storage and/or shipping.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Polyp ACME dissociation
+
+## Step 2: Medusa ACME dissociation
+
+## Step 3: Prepare materials and reagents
+
+## Step 4: Polyp ACME dissociation
+
+## Step 5: Medusa ACME dissociation
+
+## Step 6: Cell staining and FACS
+
+## Step 7: Prepare materials and reagents
+
+## Step 8: Polyp ACME dissociation
+
+## Step 9: Polyp ACME dissociation
+
+## Step 10: Polyp ACME dissociation
+
+## Step 11: Polyp ACME dissociation
+
+## Step 12: Polyp ACME dissociation
+
+## Step 13: Prepare materials and reagents
+
+## Step 14: Prepare materials and reagents
+
+## Step 15: Polyp ACME dissociation
+
+## Step 16: Polyp ACME dissociation
+
+## Step 17: Polyp ACME dissociation
+
+## Step 18: Cell staining and FACS
+
+## Step 19: Cell staining and FACS
+
+## Step 20: Cell staining and FACS
+
+## Step 21: Cell staining and FACS
+
+## Step 22: Prepare materials and reagents
+
+## Step 23: Medusa ACME dissociation
+
+## Step 24: Medusa ACME dissociation
+
+## Step 25: Medusa ACME dissociation
+
+## Step 26: Medusa ACME dissociation
+
+## Step 27: Medusa ACME dissociation
+
+## Step 28: Medusa ACME dissociation
+
+## Step 29: Medusa ACME dissociation
+
+## Step 30: Prepare materials and reagents

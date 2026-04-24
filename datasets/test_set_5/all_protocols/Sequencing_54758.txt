@@ -1,0 +1,55 @@
+Title: Metagenome Preparations and Analysis
+
+Description:
+Protocol for metagenome preparation and analysis used in Yoo et al 2021
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Fecal Collection
+
+## Step 2: Fecal sample DNA extraction and Library Preparation
+
+## Step 3: Fecal sample DNA extraction and Library Preparation
+
+## Step 4: Fecal sample DNA extraction and Library Preparation
+
+## Step 5: Fecal sample DNA extraction and Library Preparation
+
+## Step 6: Fecal sample DNA extraction and Library Preparation
+
+## Step 7: Fecal sample DNA extraction and Library Preparation
+
+## Step 8: Fecal sample DNA extraction and Library Preparation
+
+## Step 9: Fecal sample DNA extraction and Library Preparation
+
+## Step 10: Fecal sample DNA extraction and Library Preparation
+
+## Step 11: Fecal sample DNA extraction and Library Preparation
+
+## Step 12: Fecal sample DNA extraction and Library Preparation
+
+## Step 13: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 14: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 15: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 16: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 17: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 18: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 19: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 20: Shallow shotgun metagenome sequencing and diversity analysis
+
+## Step 21: Metagenomic based functional profiling
+
+## Step 22: Metagenomic based functional profiling
+
+## Step 23: Metagenomic based functional profiling
+
+## Step 24: Metagenomic based functional profiling

@@ -1,0 +1,23 @@
+Title: A computational pipeline to quantify primary cilia in mouse embryonic fibroblasts with CellProfiler
+
+Description:
+We present here an automated CellProfiler (Stirling et al., 2021) software pipeline to quantify the number of primary cilia in cultured cells. The primary cilia were labeled using anti-Arl13b antibodies and nuclei were labeled using DAPI. This protocol works with .czi format images which are acquired using a Zeiss laser scanning confocal microscope and are maximum intensity projected.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Import data into CellProfiler and extract metadata from file names
+
+## Step 2: Group individual channels and create image subsets 
+
+## Step 3: Import data into CellProfiler and extract metadata from file names
+
+## Step 4: Group individual channels and create image subsets 
+
+## Step 5: Identification of nuclei
+
+## Step 6: Identification of primary cilia objects
+
+## Step 7: Measuring the number of cilia and nuclei in each image
+
+## Step 8: Exporting data

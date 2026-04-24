@@ -1,0 +1,96 @@
+Title: Coral tissue and skeleton Trizol RNA extraction
+
+Description:
+This protocol was modified from the TRIzol protocol provided by Invitrogen. 
+https://assets.thermofisher.com/TFS-Assets/LSG/manuals/trizol_reagent.pdf
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Set Up
+
+## Step 2: RNA/DNA Separation
+
+## Step 3: RNA/DNA Separation
+
+## Step 4: RNA/DNA Separation
+
+## Step 5: RNA/DNA Separation
+
+## Step 6: Set Up
+
+## Step 7: RNA/DNA Separation
+
+## Step 8: RNA/DNA Separation
+
+## Step 9: RNA Isolation
+
+## Step 10: RNA Isolation
+
+## Step 11: RNA Isolation
+
+## Step 12: RNA Isolation
+
+## Step 13: RNA Isolation
+
+## Step 14: RNA Isolation
+
+## Step 15: RNA Isolation
+
+## Step 16: RNA Isolation
+
+## Step 17: RNA Isolation
+
+## Step 18: RNA Isolation
+
+## Step 19: RNA Isolation
+
+## Step 20: RNA Isolation
+
+## Step 21: RNA Isolation
+
+## Step 22: RNA Isolation
+
+## Step 23: RNA Isolation
+
+## Step 24: RNA/DNA Separation
+
+## Step 25: RNA Clean &amp; Concentrate
+
+## Step 26: RNA Clean &amp; Concentrate
+
+## Step 27: RNA Clean &amp; Concentrate
+
+## Step 28: RNA Clean &amp; Concentrate
+
+## Step 29: RNA Clean &amp; Concentrate
+
+## Step 30: RNA Clean &amp; Concentrate
+
+## Step 31: RNA Clean &amp; Concentrate
+
+## Step 32: RNA Clean &amp; Concentrate
+
+## Step 33: RNA Clean &amp; Concentrate
+
+## Step 34: RNA Clean &amp; Concentrate
+
+## Step 35: Solutions to prepare ahead of time
+
+## Step 36: Set Up
+
+## Step 37: Set Up
+
+=== MATERIALS ===
+- Ethanol (100%, Molecular Biology Grade)
+- nuclease free water
+- RNA Clean & Concentrator-5 Kit
+- 5M NaCl
+- Sodium Citrate
+- RNaseZap™ RNase Decontamination Solution
+- TRIzol&trade; Reagent
+- Phasemaker&trade; Tubes
+- GlycoBlue&trade; Coprecipitant (15 mg/mL)
+- Isopropanol Molecular Biology Grade
+- Chloroform Molecular biology grade
+- Refrigerated centrifuge for 2mL tubes

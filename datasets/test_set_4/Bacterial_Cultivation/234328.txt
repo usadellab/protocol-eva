@@ -1,0 +1,32 @@
+Title: Ni-NTA spin-down method for purifying large proteins (batch method)
+
+Description:
+This protocol details how to perform batch method purification, using "loose" resin (i.e., not a packed column). The protocol is written for large scale protein isolation, for example by using lysate from 4 L E. coli culture. That said, it can be easily scaled depending on your needs!
+The expected result from this protocol would be a gel showing the input sample, supernatant ("flow through") from incubation, binding step, washing step, and elution step. If your protein has bound to the resin, you should see the protein in the elution step of this process. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Resin washing &amp; equilibration
+
+## Step 2: Resin washing &amp; equilibration
+
+## Step 3: Resin washing &amp; equilibration
+
+## Step 4: Resin washing &amp; equilibration
+
+## Step 5: Lysate application and protein isolation
+
+## Step 6: Lysate application and protein isolation
+
+## Step 7: Lysate application and protein isolation
+
+## Step 8: Lysate application and protein isolation
+
+## Step 9: Lysate application and protein isolation
+
+## Step 10: Lysate application and protein isolation
+
+## Step 11: Lysate application and protein isolation
+
+## Step 12: Lysate application and protein isolation

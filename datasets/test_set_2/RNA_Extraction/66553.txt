@@ -1,0 +1,71 @@
+Title: Modified RNeasy Mini Kit protocol for filter extractions
+
+Description:
+RNA extraction protocol for filters - modification of RNeasy mini kit protocol
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prep
+
+## Step 2: Prep
+
+## Step 3: Cell Lysis
+
+## Step 4: Prep
+
+## Step 5: Prep
+
+## Step 6: Prep
+
+## Step 7: Prep
+
+## Step 8: Cell Lysis
+
+## Step 9: Cell Lysis
+
+## Step 10: Cell Lysis
+
+## Step 11: Cell Lysis
+
+## Step 12: Cell Lysis
+
+## Step 13: Cell Lysis
+
+## Step 14: Cell Lysis
+
+## Step 15: Cell Lysis
+
+## Step 16: RNA purification
+
+## Step 17: RNA purification
+
+## Step 18: RNA purification
+
+## Step 19: RNA purification
+
+## Step 20: RNA purification
+
+## Step 21: RNA purification
+
+## Step 22: RNA purification
+
+## Step 23: RNA purification
+
+## Step 24: RNA purification
+
+## Step 25: RNA purification
+
+## Step 26: RNA purification
+
+## Step 27: RNA purification
+
+## Step 28: RNA purification
+
+## Step 29: RNA purification
+
+## Step 30: RNA quantification
+
+## Step 31: RNA Quality Check 
+
+## Step 32: RNA Quality Check 

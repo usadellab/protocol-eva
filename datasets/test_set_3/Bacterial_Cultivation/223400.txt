@@ -1,0 +1,31 @@
+Title: Development of a Thin-Layer Liquid Culture-Based Corm Induction System for Cavendish Banana (Musa spp. AAA group)
+
+Description:
+This study describes a thin-layerliquid culture system for in vitro corm formation in Cavendish banana (Musa spp. AAA group). Explants were cultured in liquid MS medium with varying concentrations of sucrose (40 or 60 g/L) and BAP (0, 2, or 5 mg/L). Corms formed only in the presence of BAP, with the largest observed in 60 g/L sucrose and 5 mg/L BAP. These in vitro-formed corms contained meristematic tissue and were capable of both shoot and root development upon transfer to hormone-free medium. Unlike fragile in vitro shoots, corms are robust, easier to handle, and suitable for direct soil transfer with minimal acclimatisation. This method offers a practical alternative for propagating banana and other corm/rhizome crops like taro, ginger, and turmeric, and facilitates safer, simpler germplasm movement.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Overview
+
+## Step 2: Abstract
+
+## Step 3: Introduction
+
+## Step 4: Materials
+
+## Step 5: Reagents
+
+## Step 6: Media &amp; Reagents Preparation
+
+## Step 7: Step-by-step procedure
+
+## Step 8: Step-by-step procedure
+
+## Step 9: Expected Results and Discussions
+
+## Step 10: Conclusion
+
+## Step 11: Troubleshooting
+
+## Step 12: References

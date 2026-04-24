@@ -1,0 +1,43 @@
+Title: Preparing 8OG:A repair reporter for MUTYH variant functional assays
+
+Description:
+This protocol describes how to create a reporter with a site-specifically integrated 8OG:A mispair, for which EGFP expression indicates successful repair by MUTYH. This reporter can be used in functional studies of MUTYH variants. It yields sufficient product (tens of micrograms) to support pooled MAVEs (multiplex assays of variant effect) in which many MUTYH variants are tested in parallel. 
+
+
+=== PROTOCOL STEPS ===
+
+
+## Step 2: PCR to prepare full-length bottom (template) strand
+
+
+
+
+## Step 6: Prepare bottom-strand ssDNA by exonuclease digestion
+
+## Step 7: Prepare bottom-strand ssDNA by exonuclease digestion
+
+## Step 8: Prepare bottom-strand ssDNA by exonuclease digestion
+
+## Step 9: Prepare partial-length fragment for top (coding) strand
+
+## Step 10: Prepare partial-length fragment for top (coding) strand
+
+## Step 11: Prepare partial top-strand ssDNA by exonuclease digestion
+
+## Step 12: Prepare partial top-strand ssDNA by exonuclease digestion
+
+## Step 13: Prepare partial top-strand ssDNA by exonuclease digestion
+
+## Step 14: Anneal ssDNA products
+
+## Step 15: Incorporate 8OG and extend to full length product
+
+## Step 16: Incorporate 8OG and extend to full length product
+
+## Step 17: Incorporate 8OG and extend to full length product
+
+## Step 18: Incorporate 8OG and extend to full length product
+
+## Step 19: QC by agarose gel electrophoresis and Sanger sequencing
+
+## Step 20: QC by agarose gel electrophoresis and Sanger sequencing

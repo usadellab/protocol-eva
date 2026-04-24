@@ -1,0 +1,31 @@
+Title: Reverse transcription, primer pools preparation and multiplex PCR steps for DENV1 serotype for genomic sequencing
+
+Description:
+This step-by-step protocol describes the cDNA synthesis, primer pools preparation and multiplex PCR conditions with the main goal to sequence the complete genome of DENV1 serotype strains.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Reverse transcription
+
+## Step 2: Reverse transcription
+
+## Step 3: Reverse transcription
+
+## Step 4: Reverse transcription
+
+## Step 5: Reverse transcription
+
+## Step 6: Reverse transcription
+
+## Step 7: Pools of primers
+
+## Step 8: Multiplex PCR 
+
+## Step 9: Pools of primers
+
+## Step 10: Pools of primers
+
+## Step 11: Pools of primers
+
+## Step 12: Multiplex PCR 

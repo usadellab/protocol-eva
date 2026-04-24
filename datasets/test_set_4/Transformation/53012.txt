@@ -1,0 +1,31 @@
+Title: Transforming the marine bacterium Ruegeria pomeroyi using tri-parental mating
+
+Description:
+This protocol describes a tri-parental mating method for transforming the model marine bacterium Ruegeria pomeroyi DSS-3 with a desired recombinant plasmid. This transformation method is reliable, easy-to-use, and does not require specialized equipment. Using this method, we have successfully transformed R. pomeroyi with large plasmids (up to 14.833 kb) which enabled the construction of the first fluorescent reporter strains of R. pomeroyi (described in doi.org/10.1038/s41467-020-15693-z). 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Execution
+
+## Step 2: Execution
+
+## Step 3: Execution
+
+## Step 4: Execution
+
+## Step 5: Execution
+
+## Step 6: Execution
+
+## Step 7: Execution
+
+## Step 8: Execution
+
+## Step 9: Execution
+
+## Step 10: Execution
+
+## Step 11: Execution
+
+## Step 12: Execution

@@ -1,0 +1,45 @@
+Title: 3&#39; RNA Adapter Ligation to Input RNA
+
+Description:
+Profiling of RNA binding protein targets in vivo provides critical insights into the mechanistic roles they play in regulating RNA processing. The enhanced crosslinking and immunoprecipitation (eCLIP) methodology provides a framework for robust, reproducible identification of transcriptome-wide protein-RNA interactions, with dramatically improved efficiency over previous methods. Here we provide a step-by-step description of the eCLIP method, along with insights into optimal performance of critical steps in the protocol. In particular, we describe improvements to the adaptor strategy that enables single-end enhanced CLIP (seCLIP), which removes the requirement for paired-end sequencing of eCLIP libraries. Further, we describe the observation of contaminating RNA present in standard nitrocellulose membrane suppliers, and present options with significantly reduced contamination for sensitive applications. These notes further refine the eCLIP methodology, simplifying robust RNA binding protein studies for all users.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Anneal Adapter
+
+## Step 2: Anneal Adapter
+
+## Step 3: Anneal Adapter
+
+## Step 4: Prepare Ligation Master Mix; 13.5 μL Per Sample
+
+## Step 5: Prepare Ligation Master Mix; 13.5 μL Per Sample
+
+## Step 6: Silane Cleanup Input RNA
+
+## Step 7: Silane Cleanup Input RNA
+
+## Step 8: Silane Cleanup Input RNA
+
+## Step 9: Silane Cleanup Input RNA
+
+## Step 10: Silane Cleanup Input RNA
+
+## Step 11: Silane Cleanup Input RNA
+
+## Step 12: Silane Cleanup Input RNA
+
+## Step 13: Silane Cleanup Input RNA
+
+## Step 14: Silane Cleanup Input RNA
+
+## Step 15: Silane Cleanup Input RNA
+
+## Step 16: Silane Cleanup Input RNA
+
+## Step 17: Silane Cleanup Input RNA
+
+## Step 18: Silane Cleanup Input RNA
+
+## Step 19: Silane Cleanup Input RNA

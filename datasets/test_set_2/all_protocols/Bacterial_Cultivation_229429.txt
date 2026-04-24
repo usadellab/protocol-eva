@@ -1,0 +1,49 @@
+Title: Bacterial Liquid Carbon Free Media
+
+Description:
+A simple protocol for the creation of a basic carbon free minimal media for bacterial growth. This is not an optimised protocol for growth, it is the base media to which different carbon sources can be added to detect bacterial growth and therefore metabolism of added carbon sources. The media can be used for liquid cultures, or combined with agar for solid media.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 10X M9 Salts
+
+## Step 2: 10X M9 Salts
+
+## Step 3: 10X M9 Salts
+
+## Step 4: 1000X Trace metals
+
+## Step 5: 1000X Trace metals
+
+## Step 6: 1000X Trace metals
+
+## Step 7: 1000X Trace metals
+
+## Step 8: 1 M MgSO4
+
+## Step 9: 1 M MgSO4
+
+## Step 10: 1 M MgSO4
+
+## Step 11: 1 M MgSO4
+
+## Step 12: 1M CaCl2
+
+## Step 13: 1M CaCl2
+
+## Step 14: 1M CaCl2
+
+## Step 15: 1M CaCl2
+
+## Step 16: Preparing Liquid Carbon Free Media (LCFM)
+
+## Step 17: Preparing Liquid Carbon Free Media (LCFM)
+
+## Step 18: 10X M9 Salts
+
+## Step 19: Preparing Liquid Carbon Free Media (LCFM)
+
+## Step 20: Preparing Liquid Carbon Free Media (LCFM)
+
+## Step 21: Preparing Liquid Carbon Free Media (LCFM)

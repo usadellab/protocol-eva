@@ -1,0 +1,19 @@
+Title: DNA Extraction from Inoculated Broth for WGS using the Maxwell RSC Cultured Cells DNA Kit
+
+Description:
+The Maxwell® RSC Cultured cells DNA Kit is used with the Maxwell RSC or Maxwell RSC 48 Instrument from Promega. This extraction method purifies genomic DNA (gDNA) efficiently using automation. The kit utilizes a silica-based paramagnetic particle that is used during the purification process. 
+This protocol will provide information for extraction from broth. Additional steps are performed when extracting DNA from gram-positive organisms. 
+This SOP is applicable to all GenomeTrakr laboratories with the intent of obtaining high quality, purified genomic DNA from gram-negative or gram-positive bacterial cells for use in subsequent sequencing protocols.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Pre-processing of Gram Positive Cultures
+
+## Step 2: Cultured Cells DNA Cartridge Preparation
+
+## Step 3: Instrument Setup and Extraction Run
+
+## Step 4: Cleaning and Decontamination
+
+## Step 5: Overnight Cultures

@@ -1,0 +1,17 @@
+Title: Spatial variations of soil respiration and temperature sensitivity along a steep slope
+
+Description:
+Spatial heterogeneity of soil respiration and its temperature sensitivity poses great challenge to accurately estimating carbon flux in global carbon cycling, which have been researched mostly on flatlands but few times in hillslope ecosystems. On an eroded slope (35°) of the semiarid Loess Plateau, soil respiration, soil moisture and soil temperature were measured in situ at upper and lower slope positions in triplicates from 2014 untill 2016, with soil biochemical and microbial properties also being determined.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Select the experimental site.
+
+## Step 2:  Soil respiration measurement
+
+## Step 3: Soil biochemical analysis
+
+## Step 4: Data analysis
+
+## Step 5: Eexperimental design.

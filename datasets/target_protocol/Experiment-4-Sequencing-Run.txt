@@ -1,0 +1,14 @@
+Title: Experiment 4: Sequencing Run
+
+Illumina NovaSeq 6000 sequencing
+
+Goal:
+
+Sequencing of samples fromAssay - Experiment 3: Library Preparation - FFPE Repair, A-tailing, Adapter Ligation
+
+Methods:
+Sequencing Platform:Illumina NovaSeq 6000Flow Cell:SP Flow Cell (Lot No. NV-FC-20250622A)Chemistry:NovaSeq 6000 S1 Reagent Kit v1.5 (300 cycles)Loading Concentration:200 pMRead Length:2x150 bp paired-end reads
+.
+
+Results:
+Yield:Approximately 10-15 Gb per sample.Q30 Score:>90% across all samples.Data Location:FASTQ files are stored on the institutionalsmb://institutionserver/microbial_genomics_data/raw_reads/

@@ -1,0 +1,54 @@
+Title: CiFi: 3C Library Preparation for PacBio HiFi Sequencing
+
+Description:
+This protocol outlines the preparation of PacBio-compatible long-read 3C (CiFi) libraries from crosslinked cells or small tissue samples. The workflow includes low-input handling, restriction digestion, proximity ligation, PCR amplification, SMRTbell library construction, and final size selection for HiFi sequencing.
+This protocol represents an amended and updated version of the CiFi workflow compared with the originally published protocol.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Step 2 — Restriction Digest
+
+## Step 2: Step 2 — Restriction Digest
+
+## Step 3: Step 2 — Restriction Digest
+
+## Step 4: Step 3 — Proximity Ligation and Reverse Cross-linking
+
+## Step 5: Step 3 — Proximity Ligation and Reverse Cross-linking
+
+## Step 6: Step 4 — Protein Degradation and DNA Purification
+
+## Step 7: Step 4 — Protein Degradation and DNA Purification
+
+## Step 8: Step 5 —Size Selection
+
+## Step 9: Step 5 —Size Selection
+
+## Step 10: Step 6 — QC
+
+## Step 11: Step 1 — Crosslink cells
+
+## Step 12: Step 1 — Crosslink cells
+
+## Step 13: Part 1: 3C Library Preparation
+
+## Step 14: Part 2: Preparing HiFi SMRTbell CiFi Libraries
+
+## Step 15: Step 4 — Protein Degradation and DNA Purification
+
+## Step 16: I. Amplification
+
+## Step 17: I. Amplification
+
+## Step 18: I. Amplification
+
+## Step 19: II. SMRTbell library prep
+
+## Step 20: II. SMRTbell library prep
+
+## Step 21: II. SMRTbell library prep
+
+## Step 22: Size-Selection of SMRTbell Library and Sequencing
+
+## Step 23: Reagent Volumes and Procedural Modifications for Low-Input Library Preparation

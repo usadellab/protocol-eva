@@ -1,0 +1,27 @@
+Title: DNA isolation from cattle semen  for long read sequencing
+
+Description:
+Here we describe a method for isolate high molecular weight DNA from commercially available frozen bull semen straws.
+This protocol is based on a salting-out method and uses several commercially available solutions. It consists of several steps: washing of semen, lysis, removal of proteins and precipitation of genomic DNA.
+This protocol was used to isolate DNA from sixty semen straws, all of which were successfully sequenced using the CLR sequencing mode on the PacBio SequelII platform.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of sample
+
+## Step 2: Lysis
+
+## Step 3: Preparation of sample
+
+## Step 4: Lysis
+
+## Step 5: Protein precipitation
+
+## Step 6: Lysis
+
+## Step 7: Preparation of reagents
+
+## Step 8: DNA precipitation
+
+## Step 9: DNA precipitation

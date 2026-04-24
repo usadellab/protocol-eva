@@ -1,0 +1,12 @@
+Title: Analysis of genetic relatedness and paternity assignment in wild Guinea baboons (Papio papio) based on microsatellites
+
+Description:
+This protocol provides a standardized methodology for the analyses of genetic relatedness and paternity assignment in wild Guinea baboons (Papio papio) based on 24 microsatellite markers. It describes all methodological steps from sample collection and storage, DNA extraction, microsatellite amplification, and genotyping to a detailed explanation of the analyses regarding loci descriptive statistic, dyadic relatedness, and parentage analysis. This protocol was developed as a standardized method utilized by the Cognitive Ethology Laboratory (German Primate Center) to analyse fecal samples from the wild Guinea baboon population at the CRP Simenti field site, PNNK, Senegal.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+

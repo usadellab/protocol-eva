@@ -1,0 +1,43 @@
+Title: MAVRICS: A Robust and Safe Magnetic Nanoparticle based  RNA Extraction Method Compatible with Phenol-chloroform Inactivated Infectious Samples
+
+Description:
+Diagnosis and surveillance of emerging pathogens such as SARS-CoV-2 depend on nucleic acid isolation from clinical and environmental samples. Under normal circumstances, samples would be processed using commercial proprietary reagents in Biosafety 2 (BSL-2) or higher facilities. A pandemic at the scale of COVID-19 has caused a global shortage of proprietary reagents and BSL-2 laboratories to safely perform testing. Therefore, alternative solutions are urgently needed to address these challenges. We developed an open-source method called Magneticnanoparticle-Aided Viral RNA Isolation of Contagious Samples (MAVRICS) that is built upon reagents that are either readily available or can be synthesized in any molecular biology laboratory with basic equipment. Unlike conventional methods, MAVRICS works directly in samples inactivated in acid guanidinium thiocyanate-phenol-chloroform (e.g., TRIzol), thus allowing infectious samples to be handled safely without biocontainment facilities.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- Bis-Tris
+- TRIzol&trade; Reagent
+- SuperScript&trade; IV Reverse Transcriptase
+- TaqMan&trade; Fast Advanced Master Mix
+- Hydrochloric Acid
+- Sodium hydroxide
+- Ethanol absolute ≥99.8% AnalaR NORMAPUR® ACS Reag. Ph. Eur. analytical reagent
+- Tetraethyl orthosilicate ≥99.0% (GC)
+- Iron (III) chloride anhydrous Extra Pure
+- Guanidine Hydrochloride
+- RNaseOUT™ Recombinant Ribonuclease Inhibitor
+- RNase H
+-  2019-nCoV RUO Kit
+- Iron(II) chloride tetrahydrate ≥98%

@@ -1,0 +1,31 @@
+Title: MethylC-seq using EZ DNA Methylation-Gold Bisulfite and Accel-NGS DNA Library Kits
+
+Description:
+Protocol to use ACCEL-NGS® METHYL-SEQ DNA LIBRARY KIT (NGS Prep with Bisulfite-Converted DNA Capability; Cat. No. DL-ILMMS-12/48) to perform MethylC-sequencing in Arabidopsis.
+Code used to analyse raw sequencing data can be found: Please see https://github.com/dtrain16/NGS-scripts/tree/master/MethylC.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Extract and QC gDNA
+
+## Step 2: Normalize and shear gDNA
+
+## Step 3: Bisulfite conversion
+
+## Step 4: Generate sequencing library using Accel-NGS Kit
+
+## Step 5: Pool high-quality libraries equal molar for sequencing
+
+=== MATERIALS ===
+- 100ml TE Buffer [1X], pH 8.0, Low EDTA (Tris-EDTA; 10mM Tris base, 0.1mM EDTA)
+- Qubit 
+- Homemade SPRI beads solution for DNA clean-up
+- Agencourt AMPure XP SPRI beads
+- Covaris S2/S220 Focused-ultrasonicators
+- EZ DNA Methylation-Gold Kit
+- Accel-NGS® Methyl-Seq DNA Library Kit
+- Methyl-Seq Set A Indexing Kit (12 indices, 24 rxns)
+- DNeasy Plant Mini Kit
+- LabChip GX/GXII
+- Qubit DS HS assay

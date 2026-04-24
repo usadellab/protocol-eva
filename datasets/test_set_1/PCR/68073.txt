@@ -1,0 +1,22 @@
+Title: Preparing 1x PCR Master Mix
+
+Description:
+This protocol documents the production of BenBio 1X PCR Master Mix "Wet" and "Dry" formulations including the different colors of the Wet formulations (Rubis or oink and Saphir or blue). This method uses  OpenVent cellular reagents. The PCR master mixes are then stored for subsequent PCR reactions.
+Cellular reagents are defined as common molecular biology enzymes expressed in E.coli but not subsequently purified before use i.e. dried E.coli cells are used as the reagent (Bhadra et al (2018)). 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cellular reagents preparation
+
+## Step 2: Functionality test
+
+## Step 3: Preparation of 1x PCR Master mix formulations
+
+## Step 4: Preparation of 1x PCR Master mix formulations
+
+## Step 5: Quality control - Functionality testing
+
+## Step 6: Quality control - Functionality testing
+
+## Step 7: Preparation of 1x PCR Master mix formulations

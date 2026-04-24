@@ -1,0 +1,34 @@
+Title: Guidance for populating and validating GenomeTrakr metadata templates (BioSample and SRA)
+
+Description:
+PURPOSE: This protocol provides instructions for preparing and filling out the metadata templates necessary for direct submission to the National Center for Biotechnology Information (NCBI). These instructions are relevant for the majority of whole genome sequencing data submissions derived from enteric bacterial pathogens collected for surveillance purposes.
+SCOPE: This protocol provides detailed instructions for the following two metadata templates:
+1. BioSample metadata: guidelines for obtaining, populating, and validating the BioSample metadata template. 
+2. SRA metadata: Guidelines for populating sequence-level metadata template. 
+Version history:
+v11: Change of guidance to use the One Health Enteric BioSample package for all submissions.
+v10: updates to the GenomeTrakr-extended pathogen biosample template (GT-pathogen package-OHE v0.3.xlsx) and release of newly available One Health Enteric package custom templates. 
+v9: Bug fix
+v8: Updated the picklists in the GenomeTrakr-extended pathogen package, "GT-pathogen package-OHE v0.2.2.xlsx".  Also provided a direct link to the newly published One Health Enteric package.
+v7: Updated the picklists in the GenomeTrakr-extended pathogen package, "GT-pathogen package-OHE v0.2.2.xlsx" and added an incremental update file for the DRAFT One Health Enteric Package that includes extensive edits compared to v6.
+v6: Added the One Health Enteric package presented at IAFP 2021 meeting.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Overview
+
+## Step 2: BioSample metadata
+
+## Step 3: Validate BioSample metadata template
+
+## Step 4: SRA sequence metadata template
+
+## Step 5: SRA sequence metadata template
+
+
+## Step 7: Validate BioSample metadata template
+
+## Step 8: Evaluation of LexMapr Output
+
+## Step 9: Validate BioSample metadata template

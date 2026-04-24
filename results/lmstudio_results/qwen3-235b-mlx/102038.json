@@ -1,0 +1,220 @@
+{
+  "protocol_id": "102038",
+  "protocol_name": "Sequencing - 102038",
+  "category": "Sequencing",
+  "original_steps": 9,
+  "success": true,
+  "latency_s": 48.36,
+  "evaluation": {
+    "step_preservation": 55.6,
+    "parameter_extraction": 1500.0,
+    "component_extraction": 700.0,
+    "sequence_order": 100,
+    "overall": 552.2,
+    "extracted_steps": 5,
+    "original_steps": 9
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Algae_Sample_1",
+        "organism": "Algae",
+        "characteristics": [
+          {
+            "category": "Sample Type",
+            "value": "Homogenized bioassessment sample",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Preservation Temperature",
+            "value": "-20°C or -80°C",
+            "unit": "°C",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Storage Duration",
+            "value": "Up to six months",
+            "unit": "months",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Field_Blank_1",
+        "organism": "Deionized Water",
+        "characteristics": [
+          {
+            "category": "Purpose",
+            "value": "Contamination control",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Sample Collection",
+        "description": "Collection of homogenized bioassessment samples containing algae.",
+        "inputs": [
+          "Algae_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Sample Type",
+            "value": "Homogenized bioassessment sample",
+            "unit": "",
+            "description": "Type of environmental sample collected"
+          },
+          {
+            "name": "Collection Vessel",
+            "value": "Screw cap tubes",
+            "unit": "",
+            "description": "Container used for sample collection"
+          },
+          {
+            "name": "Sterilization Requirement",
+            "value": "Essential to prevent cross-contamination",
+            "unit": "",
+            "description": "Equipment must be sterilized before use"
+          }
+        ],
+        "outputs": [
+          "Collected_Sample_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Filtering",
+        "description": "Filtration of algae using 47mm filter holders or funnel with 0.45µm cellulose nitrate filters.",
+        "inputs": [
+          "Collected_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Filter Type",
+            "value": "Cellulose nitrate",
+            "unit": "",
+            "description": "Material of the filter membrane"
+          },
+          {
+            "name": "Filter Diameter",
+            "value": "47mm",
+            "unit": "mm",
+            "description": "Size of the filter used"
+          },
+          {
+            "name": "Pore Size",
+            "value": "0.45",
+            "unit": "µm",
+            "description": "Pore size of the filter membrane"
+          }
+        ],
+        "outputs": [
+          "Filtered_Algae_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "After Filtering",
+        "description": "Preservation of filtered algae in screw cap tubes with preservation solution.",
+        "inputs": [
+          "Filtered_Algae_1"
+        ],
+        "parameters": [
+          {
+            "name": "Preservation Solution",
+            "value": "Not specified, but implied to be DNA stabilization buffer",
+            "unit": "",
+            "description": "Chemical solution used to preserve DNA integrity"
+          },
+          {
+            "name": "Storage Temperature",
+            "value": "-20°C or -80°C",
+            "unit": "°C",
+            "description": "Temperature for long-term storage of preserved samples"
+          },
+          {
+            "name": "Storage Duration",
+            "value": "Up to six months",
+            "unit": "months",
+            "description": "Maximum recommended storage time for DNA stability"
+          }
+        ],
+        "outputs": [
+          "Preserved_Algae_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Collecting a Field Blank",
+        "description": "Collection of field blank by filtering deionized water to monitor contamination.",
+        "inputs": [
+          "Field_Blank_1"
+        ],
+        "parameters": [
+          {
+            "name": "Blank Type",
+            "value": "Field blank",
+            "unit": "",
+            "description": "Control sample to detect environmental or procedural contamination"
+          },
+          {
+            "name": "Filtrate Source",
+            "value": "Deionized water",
+            "unit": "",
+            "description": "Source material used for blank generation"
+          },
+          {
+            "name": "Purpose",
+            "value": "Cross-contamination detection",
+            "unit": "",
+            "description": "Ensures reliability of DNA sequencing results"
+          }
+        ],
+        "outputs": [
+          "Field_Blank_Output"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Sample Metadata",
+        "description": "Recording of sample metadata including labeling and documentation.",
+        "inputs": [
+          "Preserved_Algae_1",
+          "Field_Blank_Output"
+        ],
+        "parameters": [
+          {
+            "name": "Labeling Requirement",
+            "value": "Samples must be labeled",
+            "unit": "",
+            "description": "Ensures traceability and proper identification"
+          },
+          {
+            "name": "Metadata Documentation",
+            "value": "Sample information recorded in field logs or LIMS",
+            "unit": "",
+            "description": "Critical for data integrity and reproducibility"
+          },
+          {
+            "name": "Traceability",
+            "value": "Full chain of custody maintained",
+            "unit": "",
+            "description": "Ensures sample integrity from collection to analysis"
+          }
+        ],
+        "outputs": [
+          "Metadata_Recorded"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

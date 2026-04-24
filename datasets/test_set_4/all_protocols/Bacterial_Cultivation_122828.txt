@@ -1,0 +1,42 @@
+Title: Bacteriophage Solid Propagation in Pseudomonas aeruginosa
+
+
+Description:
+This protocol provides a solid production method for bacteriophages (phages) based on co-incubation of host bacteria and phages in soft agar on an agar media plate. The phages are then collected by an overlay of SM-buffer and through mechanical dispersion of the soft agar in the SM-buffer. This protocol has the same cost-effectiveness as liquid propagation approaches, but requires more working time (40 min), due to the initial preparation of the agar media plates and the subsequent way of collecting the produced phages. As some phages are difficult to produce to high titers in liquid cultures, this protocol provides an alternate approach.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure
+
+## Step 2: Procedure
+
+## Step 3: Procedure
+
+## Step 4: Procedure
+
+## Step 5: Procedure
+
+## Step 6: Procedure
+
+## Step 7: Procedure
+
+## Step 8: Procedure
+
+## Step 9: Procedure
+
+## Step 10: Procedure
+
+## Step 11: Procedure
+
+## Step 12: Procedure
+
+## Step 13: Procedure
+
+## Step 14: Procedure
+
+## Step 15: Troubleshooting
+
+## Step 16: Time Taken
+
+## Step 17: Anticipated Results

@@ -1,0 +1,18 @@
+Title: Simple and easy method for long-term storage of human tissue for molecular analysis at room temperature
+
+Description:
+The storage of human tissue at room temperature is one of challenging areas. In the literature, there is hardly any reliable method available to achieve this. We have developed a solution called Genekam Tissue Storage Solution (GTSS), which make it possible to do this task. In our laboratory, we have human tissues stored for last 5 year and GTSS is being used to isolate nucleic acid (RNA / DNA) with mini column method as well as magnetic beads isolation method. Isolated nucleic acid has been used in conventional and real time PCR along with conducting hybridization assays. This method offers the possibility for histological as well as pathological samples to be stored at room temperature. The user can transfer the samples between the laboratories at room temperature, which saves shipping costs. Our experiments show that there is no loss of nucleic acid during storage and isolated material can be used to conduct large number of molecular tests on the same sample.  Read the publication also. 
+This solution is very economical in the terms of costs.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+

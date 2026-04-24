@@ -1,0 +1,13 @@
+Title: Clearing of deparaffinized human brain tissue 
+
+Description:
+This protocol is a detailed version of the deparaffinization protocol for human brain tissue applicable to different clearing protocols (SHORT and iDISCO).  The method was optimized by the European Laboratory for Non-Linear Spectroscopy - University of Florence  -Italy, and describes the process to deparaffinize human brain tissue to prepare them for optical clearing and fluorescent labelling, permitting the 3D reconstruction of the tissue at micrometer-resolution using fluorescence microscopy techniques.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Deparaffinization of brain tissue
+
+## Step 2: Application to SHORT tissue transformation method
+
+## Step 3: Application to iDISCO method

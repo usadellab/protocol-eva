@@ -1,0 +1,54 @@
+Title: Polyclonal Allelic Expression Assay Protocol
+
+Description:
+Polyclonal allelic expression assay for detecting the regulatory effects of genetic variants within transcripts using CRISPR/Cas9 genome editing and amplicon sequencing.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- Q5 High-Fidelity 2X Master Mix - 500 rxns
+- NEBNext High-Fidelity 2X PCR Master Mix - 250 rxns
+- Epicentre QuickExtract™ DNA Extraction Solution
+- Opti-MEM (Reduced Serum Medium)
+- Doxycycline (Hyclate) 1 g
+- Nextera XT Index Kit, 96 indices, 384 samples
+- TrypLE™ Express Enzyme
+- AmpureXP beads 
+- TRIzol&trade; LS Reagent
+- SuperScript&trade; IV VILO&trade; Master Mix with ezDNase&trade; Enzyme
+- Lipofectamine&trade; MessengerMAX&trade; Transfection Reagent
+- gBlock gene fragments

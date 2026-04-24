@@ -1,0 +1,33 @@
+Title: Sentinel Flask Preparation for Cold Shipping Protocol of Human Islets
+
+Description:
+To establish a standardized method for the National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK) sponsored research in the Integrated Islet Distribution Program (IIDP) for preparing a sentinel flask of human islets in order to monitor sterility and islet integrity at the production center.  This is a representative sample of the islet preparation that has been distributed to investigators and is held at the distributing center as a quality control sample. The islets are cultured in the same shipping media used for islet shipment, for 18 hours at 4-8°C, simulating the cold shipping conditions followed by 2 days at 37°C culture. The flask of islets are verification in the event of a dispute over sterility or islet quality.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: SUPPLEMENTAL MATERIALS
+
+## Step 2: MEDIA PREPARATION
+
+## Step 3: MEDIA PREPARATION
+
+## Step 4: MEDIA PREPARATION
+
+## Step 5: SENTINEL FLASK PREPARATION 
+
+## Step 6: SENTINEL FLASK PREPARATION 
+
+## Step 7: SENTINEL FLASK PREPARATION 
+
+## Step 8: SENTINEL FLASK PREPARATION 
+
+## Step 9: SENTINEL FLASK PREPARATION 
+
+## Step 10: SENTINEL FLASK PREPARATION 
+
+=== MATERIALS ===
+- Human AB Serum (ABS) HI
+- PIM(G)® (5 mL Glutamine/Glutathione)
+-        PIM(T)®
+- Corning™ Ciprofloxacin Hydrochloride

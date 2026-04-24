@@ -1,0 +1,67 @@
+Title: Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (with Platinum SuperFi II Taq)
+
+Description:
+
+The 12S protocol is aimed at amplifying the hypervariable region of the mitochondrial DNA 12S rRNA gene in eukaryotes. The primers (MiFish-U-F & MiFish-U-R) used in this protocol were developed by Miya et al., 2015 for metabarcoding environmental DNA (eDNA) from fishes.
+This protocol follows an updated version of the MiFish primer PCR protocol. The Platinum SuperFi II was designed to have high fideleity and have increased resistence to PCR inhibitors.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: MIOP: Minimum Information about an Omics Protocol
+
+## Step 2: AUTHORS
+
+## Step 3: RELATED PROTOCOLS
+
+## Step 4: ACRONYMS AND ABBREVIATIONS
+
+## Step 5: GLOSSARY
+
+## Step 6: BACKGROUND
+
+## Step 7: BACKGROUND
+
+## Step 8: BACKGROUND
+
+## Step 9: BACKGROUND
+
+## Step 10: BACKGROUND
+
+## Step 11: BACKGROUND
+
+## Step 12: BACKGROUND
+
+## Step 13: EQUIPMENT
+
+## Step 14: STANDARD OPERATING PROCEDURE
+
+## Step 15: PREPARATION
+
+## Step 16: PCR
+
+## Step 17: Quality Control and Product Clean-up
+
+## Step 18: QUALITY CONTROL
+
+## Step 19: BASIC TROUBLESHOOTING GUIDE
+
+## Step 20: REFERENCES
+
+## Step 21: APPENDIX A: DATASHEETS
+
+## Step 22: PCR
+
+## Step 23: PCR
+
+## Step 24: PCR
+
+## Step 25: Quality Control and Product Clean-up
+
+## Step 26: Quality Control and Product Clean-up
+
+## Step 27: Secondary Amplification
+
+## Step 28: Secondary Amplification
+
+## Step 29: Secondary Amplification

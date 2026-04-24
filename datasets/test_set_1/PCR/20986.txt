@@ -1,0 +1,26 @@
+Title: Genomic mapping of transformed DNA fragments
+
+Description:
+Mapping of transformed DNA within mutated diatoms. A stepwise specific PCR reaction that allow for identification of genome location of transformed fragments such as antibiotic resistance genes or GFP constructs. 
+Degenerate primer 1:     5' - GCCGGACTTAGCGAGCA TGTGTAGTACCTTGCCG ATCCTNASATANSATANT TC - 3'
+Degenerate primer 2:     5' - GCCGGACTTAGCGAGCA TGTGTAGTACCTTGCCG ATCCCNTSABGNACYTN CTG - 3'
+Degenerate primer 3:     5' - GCCGGACTTAGCGAGCA TGTGTAGTACCTTGCCG ATCCNGACGARWGANA WGAC - 3'
+Degenerate primer 4:     5' - GCCGGACTTAGCGAGCA TGTGTAGTACCTTGCCG ATCCTAHATGDAGKACN TAC  - 3'
+Specific primer 1:     5' - GCCGGACTTAGCGAGCA TGTGTAG - 3'
+Specific primer 2:     5' - CATGTGTAGTACCTTGC CGATCC - 3'
+Internal primers must be designed with regard to each construct that are to  be mapped. They should not overlap but instead cover consecutive stretches of known DNA sequence of the transformed construct. 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- Gel electrophoresis equipment
+- SuperFi Polymerase

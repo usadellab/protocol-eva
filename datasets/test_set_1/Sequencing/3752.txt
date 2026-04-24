@@ -1,0 +1,49 @@
+Title: JetSeq™ DNA Library Preparation Kit
+
+Description:
+This protocol is for the JetSeqTM DNA Library Preparation Kit. The kit is designed to generate high-quality next generation sequencing (NGS) libraries suitable for sequencing on Illumina MiSeqTM, NextSeqTM or HiSeqTM instruments.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: End-repair
+
+## Step 2: End-repair
+
+## Step 3: End-repair
+
+## Step 4: End-repair
+
+## Step 5: Adaptor ligation
+
+## Step 6: Adaptor ligation
+
+## Step 7: Adaptor ligation
+
+## Step 8: Adaptor ligation
+
+## Step 9: Adaptor ligation
+
+## Step 10: Adaptor extension (PCR 1)
+
+## Step 11: Adaptor extension (PCR 1)
+
+## Step 12: Adaptor extension (PCR 1)
+
+## Step 13: Adaptor extension (PCR 1)
+
+## Step 14: Adaptor extension (PCR 1)
+
+## Step 15: Adaptor completion and indexing (PCR 2)
+
+## Step 16: Adaptor completion and indexing (PCR 2)
+
+## Step 17: Adaptor completion and indexing (PCR 2)
+
+## Step 18: Adaptor completion and indexing (PCR 2)
+
+## Step 19: Adaptor completion and indexing (PCR 2)
+
+## Step 20: End-repair
+
+## Step 21: Adaptor completion and indexing (PCR 2)

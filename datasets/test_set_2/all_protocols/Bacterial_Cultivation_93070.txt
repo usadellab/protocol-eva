@@ -1,0 +1,35 @@
+Title: Culture of human epithelial cells (skin, cornea, thymus) on 3T3J2 feeder layer cells
+
+Description:
+This document is of vital importance for scientists attempting the culture of human
+keratinocytes derived from skin, cornea, thymus, esophagus etc. Please strictly adhere
+to the guidelines shared. Note that 3T3NIH ARE NOT the same as 3T3J2, which
+are way more efficient in sustaining keratinocyte culture.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 3T3J2 Growth Medium
+
+## Step 2: 3T3J2 Growth Medium
+
+
+## Step 4: Key steps for human keratinocyte cultures (Howard Green Lab)
+
+## Step 5: Key steps for human keratinocyte cultures (Howard Green Lab)
+
+## Step 6: Key steps for human keratinocyte cultures (Howard Green Lab)
+
+## Step 7: Key steps for human keratinocyte cultures (Howard Green Lab)
+
+
+## Step 9: trypsinization of keratinocyte cultures (Howard Green Lab)
+
+## Step 10: cFAD medium (Keratinocyte medium)
+
+## Step 11: Cells freezing and thawing
+
+## Step 12: 3T3J2 Growth Medium
+
+
+## Step 14: Culture of 3T3J2 feeder cells

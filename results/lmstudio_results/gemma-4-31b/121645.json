@@ -1,0 +1,153 @@
+{
+  "protocol_id": "121645",
+  "protocol_name": "Bioinformatics - 121645",
+  "category": "Bioinformatics",
+  "original_steps": 12,
+  "success": true,
+  "latency_s": 70.2,
+  "evaluation": {
+    "step_preservation": 33.3,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 50.8,
+    "extracted_steps": 4,
+    "original_steps": 12
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Not specified",
+        "characteristics": [
+          {
+            "category": "cell type",
+            "value": "Type A",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Sample_2",
+        "organism": "Not specified",
+        "characteristics": [
+          {
+            "category": "cell type",
+            "value": "Type B",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Read Alignment",
+        "description": "Alignment of raw sequencing reads to a reference genome",
+        "inputs": [
+          "Raw read output of Sample_1",
+          "Raw read output of Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "Software",
+            "value": "Subread / Rsubread",
+            "unit": "",
+            "description": "Tool used for read alignment"
+          },
+          {
+            "name": "Platform",
+            "value": "Bioconductor",
+            "unit": "",
+            "description": "Software repository"
+          }
+        ],
+        "outputs": [
+          "Aligned reads"
+        ],
+        "dataFiles": [
+          "alignment_files.bam"
+        ]
+      },
+      {
+        "name": "Read Summarization",
+        "description": "Summarizing aligned reads to count features",
+        "inputs": [
+          "Aligned reads"
+        ],
+        "parameters": [
+          {
+            "name": "Software",
+            "value": "featureCounts",
+            "unit": "",
+            "description": "Tool used for read summarization"
+          }
+        ],
+        "outputs": [
+          "Read counts matrix"
+        ],
+        "dataFiles": [
+          "counts.txt"
+        ]
+      },
+      {
+        "name": "Normalization",
+        "description": "Normalization of read count data to account for variance",
+        "inputs": [
+          "Read counts matrix"
+        ],
+        "parameters": [
+          {
+            "name": "Method",
+            "value": "voom",
+            "unit": "",
+            "description": "Normalization method used to transform count data"
+          },
+          {
+            "name": "Software",
+            "value": "limma",
+            "unit": "",
+            "description": "R package providing the voom function"
+          }
+        ],
+        "outputs": [
+          "Normalized expression data"
+        ],
+        "dataFiles": [
+          "normalized_data.csv"
+        ]
+      },
+      {
+        "name": "Differential Expression Analysis",
+        "description": "Statistical testing to identify differentially expressed genes between cell types",
+        "inputs": [
+          "Normalized expression data"
+        ],
+        "parameters": [
+          {
+            "name": "Statistical Test",
+            "value": "empirical Bayes moderated t-statistic",
+            "unit": "",
+            "description": "Method used for statistical testing of differential expression"
+          },
+          {
+            "name": "Software",
+            "value": "limma",
+            "unit": "",
+            "description": "R package used for the moderated t-statistic calculation"
+          }
+        ],
+        "outputs": [
+          "List of differentially expressed genes"
+        ],
+        "dataFiles": [
+          "deg_list.csv"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

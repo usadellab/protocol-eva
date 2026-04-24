@@ -1,0 +1,35 @@
+Title: CODA (part 6): register the nuclear coordinates and construct 3D cell matrix | HuBMAP | JHU-TMC
+
+Description:
+Using the registration transformations calculated in low-resolution (as described CODA (part 2): calculate registration on low-resolution tissue images), register the nuclear coordinates generated in CODA (part 5): nuclear coordinate generation
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: register the nuclear coordinates
+
+## Step 2: register the nuclear coordinates
+
+## Step 3: construct 3D cell matrix
+
+## Step 4: construct 3D cell matrix
+
+## Step 5: construct 3D cell matrix
+
+## Step 6: construct 3D cell matrix
+
+## Step 7: construct 3D cell matrix
+
+## Step 8: Notes on quantification
+
+## Step 9: Smooth data
+
+## Step 10: Quantify volume
+
+## Step 11: Quantify cellularity
+
+## Step 12: And more
+
+## Step 13: construct 3D cell matrix
+
+## Step 14: construct 3D cell matrix

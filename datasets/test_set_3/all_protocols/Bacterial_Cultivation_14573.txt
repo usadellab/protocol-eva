@@ -1,0 +1,27 @@
+Title: Conidial production from M. fijiensis mycelium
+
+Description:
+Continuous in vitro conidial production from Mycosphaerella fijiensis mycelium. A method for in vitro production of conidia is described. M fijiensis was grown on culture medium containing V8 juice. Mycelium was macerated until a fine suspension was produced; 2 mL was carefully spread on V8 sporulation medium. The Petri dishes were incubated for 6 days at 20 °C, under continuous cool-white fluorescent and black light. After the incubation period, 2.4 mL of 1% gelatin was added to each Petri dish, the conidia carefully dislodged with a camel hair brush. Conidial production was notably stimulated by brush harvesting mycelial cultures. After 6 days of culture the first harvest was made and the same batch of petri dishes were put in the same culture conditions to stimulate new conidial production. Significant cumulative conidial production was observed after the second harvest.
+
+
+=== PROTOCOL STEPS ===
+
+
+## Step 2: V8 sporulation (V8S) medium
+
+
+
+
+
+
+## Step 8: Inoculation of ground mycelium in V8 sporulation medium for conidia production
+
+## Step 9: Inoculation of ground mycelium in V8 sporulation medium for conidia production
+
+## Step 10: Harvest of conidia
+
+## Step 11:  Conidia count
+
+=== MATERIALS ===
+- Calcium carbonate
+- Agar-agar

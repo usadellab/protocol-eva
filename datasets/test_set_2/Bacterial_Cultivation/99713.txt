@@ -1,0 +1,65 @@
+Title: DiI Labelling with a Paintbrush: a Low-cost Alternative to DiOlistic Labelling in Neurons
+
+Description:
+DiOlistic labelling is a high-throughput technique commonly used to label neurons in fixed brain tissue using the fluorescent lipophilic carbocyanine dye, DiI. It labels a large population of neurons in a dense yet distributed pattern, making it ideal for morphological studies. However, DiOlistic labelling typically requires an expensive commercial gene gun. Therefore, our protocol presents a low-cost alternative using materials that are already available in most laboratories (e.g. a plastic 12-well culture plate lid) or easily acquired at a low price (e.g. a paintbrush). We detail the DiI labelling process, including the preparation, delivery, incubation, and post-processing steps. Overall, this protocol labels a large population of neurons in a dense yet distributed pattern and, therefore, is a simple and low-cost alternative to DiOlistic labelling.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DiI Preparation
+
+## Step 2: DiI Preparation
+
+## Step 3: DiI Delivery
+
+## Step 4: DiI Incubation
+
+## Step 5: DiI Post-processing
+
+## Step 6: DiI Preparation
+
+## Step 7: DiI Preparation
+
+## Step 8: DiI Preparation
+
+## Step 9: DiI Delivery
+
+## Step 10: DiI Preparation
+
+## Step 11: DiI Preparation
+
+## Step 12: DiI Delivery
+
+## Step 13: DiI Delivery
+
+## Step 14: DiI Delivery
+
+## Step 15: DiI Delivery
+
+## Step 16: DiI Incubation
+
+## Step 17: DiI Post-processing
+
+## Step 18: DiI Post-processing
+
+## Step 19: DiI Post-processing
+
+## Step 20: DiI Post-processing
+
+## Step 21: DiI Post-processing
+
+## Step 22: DiI Delivery
+
+## Step 23: DiI Preparation
+
+## Step 24: DiI Preparation
+
+## Step 25: DiI Delivery
+
+## Step 26: DiI Delivery
+
+## Step 27: Cleaning &amp; Maintenance
+
+## Step 28: Cleaning &amp; Maintenance
+
+## Step 29: Examples

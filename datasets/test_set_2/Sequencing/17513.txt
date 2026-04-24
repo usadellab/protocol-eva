@@ -1,0 +1,20 @@
+Title: Enterovirus (EV) D68 TaqMan 2018 (EV-D68-TM2018)
+
+Description:
+This protocol aims to amplify enterovirus (EV) D68 viruses and not other viruses.
+This protocol is modified from a previously published method cited below. Details of the modification are included in the method.
+The oligonucleotides target the 5'UTR noncoding region. This is a qualitative test for investigating EV-D68 infection of humans.
+The test has identified both the original EV-D68 strains and contemporary strains which has been confirmed by subgenomic sequencing of partial 5'UTR-VP2 and partial VP1 sequencing. Culture of the virus is not required as this assay is capable of detecting EV-D68 direct from extracted clinical samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Oligonucleotide sequences
+
+## Step 2: Reagents
+
+## Step 3: Reaction set-up
+
+## Step 4: Amplification
+
+## Step 5: Result Analysis

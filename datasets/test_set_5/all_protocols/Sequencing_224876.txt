@@ -1,0 +1,90 @@
+Title: Illumina Dual Index Amplicon Sequencing Sample Preparation 16S (515F–806R primer pair)
+
+Description:
+Preparation of PCR products for amplicon sequencing using The Earth Microbiome Project 515F–806R primer set .
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Abstract
+
+## Step 2: Before starting
+
+## Step 3: Safety warnings
+
+## Step 4: DNA extraction
+
+## Step 5: Primers
+
+## Step 6: First PCR reactions
+
+## Step 7: First PCR reactions
+
+## Step 8: Introduction
+
+## Step 9: Second PCR reactions
+
+## Step 10: First PCR reactions
+
+## Step 11: First PCR reactions
+
+## Step 12: First PCR reactions
+
+## Step 13: First PCR reactions
+
+## Step 14: First PCR reactions
+
+## Step 15: First PCR reactions
+
+## Step 16: First PCR reactions
+
+## Step 17: First PCR reactions
+
+## Step 18: First PCR reactions
+
+## Step 19: First PCR reactions
+
+## Step 20: First PCR reactions
+
+## Step 21: Second PCR cycling conditions 
+
+## Step 22: Purification
+
+## Step 23: PCR visualization
+
+## Step 24: Second PCR cycling conditions 
+
+## Step 25: Second PCR cycling conditions 
+
+## Step 26: Second PCR cycling conditions 
+
+## Step 27: Second PCR cycling conditions 
+
+## Step 28: Second PCR cycling conditions 
+
+## Step 29: Second PCR cycling conditions 
+
+## Step 30: Second PCR cycling conditions 
+
+## Step 31: Second PCR cycling conditions 
+
+## Step 32: Second PCR cycling conditions 
+
+## Step 33: Second PCR cycling conditions 
+
+## Step 34: Second PCR cycling conditions 
+
+## Step 35: First PCR reactions
+
+
+## Step 37: PCR visualization
+
+## Step 38: Purification
+
+## Step 39: Quantify and pool in equimolar concentration
+
+## Step 40: Quality control
+
+## Step 41: Quantify and pool in equimolar concentration
+
+## Step 42: Second PCR cycling conditions 

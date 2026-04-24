@@ -1,0 +1,22 @@
+Title: Growing overnight bacterial culture in 96WP (Cabreiro Lab)
+
+Description:
+Luria broth (LB) is a nutrient-rich media commonly used to culture bacteria in the lab. LB agar plates are frequently used to isolate individual (clonal) colonies of bacteria carrying a specific plasmid. However, a liquid culture is capable of supporting a higher density of bacteria and is used to grow up sufficient numbers of bacteria necessary to isolate enough plasmid DNA for experimental use. The following protocol is for inoculating an overnight culture of liquid LB with bacteria. 
+This is a general protocol for making a liquid bacterial culture in 96-well plate format from frozen stock plates.
+The following parameters need to be mentioned for the specific type of bacterial strains inoculated:
+     Parameters      Example        1. Name/s of the bacterial strain      OP50        2. Growth temperature      37C        3. Incubation time      16-18hrs        4. Antibiotic resistance (if any)      None        5. Rpm of the shaking incubator (if needed)      200-220 rpm if required   
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+

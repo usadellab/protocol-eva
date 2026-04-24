@@ -1,0 +1,93 @@
+Title: HyDrop Bead Generation & PCR Barcoding v1.0
+
+Description:
+Protocol for producing dissolvable barcoded hydrogel beads used in HyDrop experiments.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Hydrogel bead generation 
+
+## Step 2: Hydrogel bead generation 
+
+## Step 3: Hydrogel bead generation 
+
+## Step 4: Hydrogel bead generation 
+
+## Step 5: Hydrogel bead generation 
+
+## Step 6: Hydrogel bead generation 
+
+## Step 7: Buffer mixing
+
+## Step 8: Barcoded bead synthesis: clean-up
+
+## Step 9: Barcoded bead synthesis: clean-up
+
+## Step 10: Barcoded bead synthesis: clean-up
+
+## Step 11: Barcoded bead synthesis: clean-up
+
+## Step 12: Barcoded bead synthesis: clean-up
+
+## Step 13: Barcoding
+
+## Step 14: Barcoding
+
+## Step 15: Barcoding
+
+## Step 16: Barcoding
+
+## Step 17: Barcoding
+
+## Step 18: Barcoding
+
+## Step 19: Barcoding
+
+## Step 20: Barcoding
+
+## Step 21: Barcoding
+
+## Step 22: Barcoding
+
+## Step 23: Barcoding
+
+## Step 24: Barcoding
+
+## Step 25: Barcoding
+
+## Step 26: Barcoding
+
+## Step 27: Barcoding
+
+## Step 28: Barcoding
+
+## Step 29: Barcoding
+
+## Step 30: Barcoding
+
+## Step 31: Barcoding
+
+## Step 32: Barcoding
+
+## Step 33: Barcoding
+
+## Step 34: Barcoding
+
+## Step 35: Barcoding
+
+## Step 36: Bead freezing
+
+## Step 37: Bead freezing
+
+## Step 38: Bead freezing
+
+## Step 39: Bead freezing
+
+## Step 40: Bead freezing
+
+## Step 41: Bead freezing
+
+## Step 42: Bead freezing
+
+## Step 43: Bead freezing

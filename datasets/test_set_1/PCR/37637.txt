@@ -1,0 +1,14 @@
+Title: Automated 96-well PCR Purification
+
+Description:
+This protocol describes a fully-automated PCR cleanup in a 96-well PCR plate format with AMPure XP beads on an Eppendorf epMotion. Multichannel pipetting with the 300 uL and 50 uL pipettes is used. It is designed to use the thermomixer module; however, this can be replaced by modifying the program to mix by pipetting. The bead magnet used in this program is a Alpaqua Low Elution Magnet Plate. We also use Eppendorf twin.tec PCR plates (LoBind, skirted, 150uL).  
+IMPORTANT: The program is currently set to add   of water to each well followed by   beads. This results in an approximately 1:1.5 bead ratio with a starting volume of   PCR product. Modify the first step accordingly with your starting volume and desired bead ratio.
+The manufacturer's instructions are found here: https://www.beckmancoulter.com/wsrportal/techdocs?docname=B37419
+The epMotion program is attached here.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+

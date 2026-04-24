@@ -1,0 +1,29 @@
+Title: Protein Digestion with S-trap Spin Columns using Conditioned Concentrated Media
+
+Description:
+Trypsin digestion of isolated proteins using S-trap Spin columns in preparation for downstream proteomic profiling. 
+For trypsin digestion of proteins from conditioned media Step 1 is modified as we add a volume of media rather than a concentration of protein homogenate. Step 6 is modified because we use S-trap micro spin columns as conditioned concentrated media samples contain ≤ 100 μg of protein. In step 14 and 16 we use 2 μg sequencing-grade trypsin instead of the usual 1:25 (wt/wt) trypsin/protein ratio.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

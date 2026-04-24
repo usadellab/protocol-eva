@@ -1,0 +1,67 @@
+Title: Detection of arboviruses in salivary glands and midgut of mosquitoes vector
+
+Description:
+Dengue, Zika and chikungunya viruses are widely disseminated in Brazil and cause infections in humans, with similar clinical manifestations of varying intensity, with relevance in the context of public health.These diseases are mainly transmitted by mosquitoes of the genus Aedes. Therefore, monitoring the circulation of these arboviruses in vectors is a crucial step in epidemiological surveillance. In this protocol, adult mosquitoes were dissected to extract the salivary glands and midgut, which are structures directly associated with viral replication and transmission. These structures were inoculated into cells of the C6/36 lineage of Aedes albopictus for amplification and viral isolation. Our main objective was to develop and evaluate an experimental technical protocol in adult mosquitoes with the aim of enhancing the detection and characterization of these arboviruses.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Before starting
+
+## Step 2: Mosquitoes dissection
+
+## Step 3: Mosquitoes dissection
+
+## Step 4: Mosquitoes dissection
+
+## Step 5: Mosquitoes dissection
+
+## Step 6: Mosquitoes dissection
+
+## Step 7: Mosquitoes dissection
+
+## Step 8: Mosquitoes dissection
+
+## Step 9: Mosquitoes dissection
+
+## Step 10: Mosquitoes dissection
+
+## Step 11: Mosquitoes dissection
+
+## Step 12: Mosquitoes dissection
+
+## Step 13: Cell culture
+
+## Step 14: Cell culture
+
+## Step 15: Cell culture
+
+## Step 16: Cell culture
+
+## Step 17: Cell culture
+
+## Step 18: Cell culture
+
+## Step 19: Cell culture
+
+## Step 20: Cell culture
+
+## Step 21: Cell culture
+
+## Step 22: Cell culture
+
+## Step 23: Cell culture
+
+## Step 24: Cell culture
+
+## Step 25: Cell culture
+
+## Step 26: Arbovirus Molecular identification
+
+## Step 27: Arbovirus Molecular identification
+
+## Step 28: Arbovirus Molecular identification
+
+## Step 29: Arbovirus Molecular identification
+
+## Step 30: Arbovirus Molecular identification

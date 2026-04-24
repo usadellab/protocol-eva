@@ -1,0 +1,53 @@
+Title: Annonaceae DNA extraction protocol from silicagel dried and herbarium preserved leaves
+
+Description:
+This protocol is used for DNA extraction of samples from the tropical plant family Annonaceae for leaves dried using silicagel or sampled from herbarium sheets. This protocol is made for generation of small to long fragments (depending quality of sample) to prepare NGS libraries.
+This protocol is designed to extract DNA in  batches of 48 samples, but this can also be undertaken in 2 times 48 (96) samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Leaf grinding
+
+## Step 2: Leaf grinding
+
+## Step 3: Lysis buffer preparation and lysis
+
+## Step 4: Lysis buffer preparation and lysis
+
+
+
+## Step 7: Chloroform DNA Isolation
+
+## Step 8: Chloroform DNA Isolation
+
+
+## Step 10: Chloroform DNA Isolation
+
+## Step 11: Chloroform DNA Isolation
+
+## Step 12: DNA precipitation
+
+## Step 13: Washing DNA 
+
+## Step 14: DNA precipitation
+
+## Step 15: Washing DNA 
+
+## Step 16: DNA elution
+
+## Step 17: DNA quantification
+
+## Step 18: Expected result
+
+## Step 19: DNA elution
+
+## Step 20: DNA quality check on gel
+
+## Step 21: DNA conservation 
+
+## Step 22: Chloroform DNA Isolation
+
+## Step 23: Chloroform DNA Isolation
+
+## Step 24: Leaf grinding

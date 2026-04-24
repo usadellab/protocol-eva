@@ -1,0 +1,28 @@
+Title: Bacterial Transformation
+
+Description:
+This protocol explains how to transform a plasmid DNA template into competent bacterial cells which are then cultivated. The DNA is then purified from the cells using a miniprep kit.
+The competent cells used in this protocol come from the NEB®10-beta Competent E. coli  kit. This protocol was adapted from the one provided with the cells.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA Transformation
+
+## Step 2: DNA Transformation
+
+## Step 3: DNA Transformation
+
+## Step 4: DNA Transformation
+
+## Step 5: DNA Transformation
+
+## Step 6: DNA Transformation
+
+## Step 7: DNA Transformation
+
+## Step 8: DNA Transformation
+
+## Step 9: DNA Transformation
+
+## Step 10: DNA Miniprep

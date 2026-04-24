@@ -1,0 +1,39 @@
+Title: TSS competent cells and transformation 
+
+Description:
+This protocol allows the efficient transformation of plasmid into E. coli and related strains.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing competent cells
+
+## Step 2: Preparing competent cells
+
+## Step 3: Preparing competent cells
+
+## Step 4: Preparing competent cells
+
+## Step 5: Transformation protocol
+
+## Step 6: Transformation protocol
+
+## Step 7: Preparing competent cells
+
+## Step 8: Preparing competent cells
+
+## Step 9: Preparing competent cells
+
+## Step 10: Transformation protocol
+
+## Step 11: Transformation protocol
+
+## Step 12: Preparing competent cells
+
+## Step 13: Preparing competent cells
+
+## Step 14: Transformation protocol
+
+## Step 15: Transformation protocol
+
+## Step 16: Transformation protocol

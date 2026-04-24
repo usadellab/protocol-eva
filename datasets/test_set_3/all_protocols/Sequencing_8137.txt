@@ -1,0 +1,14 @@
+Title: Laboratory Diagnosis of Bacterial Keratitis in Alexandria Main University Hospital
+
+Description:
+INTRODUCTION: Blindness is and, apparently always has been, a problem in Egypt. Corneal blindness is a major public health problem worldwide according to the World Health Organization (WHO), which estimated that in every year, about 1.5–2.0 million new cases of monocular blindness in developing countries is secondary to corneal ulceration. Bacterial keratitis, because of its high incidence and potential complications, is one of the most threatening ocular infectious pathologies that can lead to severe visual disability or corneal perforations. To help avoiding the specific therapy risks of disease progression and the microbiological investigations being incomplete or misleading, other organisms as virus, fungi, and Acanthamoeba should be considered.
+OBJECTIVES: To isolate and identify different bacterial agents causing keratitis and identify factors associated with bacterial keratitis.
+SUBJECTS AND METHODS: This cross-sectional study was carried out to identify causative pathogens and to determine the demographic characteristics, predisposing factors of keratitis (corneal ulcer) and presenting at tertiary care hospitals in Alexandria, Egypt. A total of 100 cases were examined, samples (corneal swab and scrapings) were collected from clinically diagnosed corneal ulcer patients attending Ophthalmology outpatient clinic of Alexandria Main University Hospital from August, 2014 to May, 2015.  Samples were processed by corneal smear microscopy (potassium hydroxide and Gram stains) and culture examination (5% sheep blood agar, sheep blood chocolate agar, Sabouraud dextrose agar and brain heart infusion).
+
+
+=== PROTOCOL STEPS ===
+
+
+=== MATERIALS ===
+- brain Heart Infusion Broth
+- blood agar base

@@ -1,0 +1,35 @@
+Title: Protocol for preparing seagrass-microbiome samples for DNA extraction
+
+Description:
+This protocol details methods for preparing seagrass-asscociated microbiome samples for DNA extraction.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Weighing samples:
+
+## Step 2: Weighing samples:
+
+## Step 3: Weighing samples:
+
+## Step 4: Weighing samples:
+
+## Step 5: Epiphyte washes
+
+## Step 6: Epiphyte washes
+
+## Step 7: Epiphyte washes
+
+## Step 8: Endophyte sterilization
+
+## Step 9: Endophyte sterilization
+
+## Step 10: Endophyte sterilization
+
+## Step 11: Endophyte sterilization
+
+## Step 12: Endophyte sterilization
+
+## Step 13: Endophyte sterilization
+
+## Step 14: Endophyte sterilization

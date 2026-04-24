@@ -1,0 +1,20 @@
+Title: UC Davis - Gut Microbiome Analysis (454-10K reads)
+
+Description:
+Summary: 
+The work of Gordon and colleagues (i.e., Nature. 2006 Dec 21;444(7122):1027-31) has shown that obesity can result in marked shifts in the gut microbiome in mice and other models including humans. While the role of the microbiome remains to be fully elucidated, the gut microbiota can no longer be ignored as a potentially important factor when assessing metabolic phenotype. This service involves 16S gene variable region (V1-V3 or V3-V4 directed primers) sequencing by Titanium 454 (10,000 avg seq read depth) of feces, cecal, or other GI contents. Sequences can be processed through a bioinformatics pipeline (Qiime) to taxonomically classify them and to assess alpha and beta diversity of the community. In addition, Principal Components Analysis (PCA) or partial least squares- discriminant analysis (PLS-DA) can leverage variances in the relative microbial abundances to better understand how specific microbes contribute to separation by group. Correlational analyses can identify which variables of host metadata associate with specific microbes. The Core’s gut microbiome assay will employ this approach to uncover unique microbiota fingerprints in test mice. One caveat is that with fecal samples, patterns are only a surrogate for actual gut microbiota patterns, and may not exactly reflect the intestinal populations.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+

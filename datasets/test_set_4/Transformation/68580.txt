@@ -1,0 +1,50 @@
+Title: Transforming Yeast (Instructor Protocol)
+
+Description:
+This is the instructor protocol for 
+The yeast transformation is adapted from Geitz and Schiestl:
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare 250 ml of 2xYPD media
+
+## Step 2: Prepare 250 ml of 2xYPD media
+
+## Step 3: Prepare 250 ml of 2xYPD media
+
+## Step 4: Prepare frozen competent cell (FCC) solution
+
+## Step 5: Prepare 250 ml of 2xYPD media
+
+## Step 6: Prepare frozen competent cell (FCC) solution
+
+## Step 7: Prepare competent yeast cells
+
+## Step 8: Prepare competent yeast cells
+
+## Step 9: Prepare competent yeast cells
+
+## Step 10: Prepare competent yeast cells
+
+## Step 11: Prepare competent yeast cells
+
+## Step 12: Prepare competent yeast cells
+
+## Step 13: Prepare competent yeast cells
+
+## Step 14: Prepare competent yeast cells
+
+## Step 15: Prepare competent yeast cells
+
+## Step 16: Miscellaneous preparation
+
+## Step 17: Miscellaneous preparation
+
+## Step 18: Instructor Tips &amp; Common Student Errors
+
+## Step 19: Prepare dropout media
+
+## Step 20: Prepare dropout media
+
+## Step 21: Instructor Tips &amp; Common Student Errors

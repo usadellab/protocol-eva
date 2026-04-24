@@ -1,0 +1,21 @@
+Title: Protocols Suite — SH-SY5Y / iCell® Neurons / High-Content Imaging
+
+Description:
+Routine maintenance of SH-SY5Y cells and SH-SY5Y lines overexpressing 1K/2K/3K-SNCA in DMEM/F-12 with GlutaMAX, 10% FBS, and 1× Pen/Strep.
+Differentiation of SH-SY5Y (WT or 3K-SNCA) using retinoic acid (RA) plus BDNF to generate neuron-like cells for downstream assays.
+Culture of iCell® DopaNeurons with heterozygous SNCA p.A53T (Fujifilm CDI R1109) and isogenic control (R1088) using vendor media; optional 7-day compound treatment with half-medium changes.
+Short-term (24 h) and extended (7-day) treatments in SH-SY5Y and iCell® neurons.
+Fixation, permeabilisation, and immunostaining for α-syn, pSer129 α-syn, TFEB, GBA, LAMP1; DAPI nuclear stain; acquisition on Opera Phenix® Plus; analysis in Harmony/Columbus.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure — Staining
+
+## Step 2: Procedure — High-Content Imaging (Opera Phenix® Plus)
+
+## Step 3: Procedure — Image Analysis (Columbus/Harmony)
+
+## Step 4: Expected results
+
+## Step 5: Troubleshooting

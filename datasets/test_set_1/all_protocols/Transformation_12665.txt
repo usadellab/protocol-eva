@@ -1,0 +1,21 @@
+Title: Gait analysis using augmented reality markers
+
+Description:
+The protocol provides guidelines, preparation and execution instructions to perform and process a gait analysis trial by a novel motion capture method using virtually calibrated anatomical points tracked by augmented reality (AR) markers.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- GoPro Hero 5 Black action camera
+- AprilTag AR marker detection software
+- Custom software to perform homogeneous coordinate transformation to calculate the coordinates of the calibrated anatomical points relative to the AR markers
+- AprilTag markers rigidly attached to a rigid bent plate (e.g. commercial shin protectors) that are fixed on the body segments using wide elastic bands
+- OpenSim biomechanical analysis software

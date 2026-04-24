@@ -1,0 +1,53 @@
+Title: Labyrinthulomycete total RNA extraction protocol - hot phenol
+
+Description:
+Modified from Lippmeier et al. 2009; developed as part of the labyrinthulomycete JGI Community Sequencing Project and Gordon and Betty Moore Foundation Marine Microbial Eukaryote Transcriptome Sequencing Project (MMETSP)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing biomass and reagents
+
+## Step 2: Preparing biomass and reagents
+
+## Step 3: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 4: Precipitation steps
+
+## Step 5: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 6: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 7: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 8: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 9: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 10: Extraction steps - REPEAT 3 TIMES (do 3 extractions)
+
+## Step 11: Precipitation steps
+
+## Step 12: Precipitation steps
+
+## Step 13: Precipitation steps
+
+## Step 14: Precipitation steps
+
+## Step 15: Precipitation steps
+
+## Step 16: Optional cleanup steps
+
+## Step 17: Optional cleanup steps
+
+## Step 18: Optional cleanup steps
+
+## Step 19: Optional cleanup steps
+
+## Step 20: Optional cleanup steps
+
+## Step 21: Optional cleanup steps
+
+## Step 22: Optional cleanup steps
+
+## Step 23: Optional cleanup steps

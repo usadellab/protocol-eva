@@ -1,0 +1,57 @@
+Title: SCoPE2
+
+Description:
+Protocol for preparing single cells for mass-spec analysis by SCoPE2 as described by Specht et al., doi: 10.1101/665307 (2019) and Specht et al., Genome Biology, doi: 10.1186/s13059-021-02267-5 (2021). 
+For a detailed protocol paper, see
+Petelski A, Emmott E, Leduc A, Huffman RG, Specht H, Perlman D, Slavov N (2021)
+Multiplexed single-cell proteomics using SCoPE2
+Nature Protocols (in press) 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare 384-well plate(s) for sorting single cells
+
+
+## Step 3: Cell sorting
+
+## Step 4: Bulk cells: Carrier and reference channel preparation
+
+## Step 5: Bulk cells: Carrier and reference channel preparation
+
+## Step 6: Bulk cells: Carrier and reference channel preparation
+
+## Step 7: Bulk cells: Carrier and reference channel preparation
+
+## Step 8: Bulk cells: Carrier and reference channel preparation
+
+## Step 9: Bulk cells: Carrier and reference channel preparation
+
+## Step 10: Bulk cells: Carrier and reference channel preparation
+
+## Step 11: Bulk cells: Carrier and reference channel preparation
+
+## Step 12: Bulk cells: Carrier and reference channel preparation
+
+## Step 13: Bulk cells: Carrier and reference channel preparation
+
+## Step 14: Bulk cells: Carrier and reference channel preparation
+
+## Step 15: Bulk cells: Carrier and reference channel preparation
+
+## Step 16: Single cell: mPOP Lysis
+
+## Step 17: Single cell: Digestion and Labeling
+
+
+
+
+
+
+
+
+
+
+
+
+

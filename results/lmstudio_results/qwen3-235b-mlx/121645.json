@@ -1,0 +1,185 @@
+{
+  "protocol_id": "121645",
+  "protocol_name": "Bioinformatics - 121645",
+  "category": "Bioinformatics",
+  "original_steps": 12,
+  "success": true,
+  "latency_s": 34.9,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 77.5,
+    "extracted_steps": 12,
+    "original_steps": 12
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Sample_2",
+        "organism": "",
+        "characteristics": []
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Step 1",
+        "description": "",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 2 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 2",
+        "description": "",
+        "inputs": [
+          "Step 2 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 3 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 3",
+        "description": "",
+        "inputs": [
+          "Step 3 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 4 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 4",
+        "description": "",
+        "inputs": [
+          "Step 4 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 5 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 5",
+        "description": "",
+        "inputs": [
+          "Step 5 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 6 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 6",
+        "description": "",
+        "inputs": [
+          "Step 6 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 7 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 7",
+        "description": "",
+        "inputs": [
+          "Step 7 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Step 8 Input"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 8",
+        "description": "",
+        "inputs": [
+          "Step 8 Input"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Final Output"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 9",
+        "description": "Timing information for the protocol steps.",
+        "inputs": [],
+        "parameters": [
+          {
+            "name": "Timing",
+            "value": "",
+            "unit": "",
+            "description": "Duration or time points associated with the protocol steps."
+          }
+        ],
+        "outputs": [],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 10",
+        "description": "Anticipated results from the RNA-seq analysis pipeline.",
+        "inputs": [],
+        "parameters": [
+          {
+            "name": "Expected Output",
+            "value": "Lists of differentially expressed genes",
+            "unit": "",
+            "description": "The pipeline reports lists of genes found to be differentially expressed in comparisons of different cell types."
+          }
+        ],
+        "outputs": [
+          "Final Output"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 11",
+        "description": "Additional declarations related to the protocol.",
+        "inputs": [],
+        "parameters": [],
+        "outputs": [],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 12",
+        "description": "Associated publications for the protocol.",
+        "inputs": [],
+        "parameters": [
+          {
+            "name": "Reference",
+            "value": "[1] Subread read alignment; [2] featureCounts read summarization; [3] voom normalization; [4] empirical Bayes moderated t-statistic",
+            "unit": "",
+            "description": "Citations for the analysis modules used in the pipeline."
+          }
+        ],
+        "outputs": [],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

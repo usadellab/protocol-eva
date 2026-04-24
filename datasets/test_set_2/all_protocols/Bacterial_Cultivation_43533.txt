@@ -1,0 +1,63 @@
+Title: CeMbio Screen 96WP
+
+Description:
+Protocol for behavioural screening of Caenorhabditis elegans response to bacteria from its natural microbiome (CeMbio)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing worms
+
+## Step 2: Preparing worms
+
+## Step 3: Preparing worms
+
+## Step 4: Preparing worms
+
+## Step 5: Making LB NGM agar imaging plates (96WP)
+
+## Step 6: Making LB NGM agar imaging plates (96WP)
+
+## Step 7: Making LB NGM agar imaging plates (96WP)
+
+## Step 8: Inoculating bacterial cultures (96WP)
+
+## Step 9: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 10: Dispensing Day1 worms onto seeded plates using COPAS (96WP)
+
+## Step 11: Tracking using Hydra rigs
+
+## Step 12: Tracking using Hydra rigs
+
+## Step 13: Tracking using Hydra rigs
+
+## Step 14: Inoculating bacterial cultures (96WP)
+
+## Step 15: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 16: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 17: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 18: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 19: Making LB NGM agar imaging plates (96WP)
+
+## Step 20: Making LB NGM agar imaging plates (96WP)
+
+## Step 21: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 22: Dispensing Day1 worms onto seeded plates using COPAS (96WP)
+
+## Step 23: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 24: Preparing worms
+
+## Step 25: Dispensing Day1 worms onto seeded plates using COPAS (96WP)
+
+## Step 26: Seeding bacterial lawns with ViaFlo (96WP)
+
+## Step 27: Dispensing Day1 worms onto seeded plates using COPAS (96WP)
+
+## Step 28: Dispensing Day1 worms onto seeded plates using COPAS (96WP)

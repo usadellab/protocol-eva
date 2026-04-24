@@ -1,0 +1,54 @@
+Title: Generating chemically competent (E. coli) cells
+
+Description:
+Protocol for generating chemically compotent (ie. for heat shock transformation) E. coli cells for transformation (e.g. heterologous protein expression, cloning).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare solutions A and B
+
+## Step 2: Prepare solutions A and B
+
+## Step 3: Prepare solutions A and B
+
+## Step 4: Generate compotent cells
+
+## Step 5: Generate compotent cells
+
+## Step 6: Generate compotent cells
+
+## Step 7: Generate compotent cells
+
+## Step 8: Generate compotent cells
+
+## Step 9: Generate compotent cells
+
+## Step 10: Generate compotent cells
+
+## Step 11: Generate compotent cells
+
+## Step 12: Generate compotent cells
+
+## Step 13: Generate compotent cells
+
+## Step 14: Generate compotent cells
+
+## Step 15: Generate compotent cells
+
+## Step 16: Generate compotent cells
+
+=== MATERIALS ===
+- MOPS
+- Luria-Bertani (LB) broth, makes 1L
+- Magnesium Chloride
+- 37˚C Incubator
+- 100 Assay Cuvettes, 1.0ml
+- Refrigerated centrifuge for conical tubes 50 ml
+- Glycerol
+- BL21(DE3) or BL21-Star(DE3) or Rosetta2(DE3) or etc for protein purification
+- Falcon® Conical Tubes, 50 mL 500 Tubes
+- 8-10 sterile 50 mL conical tubes
+- Sodium hydroxide
+- EMD Millipore™ Stericup™ Sterile Vacuum Filter Units
+- UV/Vis spectrophotometer

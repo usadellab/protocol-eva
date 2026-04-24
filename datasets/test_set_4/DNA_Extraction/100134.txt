@@ -1,0 +1,42 @@
+Title: Sanger Tree of Life HMW DNA Extraction: Automated Nucleated Blood Nanobind®
+
+Description:
+This protocol describes the automated extraction of HMW DNA from nucleated blood samples intended for long-read sequencing using the Nanobind® tissue kit and the Thermo Fisher KingFisher™ Apex. It follows the "Nanobind® HMW DNA Extraction from 5 μL nucleated red blood cell on KingFisher Apex" R&D protocol, which was developed by Pacific Biosciences and validated by the Tree of Life Core Laboratory using bird, fish and reptile nucleated blood samples. This process is effective for any species with nucleated blood within the chordate group, covered by the Tree of Life Programme, however difficulties can arise with samples where preservation has not been optimal. In addition to allowing a higher throughput of nucleated blood samples, this protocol is also particularly beneficial for nucleated blood samples where clumping has occurred, with higher yields obtained compared to processing them using the Manual Nucleated Blood Nanobind® protocol. The output of this protocol is HMW DNA of high quality and quantity, which can be directed towards the HMW DNA Fragmentation: Diagenode Megaruptor®3 for LI PacBio protocol.
+Acronyms:
+HMW: high-molecular weight
+LI: low input
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Laboratory Protocol
+
+## Step 2: Laboratory Protocol
+
+## Step 3: Laboratory Protocol
+
+## Step 4: Laboratory Protocol
+
+## Step 5: Laboratory Protocol
+
+## Step 6: Laboratory Protocol
+
+## Step 7: Laboratory Protocol
+
+## Step 8: Laboratory Protocol
+
+## Step 9: Laboratory Protocol
+
+## Step 10: Laboratory Protocol
+
+## Step 11: Laboratory Protocol
+
+## Step 12: Laboratory Protocol
+
+## Step 13: Laboratory Protocol
+
+## Step 14: Laboratory Protocol
+
+## Step 15: Laboratory Protocol
+
+## Step 16: Laboratory Protocol

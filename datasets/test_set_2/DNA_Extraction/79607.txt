@@ -1,0 +1,71 @@
+Title: Isolation of HMW gDNA from a bioreactor biofilm for long read sequencing 
+
+Description:
+This protocol describes isolation of HMW DNA for long read sequencing from a bioreactor biofilm. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Storing bioreactor biofilm
+
+## Step 2: Storing bioreactor biofilm
+
+## Step 3: Storing bioreactor biofilm
+
+## Step 4: Storing bioreactor biofilm
+
+## Step 5: Disrupting the biofilm
+
+## Step 6: Disrupting the biofilm
+
+## Step 7: Disrupting the biofilm
+
+## Step 8: Disrupting the biofilm
+
+## Step 9: Extract the pellet 
+
+## Step 10: Extract the pellet 
+
+## Step 11: Extract the pellet 
+
+## Step 12: Extract the pellet 
+
+## Step 13: Extract the pellet 
+
+## Step 14: Extract the pellet 
+
+## Step 15: Extract the pellet 
+
+## Step 16: Extract the pellet 
+
+## Step 17: Extract the pellet 
+
+## Step 18: Extract the pellet 
+
+## Step 19: Extract the pellet 
+
+## Step 20: Extract the pellet 
+
+## Step 21: Extract the pellet 
+
+## Step 22: Extract the pellet 
+
+## Step 23: Extract the pellet 
+
+## Step 24: Extract the pellet 
+
+## Step 25: Extract the pellet 
+
+## Step 26: Extract the pellet 
+
+## Step 27: Extract the pellet 
+
+## Step 28: Extract the pellet 
+
+## Step 29: Extract the pellet 
+
+## Step 30: Extract the pellet 
+
+## Step 31: Extract the pellet 
+
+## Step 32: Extract the pellet 

@@ -1,0 +1,35 @@
+Title: Borrelia burgdorferi ospC Genotyping Using Luminex Technology
+
+Description:
+Borrelia burgdorferi is an important tickborne human pathogen and can be grouped into separate strains based on the outer surface protein C (ospC) gene. The detection and characterization of different ospC genotypes is vital for research on B. burgdorferi and the risk it poses to humans. Here we present a novel, multiplex assay based on Luminex xMAP technology for the detection of B. burgdorferi ospC genotypes. The assay has 5 major steps: amplification of the ospC gene, enzymatic purification, incorporation of biotinylated nucleotides into the template DNA, hybridization to Luminex microspheres, and detection of fluorescent signals corresponding to each ospC genotype. This protocol can be used for the characterization of ospC genotypes in B. burgdorferi infected ticks, reservoir hosts, and/or clinical samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PREPARING SOLUTIONS
+
+## Step 2: PREPARING SOLUTIONS
+
+## Step 3: PREPARING SOLUTIONS
+
+## Step 4: PREPARING SOLUTIONS
+
+## Step 5: NESTED PCR
+
+## Step 6: NESTED PCR
+
+## Step 7: NESTED PCR
+
+## Step 8: EXOSAP-IT
+
+## Step 9: ALLELE SPECIFIC PRIMER EXTENSION (ASPE)
+
+## Step 10: BEAD HYBRIDIZATION
+
+## Step 11: ANALYSIS ON MAGPIX
+
+## Step 12: PREPARING SOLUTIONS
+
+## Step 13: ANALYSIS ON MAGPIX
+
+## Step 14: DATA ANALYSIS

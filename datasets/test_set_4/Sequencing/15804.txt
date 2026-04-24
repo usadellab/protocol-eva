@@ -1,0 +1,18 @@
+Title: Protocol of sampling of feces in preterm infants
+
+Description:
+This protocol refer to a study having the aim to study on the variation of gut microbiota in preterm infants in the process of feeding intolerance after birth.
+In this study, fecal samples were collected from the preterm infants for several times and performed on the bacterial DNA extraction,PCR amplification in the lab, and 16S rRNA sequencing on the Miseq PE300 of the Illumina Platform.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Fecal sampling
+
+## Step 2: DNA extraction
+
+## Step 3: PCR
+
+## Step 4: 16S rRNA sequencing
+
+## Step 5: Data analysis

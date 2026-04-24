@@ -1,0 +1,18 @@
+{
+  "protocol_id": "11015",
+  "protocol_name": "RNA_Extraction - 11015",
+  "category": "RNA_Extraction",
+  "original_steps": 23,
+  "success": false,
+  "latency_s": 164.47,
+  "evaluation": {
+    "overall": 0,
+    "notes": "JSON parse failed"
+  },
+  "raw_output": {
+    "error": "Expecting value: line 311 column 22 (char 8620)",
+    "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"Arabidopsis_Silique\",\n      \"organism\": \"Arabidopsis thaliana\",\n      \"characteristics\": [\n        {\n          \"category\": \"tissue\",\n          \"value\": \"silique\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Tobacco_Fruit\",\n      \"organism\": \"Nicotiana tabacum\",\n      \"characteristics\": [\n        {\n          \"category\": \"tissue\",\n          \"value\": \"fruit tissue\",\n          \"uni"
+  },
+  "json_valid": false,
+  "error": "Expecting value: line 311 column 22 (char 8620)"
+}

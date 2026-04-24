@@ -1,0 +1,67 @@
+Title: CRISPR/Cas9 gene editing in hiPSC
+
+Description:
+This protocol is adapted from Skarnes et al., 2019 and describes the steps to follow for knocking-in point mutation via CRISP/Cas9 in humain inducible pluripotent cells (hiPSC)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: A. Pre-nucleofection
+
+## Step 2: A. Pre-nucleofection
+
+## Step 3: A. Pre-nucleofection
+
+## Step 4: A. Pre-nucleofection
+
+## Step 5: B.	Pre-assembly of Cas9 RNP
+
+## Step 6: B.	Pre-assembly of Cas9 RNP
+
+## Step 7: B.	Pre-assembly of Cas9 RNP
+
+## Step 8: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 9: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 10: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 11: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 12: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 13: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 14: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 15: C.	Delivery of Cas9 RNP and ssODN using Nucleofector
+
+## Step 16: D. Plating single cells to isolated clones
+
+## Step 17: D. Plating single cells to isolated clones
+
+## Step 18: D. Plating single cells to isolated clones
+
+## Step 19: D. Plating single cells to isolated clones
+
+## Step 20: E. Picking single cell-derived clones
+
+## Step 21: E. Picking single cell-derived clones
+
+## Step 22: E. Picking single cell-derived clones
+
+## Step 23: E. Picking single cell-derived clones
+
+## Step 24: E. Picking single cell-derived clones
+
+## Step 25: E. Picking single cell-derived clones
+
+## Step 26: F. Genomic DNA extraction from 96-well plates
+
+## Step 27: F. Genomic DNA extraction from 96-well plates
+
+## Step 28: F. Genomic DNA extraction from 96-well plates
+
+## Step 29: F. Genomic DNA extraction from 96-well plates
+
+## Step 30: F. Genomic DNA extraction from 96-well plates

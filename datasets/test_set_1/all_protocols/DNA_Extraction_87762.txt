@@ -1,0 +1,45 @@
+Title: DNA extraction v9.0 (modified BOMB)
+
+Description:
+DNA extraction using yttria-stabilized zirconia beads lysing and automated magnetic bead-based extraction.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample Collection
+
+## Step 2: Sample Collection
+
+## Step 3: Sample Collection
+
+## Step 4: Sample Collection
+
+## Step 5: Sample lysis
+
+## Step 6: Centrifugation
+
+## Step 7: DNA extraction
+
+## Step 8: DNA purification
+
+## Step 9: DNA extraction
+
+## Step 10: DNA extraction
+
+## Step 11: DNA extraction
+
+## Step 12: DNA extraction
+
+## Step 13: DNA extraction
+
+## Step 14: DNA extraction
+
+## Step 15: gDNA collection
+
+## Step 16: DNA extraction
+
+## Step 17: gDNA collection
+
+## Step 18: DNA extraction
+
+## Step 19: Program settings

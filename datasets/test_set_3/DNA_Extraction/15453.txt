@@ -1,0 +1,28 @@
+Title: DNA extraction protocol for Cryptosporidium spps in stool samples (Adapted from GF-1 Soil Sample DNA extraction Kit)
+
+Description:
+The GF-1 Soil Sample DNA Extraction Kit is designed for the rapid and efficient purification of bacteria DNA from soil samples without the need for precipitation or organic extraction. The kit uses a high pure specially-treated silica-based material fixed into a column to efficiently bind DNA in the presence of high salt. The kit applies the principle of a minicolumn spin technology and the use of optimized buffers to ensure that only DNA is isolated while cellular protein, humic acid, metabolites, salts and other low molecular weight impurities are removed during the subsequent washing steps. We used this protocol for Cryptosporidium spp DNA extraction from stool samples with minor modifications and its working.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lysis
+
+## Step 2: DNA Solubilization
+
+## Step 3: DNA Precipitation 
+
+## Step 4: Protein digestion 
+
+## Step 5: DNA wash and purification 
+
+## Step 6: Elution of DNA and storage
+
+=== MATERIALS ===
+- Centrifuges 5810 R
+- Micropipetes tips
+- GF-1 Soil sample DNA extraction Kit
+- Water bath at 70 oC
+- Micropippets (2-20 ul, 50-250ul, 100-1000ul)
+- Eppendorf tubes (1.5 & 2.0 ml)
+- Vertex mixer

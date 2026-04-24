@@ -1,0 +1,39 @@
+Title: Cynomolgus and Chinese rhesus macaque genome assembly and analysis
+
+Description:
+cynomolgus and Chinese rhesus macaque sequencing, assembly and analyse
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: SOAP denovo assembly
+
+## Step 2: Procedure: SOAP denovo assembly
+
+## Step 3: Procedure: SOAP denovo assembly
+
+## Step 4: Procedure: SOAP denovo assembly
+
+## Step 5: Procedure: SOAP denovo assembly
+
+## Step 6: Procedure: SOAP denovo assembly
+
+## Step 7: Procedure: SOAP denovo assembly
+
+## Step 8: Procedure: SOAP denovo assembly
+
+## Step 9: Procedure: RNA-seq sequencing
+
+## Step 10: Procedure: RNA-seq sequencing
+
+## Step 11: Procedure: RNA-seq sequencing
+
+## Step 12: Procedure: RNA-seq sequencing
+
+## Step 13: Procedure: Gene prediction
+
+## Step 14: Procedure: Assembly quality validation in neutral mode
+
+## Step 15: Additional Declarations
+
+## Step 16: Associated Publications

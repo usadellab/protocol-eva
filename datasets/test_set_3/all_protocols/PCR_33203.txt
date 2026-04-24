@@ -1,0 +1,29 @@
+Title: Acid nucleic extraction from rice dried leaves 
+
+Description:
+Acid nucleic extraction of rice dried leaves by a CTAB method adapted from Li et al 2008.
+ Li R, Mock R, Huang Q, Abad J, Hartung J, Kinard G. A reliable and inexpensive method of nucleic acid extraction for the PCR-based detection of diverse plant pathogens. Journal of Virological Methods. 2008;154(1):48-55. doi: 10.1016/j.jviromet.2008.09.008.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- TE buffer
+- Isopropanol
+- NaCl
+- Hexadecyltrimethylammonium bromide (CTAB)
+- 1 M Tris/HCl Stock Solution (dissolved Tris base adjusted to pH 8.0 with HCl)
+- Chloroform: Isoamyl Alcohol (24:1)
+- Polyvinylpyrrolidone
+- ethanol
+- sodium bisulfite 
+- Na2EDTA

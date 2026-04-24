@@ -1,0 +1,16 @@
+Title: LIPID-MEDIATED TRANSFECTION OF iPSCs (Basic Protocol 2)
+
+Description:
+This protocol describes the lipid-mediated transfection of iPSCs maintained in E8 medium on Matrigel. While several lipid-based transfection reagents are commercially available, Lipofectamine Stem is used here because it is specifically optimized for delivery of DNA plasmids into hiPSCs. If preferred, similar results may also be achieved by electroporation or nucleofection, and other lipid reagents are available for in vitro-transcribed RNA or in vitro-translated ribonucleoproteins (RNPs). Furthermore, while this protocol provides the steps for a general transfection, specific details are provided below regarding insertion of the transgene cassettes relevant for neural differentiation (See Basic Protocols 5 and 7).
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+{
+  "protocol_id": "103062",
+  "protocol_name": "DNA_Extraction - 103062",
+  "category": "DNA_Extraction",
+  "original_steps": 8,
+  "success": true,
+  "latency_s": 8.58,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 77.5,
+    "extracted_steps": 8,
+    "original_steps": 8
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Marine_Virus_Lysate",
+        "organism": "marine virus",
+        "characteristics": []
+      },
+      {
+        "name": "Clarified_Lysate",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Concentrated_Virus",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Purified_Virus",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Extracted_DNA",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Quantified_DNA",
+        "organism": "",
+        "characteristics": []
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Step 1: Lysate preparation",
+        "description": "Prepare the initial virus lysate from marine sample",
+        "inputs": [
+          "Marine_Virus_Lysate"
+        ],
+        "parameters": [
+          {
+            "name": "Initial volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume of lysate prepared"
+          },
+          {
+            "name": "Temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Incubation temperature during preparation"
+          }
+        ],
+        "outputs": [
+          "Clarified_Lysate"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 2: Viral clarification and concentration",
+        "description": "Clarify lysate by centrifugation and concentrate virus particles",
+        "inputs": [
+          "Clarified_Lysate"
+        ],
+        "parameters": [
+          {
+            "name": "Centrifugation speed",
+            "value": "",
+            "unit": "g",
+            "description": "Speed for clarification"
+          },
+          {
+            "name": "Centrifugation time",
+            "value": "",
+            "unit": "min",
+            "description": "Duration of clarification"
+          },
+          {
+            "name": "Concentration factor",
+            "value": "",
+            "unit": "x",
+            "description": "Factor by which virus is concentrated"
+          }
+        ],
+        "outputs": [
+          "Concentrated_Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 3: Viral clarification and concentration",
+        "description": "Repeat clarification and concentration to improve purity",
+        "inputs": [
+          "Concentrated_Virus"
+        ],
+        "parameters": [
+          {
+            "name": "Centrifugation speed",
+            "value": "",
+            "unit": "g",
+            "description": "Speed for second clarification"
+          },
+          {
+            "name": "Centrifugation time",
+            "value": "",
+            "unit": "min",
+            "description": "Duration of second clarification"
+          },
+          {
+            "name": "Concentration factor",
+            "value": "",
+            "unit": "x",
+            "description": "Second concentration factor"
+          }
+        ],
+        "outputs": [
+          "Purified_Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 4: Viral purification using linear sucrose gradient",
+        "description": "Load virus onto a linear sucrose density gradient and centrifuge to separate by buoyant density",
+        "inputs": [
+          "Purified_Virus"
+        ],
+        "parameters": [
+          {
+            "name": "Sucrose gradient range",
+            "value": "",
+            "unit": "% w/v",
+            "description": "Concentration range of sucrose in gradient"
+          },
+          {
+            "name": "Centrifugation speed",
+            "value": "",
+            "unit": "g",
+            "description": "Speed for gradient centrifugation"
+          },
+          {
+            "name": "Centrifugation time",
+            "value": "",
+            "unit": "h",
+            "description": "Duration of gradient centrifugation"
+          }
+        ],
+        "outputs": [
+          "Purified_Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 5: Viral purification using linear sucrose gradient",
+        "description": "Collect virus band from gradient and further purify",
+        "inputs": [
+          "Purified_Virus"
+        ],
+        "parameters": [
+          {
+            "name": "Band collection volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume of virus band collected"
+          },
+          {
+            "name": "Buffer exchange volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume for buffer exchange"
+          }
+        ],
+        "outputs": [
+          "Purified_Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 6: Viral purification using linear sucrose gradient",
+        "description": "Final polishing of virus preparation",
+        "inputs": [
+          "Purified_Virus"
+        ],
+        "parameters": [
+          {
+            "name": "Final centrifugation speed",
+            "value": "",
+            "unit": "g",
+            "description": "Speed for final purification"
+          },
+          {
+            "name": "Final centrifugation time",
+            "value": "",
+            "unit": "min",
+            "description": "Duration of final purification"
+          }
+        ],
+        "outputs": [
+          "Purified_Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 7: Extraction of DNA",
+        "description": "Extract viral genomic DNA from purified virus particles",
+        "inputs": [
+          "Purified_Virus"
+        ],
+        "parameters": [
+          {
+            "name": "Extraction buffer composition",
+            "value": "",
+            "unit": "",
+            "description": "Composition of the lysis/extraction buffer"
+          },
+          {
+            "name": "Incubation time",
+            "value": "",
+            "unit": "min",
+            "description": "Time for DNA extraction"
+          }
+        ],
+        "outputs": [
+          "Extracted_DNA"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Step 8: QuBit quantification using Qubit 4 fluorimeter",
+        "description": "Quantify extracted DNA using Qubit 4 fluorimeter",
+        "inputs": [
+          "Extracted_DNA"
+        ],
+        "parameters": [
+          {
+            "name": "Qubit kit used",
+            "value": "",
+            "unit": "",
+            "description": "Name of the Qubit kit"
+          },
+          {
+            "name": "Measurement volume",
+            "value": "",
+            "unit": "µL",
+            "description": "Volume of DNA sample measured"
+          }
+        ],
+        "outputs": [
+          "Quantified_DNA"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

@@ -1,0 +1,19 @@
+Title: Efficient DNA extraction from cytogenetic suspensions: a new possibility for obtaining DNA, with potential applications in studies of molecular markers
+
+Description:
+The protocol describes a DNA extraction method from cytogenetic suspensions fixed in Carnoy’s solution (methanol and acetic acid at a ratio of 3:1) and stored at -20°C for more than 10 years, involving enzymatic digestion, isopropanol precipitation, and ethanol washing. After the final resuspension, the extracted DNA is expected to show good integrity and purity, suitable for downstream molecular analyses such as PCR or sequencing.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+

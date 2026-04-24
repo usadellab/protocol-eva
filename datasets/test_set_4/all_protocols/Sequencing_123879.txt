@@ -1,0 +1,91 @@
+Title:  High Molecular Weight DNA Extraction from Actinomycetota
+
+Description:
+Actinomycetes are difficult to extract DNA from and excluding mechanical lysis makes it especially challenging. This protocol is a modified phenol-chloroform DNA extraction for extracting high molecular weight DNA from Actinomycetes for whole genome long-read sequencing and has been verified to produce extractions with an N50 of >30 kb. The main modifications include an Actinomycetes optimized lysis buffer and a PEG-based size selective precipitation step.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lysis
+
+## Step 2: Lysis
+
+## Step 3: Lysis
+
+## Step 4: Lysis
+
+## Step 5: Lysis
+
+## Step 6: Lysis
+
+## Step 7: Lysis
+
+## Step 8: Extraction
+
+## Step 9: Extraction
+
+## Step 10: Extraction
+
+## Step 11: Extraction
+
+## Step 12: Extraction
+
+## Step 13: Extraction
+
+## Step 14: Extraction
+
+## Step 15: Extraction
+
+## Step 16: Extraction
+
+## Step 17: Extraction
+
+## Step 18: Extraction
+
+## Step 19: Precipitation and elution
+
+## Step 20: Precipitation and elution
+
+## Step 21: Precipitation and elution
+
+## Step 22: Precipitation and elution
+
+## Step 23: Precipitation and elution
+
+## Step 24: Precipitation and elution
+
+## Step 25: Precipitation and elution
+
+## Step 26: Precipitation and elution
+
+## Step 27: Precipitation and elution
+
+## Step 28: Precipitation and elution
+
+## Step 29: Homogenization
+
+## Step 30: Homogenization
+
+## Step 31: Homogenization
+
+## Step 32: Homogenization
+
+## Step 33: Homogenization
+
+## Step 34: Optional Size selection step
+
+## Step 35: Optional Size selection step
+
+## Step 36: Optional Size selection step
+
+## Step 37: Optional Size selection step
+
+## Step 38: Optional Size selection step
+
+## Step 39: Optional Size selection step
+
+## Step 40: Optional Size selection step
+
+## Step 41: Optional Size selection step
+
+## Step 42: Optional Size selection step

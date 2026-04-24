@@ -1,0 +1,40 @@
+Title: RNA extraction using the 'home-made' Trizol substitute
+
+Description:
+A simple protocol for RNA extraction from various types of samples (protists, fungi, bacteria, organelles, subcellular fractions, ribosomes, etc.). Compared to the commercial Trizol® procedure, it makes use of generally available chemicals without the need for columns, thus allowing concurrent extraction of transcripts of all sizes (including RNAs <200 nt). Small circular DNA molecules (up to ~9 kbp) will also be efficiently isolated. The procedure is based on a previously published protocol by Rodríguez-Ezpeleta et al. (DOI: 10.1007/978-1-60327-136-3_3).
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- Isopropanol
+- Glycerol
+- Phenol, Saturated, pH 4.3, Liquid
+- Guanidine Thiocyanate
+- Ammonium Thiocyanate
+- Sodium Acetate, Trihydrate
+- Chloroform
+- Ethanol
+- Glycogen

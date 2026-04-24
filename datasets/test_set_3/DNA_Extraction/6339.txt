@@ -1,0 +1,23 @@
+Title: Isolation of Artemia nauplii for DNA extraction
+
+Description:
+Nauplii, ie newly hatched Artmemia (3-5 days), are processed to concentrate and separate from the eggs, before a DNA extraction
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare conical filter from Whatman #1
+
+## Step 2: Place in glass funnel over beaker
+
+## Step 3: Pour in Artemia culture and let drain through
+
+## Step 4: Remove Artemia from centre of paper to 1.5ml tube
+
+## Step 5: Spin for 30 seconds in microfuge to pellet Artemia
+
+## Step 6: Discard supernatant
+
+## Step 7: Spin for 30 seconds in microfuge to pellet Artemia
+
+## Step 8: Discard supernatant

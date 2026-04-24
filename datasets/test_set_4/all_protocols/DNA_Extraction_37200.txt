@@ -1,0 +1,36 @@
+Title: Acropora DNA extraction with Qiagen DNeasy tissue kit
+
+Description:
+DNA extraction protocol for Acropora or other coral tissue based on Qiagen DNAeasy kit. This extraction protocol works well for the Acropora SNPchip and other coral genotyping applications (such as microsatellite genotyping). It preferrentially extracts coral host DNA but some Symbiodiniacea DNA will be present. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample preparation
+
+## Step 2: Sample preparation
+
+## Step 3: Sample preparation
+
+## Step 4: Sample preparation
+
+## Step 5: Sample preparation
+
+## Step 6: Sample preparation
+
+## Step 7: Sample preparation
+
+## Step 8: Qiagen DNeasy Blood and Tissue Kit protocol
+
+## Step 9: Elution 2x
+
+## Step 10: Elution 2x
+
+## Step 11: Check extraction quality
+
+=== MATERIALS ===
+- QIAgen DNeasy Blood and Tissue Kit, 50 rxn
+- Proteinase K, 2mL
+- Incubator
+- Razor blade
+- Centrifuge

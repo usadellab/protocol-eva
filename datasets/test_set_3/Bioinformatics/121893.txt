@@ -1,0 +1,47 @@
+Title: Barcoding lentiviral Cre vectors for use in experiments involving downstream Tuba-seq analysis.
+
+Description:
+This protocol outlines the procedure to massively barcode Lentiviral Cre vectors. This procedure was developed for use of the Tuba-seq pipeline to calculate tumor sizes in lentivirally inducible mouse models of cancer. The protocol accompanies Rogers et al, Nature Methods, published online May 22, 2017 (nmeth.4297).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure:
+
+## Step 2: Procedure: PCR Program
+
+## Step 3: Procedure:
+
+## Step 4: Procedure:
+
+## Step 5: Procedure:
+
+## Step 6: Procedure:
+
+## Step 7: Procedure:
+
+## Step 8: Procedure:
+
+## Step 9: Procedure:
+
+## Step 10: Procedure:
+
+## Step 11: Procedure:
+
+## Step 12: Procedure:
+
+## Step 13: Procedure:
+
+## Step 14: Procedure:
+
+## Step 15: Procedure:
+
+## Step 16: Procedure:
+
+## Step 17: Timing
+
+## Step 18: Troubleshooting
+
+## Step 19: Additional Declarations
+
+## Step 20: Associated Publications

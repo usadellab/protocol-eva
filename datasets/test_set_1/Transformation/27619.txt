@@ -1,0 +1,16 @@
+Title: The laboratory protocol: Agrobacterium tumefaciens-mediated transformation of a hevein-like gene into asparagus leads to stem wilt resistance
+
+Description:
+The laboratory protocol's aim is to develop a genetic transformation system for asparagus and apply transgenic technology to obtain transgenic plantlets through A. tumefaciens-mediated transformation. Analysis of disease resistance and determination of physiological indexes confirmed that the transgenic lines represented a new germplasm source for breeding high yielding, disease-resistant Asparagus varieties. 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,60 @@
+{
+  "protocol_id": "102038",
+  "protocol_name": "Sequencing - 102038",
+  "category": "Sequencing",
+  "original_steps": 9,
+  "success": true,
+  "latency_s": 3.14,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Collection",
+    "description": "Collecting algae samples from a homogenized bioassessment sample using 47mm Whatman/Swinnex filter holders or a filter funnel with 0.45µm cellulose nitrate filters.",
+    "inputs": [
+      "homogenized bioassessment sample"
+    ],
+    "parameters": [
+      {
+        "name": "filter type",
+        "value": "47mm Whatman/Swinnex filter holders or a filter funnel with 0.45µm cellulose nitrate filters",
+        "unit": "",
+        "description": "Filter holder or funnel used for algae capture"
+      },
+      {
+        "name": "filter pore size",
+        "value": "0.45µm cellulose nitrate filters",
+        "unit": "",
+        "description": "Filter pore size for algae capture"
+      },
+      {
+        "name": "preservation solution",
+        "value": "",
+        "unit": "",
+        "description": "Preservation solution for algae storage"
+      },
+      {
+        "name": "storage temperature",
+        "value": "-20°C or -80°C",
+        "unit": "",
+        "description": "Storage temperature for up to six months"
+      },
+      {
+        "name": "field blank collection",
+        "value": "",
+        "unit": "",
+        "description": "Field blanks collected by filtering deionized water"
+      }
+    ],
+    "outputs": [
+      "homogenized bioassessment sample",
+      "filtered algae samples"
+    ]
+  },
+  "json_valid": true
+}

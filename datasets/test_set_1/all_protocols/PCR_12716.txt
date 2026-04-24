@@ -1,0 +1,48 @@
+Title: invertedClampFISH ligation
+
+Description:
+Protocol for making invertedClampFISH probes. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Probe backbone phosphorylation
+
+## Step 2: Probe backbone phosphorylation
+
+## Step 3: invertedClampFISH probe ligation
+
+## Step 4: invertedClampFISH probe ligation
+
+## Step 5: invertedClampFISH probe ligation
+
+## Step 6: invertedClampFISH probe ligation
+
+## Step 7: Column purify invertedClampFISH probes
+
+## Step 8: Column purify invertedClampFISH probes
+
+## Step 9: Column purify invertedClampFISH probes
+
+## Step 10: Column purify invertedClampFISH probes
+
+## Step 11: Column purify invertedClampFISH probes
+
+## Step 12: Column purify invertedClampFISH probes
+
+## Step 13: Column purify invertedClampFISH probes
+
+## Step 14: Column purify invertedClampFISH probes
+
+## Step 15: Column purify invertedClampFISH probes
+
+## Step 16: Column purify invertedClampFISH probes
+
+## Step 17: Column purify invertedClampFISH probes
+
+## Step 18: Column purify invertedClampFISH probes
+
+=== MATERIALS ===
+- T7 DNA Ligase - 750,000 units
+- Monarch® PCR & DNA Cleanup Kit (5 μg)
+- T4 Polynucleotide Kinase - 2,500 units

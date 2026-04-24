@@ -1,0 +1,65 @@
+Title: Phenol-Chloroform-Isoamyl Alcohol DNA Extraction
+
+Description:
+This protocol is for an organic isolation method of DNA from environmental DNA samples preserved in filter membranes. This protocol is focused on the acquisition of long fragments. 1L of stream water was collected and filtered immediately with 0.42-µm filtered funnels. Filters can be preserved directly in Longmire Buffer at -20°C or preserved in 96% Ethanol at -20°C.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Filters Preparation
+
+## Step 2: Filters Preparation
+
+## Step 3: Filters Preparation
+
+## Step 4: Filters Preparation
+
+## Step 5: DNA Extraction
+
+## Step 6: DNA Extraction
+
+## Step 7: DNA Extraction
+
+## Step 8: DNA Extraction
+
+## Step 9: DNA Extraction
+
+## Step 10: DNA Extraction
+
+## Step 11: DNA Extraction
+
+## Step 12: DNA Extraction
+
+## Step 13: DNA Extraction
+
+## Step 14: DNA Extraction
+
+## Step 15: DNA Extraction
+
+## Step 16: DNA Extraction
+
+## Step 17: DNA Extraction
+
+## Step 18: DNA Extraction
+
+## Step 19: DNA Extraction
+
+## Step 20: DNA Extraction
+
+## Step 21: DNA Extraction
+
+## Step 22: DNA Extraction
+
+## Step 23: DNA Extraction
+
+## Step 24: DNA Extraction
+
+## Step 25: DNA Extraction
+
+## Step 26: DNA Extraction
+
+## Step 27: DNA Extraction
+
+## Step 28: DNA Extraction
+
+## Step 29: DNA Extraction

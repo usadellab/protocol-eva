@@ -1,0 +1,35 @@
+Title: Mutation
+
+Description:
+Induce the mutator DNAP with rhamnose to drive mutations on the linear O-replicon; after the predetermined evolution time/generations, remove rhamnose to shut off mutagenesis and switch to “normal replication” to stabilize the mutations for downstream analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Initial Culture (after O-replicon electroporation and initial screening)
+
+## Step 2: Initial Culture (after O-replicon electroporation and initial screening)
+
+## Step 3: Start Mutagenesis
+
+## Step 4: Start Mutagenesis
+
+## Step 5: Start Mutagenesis
+
+## Step 6: Directed Evolution with Passaging
+
+## Step 7: Directed Evolution with Passaging
+
+## Step 8: Directed Evolution with Passaging
+
+## Step 9: Directed Evolution with Passaging
+
+## Step 10: Stop Mutagenesis / Start Normal Replication
+
+## Step 11: Stop Mutagenesis / Start Normal Replication
+
+## Step 12: Stop Mutagenesis / Start Normal Replication
+
+## Step 13: Stop Mutagenesis / Start Normal Replication
+
+## Step 14: Stop Mutagenesis / Start Normal Replication

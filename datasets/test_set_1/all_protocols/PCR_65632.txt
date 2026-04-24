@@ -1,0 +1,11 @@
+Title: Physical property-Stability and pH (TBE and Borax Agarose electrophoresis buffer)
+
+Description:
+The pH check is important because changes in the pH might affect mobility of DNA in the agarose gel hence PCR result alteration and misinterpretation.
+The physical stability of the electrophoresis buffer is important because if the powder absorbs moisture from air overtime, they might not be very efficient in allowing migration of DNA samples in the gel which could affect the PCR results.
+This protocol describes how to access the physical property of TBE and Borax electrophoresis buffers.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Confirming Stability and pH

@@ -1,0 +1,53 @@
+Title: High-throughput SARS-CoV-2 RNA extraction from nasopharyngeal swabs using repurposed 3D printers.
+
+Description:
+Here, we describe a semi-automated workflow for paramagnetic bead-based extraction of SARS-CoV-2 RNA from human upper respiratory samples that uses low-cost repurposed Creality3D Ender-3 3D-printers and readily accessible reagents. The protocol described here is for the use of four instruments in parallel, each processing 24 samples, 96 samples per batch.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Pre-process sample information
+
+## Step 2: Prepare four Ender VX-500 machines for extraction
+
+## Step 3: Prepare four Ender VX-500 machines for extraction
+
+## Step 4: Prepare four Ender VX-500 machines for extraction
+
+## Step 5: Prepare four 96-well plates for extraction
+
+## Step 6: Prepare four 96-well plates for extraction
+
+## Step 7: Prepare four 96-well plates for extraction
+
+## Step 8: Prepare four 96-well plates for extraction
+
+## Step 9: Prepare four 96-well plates for extraction
+
+## Step 10: Prepare four 96-well plates for extraction
+
+## Step 11: Prepare four 96-well plates for extraction
+
+## Step 12: Prepare four 96-well plates for extraction
+
+## Step 13: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 14: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 15: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 16: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 17: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 18: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 19: Machine clean-up
+
+## Step 20: Machine clean-up
+
+## Step 21: Extract 4 plates on 4 Ender VX-500 machines  
+
+## Step 22: Pre-dispense the samples into a deep-well 96 well plate
+
+## Step 23: Prepare four Ender VX-500 machines for extraction

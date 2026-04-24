@@ -1,0 +1,45 @@
+Title: Multiplex IHC Image Processing V0.2
+
+Description:
+Understanding immune complexity within the tumor microenvironment provides valuable insight to tumor-immune composition, spatial interactions, and the immune system's reaction to therapy allowing us to better understand response and resistance at the interface of the tumor and host. 
+Multiplex IHC allows for the simultaneous detection of multiple Ab targets in the same tissue section using published methods previously described1,2,3.This protocol contains detailed instructions on how to prepare files and run the image processing pipeline for mIHC SVS images in a GUI or command line, making it accessible to biologist and labs without computational specialty. 
+Tsujikawa, Takahiro, et al. "Quantitative multiplex immunohistochemistry reveals myeloid-inflamed tumor-immune complexity associated with poor prognosis."Cell reports19.1 (2017): 203-217
+Banik, Grace, et al. "High-dimensional multiplexed immunohistochemical characterization of immune contexture in human cancers."Methods in enzymology635 (2020): 1-20.
+Liudahl SM, Betts CB, Sivagnanam S, et al. "Leukocyte Heterogeneity in Pancreatic Ductal Adenocarcinoma: Phenotypic and Spatial Features Associated with Clinical Outcome." Cancer Discov. 2021;11(8):2014-2031. doi:10.1158/2159-8290.CD-20-0841
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: File prep and Folder Structure
+
+## Step 2: File prep and Folder Structure
+
+## Step 3: Get Code and Required Software 
+
+## Step 4: Pipeline Overview
+
+## Step 5: Region of Interest Selection
+
+## Step 6: Workflow Options
+
+## Step 7: Image Registration
+
+## Step 8: Image Registration Quality Control
+
+## Step 9: Signal Extraction
+
+## Step 10: Image Registration
+
+## Step 11: Image Registration QC
+
+## Step 12: Signal Extraction
+
+## Step 13: Nuclei Segmentation
+
+## Step 14: Single Cell Measurements
+
+## Step 15: Visualization stack (optional)
+
+## Step 16: Single Cell Measurements
+
+## Step 17: Segmentation

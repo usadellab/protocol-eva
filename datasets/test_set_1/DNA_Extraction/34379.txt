@@ -1,0 +1,23 @@
+Title: Reference-independent analysis of RADseq data from a single sample
+
+Description:
+This protocol describes the use of freely available software for the reference-independent analysis of RADseq data produced from a single sample.  It is useful to perform a pilot experiment on a single sample for species lacking a reference genome sequence in order to facilitate proper experimental design for a larger-scale experiment.  The example data used in this protocol is from a wild Berberis darwinii plant growing in Chile. The protocol produces data that provides an estimation of the number of unique base pairs recovered from a size selection of restriction endonuclease digested genomic DNA, and also an estimation of the frequency of heterozygous polymorphisms in the plant.  Evaluation of sequence quality also provides a validation of the methodologies used for tissue collection, DNA extraction, restriction digestion, and size selection (see https://dx.doi.org/10.17504/protocols.io.bdg9i3z6).  In addition, the discovered heterozyygous polymorphisms serve as markers to evaluate natural propagation (e.g. self-fertilization versus outcrossing versus clonal propagation) and also for use in tracking the success of human-directed crosses for breeding.    
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

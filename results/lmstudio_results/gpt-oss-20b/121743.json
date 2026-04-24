@@ -1,0 +1,203 @@
+{
+  "protocol_id": "121743",
+  "protocol_name": "Bacterial_Cultivation - 121743",
+  "category": "Bacterial_Cultivation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 7.35,
+  "evaluation": {
+    "step_preservation": 24.0,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 47.1,
+    "extracted_steps": 6,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Streptococcus agalactiae",
+        "characteristics": [
+          {
+            "category": "Source",
+            "value": "Clinical isolate",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Genotype",
+            "value": "GBS type III",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Treatment history",
+            "value": "None prior to assay",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Antimicrobial preparation",
+        "description": "Prepare antibiotic solutions for penicillin and gentamicin at specified concentrations.",
+        "inputs": [],
+        "parameters": [
+          {
+            "name": "Penicillin concentration",
+            "value": "2 mg/L",
+            "unit": "mg/L",
+            "description": "Concentration of penicillin in working solution"
+          },
+          {
+            "name": "Gentamicin concentration",
+            "value": "4 mg/L",
+            "unit": "mg/L",
+            "description": "Concentration of gentamicin in working solution"
+          },
+          {
+            "name": "Antibiotic solvent",
+            "value": "Sterile water",
+            "unit": "",
+            "description": "Solvent used to dissolve antibiotics"
+          }
+        ],
+        "outputs": [
+          "Antibiotic working solutions"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Inoculum preparation",
+        "description": "Prepare bacterial inoculum to desired density.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Inoculum density",
+            "value": "0.5 McFarland",
+            "unit": "",
+            "description": "Standardized bacterial concentration"
+          },
+          {
+            "name": "Incubation time for culture",
+            "value": "18-24 h",
+            "unit": "h",
+            "description": "Time to grow overnight culture"
+          },
+          {
+            "name": "Media for inoculum growth",
+            "value": "Brain Heart Infusion (BHI) broth",
+            "unit": "",
+            "description": "Growth medium"
+          }
+        ],
+        "outputs": [
+          "Standardized bacterial inoculum"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Settings",
+        "description": "Define assay environmental conditions.",
+        "inputs": [
+          "Standardized bacterial inoculum"
+        ],
+        "parameters": [
+          {
+            "name": "Incubation volume",
+            "value": "5 mL",
+            "unit": "mL",
+            "description": "Volume of culture per well"
+          },
+          {
+            "name": "CO2 concentration",
+            "value": "5%",
+            "unit": "%",
+            "description": "Percentage of CO2 in incubator"
+          },
+          {
+            "name": "Shaker speed",
+            "value": "200 rpm",
+            "unit": "rpm",
+            "description": "Speed of orbital shaker during incubation"
+          },
+          {
+            "name": "Incubation temperature",
+            "value": "37",
+            "unit": "°C",
+            "description": "Temperature for bacterial growth"
+          }
+        ],
+        "outputs": [
+          "Configured assay setup"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Time-kill assay",
+        "description": "Perform time-kill analysis with antibiotics alone and in combination.",
+        "inputs": [
+          "Configured assay setup"
+        ],
+        "parameters": [
+          {
+            "name": "Sampling time points",
+            "value": "0, 2, 4, 6, 8, 24 h",
+            "unit": "h",
+            "description": "Time points for sampling"
+          },
+          {
+            "name": "Antibiotic concentrations used in assay",
+            "value": "Penicillin 2 mg/L + Gentamicin 4 mg/L",
+            "unit": "",
+            "description": "Concentrations for combination treatment"
+          },
+          {
+            "name": "Control conditions",
+            "value": "No antibiotic, Penicillin alone, Gentamicin alone",
+            "unit": "",
+            "description": "Control groups"
+          }
+        ],
+        "outputs": [
+          "Time-kill data"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Troubleshooting",
+        "description": "Identify and resolve common assay issues.",
+        "inputs": [
+          "Time-kill data"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Resolved assay results"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Anticipated Results",
+        "description": "Expected outcomes of the time-kill assay.",
+        "inputs": [
+          "Resolved assay results"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Interpretation report"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

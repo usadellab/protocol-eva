@@ -1,0 +1,22 @@
+Title: Primer design for assembly-based cloning
+
+Description:
+This protocol summarizes the process of primer design for assembly-based cloning methods, such as Gibson or AQUA-cloning. 
+Well-designed primers are necessary for efficient cloning of any kind. 
+This protocol can also be used to design primers for overlap extension PCR of linear fragments. Alternatively, overhangs can also include restriction sites for restriction/ligation based cloning.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Experimental design/overview
+
+
+## Step 3: Annealing part of primer:
+
+## Step 4: Overhang part of primer:
+
+## Step 5: Quality control
+
+## Step 6: Quality control
+
+## Step 7: Quality control

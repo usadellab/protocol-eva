@@ -1,0 +1,70 @@
+Title: Short amplicons panels (Artic-like) for RSVA and RSVB
+
+Description:
+This SOP describes the procedure for generating cDNA from respiratory syncytial virus A or B (RSVA or RSVB) viral nucleic acid extracts and subsequently producing ~400nt amplicons tiling the viral genome in a multiplex PCR. 
+The resulting products can be sequenced using short (Illumina) or long (Oxford Nanopore Technologies) reads approaches.
+The panels and files for bioinformatic analysis are available at:
+https://github.com/SimonLoriereLab/RSV_amplicons_panels
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: cDNA preparation
+
+## Step 2: cDNA preparation
+
+## Step 3: Primer pool preparation
+
+## Step 4: Multiplex PCR
+
+## Step 5: PCR clean-up
+
+## Step 6: Quantification and normalisation
+
+## Step 7: Library preparation
+
+## Step 8: RNA preparation
+
+## Step 9: Multiplex PCR
+
+## Step 10: Multiplex PCR
+
+## Step 11: Multiplex PCR
+
+## Step 12: PCR clean-up
+
+## Step 13: PCR clean-up
+
+## Step 14: PCR clean-up
+
+## Step 15: PCR clean-up
+
+## Step 16: PCR clean-up
+
+## Step 17: PCR clean-up
+
+## Step 18: PCR clean-up
+
+## Step 19: PCR clean-up
+
+## Step 20: PCR clean-up
+
+## Step 21: PCR clean-up
+
+## Step 22: PCR clean-up
+
+## Step 23: PCR clean-up
+
+## Step 24: PCR clean-up
+
+## Step 25: PCR clean-up
+
+## Step 26: PCR clean-up
+
+## Step 27: Primer pool preparation
+
+## Step 28: Primer pool preparation
+
+## Step 29: RNA preparation
+
+## Step 30: Primer pool preparation

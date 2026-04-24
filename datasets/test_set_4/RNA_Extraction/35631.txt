@@ -1,0 +1,31 @@
+Title: DNA and RNA stabilization
+
+Description:
+DNA and RNA stabilization solution is an aqueous and non-toxic tissue storage reagent that rapidly permeates tissues to stabilize and protect nucleic acids in fresh specimens. Tissue pieces are harvested and immediately submerged in stabilization solution for storage. It can be used for DNA and RNA preservation with most tissues, cultured cells and is compatible with most DNA/RNA isolation methods. Proteins are precipitated, but can still be used for analyzes that do not require their native structure, such as western blotting or gel electrophoresis. Samples in DNA and RNA stabilization solution can be stored indefinitely in RNAlater Solution at –20 °C or below.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Stabilization solution preparation (1.5 L)
+
+## Step 2: Procedure
+
+## Step 3: Procedure
+
+## Step 4: Procedure
+
+## Step 5: Procedure
+
+## Step 6: Procedure
+
+## Step 7: Important notes
+
+## Step 8: Important notes
+
+## Step 9: Important notes
+
+=== MATERIALS ===
+- Ammonium Sulfate
+-  Sulfuric acid
+- Sodium Citrate
+- EDTA

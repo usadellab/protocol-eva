@@ -1,0 +1,31 @@
+Title: TKI Diatom NGS Protocol
+
+Description:
+This protocol describes a standardized workflow for the analysis of diatom samples using metabarcoding of the rbcL gene. It was created for the DNA Diatom Biosensor project funded by TKI Watertechnologie. More information on the project can be found here.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Field Sampling
+
+## Step 2: Diatom Sampling and DNA Extraction
+
+## Step 3: Amplification and Sequencing
+
+## Step 4: Bio-informatic Processing
+
+## Step 5: Diatom Sampling and DNA Extraction
+
+## Step 6: Diatom Sampling and DNA Extraction
+
+## Step 7: Amplification and Sequencing
+
+## Step 8: Amplification and Sequencing
+
+## Step 9: Amplification and Sequencing
+
+## Step 10: Amplification and Sequencing
+
+## Step 11: Amplification and Sequencing
+
+## Step 12: Bio-informatic Processing

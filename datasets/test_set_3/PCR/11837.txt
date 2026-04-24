@@ -1,0 +1,42 @@
+Title: BGISEQ-500 WGS library construction
+
+Description:
+BGISEQ-500 is a desktop sequencer developed by BGI. Using DNA nanoball and combinational probe anchor synthesis developed from Complete Genomics™ sequencing technologies, it generates short reads at a large scale. Library construction on the platform includes fragmentation, size selection, end repair and A-tailing, adaptor ligation, PCR amplification, and splint circularization.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA fragmentation
+
+## Step 2: End Repair and Tailing
+
+## Step 3: Ligate Adapters
+
+## Step 4: Purify Ligated DNA
+
+## Step 5: PCR
+
+## Step 6: Purify PCR Product
+
+## Step 7: Homogenization
+
+## Step 8: Circularization
+
+## Step 9: Digestion
+
+## Step 10: Purify Digestion Product
+
+## Step 11: Overview
+
+=== MATERIALS ===
+- Fresh 80% ethanol
+- ERAT Buffer
+- ERAT Enzyme
+- Adapter Mix
+- Ligation Buffer
+- Ligation Enzyme
+- TE buffer
+- PCR Enzyme Mix
+- Splint Buffer
+- Digestion Buffer
+- Digestion Enzyme

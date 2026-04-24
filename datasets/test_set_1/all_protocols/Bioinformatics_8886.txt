@@ -1,0 +1,17 @@
+Title: Isolation of human islet cells, culture with heparan sulfate mimetics and flow cytometry analysis of beta cell viability
+
+Description:
+Isolated human islets were dispersed into single cells using Accutase (Millipore), ~1500-2000 islet equivalents (IEQ)/ml. 20,000-65,000 islet cells were transferred to individual wells of a 96 well culture plate (CELLSTAR, Greiner Bio-one) for immediate staining for flow cytometry analysis or for culture prior to staining. Isolated human islet cells were cultured in the presence or absence of the HS mimetics heparin (a highly sulfated HS analogue from porcine intestinal mucosa), BT548 (a glycol split low molecular weight heparin (LMWH; 3 kDa) lacking anti-coagulant activity) or PI-88 (Progen Pharmaceuticals Limited,) at 50 μg/ml for 2 days in 5% CO2, 95% air at 37ºC. In some studies islet cells were acutely treated with 30% H2O2 (Chem-Supply) as a source of reactive oxygen species (ROS) for 5 min on day 0 or after culture for 2 days with/without HS mimetics. Beta cells were identified by staining with Newport Green (NG; 10 μmol/L; Invitrogen, Molecular Probes), a fluorescent probe that detects zinc in the insulin granules of beta cells. Damaged and dying islet cells were assessed using 7-Aminoactinomycin (7AAD, 10 μg/ml; Life Technologies) or by Sytox green (31.25 nmol/L; Invitrogen, Molecular Probes) uptake. Cells were analyzed using a BD LSRI flow cytometer and CellQuest™ Pro software (version 6.0; BD Biosciences).
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+

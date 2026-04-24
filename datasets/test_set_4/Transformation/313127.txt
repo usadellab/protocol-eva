@@ -1,0 +1,27 @@
+Title: E. Coli Bacterial Transformation 
+
+Description:
+Transformation is the process by which foreign DNA is introduced into a cell. Transformation of bacteria with plasmids is important not only for studies in bacteria but also because bacteria are used as the means for both storing and replicating plasmids. Because of this, nearly all plasmids (even those designed for mammalian cell expression) carry both a bacterial origin of replication and an antibiotic resistance gene for use as a selectable marker in bacteria.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation 
+
+## Step 2: Preparation 
+
+## Step 3: Heat Shock
+
+## Step 4: Heat Shock
+
+## Step 5: Heat Shock
+
+## Step 6: Heat Shock
+
+## Step 7: Incubate Cells
+
+## Step 8: Incubate Cells
+
+## Step 9: Plating Cells
+
+## Step 10: Plating Cells

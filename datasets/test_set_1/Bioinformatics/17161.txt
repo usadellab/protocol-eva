@@ -1,0 +1,35 @@
+Title: BIOL 470- Special Topics in Bioinformatics
+
+Description:
+This protocol series will guide students through the experience of analyzing metagenomic data. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA quality assessment and assurance
+
+## Step 2: Metagenomic assembly 
+
+## Step 3: Assessing the quality of the assemblies
+
+## Step 4: Binning assembled metagenomes with MaxBin
+
+## Step 5: Assessing the quality of your bins via CheckM
+
+## Step 6: Assuring DNA sequencing quality using Trimmomatic
+
+## Step 7: Use VizBin to further curate your bins
+
+## Step 8: Perform taxonomic identification using Phylosift
+
+## Step 9: Prokka - software for annotations
+
+## Step 10: Compare genomes to various databases
+
+## Step 11: Compare genomes to various databases
+
+## Step 12: Compare genomes to various databases
+
+## Step 13: Running Phylosift on metagenomic reads using tmux
+
+## Step 14: Running PROKKA and COG on your metagenomic contigs

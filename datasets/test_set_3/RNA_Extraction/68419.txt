@@ -1,0 +1,33 @@
+Title: Double stranded RNA extraction by cellulose
+
+Description:
+In this protocol, the viral dsRNA extraction from infected-grapevine plants is explained.  
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Total nucleic acid extraction
+
+## Step 2: Total nucleic acid extraction
+
+## Step 3: Total nucleic acid extraction
+
+## Step 4: Total nucleic acid extraction
+
+## Step 5: Total nucleic acid extraction
+
+## Step 6: dsRNA purification by cellulose
+
+## Step 7: Total nucleic acid extraction
+
+## Step 8: dsRNA purification by cellulose
+
+## Step 9: dsRNA purification by cellulose
+
+## Step 10: Total nucleic acid extraction
+
+## Step 11: dsRNA purification by cellulose
+
+## Step 12: dsRNA precipitation
+
+## Step 13: dsRNA precipitation

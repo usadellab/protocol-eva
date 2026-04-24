@@ -1,0 +1,41 @@
+Title: Modified Nasal Swab For Detection of Sars-Cov2
+
+Description:
+The common methods of sample collection for the detection of SARS-Cov2 are either pharyngeal or nasopharyngeal. Both these methods require specific swabs that are in short supply, and both methods are not easily self-administered. A nasal swab can also be used to collect samples and is relatively easy to self-administer, yet obtaining nasal specific swabs can now also be a challenge. In order to address these issues, our group has optimized a protocol for self-administered nasal collection using buccal swabs that are not currently in high demand. With this method, we have been able to collect human samples with reliable results in RNA extraction based on RNaseP, and can detect SARS-Cov2 in known positive cases of COVID-19. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Directions for the individual collecting the sample
+
+## Step 2: Directions for the individual collecting the sample
+
+## Step 3: Directions for the individual collecting the sample
+
+## Step 4: Directions for individual self-swabbing
+
+## Step 5: Directions for individual self-swabbing
+
+## Step 6: Directions for individual self-swabbing
+
+## Step 7: Directions for individual self-swabbing
+
+## Step 8: Directions for individual self-swabbing
+
+## Step 9: Directions for individual self-swabbing
+
+## Step 10: Directions for individual self-swabbing
+
+## Step 11: Directions for individual self-swabbing
+
+## Step 12: Directions for the individual collecting the sample
+
+## Step 13: Directions for the individual collecting the sample
+
+## Step 14: Directions for the individual collecting the sample
+
+## Step 15: Directions for the individual collecting the sample
+
+## Step 16: Directions for individual self-swabbing
+
+## Step 17: Directions for the individual collecting the sample

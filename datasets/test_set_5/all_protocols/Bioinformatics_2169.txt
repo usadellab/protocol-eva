@@ -1,0 +1,29 @@
+Title: VBRC Base By Base: Search for a sequence motif, either exact (regular expression search) or inexact (fuzzy motif search)
+
+Description:
+Viral Bioinformatic Resource Centre
+Provide databases of viral genomic information.  
+Please check the Organisms menu to see which viruses we support: we’re now focusing on large DNA viruses
+The VOCs (Virus Orthologous Clusters) database is at the heart of our system.
+The database links directly to integrated tools for comparative analyses.
+VOCs sorts genes into ortholog clusters (e.g. RNA polymerase) to simplify data retrieval.
+Provide easy access to the genes, gene families, and genomes of the different virus families.  
+via a unique series of powerful Java tools that support multiple computer platforms (see VBRC Tools menu).
+design and build software to tackle specific bioinformatics/virology problems, often in collaboration with virologists.
+Rally the research community to provide expert curation of these viral genomes by:  
+Adding value to GenBank sequences through enhancing and updating genome annotations
+Linking to research reviews/papers for the research community.
+Collaborate with researchers to help on specific bioinformatics problems, e.g.  
+Custom searches of the databases
+Building new features into our tools
+Help with genome annotation
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+Title: SpinSmart DNA Extraction From Agarose Gels Protocol
+
+Description:
+The SpinSmart PCR purification and gel extraction technologies utilize a lysis buffer containing chaotropic salts that allow DNA to bind to a silica membrane. Binding buffer PCR 1 is added to a PCR reaction or agarose gel slice; the mixture is subsequently loaded directly onto SpinSmart PCR Columns.  Salts, enzymes, and other soluble components are washed away with ethanolic PCR 2 Wash buffer. Purified DNA is eluted using PCR 3 Elution buffer (5 mM Tris/HCl, pH 8.5). 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Excise DNA fragment / Solubilize gel slice
+
+## Step 2: Excise DNA fragment / Solubilize gel slice
+
+## Step 3: Excise DNA fragment / Solubilize gel slice
+
+## Step 4: Excise DNA fragment / Solubilize gel slice
+
+## Step 5: Bind DNA
+
+## Step 6: Bind DNA
+
+## Step 7: Bind DNA
+
+## Step 8: Wash silica membrane
+
+## Step 9: Wash silica membrane
+
+## Step 10: Wash silica membrane
+
+## Step 11: Dry silica membrane
+
+## Step 12: DNA Elution
+
+## Step 13: DNA Elution
+
+## Step 14: DNA Elution
+
+=== MATERIALS ===
+- SpinSmart™ PCR Purification & Gel Extraction Columns Only, with Collection Tubes, 50 per pack

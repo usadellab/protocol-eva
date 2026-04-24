@@ -1,0 +1,60 @@
+Title: Irys NLRS DNA labeling and Data collection
+
+Description:
+This protocol is provided by BioNano Genomics and was used in:
+Huang Zhihai, Xu Jiang, Xiao Shuiming, Liao Baosheng, Gao Yuan, Zhai Chaochao, Qiu Xiaohui, Xu Wen, Chen Shilin
+ (2016): Supporting data for 'Comparative optical genome analysis of two Pangolin species Manis pentadactyla and Manis javanica'. GigaScience Database.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Nicking (10 μL / ~2.5 hours)
+
+## Step 2: Nicking (10 μL / ~2.5 hours)
+
+## Step 3: Nicking (10 μL / ~2.5 hours)
+
+## Step 4: Nicking (10 μL / ~2.5 hours)
+
+## Step 5: Labeling (15 μL / ~1.25 hours)
+
+## Step 6: Labeling (15 μL / ~1.25 hours)
+
+
+## Step 8: Labeling (15 μL / ~1.25 hours)
+
+## Step 9: Repair (20 μL / ~45 minutes)
+
+## Step 10: Repair (20 μL / ~45 minutes)
+
+## Step 11: Repair (20 μL / ~45 minutes)
+
+## Step 12: Repair (20 μL / ~45 minutes)
+
+## Step 13: Repair (20 μL / ~45 minutes)
+
+## Step 14: Staining NLR (60 μL / ~16 hours)
+
+## Step 15: Staining NLR (60 μL / ~16 hours)
+
+## Step 16: Staining NLR (60 μL / ~16 hours)
+
+## Step 17: Staining NLR (60 μL / ~16 hours)
+
+## Step 18: Staining NLR (60 μL / ~16 hours)
+
+## Step 19: Staining NLR (60 μL / ~16 hours)
+
+## Step 20: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 21: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 22: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 23: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 24: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 25: NLRS DNA Conc.(6μL, ~0.5 hours)
+
+## Step 26: Chip loading and data collection

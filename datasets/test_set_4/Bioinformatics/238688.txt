@@ -1,0 +1,63 @@
+Title: Determination of LD50 and LD90 for Bacterial Pathogens in Galleria mellonella
+
+Description:
+This protocol describes a method for determining the median and 90% lethal doses (LD₅₀ and LD₉₀) of bacterial pathogens using the Galleria mellonella larvae (greater wax moth) infection model. The protocol is optimized 
+for uropathogenic Escherichia coli (UPEC) but is readily adaptable to other bacterial species.
+Expected results include Kaplan-Meier survival curves for each bacterial dose and precise LD₅₀/LD₉₀ values with confidence intervals, calculated via Probit or Spearman-Kärber analysis. These metrics allow for direct comparison of pathogen strains and establish standardized infection doses for later experiments. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: The day before
+
+## Step 2: Larval Preparation
+
+## Step 3: Larval Preparation
+
+## Step 4: Larval Preparation
+
+## Step 5: Larval Preparation
+
+## Step 6: Bacterial Suspension preparation
+
+## Step 7: Bacterial Suspension preparation
+
+## Step 8: Bacterial Suspension preparation
+
+## Step 9: Bacterial Suspension preparation
+
+## Step 10: Bacterial Suspension preparation
+
+## Step 11: Bacterial Suspension preparation
+
+## Step 12: Bacterial Suspension preparation
+
+## Step 13: The day before
+
+## Step 14: Infection
+
+## Step 15: Infection
+
+## Step 16: Infection
+
+## Step 17: Infection
+
+## Step 18: Infection
+
+## Step 19: Survival monitoring
+
+## Step 20: Survival monitoring
+
+## Step 21: Survival curves calculation
+
+## Step 22: Survival curves calculation
+
+## Step 23: Survival curves calculation
+
+## Step 24: LD curves calculation
+
+## Step 25: LD curves calculation
+
+## Step 26: LD curves calculation
+
+## Step 27: LD curves calculation

@@ -1,0 +1,42 @@
+Title: Flash Freeze Fruit Flies in Liquid Nitrogen
+
+Description:
+A protocol for routine flash freezing of fruit fly samples prior to use in downstream protocols (e.g. RNA extraction).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Fly Sample Collection
+
+## Step 2: Fly Sample Collection
+
+## Step 3: Fly Sample Collection
+
+## Step 4: One Day to One Week Before Freezing
+
+## Step 5: One Day to One Week Before Freezing
+
+## Step 6: One Day to One Week Before Freezing
+
+## Step 7: One Day to One Week Before Freezing
+
+## Step 8: Day of the Freeze Before Starting
+
+## Step 9: Day of the Freeze Before Starting
+
+## Step 10: Freezing
+
+## Step 11: Freezing
+
+## Step 12: Freezing
+
+## Step 13: Freezing
+
+## Step 14: Freezing
+
+## Step 15: Freezing
+
+=== MATERIALS ===
+- Drosophila Vials
+- 	Externally Threaded Self-Standing Cryovials with Silicone Washer Seal Cap
+- 2 Cryogenic box, with drain slots, with grids, 81 cell divider

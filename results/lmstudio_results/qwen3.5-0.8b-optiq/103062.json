@@ -1,0 +1,50 @@
+{
+  "protocol_id": "103062",
+  "protocol_name": "DNA_Extraction - 103062",
+  "category": "DNA_Extraction",
+  "original_steps": 8,
+  "success": true,
+  "latency_s": 2.24,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Lysate clarification, viral concentration and purification using linear sucrose gradient.",
+    "inputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "parameters": [
+      {
+        "name": "temperature",
+        "value": "37°C",
+        "unit": "",
+        "description": "Incubation temperature for viral lysis"
+      },
+      {
+        "name": "concentration",
+        "value": "10 mg/mL",
+        "unit": "",
+        "description": "Viral concentration after clarification"
+      },
+      {
+        "name": "gradient",
+        "value": "Linear sucrose gradient",
+        "unit": "",
+        "description": "Method used for purification"
+      }
+    ],
+    "outputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "dataFiles": []
+  },
+  "json_valid": true
+}

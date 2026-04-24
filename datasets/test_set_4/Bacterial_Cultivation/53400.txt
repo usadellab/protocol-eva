@@ -1,0 +1,25 @@
+Title: Preparation of  polygalacturonic acid (PGA) to study virulence in Erwinia/Pectobacterium
+
+Description:
+This medium is used for the growth of Erwinia/Pectobacterium species to ensure that virulence genes are turned ON. These bacteria turn on virulence (plant cell-wall degrading enzymes = PCWDEs) in response to various environmental signals. One of these signals is of plant origin, and it is thought to allow the bacterium to determine whether it has located a potential plant host. These plant signals are sensed by the bacterial sensor/regulator KdgR.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 2% PGA stock solution preparation
+
+## Step 2: 2% PGA stock solution preparation
+
+## Step 3: 2% PGA stock solution preparation
+
+## Step 4: 2% PGA stock solution preparation
+
+## Step 5: 2% PGA stock solution preparation
+
+## Step 6: 2% PGA stock solution preparation
+
+## Step 7: 2% PGA stock solution preparation
+
+## Step 8: 2% PGA stock solution preparation
+
+## Step 9: 2% PGA stock solution preparation

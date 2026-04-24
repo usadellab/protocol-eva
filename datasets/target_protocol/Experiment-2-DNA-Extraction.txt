@@ -1,0 +1,41 @@
+Title: Experiment 2: DNA Extraction
+
+Genomic DNA extraction fromE. coliK-12
+
+Goal:
+
+Extract DNA of the strains cultivated inExperiment 1: Bacterial Cultivationfor further analysis
+
+Procedure:
+
+UseMethode - NucleoSpin Microbial DNA Kit (Macherey & Nagel)for DNA extraction.
+Manufacturer’s instructions, with lysozyme pre-treatment (20 mg/mL, 30 min, 37 °C)
+- MN Bead Tubes Type B
+- Disruption time 4 min
+
+Results:
+
+Elution volume:100 µL BE buffer
+
+DNA concentration (Qubit dsDNA HS Assay):
+[TABLE]
+
+Sample IDDNA conc. [ng/µL]A260/280A260/230
+ | EC-01 | 95.5 | 1.81 | 2.10
+ | EC-02 | 87.2 | 1.78 | 2.05
+ | EC-03 | 89.7 | 1.80 | 2.10
+ | EC-04 | 75.7 | 1.79 | 2.08
+ | EC-05 | 90.5 | 1.80 | 2.09
+ | EC-06 | 89.8 | 1.78 | 2.08
+ | EC-07 | 88.1 | 1.81 | 2.10
+ | EC-08 | 97.7 | 1.81 | 2.06
+ | EC-09 | 96.4 | 1.79 | 2.07
+ | EC-10 | 86.6 | 1.78 | 2.10
+Storage:-20 °C until library prep
+Notes:DNA was of sufficient purity for downstream library preparation.
+
+Quality check:
+Gel type: 1% Agarose, TAE, Ethidium Bromide
+Ladder: Generuler 1kb Plus
+
+High molecular weight DNA observed for all samples, no signs of shearing or degradation.

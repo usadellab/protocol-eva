@@ -1,0 +1,33 @@
+Title: 18S and 16S rRNA genes amplicon generation for eukaryotic and prokaryotic metabarcoding
+
+Description:
+This protocol describes the 18S and 16S rRNA genes amplicon generation for eukaryotic and prokaryotic metabarcoding for the Tara Oceans expedition and is part of Viral to metazoan marine plankton nucleotide sequences from the Tara Oceans expedition. 
+Figure 1: Overview of -omics analysis strategy applied on Tara Oceans samples.
+
+
+=== PROTOCOL STEPS ===
+
+
+## Step 2: 18S_PCR
+
+## Step 3: 18S_PCR
+
+## Step 4: 18S_PCR
+
+## Step 5: 18S_PCR
+
+## Step 6: 16S_PCR
+
+## Step 7: 16S_PCR
+
+## Step 8: 16S_PCR
+
+## Step 9: 16S_PCR
+
+## Step 10: 16S_PCR
+
+## Step 11: 18S_PCR
+
+## Step 12: 18S_PCR
+
+## Step 13: 16S_PCR

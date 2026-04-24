@@ -1,0 +1,33 @@
+Title: Illumina library construction for Extraction Method A, B, C (For FMS samples) and D, E (PRP and RM)
+
+Description:
+Library building protocol for archival samples with single 8-nt adapters for Illumina platforms.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: End-repair
+
+## Step 2: Ligation
+
+## Step 3: Library purification
+
+## Step 4: Library purification
+
+## Step 5: Adapater Fill-in
+
+## Step 6: Indexing PCR
+
+## Step 7: Indexing PCR
+
+## Step 8: Indexing PCR
+
+## Step 9: Indexing PCR
+
+## Step 10: Indexing PCR
+
+=== MATERIALS ===
+- Buffer EB
+-  0.5 µM of Illumina P5 and P7 adapter mix 
+- MinElute
+- Primer IS4 and individual Indexing Primers

@@ -1,0 +1,17 @@
+Title: Isolation of mouse islet cells, culture with heparan sulfate mimetics and flow cytometry analysis of beta cell viability
+
+Description:
+Isolated mouse islets were dispersed into single cells using Accutase (Millipore; 250 µl/500 islets). 4-8 x 104 islet cells were transferred to individual wells of a 96 well culture plate (CELLSTAR, Greiner Bio-one) for immediate staining for flow cytometry analysis or for culture prior to staining. Isolated mouse islet cells were cultured in the presence or absence of the HS mimetics heparin (a highly sulfated HS analogue from porcine intestinal mucosa) or PI-88 (Progen Pharmaceuticals Limited,) at 50 mg/ml for 2 days in 5% CO2, 95% air at 37ºC. In some studies islet cells were acutely treated with 30% H2O2 (Chem-Supply) as a source of reactive oxygen species (ROS) for 5 min on day 0 or after culture for 2 days with/without HS mimetics. Damaged and dying islet cells were assessed using Calcein-AM (Calcein; 0.04 µM; Invitrogen)/Propidium iodide (PI; 2.5 µg/ml; BD Biosciences) or by Sytox green (31.25 nmol/L; Invitrogen, Molecular Probes) uptake. BD LSR Fortessa flow cytometer BD FACS DIVA software (version 8) were used to collect events and Flow Jo software (version 10.0.7, TreeStar Inc.) was used to analyse the intensity of fluorescence staining. 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+

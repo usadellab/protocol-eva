@@ -1,0 +1,112 @@
+{
+  "protocol_id": "12716",
+  "protocol_name": "PCR - 12716",
+  "category": "PCR",
+  "original_steps": 18,
+  "success": true,
+  "latency_s": 6.19,
+  "evaluation": {
+    "step_preservation": 16.7,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 44.2,
+    "extracted_steps": 3,
+    "original_steps": 18
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "",
+        "characteristics": [
+          {
+            "category": "source",
+            "value": "",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Probe backbone phosphorylation",
+        "description": "Phosphorylation of probe backbones using T4 Polynucleotide Kinase.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "T4 Polynucleotide Kinase",
+            "value": "2,500 units",
+            "unit": "",
+            "description": "Enzyme used for phosphorylation"
+          },
+          {
+            "name": "Reaction volume",
+            "value": "",
+            "unit": "",
+            "description": "Total reaction volume (not specified)"
+          }
+        ],
+        "outputs": [
+          "Phosphorylated probes"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "invertedClampFISH probe ligation",
+        "description": "Ligation of invertedClampFISH probes using T7 DNA Ligase.",
+        "inputs": [
+          "Phosphorylated probes"
+        ],
+        "parameters": [
+          {
+            "name": "T7 DNA Ligase",
+            "value": "750,000 units",
+            "unit": "",
+            "description": "Enzyme used for ligation"
+          },
+          {
+            "name": "Reaction volume",
+            "value": "",
+            "unit": "",
+            "description": "Total reaction volume (not specified)"
+          }
+        ],
+        "outputs": [
+          "Ligated probes"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Column purification of invertedClampFISH probes",
+        "description": "Purification of ligated probes using Monarch PCR & DNA Cleanup Kit.",
+        "inputs": [
+          "Ligated probes"
+        ],
+        "parameters": [
+          {
+            "name": "Monarch PCR & DNA Cleanup Kit",
+            "value": "5 μg",
+            "unit": "",
+            "description": "Amount of kit used for purification"
+          },
+          {
+            "name": "Purification buffer",
+            "value": "",
+            "unit": "",
+            "description": "Buffer used in purification (not specified)"
+          }
+        ],
+        "outputs": [
+          "Purified invertedClampFISH probes"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

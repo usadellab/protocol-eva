@@ -1,0 +1,67 @@
+Title: Purification of viral RNA from cell culture isolates or FTA cards using MagMAX Viral RNA Isolation Kit
+
+Description:
+This protocol describes the viral nucleic acid recovery and purification from poliovirus isolates either in their original liquid form or spotted onto FTA cards. The method utilises the magnetic bead based MagMAX ‱ Viral RNA Isolation Kit. When using isolates directly, progress to one of the extraction workflows straight after reagent preparation, skipping Section 2. To process FTA card discs follow the procedures in Sections 1 and 2 in full before extraction.  To perform manual extractions follow Workflow A, for automated extraction on King Fisher Duo Prime follow steps in Workflow B, and for automated extraction on King Fisher Flex follow Workflow C. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Reagent Preparation
+
+## Step 2: Reagent Preparation
+
+## Step 3: RNA extraction
+
+## Step 4: Reagent Preparation
+
+## Step 5: FTA card Processing
+
+## Step 6: Reagent Preparation
+
+## Step 7: Reagent Preparation
+
+## Step 8: Reagent Preparation
+
+## Step 9: Reagent Preparation
+
+## Step 10: RNA extraction
+
+## Step 11: RNA extraction
+
+## Step 12: RNA extraction
+
+## Step 13: RNA extraction
+
+## Step 14: RNA extraction
+
+## Step 15: RNA extraction
+
+## Step 16: RNA extraction
+
+## Step 17: RNA extraction
+
+## Step 18: RNA extraction
+
+## Step 19: RNA extraction
+
+## Step 20: RNA extraction
+
+## Step 21: FTA card Processing
+
+## Step 22: FTA card Processing
+
+## Step 23: FTA card Processing
+
+## Step 24: FTA card Processing
+
+## Step 25: FTA card Processing
+
+## Step 26: FTA card Processing
+
+## Step 27: FTA card Processing
+
+## Step 28: FTA card Processing
+
+## Step 29: FTA card Processing
+
+## Step 30: FTA card Processing

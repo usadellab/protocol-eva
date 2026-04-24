@@ -1,0 +1,24 @@
+Title: Unmarked_Gene_Deletion_Ralstonia_Colony_PCR
+
+Description:
+This protocol describes the colony PCR screening step used to validate E. coli transformants carrying the experimental plasmid assembled during Gibson Assembly for unmarked gene deletion in Ralstonia. It outlines the setup and execution of bulk PCR to identify colonies that acquired the plasmid and are resistant to kanamycin.
+The expected outcome is a ~1150 bp PCR product for colonies containing the pUFR80 plasmid with upstream and downstream inserts. Plasmid DNA will be extracted from correctly sized colonies and sequenced for verification prior to transformation into Ralstonia.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Colony PCR
+
+## Step 2: Colony PCR
+
+## Step 3: Colony PCR
+
+## Step 4: Colony PCR
+
+## Step 5: Colony PCR
+
+## Step 6: Colony PCR
+
+## Step 7: Colony PCR
+
+## Step 8: Colony PCR

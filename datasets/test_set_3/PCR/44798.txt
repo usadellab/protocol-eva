@@ -1,0 +1,45 @@
+Title: Quantification of 16S rRNA Gene Copies Using ddPCR (EvaGreen-based assay: 338F-805R)
+
+Description:
+This protocol describes how to quantify 16S rRNA bacterial gene or transcript copy numbers using Droplet Digital PCR technology (ddPCR) from Bio-Rad. This is an up-to-date modification of a classical bacterial enumeration qPCR-assay. This assay uses the EvaGreen™ chemistry. The primers are taken from Yu et al. (2005).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Primers
+
+## Step 2: PCR mixture
+
+## Step 3: PCR mixture
+
+## Step 4: PCR mixture
+
+## Step 5: PCR mixture
+
+## Step 6: PCR mixture
+
+## Step 7: Droplet generation using AutoDG
+
+## Step 8: Droplet generation using AutoDG
+
+## Step 9: Droplet generation using AutoDG
+
+## Step 10: Droplet generation using AutoDG
+
+## Step 11: Droplet generation using AutoDG
+
+## Step 12: Droplet generation using AutoDG
+
+## Step 13: PCR program
+
+## Step 14: Droplet reading
+
+## Step 15: Droplet reading
+
+## Step 16: Droplet reading
+
+## Step 17: Droplet reading
+
+## Step 18: Analysis
+
+## Step 19: Analysis

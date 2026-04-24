@@ -1,0 +1,13 @@
+Title: Growth_of_Pseudomonas_fluorescence_SBW25_in_48-well_Plate_Format 
+
+Description:
+This protocol provides a method for culturing Pseudomonas fluorescens SBW25 in 48-well microplates.  The protocol is specific for use with a BioTek Epoch 2 plate reader, but other plate readers can be used with appropriate modifications.  One advantage of the Epoch 2 instrument is the ability to run with the plate lid at a higher temperature than the well contents.  This prevents condensation on the lid and resulting noise in the OD readings.
+This protocol is suitable for many Pseudomonas strains.
+I thank members of the ORNL team, Joshua Elmore and Quint Peabody V, for assistance during development of this protocol and tips on use of the Epoch2 plate reader.  I thank the NREL team for the M9 Minimal Media recipe.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Culturing Pseudomonas fluorescens SBW25 
+
+## Step 2: Plate set-up and data collection

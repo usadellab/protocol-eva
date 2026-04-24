@@ -1,0 +1,25 @@
+Title: SQK-MAP006 Low Input protocol for library preparation for Nanopore sequencing
+
+Description:
+Describes the library preparation for Nanopore sequencing from low input DNA according to the SQK-MAP006 protocol
+It accompanies the GigaScience publication:
+Benjamin Istace, et al. (2017) De novo assembly and population genomic survey of natural yeast isolates with the Oxford Nanopore MinION sequencer. GigaScience...
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA fragmentation
+
+## Step 2: DNA repair
+
+## Step 3: Clean Up
+
+## Step 4: End Repair
+
+## Step 5: dA-tailing
+
+## Step 6: Clean Up
+
+## Step 7: Adaptors ligation
+
+## Step 8: Clean Up

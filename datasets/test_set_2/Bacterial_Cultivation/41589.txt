@@ -1,0 +1,41 @@
+Title: Testing safety mechanism
+
+Description:
+In order to test the efficiency of the kill switch mechanism,  we plan on performing the following experiments:
+Test amino acid autotrophy in vitro
+An overnight culture will be used to inoculate a test culture. The knock out strains will be grown in a medium containing the test amino acid and then transfered to a minimal medium lacking the specific amino acid. Samples of 0.5 ml will be removed every 30 min to test the OD. 
+Testing solanine dependency in vitro
+A test culture will be inoculated from the overnight culture. The cells will be grown in LB supplemented with solanine (CONCCCCCC). The cells will be collected, washed and resuspended in LB lacking solanine. Samples of 0.5 ml will be removed every 30 min in order to test OD. 
+Testing dependency in soil
+The GFP-mutant strains (amino acid auxotrophs and solanine dependent mutants) will be inoculated at the root of the potato plants. The potato plants will be grown and described as above.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Test safety mechanisms in the lab
+
+## Step 2: Test safety mechanisms in the lab
+
+## Step 3: Test safety mechanisms in the lab
+
+## Step 4: Test safety mechanisms in the lab
+
+## Step 5: Test safety mechanisms in the lab
+
+## Step 6: Test safety mechanisms in the lab
+
+## Step 7: Test safety mechanisms in the lab
+
+## Step 8: Test safety mechanisms in the lab
+
+## Step 9: Test safety mechanisms in the lab
+
+## Step 10: Test safety mechanisms in the lab
+
+## Step 11: Test safety mechanisms in the lab
+
+## Step 12: Test safety mechanism in soil
+
+## Step 13: Test safety mechanism in soil
+
+## Step 14: Test safety mechanism in soil

@@ -1,0 +1,27 @@
+Title: Feeding bacteria to house flies for microbe fate and gene expression analysis.
+
+Description:
+Objective: To feed individual house flies a specific amount of bacteria in order to
+determine bacteria “fate” (persistence, via enumeration; spatiotemporal location, via
+microscopy) and house fly immune response (whole fly or tissue-specific, via downstream mRNA or protein expression analyses) 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing House Flies for Bacterial Feeding
+
+## Step 2: Preparing House Flies for Bacterial Feeding
+
+## Step 3: Preparing House Flies for Bacterial Feeding
+
+## Step 4: Preparing House Flies for Bacterial Feeding
+
+## Step 5: Preparing bacterial culture
+
+## Step 6: Preparing bacterial culture
+
+## Step 7: Feeding House Flies on Culture Droplets
+
+## Step 8: Feeding House Flies on Culture Droplets
+
+## Step 9: Droplet enumeration

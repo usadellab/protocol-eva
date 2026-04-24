@@ -1,0 +1,39 @@
+Title: Intracellular cytokine detection based on flow cytometry in hemocytes from Galleria mellonella larvae
+
+Description:
+Invertebrates are becoming increasingly popular models for research on the immune system. The innate immunity possessed by insects shows both structural and functional similarity to the resistance displayed by mammals, and many processes occurring in insect hemocytes are similar to those that occur in mammals. However, the use of insects as research models requires the development of methods for working with hemocytes. Therefore, a protocol for intracellular cytokine detection in Galleria mellonella larvae hemocytes based on flow cytometry has been developed. It describes the anticoagulant composition of the buffer, the optimal conditions for hemocyte permeabilization and fixation, as well as the conditions of cell centrifugation to prevent cell disintegration. A key element is the selection of staining conditions, especially the length of the incubation time with the primary antibody, which turned out to be much longer than recommended for mammalian cells. The development of these individual steps allowed for the creation of a reproducible protocol for cytokine detection using flow cytometry in wax moth hemocytes. This will certainly facilitate the development of further protocols allowing for wider use of insect cells in immunological research.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample preparation
+
+## Step 2: Sample preparation
+
+## Step 3: Sample preparation
+
+## Step 4: Sample preparation
+
+## Step 5: Sample preparation
+
+## Step 6: Fixation
+
+## Step 7: Fixation
+
+## Step 8: Fixation
+
+## Step 9: Permeabilization
+
+## Step 10: Permeabilization
+
+## Step 11: Staining
+
+## Step 12: Staining
+
+## Step 13: Staining
+
+## Step 14: Staining
+
+## Step 15: Staining
+
+## Step 16: Staining

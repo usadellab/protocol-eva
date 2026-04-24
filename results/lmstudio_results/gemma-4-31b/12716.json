@@ -1,0 +1,154 @@
+{
+  "protocol_id": "12716",
+  "protocol_name": "PCR - 12716",
+  "category": "PCR",
+  "original_steps": 18,
+  "success": true,
+  "latency_s": 80.24,
+  "evaluation": {
+    "step_preservation": 16.7,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 44.2,
+    "extracted_steps": 3,
+    "original_steps": 18
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Probe_Backbone",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "type",
+            "value": "DNA backbone",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Phosphorylated_Probe_Backbone",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "state",
+            "value": "phosphorylated",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Ligated_invertedClampFISH_Probes",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "state",
+            "value": "ligated",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Purified_invertedClampFISH_Probes",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "state",
+            "value": "purified",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Probe backbone phosphorylation",
+        "description": "Phosphorylation of the probe backbone using T4 Polynucleotide Kinase.",
+        "inputs": [
+          "Probe_Backbone",
+          "T4 Polynucleotide Kinase"
+        ],
+        "parameters": [
+          {
+            "name": "Enzyme Activity",
+            "value": "2,500",
+            "unit": "units",
+            "description": "Activity of T4 Polynucleotide Kinase used for phosphorylation"
+          },
+          {
+            "name": "Incubation Temperature",
+            "value": "",
+            "unit": "Celsius",
+            "description": "Temperature for kinase reaction"
+          }
+        ],
+        "outputs": [
+          "Phosphorylated_Probe_Backbone"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "invertedClampFISH probe ligation",
+        "description": "Ligation of the phosphorylated probe backbones to create invertedClampFISH probes.",
+        "inputs": [
+          "Phosphorylated_Probe_Backbone",
+          "T7 DNA Ligase"
+        ],
+        "parameters": [
+          {
+            "name": "Enzyme Activity",
+            "value": "750,000",
+            "unit": "units",
+            "description": "Activity of T7 DNA Ligase used for ligation"
+          },
+          {
+            "name": "Ligation Time",
+            "value": "",
+            "unit": "hours",
+            "description": "Duration of the ligation reaction"
+          }
+        ],
+        "outputs": [
+          "Ligated_invertedClampFISH_Probes"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Column purify invertedClampFISH probes",
+        "description": "Purification of the ligated probes using a DNA cleanup kit.",
+        "inputs": [
+          "Ligated_invertedClampFISH_Probes",
+          "Monarch® PCR & DNA Cleanup Kit (5 μg)"
+        ],
+        "parameters": [
+          {
+            "name": "Column Capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum binding capacity of the Monarch cleanup column"
+          },
+          {
+            "name": "Wash Volume",
+            "value": "",
+            "unit": "ml",
+            "description": "Volume of wash buffer used during purification"
+          }
+        ],
+        "outputs": [
+          "Purified_invertedClampFISH_Probes"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

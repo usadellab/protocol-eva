@@ -1,0 +1,15 @@
+Title: Protein interaction analysis of KaiC3 with various Kai homologs via yeast two-hybrid experiments (Growth Assay)
+
+Description:
+This protocol can be used to investigate protein-protein interaction via yeast two-hybrid experiments. It describes the yeast-two hybrid method relying on the activity of the histidine-synthetase. If the proteins interact, the yeast cells are able to grow on selective medium without histidine. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of buffers and media
+
+## Step 2: Transformation of yeast cells
+
+## Step 3: Restreaking of colonies
+
+## Step 4: Growth assay

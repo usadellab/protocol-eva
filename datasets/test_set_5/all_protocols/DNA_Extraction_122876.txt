@@ -1,0 +1,24 @@
+Title: DNA extraction for unsorted bulk river samples
+
+Description:
+The objective of this protocol is to propose an unsorted bulk DNA extraction methods for samples collected in aquatic environment such as kick-net samples. These community DNA extractions can then be used to describe various aspect of these communities using for example metabarcoding approaches.
+The protocol starts with a sample preserved in ethanol. The different steps of the protocol are:
+replacing the ethanol by a TNES Buffer,
+grinding the sample,
+DNA extraction with the Qiagen PowerSoil Pro kit.
+This protocol has been optimized and tested on mock samples composed of macrozobenthos organisms, algae, bryophytes, leaf litter, sand, gravels, and ethanol.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PRE-EXTRACTION TREATMENT: Grinding with buffer
+
+## Step 2: EXTRACTION USING QIAGEN POWERSOIL PRO KIT (modified from Qiagen protocol)
+
+## Step 3: PRE-EXTRACTION TREATMENT: Grinding with buffer
+
+## Step 4: PRE-EXTRACTION TREATMENT: Grinding with buffer
+
+## Step 5: PRE-EXTRACTION TREATMENT: Grinding with buffer
+
+## Step 6: EXTRACTION USING QIAGEN POWERSOIL PRO KIT (modified from Qiagen protocol)

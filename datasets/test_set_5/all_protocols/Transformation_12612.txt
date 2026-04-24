@@ -1,0 +1,28 @@
+Title: Electroporation of Aurantiochytrium limacinum (ATCC MYA-1381)
+
+Description:
+Electroporation strategy used in the transformation of Aurantiochytrium limacinum (ATCC MYA-1381; Stramenopile/ Heterokont, Thraustochytrid). This protocol is following the guidance of Ono et al. 2011. US Patent # 7,888,123 B2. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Grow cells
+
+## Step 2: Prepare DNA for electroporation
+
+## Step 3: Prepare cells for electroporation
+
+## Step 4: Add DNA to cells.
+
+## Step 5: Electroporate cells
+
+## Step 6: Outgrowth
+
+## Step 7: Plating
+
+## Step 8: Monitor Transformant Colonies
+
+## Step 9: Prepare reagents for Electroporation
+
+=== MATERIALS ===
+- Gene Pulser Electroporation Cuvettes, 0.2 cm gap

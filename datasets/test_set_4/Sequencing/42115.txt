@@ -1,0 +1,51 @@
+Title: Intestinal Organoid Dissociation and Nuclei Isolation for Single Cell ATAC-Seq
+
+Description:
+This protocol provides a procedure for human intestinal organoid dissociation into a single cell suspension and nuclei isolation prior to Single Cell ATAC-Sequencing. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Organoid Dissociation
+
+## Step 2: Nuclei Isolation
+
+## Step 3: Nuclei Isolation
+
+## Step 4: Nuclei Isolation
+
+## Step 5: Organoid Dissociation
+
+## Step 6: Nuclei Isolation
+
+## Step 7: Nuclei Isolation
+
+## Step 8: Nuclei Isolation
+
+## Step 9: Nuclei Isolation
+
+## Step 10: Nuclei Isolation
+
+## Step 11: Nuclei Isolation
+
+## Step 12: Nuclei Isolation
+
+## Step 13: Nuclei Isolation
+
+## Step 14: Nuclei Isolation
+
+## Step 15: Nuclei Isolation
+
+## Step 16: Nuclei Isolation
+
+=== MATERIALS ===
+- Magnesium chloride solution for molecular biology (1.00 M)
+- TrypLE&trade; Express Enzyme (1X), no phenol red
+- Wheat Germ Agglutinin, Alexa Fluor&trade; 594 Conjugate
+-     Trizma Hydrochloride Solution pH 7.4 
+- Sodium Chloride Solution 5 M 
+-  Nonidet P40 Substitute
+- MACS BSA Stock Solution
+- Flowmi Cell Strainer 40 µm 
+- Nuclei Buffer 20X 
+- DAPI

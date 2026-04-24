@@ -1,0 +1,13 @@
+Title: Run Prodigal using iMicrobe
+
+Description:
+How to run Prodigal version 2.6.3 (Hyatt et al. 2010) through the iMicrobe plaform.
+Prodigal is a protein-coding gene prediction software tool for bacterial and archaeal genomes. Prodigal runs smoothly on finished genomes, draft genomes, and metagenomes. Please note that Prodigal has not been tested on viruses, and that Prodigal contains no special rules or routines to handle viral genomes.
+More informations about Prodigal can be found here : https://github.com/hyattpd/Prodigal/wiki
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Run prodigal on a single genome
+
+## Step 2: Run prodigal on an assembly

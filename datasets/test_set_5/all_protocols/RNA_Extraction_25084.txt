@@ -1,0 +1,23 @@
+Title: RNA Isolation from Plant Tissue Protocol 2: McKenzie et al’s Qiagen hybrid method
+
+Description:
+Implemented by: Jim Leebens-Mack and Charlotte Carrigan
+This protocol was developed by McKenzie et al.2 to facilitate the isolation of RNA from woody plants rich in phenolics and polysaccharides, such as grapes (Vitaceae) and fruit bearing Rosaceae (apples, cherries and pears). The protocol is provided on Qiagen’s website as an alternative method to be used in combination with their RNeasy Plant Minikit. We repeat the protocol here in the event that this protocol is removed from Qiagen’s website or readers find it difficult to obtain the original publication.
+This protocol is part of a collection of eighteen protocols used to isolate total RNA from plant tissue. (RNA Isolation from Plant Tissue Collection: https://www.protocols.io/view/rna-isolation-from-plant-tissue-439gyr6) 
+2 McKenzie, D.J., McLean, M.A., Mukerji, S. & Green, M. Improved RNA extraction from woody plants for the detection of         viral pathogens by reverse transcription‐polymerase chain reaction. Plant Disease 81, 222‐226 (1997).
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- RNeasy Plant Mini Kit

@@ -1,0 +1,14 @@
+Title: Plate Pouring
+
+Description:
+C. elegans is maintained in the laboratory on Nematode Growth Medium (NGM) agar which has been aseptically poured into petri plates. Smaller plates (35 mm diameter) are useful for mating or when using expensive drugs. Medium size plates (60 mm diameter) are useful for general strain maintenance, and larger plates (100 mm diameter) are useful for growing larger quantities of worms, such as for certain mutant screens. The NGM agar medium can be poured into petri plates easily and aseptically using a peristaltic pump. This pump can be adjusted so that a constant amount of NGM agar is dispensed into each petri plate. A constant amount of agar in the plates reduces the need for refocusing the microscope when you switch from one plate to another. 
+Reference: http://www.wormbook.org/
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of the Hood
+
+## Step 2: Actual Pouring
+
+## Step 3: Post Pouring

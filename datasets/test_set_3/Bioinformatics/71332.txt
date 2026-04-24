@@ -1,0 +1,11 @@
+Title: Assembly of pAOXHygR vector for protein expression in the yeast Pichia pastoris
+
+Description:
+The protocol describes assembly of an Pichia pastoris expression vector composed of the following building blocks: alcohol oxidase 1 (AOX1) promoter, multiple cloning site, myc epitope, 6xHis tag, AOX1 terminator, hygromycin B resistance marker, origin of replication and ampicillin resistance marker. The pAOX1HygR expression vector can be used for integrating the gene of interest into the AOX1 locus of the genome of P. pastoris and the subsequent methanol induced intracellular expression of the recombinant protein. Ampicillin resistance marker is employed for selecting the transformed E. coli cells and hygromycin B resistance marker for selecting the transformed P. pastoris cells. The protocol is part of the article "Identification, characterisation and recombinant expression of flavonoid 3',5'-hydroxylases and cytochrome P450 reductases from Vaccinium species". The protocol was created during implementing the project no 1.1.1.2/VIAA/2/18/286 "Optimization of novel plant derived enzyme expression in microorganisms for biotechnological application" funded by European Regional Development Fund.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+

@@ -1,0 +1,39 @@
+Title: Universal (second) PCR of the Leeselab 2-step PCR protocol
+
+Description:
+This protocol describes how to perfom the universal second step of the Leeselab 2-step PCR protocol in   reactions. In the first PCR step, specific primers (e.g. fwhF2/fwhR2n) are used to tag each plate with an individual combination of tags (1-24) and a universal tail. In the second step of the 2-step-PCR, each well is tagged with an individual index sequence (1-96) enabling the identification of each sample (well) after library sequencing.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparations
+
+## Step 2: Preparations
+
+## Step 3: Preparations
+
+## Step 4: Preparations
+
+## Step 5: Preparations
+
+## Step 6: Preparations
+
+## Step 7: Preparations
+
+## Step 8: Preparations
+
+## Step 9: Preparations
+
+## Step 10: Preparations
+
+## Step 11: Preparations
+
+## Step 12: Preparations
+
+## Step 13: PCR
+
+## Step 14: PCR
+
+## Step 15: PCR
+
+## Step 16: Storage

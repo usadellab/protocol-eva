@@ -1,0 +1,32 @@
+Title: Samples Preparation for Foodborne Pathogen Detection and Tracking project
+
+Description:
+Our foodborne Pathogen detection and tracking project main goal is to create openly available FAIR workflows capable of detecting and tracking all kinds of pathogens in any metagenomics sample, specifically in food serving public health purposes. To test our workflows, our first step was to create our test datasets. That are mainly food samples, which are spiked with particular strain of a pathogen and the workflows should detect it and tack its trace among all samples. 
+The following steps will show you how our samples, as test datasets, are prepared
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Materials and Methods
+
+## Step 2: Galaxy Workflows
+
+## Step 3: Galaxy Workflows
+
+## Step 4: Workflow Results Analysis
+
+## Step 5: Workflow Results Analysis
+
+## Step 6: DNA isolation
+
+## Step 7: DNA quality and quantity
+
+## Step 8: Nanopore sequencing
+
+## Step 9: Nanopore sequencing
+
+## Step 10: Nanopore sequencing
+
+## Step 11: Nanopore sequencing
+
+## Step 12: Nanopore sequencing

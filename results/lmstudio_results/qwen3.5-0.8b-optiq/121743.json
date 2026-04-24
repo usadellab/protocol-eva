@@ -1,0 +1,50 @@
+{
+  "protocol_id": "121743",
+  "protocol_name": "Bacterial_Cultivation - 121743",
+  "category": "Bacterial_Cultivation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 2.6,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Preparation of antimicrobial agents and inoculum sources for time-kill assays.",
+    "inputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "parameters": [
+      {
+        "name": "Incubation Volume",
+        "value": "10 mL",
+        "unit": "",
+        "description": "Volume of the medium used for inoculation"
+      },
+      {
+        "name": "CO2 Concentration",
+        "value": "5%",
+        "unit": "",
+        "description": "Percentage of CO2 in the incubation medium"
+      },
+      {
+        "name": "Shaker Speed",
+        "value": "100 rpm",
+        "unit": "",
+        "description": "Rotational speed of the shaking vessel"
+      }
+    ],
+    "outputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "dataFiles": []
+  },
+  "json_valid": true
+}

@@ -1,0 +1,37 @@
+Title: Creating a chromosomal knock-in in ADP1 via overlap PCR
+
+Description:
+This protocol will outline the steps needed to integrate gene(s) into targeted regions of the ADP1 genome using overlap PCR techniques. This method acts as a follow up to the protocol "Creating a chromosomal knockout in ADP1 via overlap PCR." This protocol will reference use of Benchling, the cloud based organization software for designing genetic parts.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Protocol overview
+
+## Step 2: Assemble the expression cassette in silico
+
+## Step 3: (optional) Gibson assembly of expression plasmid
+
+## Step 4: Assemble the expression cassette in silico
+
+## Step 5: (optional) Gibson assembly of expression plasmid
+
+## Step 6: Design primers to amplify the expression cassette
+
+## Step 7: PCR amplification of parts for overlap PCR
+
+## Step 8: Design primers to amplify the expression cassette
+
+## Step 9: Running overlap PCR to generate expression cassette
+
+## Step 10: Transforming ADP1 with expression cassette
+
+## Step 11: Patching, running colony PCRs, and making glycerol stocks
+
+## Step 12: Running overlap PCR to generate expression cassette
+
+## Step 13: Transforming ADP1 with expression cassette
+
+## Step 14: Patching, running colony PCRs, and making glycerol stocks
+
+## Step 15: PCR amplification of parts for overlap PCR

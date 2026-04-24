@@ -1,0 +1,37 @@
+Title: SSNIP-seq: A simple and rapid method for isolation of single-sperm nucleic acid for high-throughput sequencing
+
+Description:
+We developed a simple and reproducible method for the isolation of haploid nuclei from fresh and frozen tests. The described protocol utilises readily available reagents in combination with flow cytometry to separate haploid and diploid nuclei. The protocol can be completed within 1 hour and the resulting individual haploid nuclei have intact morphology. The isolated nuclei are suitable for library preparation for high-throughput DNA and RNA sequencing using bulk or single nuclei. The protocol was optimised with mouse testes and we anticipate that it can be applied for the isolation of mature sperm from other mammals including humans.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

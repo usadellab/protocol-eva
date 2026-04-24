@@ -1,0 +1,260 @@
+{
+  "protocol_id": "102038",
+  "protocol_name": "Sequencing - 102038",
+  "category": "Sequencing",
+  "original_steps": 9,
+  "success": true,
+  "latency_s": 22.89,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 600.0,
+    "component_extraction": 1100.0,
+    "sequence_order": 100,
+    "overall": 425.0,
+    "extracted_steps": 9,
+    "original_steps": 9
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Algae",
+        "characteristics": [
+          {
+            "category": "Filter pore size",
+            "value": "0.45",
+            "unit": "µm",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Preservation temperature",
+            "value": "-20",
+            "unit": "°C",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Maximum storage duration",
+            "value": "6",
+            "unit": "months",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "FieldBlank_1",
+        "organism": "Deionized water (blank)",
+        "characteristics": [
+          {
+            "category": "Filter pore size",
+            "value": "0.45",
+            "unit": "µm",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Step 1: Sample collection",
+        "description": "Collect homogenized bioassessment sample containing algae.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Sample type",
+            "value": "Homogenized bioassessment sample",
+            "unit": "",
+            "description": "Type of environmental sample collected"
+          }
+        ],
+        "outputs": [
+          "Collected algae suspension"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 2: Sample collection",
+        "description": "Transfer collected algae suspension to a 47 mm Whatman/Swinnex filter holder or funnel.",
+        "inputs": [
+          "Collected algae suspension"
+        ],
+        "parameters": [
+          {
+            "name": "Filter holder size",
+            "value": "47",
+            "unit": "mm",
+            "description": "Diameter of the filter holder used"
+          }
+        ],
+        "outputs": [
+          "Algae in filter apparatus"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 3: Filtering",
+        "description": "Filter algae through a 0.45 µm cellulose nitrate filter to capture cells.",
+        "inputs": [
+          "Algae in filter apparatus"
+        ],
+        "parameters": [
+          {
+            "name": "Filter pore size",
+            "value": "0.45",
+            "unit": "µm",
+            "description": "Pore size of the cellulose nitrate filter"
+          }
+        ],
+        "outputs": [
+          "Filtered algae on membrane"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 4: Filtering",
+        "description": "Rinse filter with sterile deionized water to remove residual matrix.",
+        "inputs": [
+          "Filtered algae on membrane"
+        ],
+        "parameters": [
+          {
+            "name": "Rinse volume",
+            "value": "",
+            "unit": "",
+            "description": "Volume of sterile deionized water used for rinsing (not specified)"
+          }
+        ],
+        "outputs": [
+          "Cleaned algae filter"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 5: After Filtering",
+        "description": "Place filter into a screw‑cap tube containing preservation solution.",
+        "inputs": [
+          "Cleaned algae filter"
+        ],
+        "parameters": [
+          {
+            "name": "Preservation solution",
+            "value": "",
+            "unit": "",
+            "description": "Solution used to preserve DNA (composition not specified)"
+          }
+        ],
+        "outputs": [
+          "Preserved algae sample"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 6: After Filtering",
+        "description": "Label tube with sample ID and metadata.",
+        "inputs": [
+          "Preserved algae sample"
+        ],
+        "parameters": [
+          {
+            "name": "Label information",
+            "value": "",
+            "unit": "",
+            "description": "Sample identifier and collection metadata"
+          }
+        ],
+        "outputs": [
+          "Labeled preserved algae sample"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 7: After Filtering",
+        "description": "Store labeled tubes at -20 °C (or -80 °C) for up to six months.",
+        "inputs": [
+          "Labeled preserved algae sample"
+        ],
+        "parameters": [
+          {
+            "name": "Storage temperature",
+            "value": "-20",
+            "unit": "°C",
+            "description": "Primary storage temperature; -80 °C also acceptable"
+          },
+          {
+            "name": "Maximum storage time",
+            "value": "6",
+            "unit": "months",
+            "description": "Maximum duration samples can be stored before DNA extraction"
+          }
+        ],
+        "outputs": [
+          "Stored algae DNA sample"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 8: Collecting a Field Blank",
+        "description": "Filter deionized water through the same apparatus to generate a blank control.",
+        "inputs": [
+          "Deionized water"
+        ],
+        "parameters": [
+          {
+            "name": "Blank filter pore size",
+            "value": "0.45",
+            "unit": "µm",
+            "description": "Same pore size as sample filters"
+          }
+        ],
+        "outputs": [
+          "FieldBlank_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 9: Sample Metadata",
+        "description": "Record metadata for each sample and blank (date, location, filter type, preservation details).",
+        "inputs": [
+          "Stored algae DNA sample",
+          "FieldBlank_1"
+        ],
+        "parameters": [
+          {
+            "name": "Metadata fields",
+            "value": "",
+            "unit": "",
+            "description": "Date, location, filter type, preservation solution, storage temperature"
+          }
+        ],
+        "outputs": [
+          "Metadata record"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

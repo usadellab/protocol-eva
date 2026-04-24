@@ -1,0 +1,86 @@
+Title: DoTA-seq V3
+
+Description:
+This protocol describes the process of DoTA-seq generating a single cell sequencing library from a cell suspension. This workflow can be performed in two days, with the PCR step happening overnight. Before beginning this workflow make sure to have:
+1. The necessary microfluidics devices prepared and ready to go
+2. The multiplex DoTA-seq target primers validated to work together without generating large molecular weight primer dimers.
+Please read the publication for further details.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing Cells
+
+## Step 2: Preparing Cells
+
+## Step 3: Preparing Cells
+
+## Step 4: Preparing Cells
+
+## Step 5: Preparing Cells
+
+## Step 6: Preparing Gel
+
+## Step 7: Generate Gel Droplets
+
+## Step 8: Generate Gel Droplets
+
+## Step 9: Generate Gel Droplets
+
+## Step 10: Generate Gel Droplets
+
+## Step 11: Breaking out gels from emulsion
+
+## Step 12: Breaking out gels from emulsion
+
+## Step 13: Breaking out gels from emulsion
+
+
+
+
+
+## Step 18: Lysing Bacteria
+
+
+
+
+
+
+
+## Step 25: Barcoding the Cells
+
+## Step 26: Barcoding the Cells
+
+## Step 27: Barcoding the Cells
+
+## Step 28: Barcoding the Cells
+
+## Step 29: Barcoding the Cells
+
+## Step 30: Barcoding the Cells
+
+## Step 31: Barcoding the Cells
+
+## Step 32: Barcoding the Cells
+
+## Step 33: Barcoding the Cells
+
+## Step 34: PCR Cleanup
+
+## Step 35: PCR Cleanup
+
+## Step 36: PCR Cleanup
+
+## Step 37: PCR Cleanup
+
+## Step 38: PCR Cleanup
+
+## Step 39: PCR Cleanup
+
+## Step 40: PCR Cleanup
+
+## Step 41: PCR Cleanup
+
+## Step 42: PCR Cleanup
+
+## Step 43: Generate Gel Droplets

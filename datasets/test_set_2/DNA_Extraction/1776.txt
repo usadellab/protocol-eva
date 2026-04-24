@@ -1,0 +1,46 @@
+Title: Bulk gDNA extraction from coral samples
+
+Description:
+This is a modified version of the DNA extraction methods published in:
+ Rowan, R., & Powers, D.A. (1991) Molecular genetic identification of symbiotic dinoflagellates (zooxanthellae). Marine Ecology Progress Series, 71(1), 65–73.
+ Baker, A.C., Rowan, R., & Knowlton, N. (1997) Symbiosis ecology of two Caribbean acroporid corals. Proceedings of the 8th International Coral Reef Symposium, Panama 2: 1295-1300
+ 
+ This protocol is used to extract and purify genomic DNA from coral samples (tissue and skeleton) that is suitable for PCR, qPCR, sequencing, and other downstream applications. DNA is recovered from the coral host, Symbiodinium, and other members of the holobiont.
+
+
+=== PROTOCOL STEPS ===
+
+
+## Step 2: SDS Incubation
+
+## Step 3: Proteinase K digest
+
+## Step 4: Organic extraction
+
+## Step 5: Organic extraction
+
+## Step 6: Organic extraction
+
+## Step 7: First ethanol precipitation
+
+## Step 8: First ethanol precipitation
+
+## Step 9: First ethanol precipitation
+
+## Step 10: Second ethanol precipitation
+
+## Step 11: Second ethanol precipitation
+
+## Step 12: Second ethanol precipitation
+
+## Step 13: Second ethanol precipitation
+
+## Step 14: Second ethanol precipitation
+
+## Step 15: Ethanol wash
+
+## Step 16: Ethanol wash
+
+## Step 17: Ethanol wash
+
+## Step 18: Resuspension of purified DNA

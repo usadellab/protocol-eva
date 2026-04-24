@@ -1,0 +1,47 @@
+Title: S. O. C. medium
+
+Description:
+S.O.C. Medium is used in the final step of bacterial cell transformation to obtain maximal transformation efficiency ofE. coli. S.O.C.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 500 mL 1 M Glucose solution
+
+## Step 2: 500 mL 1 M Glucose solution
+
+## Step 3: 500 mL 1 M Glucose solution
+
+## Step 4: 500 mL 1 M Glucose solution
+
+## Step 5: 1 000 mL S. O. B. medium
+
+## Step 6: 1 000 mL S. O. B. medium
+
+## Step 7: 1 000 mL S. O. B. medium
+
+## Step 8: 1 000 mL S. O. B. medium
+
+## Step 9: 1 000 mL S. O. B. medium
+
+## Step 10: 125 mL 2 M Magnesium chloride
+
+## Step 11: 250 mL 250 mM Potassium chloride
+
+## Step 12: 100 mL S. O. C. medium
+
+## Step 13: 100 mL S. O. C. medium
+
+## Step 14: 250 mL 250 mM Potassium chloride
+
+## Step 15: 250 mL 250 mM Potassium chloride
+
+## Step 16: 250 mL 250 mM Potassium chloride
+
+## Step 17: 125 mL 2 M Magnesium chloride
+
+## Step 18: 125 mL 2 M Magnesium chloride
+
+## Step 19: 125 mL 2 M Magnesium chloride
+
+## Step 20: 1 000 mL S. O. B. medium

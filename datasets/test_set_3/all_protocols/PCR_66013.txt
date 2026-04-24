@@ -1,0 +1,20 @@
+Title: Functionality test (TBE  electrophoresis buffer)
+
+Description:
+This protocol describes the comparative analysis of resolution of bands and band patterns after electrophoresis with the BenBio TBE  buffer formulation as compared with a commercial TBE buffer. We use 0.5 kb and 1kb PCR amplicons loaded on 1.5% (w/v) agarose gel, run electrophoresis at 80V and visualized on a Blue light transilluminator or UV transilluminator.
+Our formulation of TBE buffer is able to allow us obtain a higher resolution of smaller DNA fragments on agarose gels.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PCR amplification
+
+## Step 2: Functionality test of TBE buffer
+
+## Step 3: Functionality test of TBE buffer
+
+## Step 4: Functionality test of TBE buffer
+
+## Step 5: Functionality test of TBE buffer
+
+## Step 6: PCR amplification

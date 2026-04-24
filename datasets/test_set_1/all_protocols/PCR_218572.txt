@@ -1,0 +1,43 @@
+Title: FISH CODETECTION
+
+Description:
+DIG and Fluorescein labeled
+riboprobes
+Fluorescent in situ
+hybridization 
+Frozen brain sections
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PCR production by plasmid of interest
+
+## Step 2: PCR production by plasmid of interest
+
+## Step 3: PCR production by plasmid of interest
+
+## Step 4: PCR production by plasmid of interest
+
+## Step 5: PCR production by plasmid of interest
+
+## Step 6: Riboprobe synthesis
+
+## Step 7: Riboprobe synthesis
+
+## Step 8: Riboprobe synthesis
+
+## Step 9: Riboprobe synthesis
+
+## Step 10: Riboprobe synthesis
+
+## Step 11: Tissue Preparation
+
+## Step 12: Hybridization
+
+## Step 13: Day 2: washes and immunological staining
+
+## Step 14: Day 2: washes and immunological staining
+
+## Step 15: Day 2: washes and immunological staining
+
+## Step 16: Day3: washes and immunological staining

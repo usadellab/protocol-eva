@@ -1,0 +1,48 @@
+Title: Qiagen QIAprep Spin Miniprep Kit (27104 or 27106) with a microcentrifuge
+
+Description:
+This is the protocol for QIAgen's QIAprep Spin Miniprep Kit (catalog numbers 27104 or 27106) with their newer version 2.0 spin columns. For more information about the kit, see https://www.qiagen.com/us/shop/sample-technologies/dna/dna-preparation/qiaprep-spin-miniprep-kit?cmpid=QVenSPP1404quartzySC#orderinginformation.
+ For purification of up to 20 μg molecular biology grade plasmid DNA
+ 
+
+ 
+ 
+    Ready-to-use plasmid DNA in minutes
+ Reproducible yields of molecular biology grade plasmid DNA
+ Single protocol for high- and low-copy vectors
+ Even higher yields with the High-Yield Supplementary Protocol 
+ Improved QIAprep 2.0 Spin Column
+ GelPilot loading dye for convenient sample analysis
+  
+ The QIAprep Spin Miniprep Kit is designed for isolation of up to 20 μg high-purity plasmid or cosmid DNA for use in routine molecular biology applications, including fluorescent and radioactive sequencing and cloning. Even higher yields (up to 30 μg) can be achieved using the High-Yield Supplementary Protocol.
+ 
+ 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lysis
+
+## Step 2: Lysis
+
+## Step 3: Lysis
+
+## Step 4: Lysis
+
+## Step 5: Binding
+
+## Step 6: Binding
+
+## Step 7: Wash
+
+## Step 8: Wash
+
+## Step 9: Wash
+
+## Step 10: Elution
+
+## Step 11: Elution
+
+## Step 12: Elution
+
+## Step 13: Lysis

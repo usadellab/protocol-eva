@@ -1,0 +1,20 @@
+Title: Oxford Nanopore Technologies SQK-LSK114 library preparation on Hamilton NGS STAR SOP
+
+Description:
+LIbrary preparation for population-scale Oxford Nanopore long-read DNA sequencing SOP
+
+
+At the NIH's Center for Alzheimer's and Related Dementias (CARD) https://card.nih.gov/research-programs/long-read-sequencing we will generate long-read sequencing data from thousands of patients with Alzheimer's disease, frontotemporal dementia, Lewy body dementia, and healthy subjects. With this research, we will build a public resource consisting of long-read genome sequencing data from a large number of confirmed people with Alzheimer's disease and related dementias and healthy individuals. To generate this large-scale nanopore sequencing data we have developed a protocol for processing and long-read sequencing human frontal cortex brain tissue, targeting an N50 of  ~30kb and ~30X coverage.   
+
+
+†Correspondence to: Kimberley Billingsley billingsleykj@nih.gov
+
+
+Acknowledgements:
+We would like to thank the Nanopore team (Jade Bartolo, Olivor Holman, Androo Markham & Jessica Anderson) and Hamilton team (Kristen Hise) and the whole CARD long-read team listed below => UCSC: Benedict Paten, Trevor Pesout, Paolo Carnevali, Mira Mastoras, Melissa Meredith, Jean Monlong, Ryan Lorig-Roach, Mobin Asri; NE: Miten Jain; NCI: Mikhail Kolmogorov; NHGRI: Adam Phillippy, Arang Rhie; Baylor: Fritz Sedlazeck, Farhang Jaryani; JHU: Winston Timp; NIA: Cornelis Blauwendraat, Kimberley Billingsley, Pilar Alvarez Jerez, Laksh Malik, Breeana Baker, Maysa Abdelhalim, Kensuke Daida, Rylee Genner,  Abigail Miano-Burkhardt, Caroline Pantazis;
+
+
+=== PROTOCOL STEPS ===
+
+
+

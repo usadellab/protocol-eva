@@ -1,0 +1,32 @@
+Title: Sars-CoV2 RNA purification with homemade SPRI beads for RT-qPCR test
+
+Description:
+The current SARS-CoV2 epidemic calls for large scale viral tests. The current testing procedure for the presence of virions involves several steps - pharyngeal/nasal swab, cell/viral lysis, RNA extraction, and an rtPCR assay targeting the viral genome and a human gene as an internal sample control. Improvement of any of these steps in terms of cost, processing time, or reagent availability, could result in a significant increase of testing capacity world-wide.
+Here, we describe a rapid and efficient home made SPRI-based RNA extraction method from a lysed sample. Our approach can be fully automated, is quick (<30 min for 96 samples) and cheap (<1$ per sample), and was tested successfully on more than 250 clinical samples with approved rt-qPCR detection kits.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: SPRI viral RNA Cleanup
+
+## Step 2: SPRI viral RNA Cleanup
+
+## Step 3: SPRI viral RNA Cleanup
+
+## Step 4: SPRI viral RNA Cleanup
+
+=== MATERIALS ===
+- NaCl
+- PEG 8000 Powder (Polyethylene Glycol), 500gm
+- Trisodium citrate dihydrate
+- Water, nuclease free
+- 1M Tris pH 7.5 
+- Sera-Mag SpeedBead Carboxylate-Modified Magnetic Particles (Hydrophobic), 15 mL
+- Tween 20
+- Ethanol
+- Lithium chloride
+- HCl
+- Ethylenediaminetetraacetic acid (EDTA)
+- Lithium dodecyl sulfate
+- 1M DL-Dithiothreitol solution (DTT)
+- 1M Tris pH 8.0

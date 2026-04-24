@@ -1,0 +1,31 @@
+Title: A Bioconductor R pipeline for analysis of RNA-seq data
+
+Description:
+We describe a powerful and easy-to-use RNA-seq analysis pipeline that can be used for complete analysis of RNA-seq data. It starts with raw read output of an sequencing instrument and reports lists of genes that are found to be differentially expressed in the comparison of different cell types. It consists of several analysis modules including Subread read alignment [1], featureCounts read summarization [2], voom normalization [3] and statistical testing of differential expression using empirical Bayes moderated t-statistic [4]. The entire pipeline mainly makes use of two R packages, Rsubread and limma, both available from the popular Bioconductor project.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure:
+
+## Step 2: Procedure:
+
+## Step 3: Procedure:
+
+## Step 4: Procedure:
+
+## Step 5: Procedure:
+
+## Step 6: Procedure:
+
+## Step 7: Procedure:
+
+## Step 8: Procedure:
+
+## Step 9: Timing
+
+## Step 10: Anticipated Results
+
+## Step 11: Additional Declarations
+
+## Step 12: Associated Publications

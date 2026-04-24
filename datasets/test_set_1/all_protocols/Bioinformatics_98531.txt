@@ -1,0 +1,11 @@
+Title: Flow Cytometry ECS Surface Antigens
+
+Description:
+High-parameter flow cytometry enables identification and characterization of a wide range of cell populations within a biological sample. Analysis of cell-surface epitopes using a collection of fluorophore-labeled antibodies, or extracellular stain (ECS), sufficiently labels population-identifying markers for further analysis with flow cytometry. Importantly, ECS can be applied to cryo-preserved cell suspensions recovered in tissue culture media, enabling samples to be conveniently analyzed after collection and proper cryopreservation. However, consistent cryopreserved sample recovery and ECS procedures are critical to data comparison across multiple experiments. Herein, we describe a standardized protocol for cryopreserved sample recovery and ECS procedures for cell-surface epitope labeling. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure
+
+## Step 2: Procedure

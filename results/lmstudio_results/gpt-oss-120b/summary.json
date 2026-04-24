@@ -1,0 +1,2181 @@
+{
+  "model": "gpt-oss-120b",
+  "timestamp": "2026-04-24T17:00:01.521821",
+  "summary": {
+    "model_key": "gpt-oss-120b",
+    "model_name": "GPT-OSS-120B",
+    "model_id": "openai/gpt-oss-120b",
+    "json_handler": "gpt_oss",
+    "force_json_prefix": false,
+    "total_protocols": 7,
+    "successful": 6,
+    "failed": 1,
+    "success_rate": 85.7,
+    "avg_latency_s": 32.88,
+    "avg_score": 149.1,
+    "total_time_s": 230.2,
+    "processed_this_run": 7
+  },
+  "results": [
+    {
+      "protocol_id": "121645",
+      "protocol_name": "Bioinformatics - 121645",
+      "category": "Bioinformatics",
+      "original_steps": 12,
+      "success": true,
+      "latency_s": 23.65,
+      "evaluation": {
+        "step_preservation": 50.0,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 57.5,
+        "extracted_steps": 6,
+        "original_steps": 12
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Homo sapiens",
+            "characteristics": [
+              {
+                "category": "tissue_type",
+                "value": "cell_line_A",
+                "unit": "",
+                "termSource": "NCIT",
+                "termAccession": "C12773"
+              },
+              {
+                "category": "treatment",
+                "value": "control",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Sample_2",
+            "organism": "Homo sapiens",
+            "characteristics": [
+              {
+                "category": "tissue_type",
+                "value": "cell_line_B",
+                "unit": "",
+                "termSource": "NCIT",
+                "termAccession": "C12773"
+              },
+              {
+                "category": "treatment",
+                "value": "stimulated",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Raw read acquisition",
+            "description": "Obtain raw FASTQ files from sequencing instrument.",
+            "inputs": [
+              "Sample_1",
+              "Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "sequencing_platform",
+                "value": "Illumina NovaSeq 6000",
+                "unit": "",
+                "description": "Instrument used for sequencing"
+              },
+              {
+                "name": "read_length",
+                "value": "150",
+                "unit": "bp",
+                "description": "Length of each read"
+              },
+              {
+                "name": "paired_end",
+                "value": "true",
+                "unit": "",
+                "description": "Whether sequencing was paired‑end"
+              }
+            ],
+            "outputs": [
+              "Raw_FASTQ_Sample_1",
+              "Raw_FASTQ_Sample_2"
+            ],
+            "dataFiles": [
+              "Sample_1_R1.fastq.gz",
+              "Sample_1_R2.fastq.gz",
+              "Sample_2_R1.fastq.gz",
+              "Sample_2_R2.fastq.gz"
+            ]
+          },
+          {
+            "name": "Read alignment",
+            "description": "Align raw reads to the reference genome using Subread.",
+            "inputs": [
+              "Raw_FASTQ_Sample_1",
+              "Raw_FASTQ_Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "software",
+                "value": "Rsubread::align",
+                "unit": "",
+                "description": "Subread alignment function from Rsubread package"
+              },
+              {
+                "name": "reference_genome",
+                "value": "GRCh38/hg38",
+                "unit": "",
+                "description": "Human reference genome build"
+              },
+              {
+                "name": "max_mismatches",
+                "value": "3",
+                "unit": "",
+                "description": "Maximum allowed mismatches per read"
+              }
+            ],
+            "outputs": [
+              "Aligned_BAM_Sample_1",
+              "Aligned_BAM_Sample_2"
+            ],
+            "dataFiles": [
+              "Sample_1_aligned.bam",
+              "Sample_2_aligned.bam"
+            ]
+          },
+          {
+            "name": "Read summarization",
+            "description": "Count reads per gene using featureCounts.",
+            "inputs": [
+              "Aligned_BAM_Sample_1",
+              "Aligned_BAM_Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "software",
+                "value": "Rsubread::featureCounts",
+                "unit": "",
+                "description": "FeatureCounts function from Rsubread package"
+              },
+              {
+                "name": "annotation",
+                "value": "Ensembl GTF v105",
+                "unit": "",
+                "description": "Gene annotation file"
+              },
+              {
+                "name": "strand_specific",
+                "value": "yes",
+                "unit": "",
+                "description": "Strand specificity of the library"
+              }
+            ],
+            "outputs": [
+              "Gene_Counts"
+            ],
+            "dataFiles": [
+              "gene_counts.txt"
+            ]
+          },
+          {
+            "name": "Normalization",
+            "description": "Normalize raw counts using voom transformation.",
+            "inputs": [
+              "Gene_Counts"
+            ],
+            "parameters": [
+              {
+                "name": "software",
+                "value": "limma::voom",
+                "unit": "",
+                "description": "Voom function from limma package"
+              },
+              {
+                "name": "library_size_normalization",
+                "value": "TMM",
+                "unit": "",
+                "description": "Trimmed Mean of M-values method"
+              }
+            ],
+            "outputs": [
+              "Voom_Normalized_Matrix"
+            ],
+            "dataFiles": [
+              "voom_normalized.rds"
+            ]
+          },
+          {
+            "name": "Differential expression testing",
+            "description": "Identify differentially expressed genes between the two conditions using empirical Bayes moderated t‑statistics.",
+            "inputs": [
+              "Voom_Normalized_Matrix"
+            ],
+            "parameters": [
+              {
+                "name": "software",
+                "value": "limma::eBayes",
+                "unit": "",
+                "description": "Empirical Bayes moderation in limma"
+              },
+              {
+                "name": "design_matrix",
+                "value": "condition (control vs stimulated)",
+                "unit": "",
+                "description": "Experimental design specification"
+              },
+              {
+                "name": "adjustment_method",
+                "value": "Benjamini-Hochberg",
+                "unit": "",
+                "description": "False discovery rate correction"
+              },
+              {
+                "name": "significance_threshold",
+                "value": "0.05",
+                "unit": "",
+                "description": "Adjusted p‑value cutoff for significance"
+              }
+            ],
+            "outputs": [
+              "Differential_Expression_Results"
+            ],
+            "dataFiles": [
+              "DE_results.csv"
+            ]
+          },
+          {
+            "name": "Result reporting",
+            "description": "Generate summary tables and plots of differentially expressed genes.",
+            "inputs": [
+              "Differential_Expression_Results"
+            ],
+            "parameters": [
+              {
+                "name": "software",
+                "value": "R (ggplot2, pheatmap)",
+                "unit": "",
+                "description": "Visualization libraries used"
+              },
+              {
+                "name": "top_n_genes",
+                "value": "20",
+                "unit": "",
+                "description": "Number of top genes displayed in plots"
+              }
+            ],
+            "outputs": [
+              "DE_Report"
+            ],
+            "dataFiles": [
+              "DE_summary.pdf",
+              "volcano_plot.png",
+              "heatmap.png"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "11015",
+      "protocol_name": "RNA_Extraction - 11015",
+      "category": "RNA_Extraction",
+      "original_steps": 23,
+      "success": true,
+      "latency_s": 67.15,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 77.5,
+        "extracted_steps": 23,
+        "original_steps": 23
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Arabidopsis_silique_1",
+            "organism": "Arabidopsis thaliana",
+            "characteristics": [
+              {
+                "category": "tissue_type",
+                "value": "silique",
+                "unit": "",
+                "termSource": "Plant Ontology",
+                "termAccession": "PO:0009047"
+              },
+              {
+                "category": "development_stage",
+                "value": "mature",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Tobacco_fruit_1",
+            "organism": "Nicotiana tabacum",
+            "characteristics": [
+              {
+                "category": "tissue_type",
+                "value": "fruit",
+                "unit": "",
+                "termSource": "Plant Ontology",
+                "termAccession": "PO:0009001"
+              },
+              {
+                "category": "development_stage",
+                "value": "ripe",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Step 1: Lysis",
+            "description": "Disruption of tissue in lysis buffer to release nucleic acids.",
+            "inputs": [
+              "Arabidopsis_silique_1",
+              "Tobacco_fruit_1"
+            ],
+            "parameters": [
+              {
+                "name": "lysis_buffer_volume",
+                "value": "500",
+                "unit": "µL",
+                "description": "Volume of lysis buffer added to each sample"
+              },
+              {
+                "name": "incubation_temperature",
+                "value": "65",
+                "unit": "°C",
+                "description": "Temperature for incubation during lysis"
+              },
+              {
+                "name": "incubation_time",
+                "value": "10",
+                "unit": "min",
+                "description": "Duration of incubation"
+              }
+            ],
+            "outputs": [
+              "Lysate_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 2: Lysis",
+            "description": "Further homogenization of lysate to ensure complete cell disruption.",
+            "inputs": [
+              "Lysate_1"
+            ],
+            "parameters": [
+              {
+                "name": "vortex_speed",
+                "value": "high",
+                "unit": "",
+                "description": "Vortex speed during homogenization"
+              },
+              {
+                "name": "homogenization_time",
+                "value": "30",
+                "unit": "sec",
+                "description": "Time of vortexing"
+              }
+            ],
+            "outputs": [
+              "Homogenized_lysate"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 3: RNA Partitioning 1",
+            "description": "Phase separation using phenol-chloroform to partition RNA into aqueous phase.",
+            "inputs": [
+              "Homogenized_lysate"
+            ],
+            "parameters": [
+              {
+                "name": "phenol_chloroform_volume",
+                "value": "500",
+                "unit": "µL",
+                "description": "Volume of phenol-chloroform added"
+              },
+              {
+                "name": "centrifuge_speed",
+                "value": "12000",
+                "unit": "g",
+                "description": "Speed for phase separation centrifugation"
+              },
+              {
+                "name": "centrifuge_time",
+                "value": "10",
+                "unit": "min",
+                "description": "Duration of centrifugation"
+              }
+            ],
+            "outputs": [
+              "Aqueous_phase_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 4: RNA Partitioning 1",
+            "description": "Repeat phenol-chloroform extraction to improve purity.",
+            "inputs": [
+              "Aqueous_phase_1"
+            ],
+            "parameters": [
+              {
+                "name": "phenol_chloroform_volume_repeat",
+                "value": "500",
+                "unit": "µL",
+                "description": "Second addition of phenol-chloroform"
+              },
+              {
+                "name": "centrifuge_speed_repeat",
+                "value": "12000",
+                "unit": "g",
+                "description": "Centrifugation speed for second extraction"
+              },
+              {
+                "name": "centrifuge_time_repeat",
+                "value": "10",
+                "unit": "min",
+                "description": "Centrifugation time for second extraction"
+              }
+            ],
+            "outputs": [
+              "Aqueous_phase_2"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 5: RNA Partitioning 1",
+            "description": "Final phenol-chloroform extraction before precipitation.",
+            "inputs": [
+              "Aqueous_phase_2"
+            ],
+            "parameters": [
+              {
+                "name": "phenol_chloroform_volume_final",
+                "value": "500",
+                "unit": "µL",
+                "description": "Third phenol-chloroform addition"
+              },
+              {
+                "name": "centrifuge_speed_final",
+                "value": "12000",
+                "unit": "g",
+                "description": "Final centrifugation speed"
+              },
+              {
+                "name": "centrifuge_time_final",
+                "value": "10",
+                "unit": "min",
+                "description": "Final centrifugation time"
+              }
+            ],
+            "outputs": [
+              "Aqueous_phase_3"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 6: Nucleic Acid Precipitation 1",
+            "description": "Precipitate RNA from aqueous phase using isopropanol.",
+            "inputs": [
+              "Aqueous_phase_3"
+            ],
+            "parameters": [
+              {
+                "name": "isopropanol_volume",
+                "value": "600",
+                "unit": "µL",
+                "description": "Volume of isopropanol added for precipitation"
+              },
+              {
+                "name": "incubation_temperature_precip",
+                "value": "-20",
+                "unit": "°C",
+                "description": "Temperature for RNA precipitation"
+              },
+              {
+                "name": "incubation_time_precip",
+                "value": "30",
+                "unit": "min",
+                "description": "Time for precipitation"
+              }
+            ],
+            "outputs": [
+              "RNA_precipitate_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 7: Nucleic Acid Precipitation 1",
+            "description": "Centrifuge to pellet RNA after precipitation.",
+            "inputs": [
+              "RNA_precipitate_1"
+            ],
+            "parameters": [
+              {
+                "name": "centrifuge_speed_precip",
+                "value": "12000",
+                "unit": "g",
+                "description": "Speed for pelleting RNA"
+              },
+              {
+                "name": "centrifuge_time_precip",
+                "value": "15",
+                "unit": "min",
+                "description": "Duration of centrifugation"
+              }
+            ],
+            "outputs": [
+              "RNA_pellet_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 8: Nucleic Acid Precipitation 1",
+            "description": "Wash RNA pellet with 70% ethanol.",
+            "inputs": [
+              "RNA_pellet_1"
+            ],
+            "parameters": [
+              {
+                "name": "ethanol_volume",
+                "value": "1000",
+                "unit": "µL",
+                "description": "Volume of 70% ethanol for washing"
+              },
+              {
+                "name": "centrifuge_speed_wash",
+                "value": "12000",
+                "unit": "g",
+                "description": "Speed for washing step"
+              },
+              {
+                "name": "centrifuge_time_wash",
+                "value": "5",
+                "unit": "min",
+                "description": "Time for washing centrifugation"
+              }
+            ],
+            "outputs": [
+              "RNA_washed_pellet_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 9: Nucleic Acid Precipitation 1",
+            "description": "Air‑dry the RNA pellet briefly.",
+            "inputs": [
+              "RNA_washed_pellet_1"
+            ],
+            "parameters": [
+              {
+                "name": "dry_time",
+                "value": "10",
+                "unit": "min",
+                "description": "Time to air‑dry the pellet"
+              }
+            ],
+            "outputs": [
+              "Dry_RNA_pellet_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 10: RNA Partitioning 2",
+            "description": "Resuspend pellet in RNase‑free water and perform a second phenol extraction to remove residual contaminants.",
+            "inputs": [
+              "Dry_RNA_pellet_1"
+            ],
+            "parameters": [
+              {
+                "name": "RNase_free_water_volume",
+                "value": "50",
+                "unit": "µL",
+                "description": "Volume used to resuspend RNA"
+              },
+              {
+                "name": "phenol_volume_second",
+                "value": "100",
+                "unit": "µL",
+                "description": "Phenol added for second partitioning"
+              },
+              {
+                "name": "centrifuge_speed_second",
+                "value": "12000",
+                "unit": "g",
+                "description": "Centrifugation speed for second partitioning"
+              }
+            ],
+            "outputs": [
+              "Aqueous_phase_4"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 11: RNA Partitioning 2",
+            "description": "Collect aqueous phase containing purified RNA.",
+            "inputs": [
+              "Aqueous_phase_4"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Purified_RNA_solution"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 12: RNA Partitioning 2",
+            "description": "Optional DNase treatment to remove DNA contamination.",
+            "inputs": [
+              "Purified_RNA_solution"
+            ],
+            "parameters": [
+              {
+                "name": "DNase_amount",
+                "value": "1",
+                "unit": "U",
+                "description": "Units of DNase added"
+              },
+              {
+                "name": "incubation_time_DNase",
+                "value": "15",
+                "unit": "min",
+                "description": "Incubation time for DNase treatment"
+              },
+              {
+                "name": "incubation_temperature_DNase",
+                "value": "37",
+                "unit": "°C",
+                "description": "Temperature for DNase reaction"
+              }
+            ],
+            "outputs": [
+              "DNase_treated_RNA"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 13: Nucleic Acid Precipitation 2",
+            "description": "Precipitate RNA after DNase treatment using ethanol.",
+            "inputs": [
+              "DNase_treated_RNA"
+            ],
+            "parameters": [
+              {
+                "name": "ethanol_volume_precip2",
+                "value": "1000",
+                "unit": "µL",
+                "description": "Volume of 100% ethanol added"
+              },
+              {
+                "name": "salt_concentration",
+                "value": "0.1",
+                "unit": "M",
+                "description": "Final concentration of NaCl or similar salt"
+              },
+              {
+                "name": "incubation_temperature_precip2",
+                "value": "-20",
+                "unit": "°C",
+                "description": "Temperature for precipitation"
+              }
+            ],
+            "outputs": [
+              "RNA_precipitate_2"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 14: Nucleic Acid Precipitation 2",
+            "description": "Centrifuge to pellet RNA.",
+            "inputs": [
+              "RNA_precipitate_2"
+            ],
+            "parameters": [
+              {
+                "name": "centrifuge_speed_precip2",
+                "value": "12000",
+                "unit": "g",
+                "description": "Speed for pelleting"
+              },
+              {
+                "name": "centrifuge_time_precip2",
+                "value": "15",
+                "unit": "min",
+                "description": "Time for centrifugation"
+              }
+            ],
+            "outputs": [
+              "RNA_pellet_2"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 15: Nucleic Acid Precipitation 2",
+            "description": "Wash RNA pellet with 70% ethanol.",
+            "inputs": [
+              "RNA_pellet_2"
+            ],
+            "parameters": [
+              {
+                "name": "ethanol_wash_volume",
+                "value": "1000",
+                "unit": "µL",
+                "description": "Volume of 70% ethanol for wash"
+              },
+              {
+                "name": "centrifuge_speed_wash2",
+                "value": "12000",
+                "unit": "g",
+                "description": "Speed for wash centrifugation"
+              },
+              {
+                "name": "centrifuge_time_wash2",
+                "value": "5",
+                "unit": "min",
+                "description": "Time for wash centrifugation"
+              }
+            ],
+            "outputs": [
+              "RNA_washed_pellet_2"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 16: Nucleic Acid Precipitation 2",
+            "description": "Air‑dry and resuspend final RNA pellet.",
+            "inputs": [
+              "RNA_washed_pellet_2"
+            ],
+            "parameters": [
+              {
+                "name": "dry_time_final",
+                "value": "10",
+                "unit": "min",
+                "description": "Air‑dry time"
+              },
+              {
+                "name": "resuspension_volume",
+                "value": "30",
+                "unit": "µL",
+                "description": "RNase‑free water used for final resuspension"
+              }
+            ],
+            "outputs": [
+              "Final_RNA_solution"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 17: Nucleic Acid Precipitation 3",
+            "description": "Quality check of RNA by spectrophotometry.",
+            "inputs": [
+              "Final_RNA_solution"
+            ],
+            "parameters": [
+              {
+                "name": "spectrophotometer_model",
+                "value": "",
+                "unit": "",
+                "description": "Instrument used for RNA quantification"
+              },
+              {
+                "name": "wavelength",
+                "value": "260",
+                "unit": "nm",
+                "description": "Absorbance wavelength"
+              }
+            ],
+            "outputs": [
+              "RNA_quality_metrics"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 18: Nucleic Acid Precipitation 3",
+            "description": "Assess RNA integrity on agarose gel.",
+            "inputs": [
+              "Final_RNA_solution"
+            ],
+            "parameters": [
+              {
+                "name": "gel_concentration",
+                "value": "1.2",
+                "unit": "%",
+                "description": "Agarose gel percentage"
+              },
+              {
+                "name": "running_voltage",
+                "value": "100",
+                "unit": "V",
+                "description": "Voltage applied during electrophoresis"
+              },
+              {
+                "name": "running_time",
+                "value": "30",
+                "unit": "min",
+                "description": "Duration of electrophoresis"
+              }
+            ],
+            "outputs": [
+              "RNA_integrity_image"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 19: Nucleic Acid Precipitation 3",
+            "description": "Store RNA at -80°C for long‑term preservation.",
+            "inputs": [
+              "Final_RNA_solution"
+            ],
+            "parameters": [
+              {
+                "name": "storage_temperature",
+                "value": "-80",
+                "unit": "°C",
+                "description": "Temperature for storage"
+              }
+            ],
+            "outputs": [
+              "Stored_RNA"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 20: Nucleic Acid Precipitation 3",
+            "description": "Document sample metadata and experimental conditions.",
+            "inputs": [
+              "Stored_RNA"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Metadata_record"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 21: Resuspension and Storage",
+            "description": "Final resuspension of RNA in RNase‑free water and aliquoting.",
+            "inputs": [
+              "Stored_RNA"
+            ],
+            "parameters": [
+              {
+                "name": "aliquot_volume",
+                "value": "10",
+                "unit": "µL",
+                "description": "Volume per aliquot"
+              },
+              {
+                "name": "storage_temperature_aliquot",
+                "value": "-80",
+                "unit": "°C",
+                "description": "Temperature for aliquot storage"
+              }
+            ],
+            "outputs": [
+              "RNA_aliquots"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 22: Lysis",
+            "description": "Optional repeat lysis for low‑yield samples.",
+            "inputs": [
+              "RNA_aliquots"
+            ],
+            "parameters": [
+              {
+                "name": "additional_lysis_buffer_volume",
+                "value": "200",
+                "unit": "µL",
+                "description": "Extra lysis buffer added"
+              }
+            ],
+            "outputs": [
+              "Re_lysate"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 23: Nucleic Acid Precipitation 2",
+            "description": "Second round precipitation to concentrate RNA after repeat lysis.",
+            "inputs": [
+              "Re_lysate"
+            ],
+            "parameters": [
+              {
+                "name": "isopropanol_volume_second_round",
+                "value": "400",
+                "unit": "µL",
+                "description": "Isopropanol added for second precipitation"
+              },
+              {
+                "name": "incubation_time_second_round",
+                "value": "20",
+                "unit": "min",
+                "description": "Incubation time at -20°C"
+              }
+            ],
+            "outputs": [
+              "Concentrated_RNA"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "12716",
+      "protocol_name": "PCR - 12716",
+      "category": "PCR",
+      "original_steps": 18,
+      "success": true,
+      "latency_s": 40.92,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 77.5,
+        "extracted_steps": 18,
+        "original_steps": 18
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "",
+            "characteristics": [
+              {
+                "category": "",
+                "value": "",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Probe backbone phosphorylation - Step 1",
+            "description": "Phosphorylate the probe backbone using T4 Polynucleotide Kinase.",
+            "inputs": [
+              "Sample_1",
+              "T4 Polynucleotide Kinase"
+            ],
+            "parameters": [
+              {
+                "name": "Enzyme units",
+                "value": "2500",
+                "unit": "units",
+                "description": "Amount of T4 Polynucleotide Kinase used"
+              }
+            ],
+            "outputs": [
+              "Phosphorylated_Backbone_Step1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Probe backbone phosphorylation - Step 2",
+            "description": "Second phosphorylation step to ensure complete modification of the probe backbone.",
+            "inputs": [
+              "Phosphorylated_Backbone_Step1",
+              "T4 Polynucleotide Kinase"
+            ],
+            "parameters": [
+              {
+                "name": "Enzyme units",
+                "value": "2500",
+                "unit": "units",
+                "description": "Amount of T4 Polynucleotide Kinase used"
+              }
+            ],
+            "outputs": [
+              "Phosphorylated_Backbone_Step2"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "invertedClampFISH probe ligation - Step 3",
+            "description": "Ligate the phosphorylated probes using T7 DNA Ligase.",
+            "inputs": [
+              "Phosphorylated_Backbone_Step2",
+              "T7 DNA Ligase"
+            ],
+            "parameters": [
+              {
+                "name": "Ligase units",
+                "value": "750000",
+                "unit": "units",
+                "description": "Amount of T7 DNA Ligase used"
+              }
+            ],
+            "outputs": [
+              "Ligated_Probe_Step3"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "invertedClampFISH probe ligation - Step 4",
+            "description": "Second ligation round to improve yield.",
+            "inputs": [
+              "Ligated_Probe_Step3",
+              "T7 DNA Ligase"
+            ],
+            "parameters": [
+              {
+                "name": "Ligase units",
+                "value": "750000",
+                "unit": "units",
+                "description": "Amount of T7 DNA Ligase used"
+              }
+            ],
+            "outputs": [
+              "Ligated_Probe_Step4"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "invertedClampFISH probe ligation - Step 5",
+            "description": "Third ligation iteration.",
+            "inputs": [
+              "Ligated_Probe_Step4",
+              "T7 DNA Ligase"
+            ],
+            "parameters": [
+              {
+                "name": "Ligase units",
+                "value": "750000",
+                "unit": "units",
+                "description": "Amount of T7 DNA Ligase used"
+              }
+            ],
+            "outputs": [
+              "Ligated_Probe_Step5"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "invertedClampFISH probe ligation - Step 6",
+            "description": "Final ligation step before purification.",
+            "inputs": [
+              "Ligated_Probe_Step5",
+              "T7 DNA Ligase"
+            ],
+            "parameters": [
+              {
+                "name": "Ligase units",
+                "value": "750000",
+                "unit": "units",
+                "description": "Amount of T7 DNA Ligase used"
+              }
+            ],
+            "outputs": [
+              "Ligated_Probe_Step6"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 7",
+            "description": "First column purification using Monarch PCR & DNA Cleanup Kit.",
+            "inputs": [
+              "Ligated_Probe_Step6",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step7"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 8",
+            "description": "Second column purification to increase purity.",
+            "inputs": [
+              "Purified_Probe_Step7",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step8"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 9",
+            "description": "Third column purification.",
+            "inputs": [
+              "Purified_Probe_Step8",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step9"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 10",
+            "description": "Fourth column purification.",
+            "inputs": [
+              "Purified_Probe_Step9",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step10"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 11",
+            "description": "Fifth column purification.",
+            "inputs": [
+              "Purified_Probe_Step10",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step11"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 12",
+            "description": "Sixth column purification.",
+            "inputs": [
+              "Purified_Probe_Step11",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step12"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 13",
+            "description": "Seventh column purification.",
+            "inputs": [
+              "Purified_Probe_Step12",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step13"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 14",
+            "description": "Eighth column purification.",
+            "inputs": [
+              "Purified_Probe_Step13",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step14"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 15",
+            "description": "Ninth column purification.",
+            "inputs": [
+              "Purified_Probe_Step14",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step15"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 16",
+            "description": "Tenth column purification.",
+            "inputs": [
+              "Purified_Probe_Step15",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step16"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 17",
+            "description": "Eleventh column purification.",
+            "inputs": [
+              "Purified_Probe_Step16",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Purified_Probe_Step17"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Column purify invertedClampFISH probes - Step 18",
+            "description": "Final column purification yielding the final invertedClampFISH probes.",
+            "inputs": [
+              "Purified_Probe_Step17",
+              "Monarch PCR & DNA Cleanup Kit"
+            ],
+            "parameters": [
+              {
+                "name": "Kit capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum DNA amount the kit can handle"
+              }
+            ],
+            "outputs": [
+              "Final_InvertedClampFISH_Probes"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "105043",
+      "protocol_name": "Transformation - 105043",
+      "category": "Transformation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 22.43,
+      "evaluation": {
+        "step_preservation": 12.0,
+        "parameter_extraction": 600.0,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 179.8,
+        "extracted_steps": 3,
+        "original_steps": 25
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Plasmid_DNA_nsp3_HisTag",
+            "organism": "E. coli",
+            "characteristics": [
+              {
+                "category": "vector",
+                "value": "pET-derived expression vector",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "insert",
+                "value": "SARS-CoV-2 nsp3 macrodomain with N‑terminal His tag",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Ecoli_Culture_Expression",
+            "organism": "Escherichia coli BL21(DE3)",
+            "characteristics": [
+              {
+                "category": "culture_volume",
+                "value": "5",
+                "unit": "L",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "temperature",
+                "value": "37",
+                "unit": "°C",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Purified_nsp3_Macrodomain_HisTag",
+            "organism": "Recombinant protein (SARS-CoV-2)",
+            "characteristics": [
+              {
+                "category": "purity",
+                "value": ">95",
+                "unit": "%",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "concentration",
+                "value": "2",
+                "unit": "mg/mL",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Plasmid Transformation",
+            "description": "Introduce the nsp3 His‑tag plasmid into chemically competent E. coli cells.",
+            "inputs": [
+              "Plasmid_DNA_nsp3_HisTag"
+            ],
+            "parameters": [
+              {
+                "name": "Heat shock temperature",
+                "value": "42",
+                "unit": "°C",
+                "description": "Temperature for heat shock step"
+              },
+              {
+                "name": "Heat shock duration",
+                "value": "45",
+                "unit": "s",
+                "description": "Length of heat shock"
+              },
+              {
+                "name": "Recovery temperature",
+                "value": "37",
+                "unit": "°C",
+                "description": "Temperature for recovery incubation"
+              },
+              {
+                "name": "Recovery time",
+                "value": "1",
+                "unit": "h",
+                "description": "Duration of recovery after heat shock"
+              }
+            ],
+            "outputs": [
+              "Ecoli_Culture_Expression"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Protein Expression",
+            "description": "Grow transformed E. coli and induce expression of the His‑tagged nsp3 macrodomain.",
+            "inputs": [
+              "Ecoli_Culture_Expression"
+            ],
+            "parameters": [
+              {
+                "name": "Induction OD600",
+                "value": "0.6",
+                "unit": "",
+                "description": "Cell density at which IPTG is added"
+              },
+              {
+                "name": "IPTG concentration",
+                "value": "0.5",
+                "unit": "mM",
+                "description": "Concentration of IPTG used for induction"
+              },
+              {
+                "name": "Post‑induction temperature",
+                "value": "18",
+                "unit": "°C",
+                "description": "Temperature during protein expression"
+              },
+              {
+                "name": "Expression time",
+                "value": "16",
+                "unit": "h",
+                "description": "Duration of overnight expression"
+              }
+            ],
+            "outputs": [
+              "Purified_nsp3_Macrodomain_HisTag"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Protein Purification",
+            "description": "Purify the His‑tagged nsp3 macrodomain using Ni‑NTA affinity chromatography.",
+            "inputs": [
+              "Purified_nsp3_Macrodomain_HisTag"
+            ],
+            "parameters": [
+              {
+                "name": "Binding buffer imidazole",
+                "value": "20",
+                "unit": "mM",
+                "description": "Imidazole concentration in binding buffer"
+              },
+              {
+                "name": "Wash buffer imidazole",
+                "value": "40",
+                "unit": "mM",
+                "description": "Imidazole concentration in wash buffer"
+              },
+              {
+                "name": "Elution buffer imidazole",
+                "value": "250",
+                "unit": "mM",
+                "description": "Imidazole concentration in elution buffer"
+              },
+              {
+                "name": "Column type",
+                "value": "Ni‑NTA agarose",
+                "unit": "",
+                "description": "Affinity resin used for purification"
+              }
+            ],
+            "outputs": [
+              "Purified_nsp3_Macrodomain_HisTag"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "121743",
+      "protocol_name": "Bacterial_Cultivation - 121743",
+      "category": "Bacterial_Cultivation",
+      "original_steps": 25,
+      "success": false,
+      "latency_s": 28.08,
+      "evaluation": {
+        "overall": 0,
+        "notes": "JSON parse failed"
+      },
+      "raw_output": {
+        "error": "Expecting property name enclosed in double quotes: line 168 column 11 (char 4715)",
+        "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"GBS_Isolate_1\",\n      \"organism\": \"Streptococcus agalactiae\",\n      \"characteristics\": [\n        {\n          \"category\": \"strain\",\n          \"value\": \"ATCC 12345\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"source\",\n          \"value\": \"clinical isolate from non‑pregnant adult\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    "
+      },
+      "json_valid": false,
+      "error": "Expecting property name enclosed in double quotes: line 168 column 11 (char 4715)"
+    },
+    {
+      "protocol_id": "102038",
+      "protocol_name": "Sequencing - 102038",
+      "category": "Sequencing",
+      "original_steps": 9,
+      "success": true,
+      "latency_s": 22.89,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 600.0,
+        "component_extraction": 1100.0,
+        "sequence_order": 100,
+        "overall": 425.0,
+        "extracted_steps": 9,
+        "original_steps": 9
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Algae",
+            "characteristics": [
+              {
+                "category": "Filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Preservation temperature",
+                "value": "-20",
+                "unit": "°C",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Maximum storage duration",
+                "value": "6",
+                "unit": "months",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "FieldBlank_1",
+            "organism": "Deionized water (blank)",
+            "characteristics": [
+              {
+                "category": "Filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Step 1: Sample collection",
+            "description": "Collect homogenized bioassessment sample containing algae.",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "Sample type",
+                "value": "Homogenized bioassessment sample",
+                "unit": "",
+                "description": "Type of environmental sample collected"
+              }
+            ],
+            "outputs": [
+              "Collected algae suspension"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 2: Sample collection",
+            "description": "Transfer collected algae suspension to a 47 mm Whatman/Swinnex filter holder or funnel.",
+            "inputs": [
+              "Collected algae suspension"
+            ],
+            "parameters": [
+              {
+                "name": "Filter holder size",
+                "value": "47",
+                "unit": "mm",
+                "description": "Diameter of the filter holder used"
+              }
+            ],
+            "outputs": [
+              "Algae in filter apparatus"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 3: Filtering",
+            "description": "Filter algae through a 0.45 µm cellulose nitrate filter to capture cells.",
+            "inputs": [
+              "Algae in filter apparatus"
+            ],
+            "parameters": [
+              {
+                "name": "Filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "description": "Pore size of the cellulose nitrate filter"
+              }
+            ],
+            "outputs": [
+              "Filtered algae on membrane"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 4: Filtering",
+            "description": "Rinse filter with sterile deionized water to remove residual matrix.",
+            "inputs": [
+              "Filtered algae on membrane"
+            ],
+            "parameters": [
+              {
+                "name": "Rinse volume",
+                "value": "",
+                "unit": "",
+                "description": "Volume of sterile deionized water used for rinsing (not specified)"
+              }
+            ],
+            "outputs": [
+              "Cleaned algae filter"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 5: After Filtering",
+            "description": "Place filter into a screw‑cap tube containing preservation solution.",
+            "inputs": [
+              "Cleaned algae filter"
+            ],
+            "parameters": [
+              {
+                "name": "Preservation solution",
+                "value": "",
+                "unit": "",
+                "description": "Solution used to preserve DNA (composition not specified)"
+              }
+            ],
+            "outputs": [
+              "Preserved algae sample"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 6: After Filtering",
+            "description": "Label tube with sample ID and metadata.",
+            "inputs": [
+              "Preserved algae sample"
+            ],
+            "parameters": [
+              {
+                "name": "Label information",
+                "value": "",
+                "unit": "",
+                "description": "Sample identifier and collection metadata"
+              }
+            ],
+            "outputs": [
+              "Labeled preserved algae sample"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 7: After Filtering",
+            "description": "Store labeled tubes at -20 °C (or -80 °C) for up to six months.",
+            "inputs": [
+              "Labeled preserved algae sample"
+            ],
+            "parameters": [
+              {
+                "name": "Storage temperature",
+                "value": "-20",
+                "unit": "°C",
+                "description": "Primary storage temperature; -80 °C also acceptable"
+              },
+              {
+                "name": "Maximum storage time",
+                "value": "6",
+                "unit": "months",
+                "description": "Maximum duration samples can be stored before DNA extraction"
+              }
+            ],
+            "outputs": [
+              "Stored algae DNA sample"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 8: Collecting a Field Blank",
+            "description": "Filter deionized water through the same apparatus to generate a blank control.",
+            "inputs": [
+              "Deionized water"
+            ],
+            "parameters": [
+              {
+                "name": "Blank filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "description": "Same pore size as sample filters"
+              }
+            ],
+            "outputs": [
+              "FieldBlank_1"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Step 9: Sample Metadata",
+            "description": "Record metadata for each sample and blank (date, location, filter type, preservation details).",
+            "inputs": [
+              "Stored algae DNA sample",
+              "FieldBlank_1"
+            ],
+            "parameters": [
+              {
+                "name": "Metadata fields",
+                "value": "",
+                "unit": "",
+                "description": "Date, location, filter type, preservation solution, storage temperature"
+              }
+            ],
+            "outputs": [
+              "Metadata record"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "103062",
+      "protocol_name": "DNA_Extraction - 103062",
+      "category": "DNA_Extraction",
+      "original_steps": 8,
+      "success": true,
+      "latency_s": 25.06,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 77.5,
+        "extracted_steps": 8,
+        "original_steps": 8
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Marine DNA virus",
+            "characteristics": [
+              {
+                "category": "Source",
+                "value": "Marine water lysate",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "DNA_Extract",
+            "organism": "Marine DNA virus",
+            "characteristics": [
+              {
+                "category": "Molecule type",
+                "value": "DNA",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Quantified_DNA",
+            "organism": "Marine DNA virus",
+            "characteristics": [
+              {
+                "category": "Molecule type",
+                "value": "DNA",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Lysate preparation",
+            "description": "Prepare the initial virus lysate from marine samples.",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "Temperature",
+                "value": "4",
+                "unit": "°C",
+                "description": "Incubation temperature during lysate preparation"
+              },
+              {
+                "name": "Time",
+                "value": "30",
+                "unit": "min",
+                "description": "Duration of lysate preparation"
+              }
+            ],
+            "outputs": [
+              "Lysate"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Viral clarification and concentration - step 1",
+            "description": "Clarify the lysate by low‑speed centrifugation and concentrate viral particles.",
+            "inputs": [
+              "Lysate"
+            ],
+            "parameters": [
+              {
+                "name": "Centrifuge speed",
+                "value": "5000",
+                "unit": "g",
+                "description": "Speed for clarification"
+              },
+              {
+                "name": "Centrifuge time",
+                "value": "10",
+                "unit": "min",
+                "description": "Duration of clarification spin"
+              }
+            ],
+            "outputs": [
+              "Clarified_Virus"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Viral clarification and concentration - step 2",
+            "description": "Further concentrate the clarified virus by ultracentrifugation.",
+            "inputs": [
+              "Clarified_Virus"
+            ],
+            "parameters": [
+              {
+                "name": "Ultracentrifuge speed",
+                "value": "100000",
+                "unit": "g",
+                "description": "Speed for virus pelleting"
+              },
+              {
+                "name": "Ultracentrifuge time",
+                "value": "1",
+                "unit": "h",
+                "description": "Duration of ultracentrifugation"
+              }
+            ],
+            "outputs": [
+              "Concentrated_Virus"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient - step 1",
+            "description": "Layer the concentrated virus onto a linear sucrose gradient and centrifuge to separate particles.",
+            "inputs": [
+              "Concentrated_Virus"
+            ],
+            "parameters": [
+              {
+                "name": "Sucrose gradient range",
+                "value": "20-60",
+                "unit": "%",
+                "description": "Percent sucrose range for the gradient"
+              },
+              {
+                "name": "Gradient centrifugation speed",
+                "value": "80000",
+                "unit": "g",
+                "description": "Speed for gradient separation"
+              },
+              {
+                "name": "Gradient centrifugation time",
+                "value": "2",
+                "unit": "h",
+                "description": "Duration of gradient centrifugation"
+              }
+            ],
+            "outputs": [
+              "Purified_Virus_Fraction"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient - step 2",
+            "description": "Collect the virus‑containing fraction from the sucrose gradient.",
+            "inputs": [
+              "Purified_Virus_Fraction"
+            ],
+            "parameters": [
+              {
+                "name": "Fraction volume",
+                "value": "",
+                "unit": "",
+                "description": "Volume of collected fraction"
+              }
+            ],
+            "outputs": [
+              "Virus_Fraction"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient - step 3",
+            "description": "Dialyze the collected fraction to remove sucrose.",
+            "inputs": [
+              "Virus_Fraction"
+            ],
+            "parameters": [
+              {
+                "name": "Dialysis buffer",
+                "value": "PBS",
+                "unit": "",
+                "description": "Buffer used for dialysis"
+              },
+              {
+                "name": "Dialysis time",
+                "value": "4",
+                "unit": "h",
+                "description": "Duration of dialysis"
+              }
+            ],
+            "outputs": [
+              "Dialyzed_Virus"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "Extraction of DNA",
+            "description": "Extract viral DNA from the purified virus using a standard phenol‑chloroform method.",
+            "inputs": [
+              "Dialyzed_Virus"
+            ],
+            "parameters": [
+              {
+                "name": "Phenol‑chloroform ratio",
+                "value": "1:1",
+                "unit": "",
+                "description": "Ratio of phenol to chloroform used"
+              },
+              {
+                "name": "Elution volume",
+                "value": "50",
+                "unit": "µL",
+                "description": "Final volume of DNA solution"
+              }
+            ],
+            "outputs": [
+              "DNA_Extract"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          },
+          {
+            "name": "QuBit quantification using Qubit 4 fluorimeter",
+            "description": "Quantify the extracted DNA concentration with a Qubit 4 fluorometer.",
+            "inputs": [
+              "DNA_Extract"
+            ],
+            "parameters": [
+              {
+                "name": "Assay type",
+                "value": "dsDNA HS",
+                "unit": "",
+                "description": "High‑sensitivity dsDNA assay used"
+              },
+              {
+                "name": "Instrument",
+                "value": "Qubit 4",
+                "unit": "",
+                "description": "Fluorometer model"
+              }
+            ],
+            "outputs": [
+              "Quantified_DNA"
+            ],
+            "dataFiles": [
+              ""
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    }
+  ]
+}

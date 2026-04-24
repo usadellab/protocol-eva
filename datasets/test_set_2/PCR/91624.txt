@@ -1,0 +1,50 @@
+Title: CMV Resistance testing (UL54 and UL97)
+
+Description:
+This protocol is a procedure for the study of antiviral resistance in Cytomegalovirus by NGS techniques.
+The primers have been designed using https://primalscheme.com/ with the intention of covering the most relevant regions of the UL54 and UL97 genes.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare Reagents
+
+## Step 2: DNA extraction
+
+## Step 3: DNA amplification
+
+## Step 4: Set up primer pools (UL97 and UL54)
+
+## Step 5: Set up primer pools (UL97 and UL54)
+
+## Step 6: Set up primer pools (UL97 and UL54)
+
+## Step 7: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 8: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 9: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 10: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 11: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 12: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 13: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 14: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 15: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 16: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 17: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 18: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 19: Product cleaning with Mag-Bind TotalPure NGS (omega)
+
+## Step 20: NGS sequencing
+
+## Step 21: Antiviral resistance

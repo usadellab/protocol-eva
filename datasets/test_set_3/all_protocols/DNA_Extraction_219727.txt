@@ -1,0 +1,23 @@
+Title: DNA extraction from fish tissue using the Wizard® SV 96 Genomic DNA Purification System (Promega)
+
+Description:
+This protocol describes a method for extracting genomic DNA from fish tissue (e.g., fin tissue) using the Wizard Genomic DNA Purification kit (Promega), adapted from the manufacturers’ recommendations. A summary sheet of the DNA extraction procedure is included to support its practical implementation in the laboratory.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare sample:
+
+## Step 2: Lyse sample:
+
+## Step 3: Purification of Genomic DNA:
+
+## Step 4: Wash &amp; Dry:
+
+## Step 5: Elute:
+
+## Step 6: DNA storage
+
+## Step 7: DNA quantification and DNA quality control:
+
+## Step 8: DNA quantification and DNA quality control:

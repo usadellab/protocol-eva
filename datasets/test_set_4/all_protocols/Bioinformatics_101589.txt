@@ -1,0 +1,27 @@
+Title: Structural and Functional Annotation of bee genome
+
+Description:
+This protocol provides detailed, step-by-step instructions for students and researchers to annotate nuclear genomes, using the genome of the Asian bee Colletes collaris as an example. We begin with the identification of repetitive regions, followed by gene prediction, functional annotation of protein-coding genes, and identification of non-coding RNAs (ncRNAs and tRNAs).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: IDENTIFICATION OF REPETITIVE REGIONS
+
+## Step 2: GENE PREDICTION (STRUCTURAL ANNOTATION)
+
+## Step 3: GENE PREDICTION (STRUCTURAL ANNOTATION)
+
+## Step 4: GENE PREDICTION (STRUCTURAL ANNOTATION)
+
+## Step 5: FUNCTIONAL ANNOTATION
+
+## Step 6: FUNCTIONAL ANNOTATION
+
+## Step 7: ANNOTATION PROCESSING
+
+## Step 8: ANNOTATION PROCESSING
+
+## Step 9: SEARCHING FOR NON-CODING RNAs (ncRNAs)
+
+## Step 10: SEARCHING FOR TRANSPORTING RNAs (tRNAs) ONLY

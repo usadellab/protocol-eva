@@ -1,0 +1,65 @@
+Title: Sanger Tree of Life HMW DNA Extraction: Manual MagAttract
+
+Description:
+This protocol describes the manual extraction of HMW DNA from multiple different tissue samples from a variety of species, excluding plants and fungi, intended for long-read sequencing using the Qiagen MagAttract HMW DNA extraction kit. This process is effective for a wide variety of taxonomic groups covered by the Tree of Life Programme. This protocol is particularly useful for samples with limited tissue availability, as it has consistently yielded more DNA from these smaller samples than the equivalent Automated method. The output of this protocol is HMW DNA, which depending upon yield and the genome size of the species, can be directed towards HMW DNA Pooling, HMW DNA Fragmentation: Diagenode Megaruptor® 3 for LI HiFi, HMW DNA Fragmentation: Diagenode Megaruptor® 3 for LI PacBio or HMW DNA Fragmentation: g-Tube for ULI PacBio. 
+Acronyms
+HMW: high molecular weight
+SPRI: solid-phase reversible immobilisation
+HiFi: high fidelity
+LI: low input
+ULI: ultra-low input
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample Lysis
+
+## Step 2: Sample Lysis
+
+## Step 3: Sample Lysis
+
+## Step 4: Sample Lysis
+
+## Step 5: DNA Isolation
+
+## Step 6: DNA Isolation
+
+## Step 7: DNA Isolation
+
+## Step 8: DNA Isolation
+
+## Step 9: DNA Isolation
+
+## Step 10: DNA Isolation
+
+## Step 11: DNA Isolation
+
+## Step 12: DNA Isolation
+
+## Step 13: DNA Isolation
+
+## Step 14: DNA Isolation
+
+## Step 15: DNA Isolation
+
+## Step 16: DNA Isolation
+
+## Step 17: DNA Isolation
+
+## Step 18: DNA Isolation
+
+## Step 19: DNA Isolation
+
+## Step 20: DNA Isolation
+
+## Step 21: DNA Isolation
+
+## Step 22: DNA Isolation
+
+## Step 23: DNA Isolation
+
+## Step 24: DNA Isolation
+
+## Step 25: DNA Isolation
+
+## Step 26: DNA Isolation

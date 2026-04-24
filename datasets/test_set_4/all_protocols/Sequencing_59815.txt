@@ -1,0 +1,61 @@
+Title: DNA metabarcoding protocol for siphonophore gut contents
+
+Description:
+Protocol for the SiphWeb DNA metabarcoding of siphonophore gut content. 
+Starting with DNA extractions from pooled frozen gastrozooids, this protocol takes the user through the steps of PCR amplification, PCR cleanup and pooling of amplicons from six complementary 18S barcodes that can be submitted into an Illumina MiSeq Lane.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA Extractionion
+
+## Step 2: PCR
+
+## Step 3: PCR
+
+## Step 4: PCR
+
+## Step 5: PCR
+
+## Step 6: PCR
+
+## Step 7: PCR
+
+## Step 8: PCR
+
+## Step 9: PCR
+
+## Step 10: PCR
+
+## Step 11: PCR
+
+## Step 12: Gel Electrophoresis
+
+## Step 13: Gel Electrophoresis
+
+## Step 14: Gel Electrophoresis
+
+## Step 15: PCR Cleanup
+
+## Step 16: PCR Cleanup
+
+## Step 17: PCR Cleanup
+
+## Step 18: PCR Cleanup
+
+## Step 19: PCR Cleanup
+
+## Step 20: PCR Cleanup
+
+## Step 21: Amplicon isomolar poolingling
+
+## Step 22: Amplicon isomolar poolingling
+
+## Step 23: Amplicon isomolar poolingling
+
+## Step 24: Amplicon isomolar poolingling
+
+## Step 25: Amplicon isomolar poolingling
+
+=== MATERIALS ===
+- GoTaq(R) Long PCR Master Mix, 10 Reactions

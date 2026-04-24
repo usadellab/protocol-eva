@@ -1,0 +1,27 @@
+Title: Populating metadata templates for NCBI submissions using  PulseNet 2.0
+
+Description:
+PURPOSE: to define the standard operating procedure for collecting isolate metadata using PulseNet 2.0 for submission of food/environmental isolates to NCBI.
+SCOPE: to provide a standardized procedure to collect isolate metadata using PulseNet 2.0 for submission of food/environmental isolates to NCBI.
+RESPONSIBILITIES- SOP Responsible Officials: Ruth Timme, Maria Balkey
+The GenomeTrakr Network Management will be responsible to monitor GenomeTrakr submissions processed through PulseNet 2.0 and ensure that all GT labs are familiar with the mandatory metadata fields required for submission of GenomeTrakr sequencing records to NCBI. 
+V3:  Added dropdown menus from controlled vocabulary to sequenced by and project name to metadata template PulseNet_Bionumerics_Isolate_Metadata
+V4:  Changes in metadata template PulseNet_Bionumerics_Isolate_Metadata. 
+- Added dropdown menus from controlled vocabulary to collected_by ,  SourceCountryState
+- Added fields: collected by, isolation source
+- Added mapping table of attribute names.
+- Remove requirement to send biosample update to NCBI to make changes on sequenced by and project name. 
+V5: Changes implemented to handle NCBI submissions for GenomeTrakr through the PulseNet 2.0 platform. 
+V6:  New version of spreadsheet with updated dropdown menu.  Add values to NCBI Templates
+V7: Add GMVS option to download metadata spreadsheet. Mapping serovar to serotype_wgs or serotype. 
+V8: Add note on serovar mapping.  Serovar only maps to serotype_wgs when the WGS prediction for serotype is available.   Add PHL_ReceivedDate and WGS_Lab_ReceivedDate to metadata spreadsheet.   
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+

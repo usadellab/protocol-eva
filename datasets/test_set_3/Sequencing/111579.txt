@@ -1,0 +1,28 @@
+Title: Experimental validation for transcoding scheme named R+ in DNA data storage
+
+Description:
+We have developed a universal transcoding scheme named R+ for expanded molecular alphabet and demonstrating the in vitro experimental validation of DNA data storage containing 5-methylcytosine (5mC) from data writing to data reading.
+The experimental validation mainly included assembly of 5mC fragments and nanopore sequencing. For more information see the accompanying paper and the following protocol.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Assembly of 5mC fragments.
+
+## Step 2: 5mC fragments sequencing experiments on MinION.
+
+## Step 3: 5mC fragments sequencing experiments on MinION.
+
+## Step 4: Assembly of 5mC fragments.
+
+## Step 5: Assembly of 5mC fragments.
+
+## Step 6: Assembly of 5mC fragments.
+
+## Step 7: Assembly of 5mC fragments.
+
+## Step 8: 5mC fragments sequencing experiments on MinION.
+
+## Step 9: 5mC fragments sequencing experiments on MinION.
+
+## Step 10: 5mC fragments sequencing experiments on MinION.

@@ -1,0 +1,22 @@
+Title: Quantitative PCR analysis to assess gene expression changes in hyperglycemic larval zebrafish
+
+Description:
+Summary: 
+To assess hyperglycemia in larval zebrafish, we analyzed the expression of genes implicated in glucose metabolism, such as insulin, insulin receptor, glucagon, and phosphoenolpyruvate carboxylase (pepck), using quantitative PCR (qPCR). We analyzed gene expression following treatment of Tg(ins:NTRmCherry) transgenic larvae either with 0.5 % DMSO (controls) or 10 mM metronidazole (see Protocol 2) for β-cell ablation at 3 and 8 days post fertilization (dpf). 
+Diabetic Complication:
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+## Step 4: Potential Pitfalls:
+
+=== MATERIALS ===
+- RNeasy Mini Kit
+- oliog (dT) or random hexamer primers
+- SuperScript®III First-Strand Synthesis System for RT-PCR
+- SYBR Green Brilliant III Ultra-Fast SYBR® Green QPCR Master Mix
+- ROX reference dye (included in Brilliant III master mix)
+- Mx3000P QPCR System

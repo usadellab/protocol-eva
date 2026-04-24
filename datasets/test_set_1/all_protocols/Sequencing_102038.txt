@@ -1,0 +1,25 @@
+Title: ALGAE DNA COLLECTION PROTOCOL
+
+Description:
+This protocol details the collection, filtering, and preservation of algae samples for DNA sequencing. Using 47mm Whatman/Swinnex filter holders or a filter funnel with 0.45µm cellulose nitrate filters, algae are captured from a homogenized bioassessment sample. The filtered algae are placed in screw cap tubes with a preservation solution, labeled, and stored at -20°C or -80°C for up to six months. Field blanks are collected by filtering deionized water. Sterilization of equipment is essential to prevent cross-contamination. This protocol ensures reliable algae sample collection and preservation for DNA analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample collection
+
+## Step 2: Sample collection
+
+## Step 3: Filtering
+
+## Step 4: Filtering
+
+## Step 5: After Filtering
+
+## Step 6: After Filtering
+
+## Step 7: After Filtering
+
+## Step 8: Collecting a Field Blank
+
+## Step 9: Sample Metadata

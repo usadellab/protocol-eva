@@ -1,0 +1,48 @@
+Title: P5ARP/P10ARP Media Preparation
+
+Description:
+How to make P5ARP and P10ARP media plates, simplified from https://wiki.bugwood.org/PARP_or_PARP
+Contains: pimarcin, ampicillin, rifampicin, pentachloronitrobenzens. 
+Pimaricin is a broad-spectrum antifungal antibiotic that inhibits the true fungi but not most members of the Pythiaceae. Once in solution, it is inactivated by light so that culture plates must be stored and incubated in the dark. Growth of true fungi indicates the inactivation of pimaricin. Concentrations above 10 mg a.i./liter inhibit oospore germination of Pythium and Phytophthora
+Plates will last for 1-1.5 weeks before antibiotics are degraded.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation
+
+## Step 2: Preparation
+
+## Step 3: Preparation
+
+## Step 4: Preparation
+
+## Step 5: Preparation
+
+## Step 6: Preparation
+
+## Step 7: Preparation
+
+## Step 8: Preparation
+
+## Step 9: After Sterilization
+
+## Step 10: After Sterilization
+
+## Step 11: After Sterilization
+
+## Step 12: Plating
+
+## Step 13: Plating
+
+## Step 14: Plating
+
+## Step 15: Plating
+
+## Step 16: Plating
+
+## Step 17: Plating
+
+## Step 18: Plating
+
+## Step 19: Plating

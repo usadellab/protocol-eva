@@ -1,0 +1,43 @@
+Title: Vaccinium floribundum Genome Assembly and Annotation Script
+
+Description:
+Oxford Nanopore long reads and Illumina short reads obtained from sequencing the DNA of a Vaccinum floribundum specimen from the Paramo region in Ecuador, were used to assemble and annotate the whole genome of this species. ONT long reads were filtered and trimmed in Nanofilt and Porechop. Sequencing statistics were visualized in Nanoplot. Illumina short reads were evaluated with fastqc. Different assemblers and polishers were used with both long and short reads. The resulting Flye assembly polished with Polca and Medaka was then analyzed for genome completeness and quality with Quast, BUSCO, LAI Index, and Coverage Graph. The assembly was later annotated in Maker in 3 consecutive rounds using the ab initio gene predictor SNAP.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Oxford Nanopore Sequencing - Raw Reads Filtering, Trimming, and Statistics
+
+## Step 2: Oxford Nanopore Sequencing - Raw Reads Filtering, Trimming, and Statistics
+
+## Step 3: Oxford Nanopore Sequencing - Raw Reads Filtering, Trimming, and Statistics
+
+## Step 4: Illumina Sequencing - Raw Reads Statistics
+
+## Step 5: Genome Size Estimation
+
+## Step 6: De novo Genome Assembly and Polishing
+
+## Step 7: De novo Genome Assembly and Polishing
+
+## Step 8: Genome assembly quality, continuity, and completeness assessment
+
+## Step 9: Genome scaffolding
+
+## Step 10: Removing Foreign Contamination
+
+## Step 11: Genome Annotation
+
+## Step 12: Genome assembly quality, continuity, and completeness assessment
+
+## Step 13: Genome assembly quality, continuity, and completeness assessment
+
+## Step 14: Genome assembly quality, continuity, and completeness assessment
+
+## Step 15: Genome Annotation
+
+## Step 16: Genome Annotation
+
+## Step 17: Genome Annotation
+
+## Step 18: Genome Annotation

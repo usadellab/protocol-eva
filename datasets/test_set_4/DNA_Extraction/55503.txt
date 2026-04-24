@@ -1,0 +1,52 @@
+Title: DNA extraction with CTAB and chloroform:isoamyl alcohol
+
+Description:
+This protocol is based off of Zhou et al. 1996,  Kellogg et al. 2019, and Crump et al. 2003.
+Zhou, Jizhong, Mary Ann Bruns, and James M. Tiedje. "DNA recovery from soils of diverse composition." Applied and environmental microbiology 62.2 (1996): 316-322.
+Crump, Byron C., et al.  "Bacterioplankton community shifts in an arctic lake correlate with  seasonal changes in organic matter source." Applied and Environmental Microbiology 69.4 (2003): 2253-2268.
+Kellogg, Colleen TE, et al. "Strong seasonality in arctic estuarine microbial food webs." Frontiers in microbiology 10 (2019): 2628.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare Reagents
+
+## Step 2: Prepare Reagents
+
+## Step 3: Prepare Reagents
+
+## Step 4: Prepare Reagents
+
+## Step 5: Prepare Reagents
+
+## Step 6: Prepare Samples
+
+## Step 7: Prepare Samples
+
+## Step 8: DNA Extraction
+
+## Step 9: DNA Extraction
+
+## Step 10: DNA Extraction
+
+## Step 11: DNA Extraction
+
+## Step 12: DNA Extraction
+
+## Step 13: DNA Extraction
+
+## Step 14: DNA Extraction
+
+## Step 15: DNA Extraction
+
+## Step 16: DNA Extraction
+
+## Step 17: DNA Extraction
+
+## Step 18: DNA Extraction
+
+## Step 19: DNA Extraction
+
+## Step 20: DNA Extraction
+
+## Step 21: DNA Extraction

@@ -1,0 +1,11 @@
+Title: Single-step purification by heat shock
+
+Description:
+After the cultivation period, cells were collected by centrifugation at 3500 × g for 30 min at 4 °C and resuspended in 4 ml lysis buffer (50 mM NaH2PO4, 300 mM NaCl, 10 mM Imidazole and 0.05% Tween 20 at a pH of 7). The mixture was sonicated with 4 × 40 sec pulses followed by 20 sec rest between cycles at 4 °C. The crude extracts were then centrifuged at 9000 × g for 30 min at 4 °C, and the resulting supernatant was heat-treated in a hot water bath at 90 °C for 15 min. Insoluble material was separated by centrifugation at 13000 × g for 10 min, and the supernatant, containing the enzyme, was analyzed on a 12% SDS–polyacrylamide. The purified elution fractions were dialysed overnight in a 50 mM potassium-phosphate buffer (pH=7) at 4 °C.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+

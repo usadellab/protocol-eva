@@ -1,0 +1,48 @@
+Title: CRISPR tagging of the EEA1 gene in H9 ES cells for Endo-IP
+
+Description:
+This protocol describes a method for knockin of a 3X flag tag onto the N-terminus of the EEA1 gene in human H9 ES cells using CAS9 and an ultramer oligonucleotide homologous recombination template 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: preparing Cas9 RNP complex for electroporation
+
+## Step 2: preparing Cas9 RNP complex for electroporation
+
+## Step 3: preparing Cas9 RNP complex for electroporation
+
+## Step 4: preparing Cas9 RNP complex for electroporation
+
+## Step 5: preparing Cas9 RNP complex for electroporation
+
+## Step 6: preparing Cas9 RNP complex for electroporation
+
+## Step 7: preparing Cas9 RNP complex for electroporation
+
+## Step 8: preparing Cas9 RNP complex for electroporation
+
+## Step 9: preparing Cas9 RNP complex for electroporation
+
+## Step 10: preparing Cas9 RNP complex for electroporation
+
+## Step 11: preparing Cas9 RNP complex for electroporation
+
+## Step 12: preparing Cas9 RNP complex for electroporation
+
+## Step 13: preparing Cas9 RNP complex for electroporation
+
+## Step 14: preparing Cas9 RNP complex for electroporation
+
+## Step 15: preparing Cas9 RNP complex for electroporation
+
+## Step 16: preparing Cas9 RNP complex for electroporation
+
+## Step 17: preparing Cas9 RNP complex for electroporation
+
+
+## Step 19: Expansion of clones for sequencing by MiSeq
+
+## Step 20: Expansion of clones for sequencing by MiSeq
+
+## Step 21: Expansion of clones for sequencing by MiSeq

@@ -1,0 +1,47 @@
+Title: Immunostaining Mouse Tissue 
+
+Description:
+This protocol describes immunohistochemical and immunoctyochemical methods to analyze protein expression in mouse brain. In the protocol, we describe the fixation of tissue or cultured neurons, the immunostaining procedure, and collecting images for analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Tissue staining
+
+## Step 2: Tissue staining
+
+## Step 3: Tissue staining
+
+## Step 4: Tissue staining
+
+## Step 5: Tissue staining
+
+## Step 6: Tissue staining
+
+## Step 7: Tissue staining
+
+## Step 8: Tissue staining
+
+## Step 9: Tissue staining
+
+## Step 10: Imaging
+
+## Step 11: Tissue staining
+
+## Step 12: Collection of fixed tissues slices from mice
+
+## Step 13: Collection of fixed tissues slices from mice
+
+## Step 14: Collection of fixed tissues slices from mice
+
+## Step 15: Collection of fixed tissues slices from mice
+
+## Step 16: Collection of fixed tissues slices from mice
+
+## Step 17: Collection of fixed tissues slices from mice
+
+## Step 18: Collection of fixed tissues slices from mice
+
+## Step 19: Tissue staining
+
+## Step 20: Tissue staining

@@ -1,0 +1,62 @@
+Title: CTAB genomic DNA extraction from Arabidopsis leaf material
+
+Description:
+CTAB-based extraction of genomic DNA from Arabidopsis leaf tissue.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell lysis
+
+## Step 2: Cell lysis
+
+## Step 3: Phase separation
+
+## Step 4: Phase separation
+
+## Step 5: Precipitation
+
+## Step 6: Precipitation
+
+## Step 7: Resuspend DNA
+
+## Step 8: Resuspend DNA
+
+## Step 9: Cell lysis
+
+## Step 10: Cell lysis
+
+## Step 11: Cell lysis
+
+## Step 12: Cell lysis
+
+## Step 13: Cell lysis
+
+## Step 14: Phase separation
+
+## Step 15: Phase separation
+
+## Step 16: Precipitation
+
+## Step 17: Precipitation
+
+## Step 18: Resuspend DNA
+
+## Step 19: Resuspend DNA
+
+## Step 20: Resuspend DNA
+
+=== MATERIALS ===
+- RNase A
+- EDTA
+- 1.5 mL Eppendorf tubes
+- water
+- Ethanol
+- NaCl
+- Hexadecyltrimethylammonium bromide
+- Tris-HCl (Tris-Hydrochloride), 100gm
+- 2-Propanol (IsoPropanol)
+- Tris-EDTA, pH 8.0
+- Chloroform
+- Centrifuge
+- Water bath set to 65°C

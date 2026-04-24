@@ -1,0 +1,29 @@
+Title: FLAVONOID PROFILING BY LIQUID CHROMATOGRAPHY COUPLED TO MASS SPECTROMETRY (LC/MS)
+
+Description:
+Flavonoids play a variety of biological activities in plants, animals and bacteria range from physiological development to plant responses for abiotic and biotic stresses, as well as health-promoting effects of pharmaceutical interest. The following protocol describes the steps and details to generation of qualitative and quantitative broad-range profiles of flavonoids from plant tissues by ultra-high-performance liquid chromatograph (UHPLC) coupled to mass spectrometry
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 3.1 FLAVONOIDS EXTRACTION
+
+## Step 2: 3.3 FLAVONOID PROFILE
+
+## Step 3: 3.2 LC/MS CONDICTIONS
+
+## Step 4: 3.4 TARGET METHOD
+
+## Step 5: SAMPLE ANALYSIS
+
+## Step 6: 3.5 NON TARGET METHOD
+
+## Step 7: SAMPLE ANALYSIS
+
+## Step 8: 3.6 DETERMINATION OF THE GLUCOCONJUGATED MASS
+
+## Step 9: ACKNOWLEDGMENTS
+
+## Step 10: REFERENCES
+
+## Step 11: SUPPLEMENTARY MATERIAL: Skyline Tutorial

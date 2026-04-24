@@ -1,0 +1,32 @@
+Title: Brain and blood extraction for immunostaining, protein, and RNA measurements after long-term two photon imaging in mice.
+
+
+Description:
+This protocol describes a method to extract brain tissue and whole blood samples to perform immunostaining, protein extraction for ELISA, western blot, or RNA extraction for qPCR after long-term in vivo imaging. This protocol is in particular useful to process and maintain valuable tissue samples, allowing for a broad spectrum of analysis and techniques without compromising the quality of the samples. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: STEP 1: Euthanasia
+
+## Step 2: Procedure: STEP 2: Extraction of blood
+
+## Step 3: Procedure: STEP 3: Transcardial Perfusion
+
+## Step 4: Procedure: STEP 4: Extraction of brain for immunostaining and protein/RNA
+
+## Step 5: Procedure: STEP 5: Sample preparation
+
+## Step 6: Procedure: STEP 5: Brain processing and slicing for immunostaining
+
+## Step 7: Procedure: STEP 6: Immunostaining for astrocytes, microglia and amyloid plaques
+
+## Step 8: Troubleshooting
+
+## Step 9: Time Taken
+
+## Step 10: Additional Declarations
+
+## Step 11: Associated Publications
+
+## Step 12: Figures

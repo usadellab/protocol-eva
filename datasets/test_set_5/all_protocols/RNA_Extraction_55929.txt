@@ -1,0 +1,77 @@
+Title: Manual Nanotrap Concentration and RNA Extraction for SARS-CoV-2 Viral Capture
+
+Description:
+This protocol details a method for SARS-CoV-2 capture and concentration through the use of Nanotrap® Magnetic Virus Particles from 40mL of wastewater sample.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Concentration Procedure
+
+## Step 2: Concentration Procedure
+
+## Step 3: Concentration Procedure
+
+## Step 4: Concentration Procedure
+
+## Step 5: Concentration Procedure
+
+## Step 6: Concentration Procedure
+
+## Step 7: Concentration Procedure
+
+## Step 8: Concentration Procedure
+
+## Step 9: Concentration Procedure
+
+## Step 10: Concentration Procedure
+
+## Step 11: Concentration Procedure
+
+## Step 12: Concentration Procedure
+
+## Step 13: Concentration Procedure
+
+## Step 14: Concentration Procedure
+
+## Step 15: Concentration Procedure
+
+## Step 16: Concentration Procedure
+
+## Step 17: Concentration Procedure
+
+## Step 18: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 19: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 20: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 21: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 22: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 23: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 24: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 25: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 26: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 27: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 28: Concentration Procedure
+
+## Step 29: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 30: Extraction Step (Qiagen Viral RNA Minikit)
+
+## Step 31: Appendix I: Preparing Buffer Solution (1X PBS)
+
+## Step 32: Appendix I: Preparing Buffer Solution (1X PBS)
+
+## Step 33: Appendix I: Preparing Buffer Solution (1X PBS)
+
+## Step 34: Appendix I: Preparing Buffer Solution (1X PBS)
+
+## Step 35: Appendix I: Preparing Buffer Solution (1X PBS)

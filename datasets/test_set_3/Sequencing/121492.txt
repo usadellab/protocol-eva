@@ -1,0 +1,57 @@
+Title: Patch-Clamp Recording from Kenyon Cells in Acutely-Isolated Bee Brain
+
+Description:
+This protocol describes a technique for making whole-cell patch-clamp recordings from mushroom body Kenyon cells (KCs) in acutely-isolated honeybee and bumblebee brain. This technique provides significant advantages over cultured neuron recordings for studying the functional properties of KCs, due for example to their intact morphology and synaptic connections. Successful patch-clamp recordings depend on the enzymatic removal of covering membranes, but are stable for up to several hours once achieved. Patch-clamp recordings from KCs in intact bee brain have been used to study the impairment of neuronal function by cholinergic pesticides, and should enable a much greater understanding of the role of KCs in sensory learning and memory.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Introduction
+
+## Step 2: Procedure: Procedure
+
+## Step 3: Procedure: Procedure
+
+## Step 4: Procedure: Procedure
+
+## Step 5: Procedure: Procedure
+
+## Step 6: Procedure: Procedure
+
+## Step 7: Procedure: Procedure
+
+## Step 8: Procedure: Procedure
+
+## Step 9: Procedure: Procedure
+
+## Step 10: Procedure: Procedure
+
+## Step 11: Procedure: Procedure
+
+## Step 12: Procedure: Procedure
+
+## Step 13: Procedure: Procedure
+
+## Step 14: Procedure: Procedure
+
+## Step 15: Procedure: Procedure
+
+## Step 16: Procedure: Procedure
+
+## Step 17: Procedure: Procedure
+
+## Step 18: Procedure: Procedure
+
+## Step 19: Procedure: Procedure
+
+## Step 20: Procedure: Procedure
+
+## Step 21: Troubleshooting
+
+## Step 22: Timing
+
+## Step 23: Anticipated Results
+
+## Step 24: Additional Declarations
+
+## Step 25: Associated Publications

@@ -1,0 +1,19 @@
+Title: Identification of Bacteria using BIOLOG GEN III Assay 
+
+Description:
+This protocol describes the BIOLOG GEN III Assay used to analyze the metabolic and chemical sensitivity profiles of Pseudomonas sp. The assay assesses carbon source utilization (columns 1–9) and chemical sensitivity (columns 10–12) using BIOLOG GEN III microplates. The procedure includes bacterial culture preparation, inoculum standardization, microplate inoculation, incubation, and data collection using a Synergy plate reader.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure
+
+## Step 2: Procedure
+
+## Step 3: Procedure
+
+## Step 4: Procedure
+
+## Step 5: Procedure
+
+## Step 6: Procedure

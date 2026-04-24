@@ -1,0 +1,35 @@
+Title: ssDNA Extraktion
+
+Description:
+ssDNA Extraction Protocol
+This protocol is based on the Oligonucleotide extraction protocol of the NEB PCR & Clean-up Kit and the Qiagen DNeasy Protocol with a few modifications to maximize DNA output. First results of this protocol will be published soon, including first sequencing results of the so extracted DNA. Please understand that this protocol is so far only tested for tissue (legs and abdomen) of invertebrates (Lepidoptera, genus Hyles). I recommend testing this protocol with tissue of non valuable specimens first. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Elution
+
+## Step 2: Lysis
+
+## Step 3: Lysis
+
+## Step 4: Extraction
+
+## Step 5: Extraction
+
+## Step 6: Extraction
+
+## Step 7: Extraction
+
+## Step 8: Extraction
+
+## Step 9: Extraction
+
+## Step 10: Two-Step-Elution
+
+## Step 11: Two-Step-Elution
+
+=== MATERIALS ===
+- Monarch® PCR & DNA Cleanup Kit (5 μg)
+- Lysis Buffer FN
+- Proteinase K

@@ -1,0 +1,65 @@
+Title: Western Blotting for Neuronal Proteins
+
+Description:
+This protocol outlines a detailed procedure for neuronal protein extraction and western blot analysis, enabling precise detection and quantification of target proteins.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Neuronal Culture and Lentivirus Infection
+
+## Step 2: Neuronal Culture and Lentivirus Infection
+
+## Step 3: Neuronal Culture and Lentivirus Infection
+
+## Step 4: Neuronal Culture and Lentivirus Infection
+
+## Step 5: Protein Extraction
+
+## Step 6: Protein Extraction
+
+## Step 7: Protein Extraction
+
+## Step 8: Protein Extraction
+
+## Step 9: Protein Extraction
+
+## Step 10: Protein Extraction
+
+## Step 11: Protein Quantification
+
+## Step 12: Protein Quantification
+
+## Step 13: SDS-PAGE and Transfer to PVDF membrane
+
+## Step 14: SDS-PAGE and Transfer to PVDF membrane
+
+## Step 15: SDS-PAGE and Transfer to PVDF membrane
+
+## Step 16: Membrane Blocking
+
+## Step 17: Primary Antibody Incubation
+
+## Step 18: Primary Antibody Incubation
+
+## Step 19: Secondary Antibody Incubation
+
+## Step 20: Secondary Antibody Incubation
+
+## Step 21: Signal Detection
+
+## Step 22: Signal Detection
+
+## Step 23: Signal Detection
+
+## Step 24: Secondary Antibody Incubation
+
+## Step 25: Secondary Antibody Incubation
+
+## Step 26: Secondary Antibody Incubation
+
+## Step 27: Signal Detection
+
+## Step 28: Signal Detection
+
+## Step 29: Signal Detection

@@ -1,0 +1,48 @@
+Title: fastANI analysis protocol
+
+Description:
+this is the protocol to conduct ani analysis between groups of genomes using fastANI and produce the heatmap figure in R using the pheatmap package
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: create directories
+
+## Step 2: create directories
+
+## Step 3: create directories
+
+## Step 4: create directories
+
+## Step 5: create directories
+
+
+## Step 7: create directories
+
+## Step 8: create directories
+
+## Step 9: create directories
+
+## Step 10: create directories
+
+## Step 11: create directories
+
+## Step 12: create directories
+
+## Step 13: create directories
+
+## Step 14: create directories
+
+## Step 15: create directories
+
+## Step 16: create directories
+
+## Step 17: create directories
+
+## Step 18: create directories
+
+## Step 19: create directories
+
+## Step 20: create directories
+
+## Step 21: create directories

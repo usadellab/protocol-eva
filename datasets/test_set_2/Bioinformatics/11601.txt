@@ -1,0 +1,37 @@
+Title: Introduction to Prokaryotic gene prediction (CDS and rRNA)
+
+Description:
+This is a short tutorial on how to get started with gene prediciton in Prokaryotic genomes via the command line.
+Code is intended for use on an Ubuntu 16.04 LTS OS.
+The tools we will use here are:
+Prodigal. https://github.com/hyattpd/Prodigal
+Barrnap. https://github.com/tseemann/barrnap
+This tutorial is intended for teaching purposes, but if you use any of the tools in a scientific paper do not forget to cite the appropriate publications!
+Prodigal:
+Prodigal: prokaryotic gene recognition and translation initiation site identification.
+BMC Bioinformatics, 2010, Volume 11, Number 1, Page 1
+Doug Hyatt, Gwo-Liang Chen, Philip F LoCascio,  Miriam L Land,  Frank W Larimer,  Loren J Hauser 
+Barrnap:
+Seemann T (2013), barrnap 0.8 : rap. id ribosomal RNA predictionhttps://github.com/tseemann/barrnap
+Bedtools
+ BEDTools: a flexible suite of utilities for comparing genomic features. Bioinformatics, Volume 26, Issue 6, 15 March 2010, Pages 841–842, https://doi.org/10.1093/bioinformatics/btq033
+ 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Download a Prokaryotic genome to start analyzing
+
+## Step 2: Predict protein-coding genes using Prodigal
+
+## Step 3: Now back to Prodigal
+
+## Step 4: What about rRNA genes?
+
+## Step 5: Parsing the barrnap GFF output
+
+## Step 6: Take a look at the results
+
+## Step 7: A closer look at the results
+
+## Step 8: Get the longest or shortest protein

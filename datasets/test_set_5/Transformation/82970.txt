@@ -1,0 +1,49 @@
+Title: Hairy root generation in common bean (Phaseolus vulgaris L.) and selection of Agrobacterium rhizogenes clones
+
+Description:
+The common bean (Phaseolus vulgaris L.) is one of the legumes used to study the molecular mechanisms that regulate mycorrhizal and rhizobial symbioses. To study these mechanisms, the generation of transgenic hairy roots is a very advantageous method for applying genetic approaches. However, the generation of hairy roots is a difficult task that requires a lot of skill and experience. Here we show a new version of an optimized protocol for the generation of hairy roots in common bean. This version includes videos showing the procedure for preparing the Agrobacterium rhizogenes culture and the infection procedure, which were not included in the original version.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Seeds disinfection (when necessary)
+
+## Step 2: Seeds disinfection (when necessary)
+
+## Step 3: Seeds disinfection (when necessary)
+
+## Step 4: Seeds germination (1st day)
+
+## Step 5: Seeds germination (1st day)
+
+## Step 6: Preparation of the inoculum of A. rhizogenes K599 (2nd day)    
+
+## Step 7: Preparation of the inoculum of A. rhizogenes K599 (2nd day)    
+
+## Step 8: Preparation of the inoculum of A. rhizogenes K599 (2nd day)    
+
+## Step 9: Preparation of the inoculum of A. rhizogenes K599 (2nd day)    
+
+## Step 10: Preparation of the inoculum of A. rhizogenes K599 (2nd day)    
+
+## Step 11: Seedling transformation by A. rhizogenes K599 (3rd day)
+
+## Step 12: Generation of hairy roots
+
+## Step 13: Generation of hairy roots
+
+## Step 14: Generation of hairy roots
+
+## Step 15: Generation of hairy roots
+
+## Step 16: Generation of hairy roots
+
+## Step 17: Generation of hairy roots
+
+## Step 18: Selection of transformed hairy roots
+
+## Step 19: Selection of A. rhizogenes clones
+
+## Step 20: Selection of A. rhizogenes clones
+
+## Step 21: Selection of A. rhizogenes clones

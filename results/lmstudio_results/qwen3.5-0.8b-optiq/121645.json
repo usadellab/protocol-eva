@@ -1,0 +1,47 @@
+{
+  "protocol_id": "121645",
+  "protocol_name": "Bioinformatics - 121645",
+  "category": "Bioinformatics",
+  "original_steps": 12,
+  "success": true,
+  "latency_s": 4.36,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Preparation of RNA samples for sequencing and library construction.",
+    "inputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "parameters": [
+      {
+        "name": "RNA quality",
+        "value": "High Quality",
+        "unit": "",
+        "description": "Assessment of RNA integrity and degradation levels"
+      },
+      {
+        "name": "Library complexity",
+        "value": "Moderate",
+        "unit": "",
+        "description": "Assessment of library composition and potential biases"
+      }
+    ],
+    "outputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "dataFiles": [
+      "RNA_sample_1.txt",
+      "RNA_sample_2.txt"
+    ]
+  },
+  "json_valid": true
+}

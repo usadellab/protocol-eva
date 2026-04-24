@@ -1,0 +1,15 @@
+Title: 20 minute PCR Enzymatic Cleanup
+
+Description:
+A rapid microplate-compatible protocol for cleanup of PCR products prior to Sanger sequencing. Verify that the PCR produces a single band, and retain some PCR product for cleanup and sequencing. Set up at room temperature, and react on the thermocycler.
+Mechanism: PCR products contain 1) primers and 2) dNTPs which will interfere with downstream Sanger sequencing reactions. Exonuclease I degrades ssDNA (primers) and calf intestinal phosphatase degrades dNTPs. Functions like NEB #E1050.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Making the enzyme master mix
+
+## Step 2: Making the enzyme master mix
+
+
+## Step 4: PCR Cleanup

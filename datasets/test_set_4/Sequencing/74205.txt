@@ -1,0 +1,29 @@
+Title: Nano3P-seq Protocol
+
+Description:
+Here, we develop Nanopore 3’ end-capture sequencing (Nano3P-seq), a novel method that relies on nanopore cDNA sequencing to simultaneously quantify RNA abundance, tail composition and tail length dynamics at per-read resolution. By employing a template switching-based sequencing protocol, Nano3P-seq can sequence any given RNA molecule from its 3’ end, regardless of its polyadenylation status, without the need for PCR amplification or ligation of RNA adapters.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Without Barcoding
+
+## Step 2: Without Barcoding
+
+## Step 3: Without Barcoding
+
+## Step 4: Without Barcoding
+
+## Step 5: Without Barcoding
+
+## Step 6: With Barcoding
+
+## Step 7: With Barcoding
+
+## Step 8: With Barcoding
+
+## Step 9: With Barcoding
+
+## Step 10: With Barcoding
+
+## Step 11: Prepare the library for loading

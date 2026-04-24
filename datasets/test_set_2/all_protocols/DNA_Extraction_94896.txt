@@ -1,0 +1,15 @@
+Title: Protocol for DNA extraction and shotgun metagenomic sequencing for the study of the mice digestive microbiota
+
+Description:
+This protocol describes the procedures for whole DNA extraction, high throughput sequencing, metagenomic read mapping and bioinformatical pre-processing to determine the microbial composition and functional potential of the mice digestive microbiota.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA extraction and high throughput sequencing
+
+## Step 2: DNA extraction and high throughput sequencing
+
+## Step 3: Read Mapping and Bioinformatics
+
+## Step 4: Read Mapping and Bioinformatics

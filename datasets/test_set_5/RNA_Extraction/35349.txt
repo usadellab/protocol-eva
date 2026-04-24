@@ -1,0 +1,37 @@
+Title: RNA extraction and precipitation for 47 mm PES and polycarbonate filters
+
+Description:
+This protocol is a modified version of Bryn Durham et al., 2015 for extracting RNA from filters. 
+This protocol has been tested with 0.22 μm pore size Durapore filters and 2.0 μm polycarbonate filters. Custom synthesized RNA transcript standards are added at the time of extraction and are recovered post-sequencing for quantitative metatranscriptome analysis (Satinsky et al., 2013). To prevent RNA degradation, work in a clean environment with asceptic practices and avoid possible introduction of RNases to samples and reagents.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- 0.1 mm Zirconia/Silica Beads
+- 0.5 mm Zirconia/Silica Beads
+- 0.5mm diameter glass beads
+- Proteinase K

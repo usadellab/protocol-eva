@@ -1,0 +1,71 @@
+Title: Small scale expression and purification protocol of A71 inactive 2A protease with mutation C110A to preserve VP1-2A junction
+
+Description:
+This protocol describes the small-scale expression and purification of Enterovirus A71 inactive 2A protease bearing the C110A mutation to preserve the VP1-2A junction. The protein is expressed as an N-terminal His6-SUMO fusion in E. coli BL21(DE3)-RR cells using TB autoinduction media, yielding approximately 6 mg/L of culture. The purification strategy employs immobilized metal affinity chromatography (IMAC) for initial protein capture, followed by tag cleavage using His-SENP1 protease and reverse IMAC to remove the cleaved affinity tag and uncleaved protein. Final polishing is achieved through size exclusion chromatography, producing >95% pure untagged 2A protease. From 6 L of culture, typical yields are approximately 50 mg of pure protein. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Plasmid Transformation
+
+## Step 2: Protein expression
+
+## Step 3: Protein Purifcation
+
+## Step 4: Protein Purifcation
+
+## Step 5: Protein Purifcation
+
+## Step 6: Protein Purifcation
+
+## Step 7: Protein expression
+
+## Step 8: Protein expression
+
+## Step 9: Protein Purifcation
+
+## Step 10: Protein Purifcation
+
+## Step 11: Protein Purifcation
+
+## Step 12: Protein Purifcation
+
+## Step 13: Protein Purifcation
+
+## Step 14: Protein Purifcation
+
+## Step 15: Protein expression
+
+## Step 16: Abbreviations
+
+## Step 17: Protein Purifcation
+
+## Step 18: Protein Purifcation
+
+## Step 19: Protein Purifcation
+
+## Step 20: Protein Purifcation
+
+## Step 21: Protein Purifcation
+
+## Step 22: Protein Purifcation
+
+## Step 23: Protein Purifcation
+
+## Step 24: Protein Purifcation
+
+## Step 25: Protein Purifcation
+
+## Step 26: Protein Purifcation
+
+## Step 27: Protein Purifcation
+
+## Step 28: Protein Purifcation
+
+## Step 29: Protein Purifcation
+
+## Step 30: Protein Purifcation
+
+## Step 31: Protein Purifcation
+
+## Step 32: Protein expression

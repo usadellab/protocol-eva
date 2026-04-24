@@ -1,0 +1,64 @@
+Title: Knockout of bla from pBlue in E. coli
+
+Description:
+This protocol details the knockout of the bla gene from the pBluescript plasmid in Escherichia coli XL1-Blue by delivering a pre-assembled Cas9 ribonucleoprotein complex via electroporation. The method includes preparation of crRNA and tracrRNA, complex formation with Cas9, and subsequent transformation of electrocompetent cells.
+Expected results are the generation of bacterial colonies with a disrupted bla gene and loss of ampicillin resistance, demonstrating efficient CRISPR/Cas9-mediated plasmid editing. This outcome confirms the possibilites of RNP-based CRISPR delivery as a strategy for targeted removal of antibiotic resistance markers in bacteria.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of electrocompetent E.coli
+
+## Step 2: Preparation of electrocompetent E.coli
+
+## Step 3: Preparation of electrocompetent E.coli
+
+## Step 4: Preparation of electrocompetent E.coli
+
+## Step 5: Preparation of electrocompetent E.coli
+
+## Step 6: Preparation of electrocompetent E.coli
+
+## Step 7: Preparation of electrocompetent E.coli
+
+## Step 8: Preparation of electrocompetent E.coli
+
+## Step 9: Preparation of electrocompetent E.coli
+
+## Step 10: Preparation of electrocompetent E.coli
+
+## Step 11: Preparation of electrocompetent E.coli
+
+## Step 12: Picking transformed XL-1
+
+## Step 13: Picking transformed XL-1
+
+## Step 14: Picking transformed XL-1
+
+## Step 15: Reconstitute lyophilized crRNA in buffer
+
+## Step 16: Reconstitute lyophilized crRNA in buffer
+
+## Step 17: RNP complex generation
+
+## Step 18: RNP complex generation
+
+## Step 19: RNP complex generation
+
+## Step 20: RNP complex generation
+
+## Step 21: RNP complex generation
+
+## Step 22: RNP complex generation
+
+## Step 23: Electroporation with Bio-Rad
+
+## Step 24: Electroporation with Bio-Rad
+
+## Step 25: Electroporation with Bio-Rad
+
+## Step 26: Electroporation with Bio-Rad
+
+## Step 27: Electroporation with Bio-Rad
+
+## Step 28: Electroporation with Bio-Rad

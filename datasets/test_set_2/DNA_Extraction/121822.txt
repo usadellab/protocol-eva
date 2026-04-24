@@ -1,0 +1,35 @@
+Title: Protocol for DNA extraction from any plant species (alkaline PVPP method)
+
+Description:
+Unlike model plants such as Arabidopsis and tobacco, DNA extraction from ornamental plants are often difficult, or sometimes nearly impossible. A new method was developed to extract large amount of DNA from such ‘recalcitrant’ ornamental plants. This protocol was actually applicable to any plant species. Researchers just have to prepare healthy leaves of target plant. Leaves do not need to be juvenile leaves on the top of stem. DNA is extracted at similar efficiency from expanded leaves.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Reagent setup
+
+## Step 2: Procedure: Reagent setup
+
+## Step 3: Procedure: Reagent setup
+
+## Step 4: Procedure: Reagent setup
+
+## Step 5: Procedure: Procedure
+
+## Step 6: Procedure: Procedure
+
+## Step 7: Procedure: Procedure
+
+## Step 8: Procedure: Procedure
+
+## Step 9: Procedure: Procedure
+
+## Step 10: Timing
+
+## Step 11: Troubleshooting
+
+## Step 12: Anticipated Results
+
+## Step 13: Additional Declarations
+
+## Step 14: Figures

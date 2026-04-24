@@ -1,0 +1,19 @@
+Title: Sampling for extracellular phage quantification by qPCR and MPN assays
+
+Description:
+Sampling is for qPCR assay to determine total extracellular phage (qEXT), and for MPN (most probable number) assay to determine infective phage concentration. Samples containing phage and cells are filtered through a 0.2µm membrane in 96-well format to remove cells; filtrate fraction is saved for later analysis.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+=== MATERIALS ===
+- 96-well filter plates (0.2um) 
+- 96 well plates for filtrate 
+- Eppendorf centrifuge with plate adapters and a balance plate
+- P1000 micropipet and Filter Tips
+- Parafilm

@@ -1,0 +1,46 @@
+Title: Pilot Exercise: Generating the Illumina SampleSheet and sharing data via BaseSpace
+
+Description:
+This protocol describes the required steps to generate Illumina SampleSheet and provides guidelines for sharing data via BaseSpace with FDA for the 2021 Pilot Exercise 
+V2:  
+- added more details regarding data transfer through BaseSpace, including steps for sharing a project with FDA-CFSAN. 
+- replaced samplesheet example.  
+V3:
+- replaced samplesheet example.  
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Generating Sequencing SampleSheet
+
+## Step 2: Generating Sequencing SampleSheet
+
+## Step 3: Generating Sequencing SampleSheet
+
+## Step 4: Generating Sequencing SampleSheet
+
+## Step 5: Generating Sequencing SampleSheet
+
+## Step 6: Generating Sequencing SampleSheet
+
+## Step 7: Generating Sequencing SampleSheet
+
+## Step 8: Transfer sequencing RUN through BaseSpace
+
+## Step 9: Transfer sequencing RUN through BaseSpace
+
+## Step 10: Transfer sequencing RUN through BaseSpace
+
+## Step 11: Transfer sequencing RUN through BaseSpace
+
+## Step 12: Transfer sequencing RUN through BaseSpace
+
+## Step 13: Transfer sequencing PROJECT through BaseSpace
+
+## Step 14: Transfer sequencing PROJECT through BaseSpace
+
+## Step 15: Transfer sequencing PROJECT through BaseSpace
+
+## Step 16: Transfer sequencing PROJECT through BaseSpace
+
+## Step 17: Transfer sequencing PROJECT through BaseSpace

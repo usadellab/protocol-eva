@@ -1,0 +1,57 @@
+Title: Sanger Tree of Life RNA Extraction: Manual TRIzol™
+
+Description:
+This protocol describes the manual extraction of RNA from multiple different tissue samples intended for RNA-Seq, using the TRIzol™ Reagent, based on the Thermo Fisher TRIzol™ Reagent User Guide. This process is highly effective for most taxonomic groups covered by the Tree of Life Programme. The output of this protocol is a highly concentrated RNA extract which can be diluted and submitted for both RNA-Seq and IsoSeq.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample lysis
+
+## Step 2: Sample lysis
+
+## Step 3: Sample lysis
+
+## Step 4: Sample lysis
+
+## Step 5: Sample lysis
+
+## Step 6: Sample lysis
+
+## Step 7: Sample lysis
+
+## Step 8: Sample lysis
+
+## Step 9: Sample lysis
+
+## Step 10: Sample lysis
+
+## Step 11: Sample lysis
+
+## Step 12: Sample lysis
+
+## Step 13: Precipitate and wash RNA
+
+## Step 14: Precipitate and wash RNA
+
+## Step 15: Precipitate and wash RNA
+
+## Step 16: Precipitate and wash RNA
+
+## Step 17: Precipitate and wash RNA
+
+## Step 18: Precipitate and wash RNA
+
+## Step 19: Precipitate and wash RNA
+
+## Step 20: Resuspend and store RNA
+
+## Step 21: Resuspend and store RNA
+
+## Step 22: Resuspend and store RNA
+
+## Step 23: DNase treatment
+
+## Step 24: DNase treatment
+
+## Step 25: DNase treatment

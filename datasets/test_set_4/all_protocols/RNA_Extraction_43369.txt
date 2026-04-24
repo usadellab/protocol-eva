@@ -1,0 +1,35 @@
+Title: Protocol for Extraction of Viral RNA with added DNase treatment
+
+Description:
+This protocol is modified from the MagMAX MVP II protocol from Thermo Fisher, and the MagMAX mirVana protocol from Thermo Fisher. Modifications were necessary to include a DNAse treatment step, which improves viral recovery in low-burden samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: RNA extraction using MVP II kit and Kingfisher
+
+## Step 2: RNA extraction using MVP II kit and Kingfisher
+
+## Step 3: RNA extraction using MVP II kit and Kingfisher
+
+## Step 4: RNA extraction using MVP II kit and Kingfisher
+
+## Step 5: RNA extraction using MVP II kit and Kingfisher
+
+## Step 6: RNA extraction using MVP II kit and Kingfisher
+
+## Step 7: RNA extraction using MVP II kit and Kingfisher
+
+## Step 8: RNA extraction using MVP II kit and Kingfisher
+
+## Step 9: RNA extraction using MVP II kit and Kingfisher
+
+## Step 10: RNA extraction using MVP II kit and Kingfisher
+
+## Step 11: RNA extraction using MVP II kit and Kingfisher
+
+## Step 12: RNA extraction using MVP II kit and Kingfisher
+
+## Step 13: RNA extraction with MVP II kit and Kingrisher 
+
+## Step 14: Optional QC

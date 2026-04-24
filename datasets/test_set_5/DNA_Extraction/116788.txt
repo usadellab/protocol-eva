@@ -1,0 +1,28 @@
+Title: The application of cell-free DNA methylation patterns in critical illnesses protocol
+
+Description:
+The use of liquid biomarkers in clinical medicine are typically employed to gauge
+severity of disease, prognosis and to monitor response to treatment. While
+various biomarkers have been employed in clinical medicine with variable
+performance characteristics, the use of cell-free DNA (cfDNA) have gained
+increased traction as a novel biomarker in a wide range of disease states such
+as cancer and trauma. While the quantification of cfDNA have been correlated
+with disease severity, the use of methylation pattens of cfDNA can be used to
+localize the site of injury that may have implications regarding prognosis and
+therapeutics. We propose a procedure using samples in a swine model of cardiac
+arrest where carbon monoxide is being used as a therapeutic to demonstrate our
+method and feasibility to obtain plasma cfDNA methylation patterns to help
+identify tissue origin with potential application in critical care medicine. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Perioperative procedures and monitoring
+
+## Step 2: Cardiac arrest protocol
+
+## Step 3: Carbon monoxide treatment protocol
+
+## Step 4: Blood collection, cell-free DNA extraction, and bisulfite conversion
+
+## Step 5: Differential Methylation Analysis.

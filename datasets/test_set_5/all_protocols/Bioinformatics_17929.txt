@@ -1,0 +1,31 @@
+Title: ADBS Whole Exome Sequencing (WES) Analysis Pipeline
+
+Description:
+Integrated Whole Exome Sequencing (WES) analysis pipline using various tools and databases, developed as part of the Accelerator program for Discovery in Brain disorders using Stem cells (ADBS) program at National Centre for Biological Sciences (NCBS), Bangalore.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Define paths and directories
+
+## Step 2: Unzip the raw reads files from .gz to fastq format
+
+## Step 3: QC check of R1 and R2 paired-end raw reads using FASTQC, Trimming poor quality reads using Prinseq-lite, and Adapter contimination removal using AfterQC, 
+
+## Step 4: Alignment of clened raw reads against Human Reference Genome hg19 GRCh37.p13 build using BWA and SAMTOOLS.
+
+## Step 5: Mark PCR duplicates and sorting BAM using PICARD Tools
+
+## Step 6: Index the coordinate sorted bam file using SAMTOOLS
+
+## Step 7: INDEL re-alignment using GATK tools
+
+## Step 8: Check the alignment QC of the bam file using Qualimap
+
+## Step 9: SNP and INDEL variant calling using VarScan and SAMTOOLS
+
+## Step 10: VCF QC of SNP and INDEL files using rtg-tools
+
+## Step 11: SNP AND INDEL variant annotation using ANNOVAR
+
+## Step 12: Delete inter-mediate files after varifying the final results files (OPTIONAL STEP AS PER USER)

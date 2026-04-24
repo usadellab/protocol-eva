@@ -1,0 +1,43 @@
+Title: Fluorescein diacetate assay - for plastic degrading enzymes in algae
+
+Description:
+Fluorescein diacetate (FDA) hydrolysis assays can be used to measure the enzyme activity of cells in a sample. A bright yellow-green glow is produced and is strongest when enzymatic activity is greatest. This can be quantified using a spectrofluorometer or a spectrophotometer (REF).
+In this protocol, we describe a method for assessing the enzymatic activity of plastic-degrading enzymes in algal cultures using Fluorescein Diacetate (FDA) hydrolysis. The assay involves sampling algal cultures, centrifuging to obtain clear supernatants, and performing a fluorescence-based activity assay. Key steps include ensuring no cell contamination in the samples, preparing the assay with phosphate buffer at optimal pH, and conducting kinetic readings using a plate reader. This protocol is crucial for identifying efficient plastic-degrading enzymes in microalgae, with applications in environmental biotechnology and plastic waste management
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Checking cell density
+
+## Step 2: Checking cell density
+
+## Step 3: Sample preparation
+
+## Step 4: Sample preparation
+
+## Step 5: Assay preparation
+
+## Step 6: Assay preparation
+
+## Step 7: Assay preparation
+
+## Step 8: Assay preparation
+
+## Step 9: Assay performance
+
+## Step 10: Assay performance
+
+## Step 11: Assay performance
+
+
+## Step 13: Data Analysis
+
+## Step 14: Data Analysis
+
+## Step 15: Data Analysis
+
+## Step 16: Data Analysis
+
+## Step 17: Data Analysis
+
+## Step 18: Data Analysis

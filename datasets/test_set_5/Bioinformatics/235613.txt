@@ -1,0 +1,29 @@
+Title: Senescence β-galactosidase staining assay in cultured cells
+
+Description:
+This protocol describes senescence-associated β-galactosidase staining in cultured cells using a commercial staining kit to assess cellular senescence by light microscopy.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell preparation and positive control
+
+## Step 2: Cell preparation and positive control
+
+## Step 3: Fixation
+
+## Step 4: Fixation
+
+## Step 5: Fixation
+
+## Step 6: β-galactosidase staining
+
+## Step 7: β-galactosidase staining
+
+## Step 8: β-galactosidase staining
+
+## Step 9: Imaging and analysis
+
+## Step 10: Imaging and analysis
+
+## Step 11: Expected result

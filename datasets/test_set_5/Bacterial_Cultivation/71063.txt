@@ -1,0 +1,37 @@
+Title: Determining biofilm growth amount (absorbance) 
+
+Description:
+This protocol describes a method to determine the growth amount of biofilm at the early stage of biofilm formation by measuring absorbance. Here we use our own engineered bacteria, and it requires induction of IPTG and cultured with silver ion. You may use a different kind of bacteria and different culturing medium.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: IPTG induction
+
+## Step 2: IPTG induction
+
+## Step 3: Sample preparation
+
+## Step 4: Sample preparation
+
+## Step 5: Sample preparation
+
+## Step 6: Absorbance measurement
+
+## Step 7: Absorbance measurement
+
+## Step 8: Absorbance measurement
+
+## Step 9: Absorbance measurement
+
+## Step 10: Absorbance measurement
+
+## Step 11: Absorbance measurement
+
+## Step 12: Absorbance measurement
+
+## Step 13: Absorbance measurement
+
+## Step 14: Absorbance measurement
+
+## Step 15: Absorbance measurement

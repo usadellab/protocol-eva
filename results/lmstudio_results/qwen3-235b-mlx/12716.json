@@ -1,0 +1,122 @@
+{
+  "protocol_id": "12716",
+  "protocol_name": "PCR - 12716",
+  "category": "PCR",
+  "original_steps": 18,
+  "success": true,
+  "latency_s": 29.65,
+  "evaluation": {
+    "step_preservation": 16.7,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 44.2,
+    "extracted_steps": 3,
+    "original_steps": 18
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "",
+        "characteristics": []
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Probe backbone phosphorylation",
+        "description": "Phosphorylation of the probe backbone using T4 Polynucleotide Kinase",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "enzyme",
+            "value": "T4 Polynucleotide Kinase",
+            "unit": "",
+            "description": "Enzyme used for phosphorylation, 2,500 units"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Standard reaction temperature for T4 Polynucleotide Kinase, typically 37°C"
+          },
+          {
+            "name": "incubation time",
+            "value": "",
+            "unit": "minutes",
+            "description": "Typical incubation duration for phosphorylation reaction, often 30 minutes"
+          }
+        ],
+        "outputs": [
+          "phosphorylated_probe_intermediate_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "invertedClampFISH probe ligation",
+        "description": "Ligation of invertedClampFISH probes using T7 DNA Ligase",
+        "inputs": [
+          "phosphorylated_probe_intermediate_1"
+        ],
+        "parameters": [
+          {
+            "name": "enzyme",
+            "value": "T7 DNA Ligase",
+            "unit": "",
+            "description": "Enzyme used for ligation, 750,000 units"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Standard reaction temperature for T7 DNA Ligase, typically 25°C"
+          },
+          {
+            "name": "incubation time",
+            "value": "",
+            "unit": "hours or minutes",
+            "description": "Typical incubation duration for ligation reaction, often 1 hour at room temperature"
+          }
+        ],
+        "outputs": [
+          "ligated_probe_intermediate_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Column purify invertedClampFISH probes",
+        "description": "Purification of ligated invertedClampFISH probes using Monarch® PCR & DNA Cleanup Kit",
+        "inputs": [
+          "ligated_probe_intermediate_2"
+        ],
+        "parameters": [
+          {
+            "name": "cleanup kit",
+            "value": "Monarch® PCR & DNA Cleanup Kit",
+            "unit": "",
+            "description": "Kit used for purification, capacity 5 μg"
+          },
+          {
+            "name": "elution volume",
+            "value": "",
+            "unit": "μL",
+            "description": "Typical elution volume after column purification, often 30-50 μL"
+          },
+          {
+            "name": "binding conditions",
+            "value": "",
+            "unit": "",
+            "description": "Standard buffer conditions for DNA binding to silica membrane"
+          }
+        ],
+        "outputs": [
+          "purified_invertedClampFISH_probe_final"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

@@ -1,0 +1,64 @@
+Title: Processing frozen human blood samples for population-scale SQK-LSK114 Oxford Nanopore long-read DNA sequencing SOP V2
+
+Description:
+Abstract:
+As part of the GP2 initiative we will generate long-read sequencing data for ~1000 samples to better understand the genetic architecture of Parkinson's disease. To generate this large-scale Nanopore data we have developed a protocol for processing and long-read sequencing frozen human blood samples, targeting an N50 of ~30kb and ~30X coverage. 
+Acknowledgements:
+We would like to thank the Nanopore team (Androo Markham & Jessica Anderson), PacBio team (Jeffrey Burke, Michelle Kim, Duncan Kilburn & Kelvin Liu) and the whole CARD long-read team listed below => UCSC: Benedict Paten, Trevor Pesout, Paolo Carnevali, Mira Mastoras, Melissa Meredith, Jean Monlong, Ryan Lorig-Roach, Mobin Asri; NE: Miten Jain; NCI: Mikhail Kolmogorov; NHGRI: Adam Phillippy, Arang Rhie; Baylor: Fritz Sedlazeck, Farhang Jaryani; JHU: Winston Timp; NIA: Cornelis Blauwendraat, Kimberley Billingsley, Pilar Alvarez Jerez, Laksh Malik, Breeana Baker, Maysa Abdelhalim, Kensuke Daida, Rylee Genner,  Abigail Miano-Burkhardt, Caroline Pantazis; This protocol was optimized using frozen blood samples from the PPMI initiative. PPMI – a public-private partnership – is funded by the Michael J. Fox Foundation for Parkinson’s Research and funding partners, a full list of the PPMI funding partners can be found at www.ppmi-info.org/fundingpartners.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Step 48: Sequencing results:
+
+
+
+
+

@@ -1,0 +1,41 @@
+Title: Colony Picking
+
+Description:
+Isolate a single strain from frozen stock or colonies on culture media, then purify and establish subsequent liquid culture or frozen storage to ensure uniformity and reproducibility of experimental materials.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Initial Inoculation
+
+## Step 2: Initial Inoculation
+
+## Step 3: Initial Inoculation
+
+## Step 4: Initial Inoculation
+
+## Step 5: Check Growth Status
+
+## Step 6: Check Growth Status
+
+## Step 7: Streaking for Isolation
+
+## Step 8: Streaking for Isolation
+
+## Step 9: Streaking for Isolation
+
+## Step 10: Streaking for Isolation
+
+## Step 11: Streaking for Isolation
+
+## Step 12: Streaking for Isolation
+
+## Step 13: Inspection and Picking of Single Colonies
+
+## Step 14: Inspection and Picking of Single Colonies
+
+## Step 15: Inspection and Picking of Single Colonies
+
+## Step 16: Inspection and Picking of Single Colonies
+
+## Step 17: Inspection and Picking of Single Colonies

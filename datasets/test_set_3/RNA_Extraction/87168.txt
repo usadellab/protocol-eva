@@ -1,0 +1,37 @@
+Title: Qiagen RNEasy PowerMicrobiome RNA extraction kit
+
+Description:
+The samples were processed using the Qiagen RNeasy PowerMicrobiome kit with the modifications described by Schang et al., 2021. As a substitute for vortexing described in the kit protocol, bead-beating was used. 100ul of phenol-chloroform-isoamyl alcohol was added to the bead beating tubes before the addition of the membranes. Bead-beating was conducted 4x for 30s at 4 m/s. After pelletizing the samples with centrifugation, the supernatant was processed through spin columns. Spin columns were incubated with DNase Digestion Solution for 15 minutes to isolate only RNA. The RNA was eluted from the spin columns by passing 50 uL of DEPC water through twice. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 2: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 3: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 4: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 5: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 6: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 7: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 8: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 9: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 10: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 11: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 12: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 13: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 14: Qiagen RNEasy PowerMicrobiome RNA
+
+## Step 15: Qiagen RNEasy PowerMicrobiome RNA

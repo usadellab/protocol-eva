@@ -1,0 +1,31 @@
+Title: Converting ssDNA oligos to dsDNA with T4 DNA polymerase
+
+Description:
+This protocol allows one to convert ssDNA to dsDNA oligos. In principle, one can buy two complementary oligos and anneal them. However, there are a few cases where randomized bases are desired, and therefore complementary oligos can not be ordered. The protocol works similarly to PCR, except that the reaction is not performed at the high temperature of typical thermocycling, because the oligos are short and their melting temperature can be in the order of the extension temperature of high-fidelity polymerases. This protocol is therefore particularly useful when creating barcodes or when short dsDNA fragments containing degenerate bases are desired.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Primer design
+
+## Step 2: Oligo annealing
+
+## Step 3: Oligo annealing
+
+## Step 4: Oligo annealing
+
+## Step 5: Primer design
+
+## Step 6: Primer design
+
+## Step 7: Oligo extension
+
+## Step 8: Oligo extension
+
+## Step 9: Oligo extension
+
+## Step 10: Oligo extension
+
+## Step 11: Oligonucleotide cleanup
+
+## Step 12: Oligonucleotide cleanup

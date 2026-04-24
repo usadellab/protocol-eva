@@ -1,0 +1,56 @@
+Title: Total RNA extraction from frozen placenta tissue
+
+Description:
+This protocol describes the isolation of high-quality total RNA from frozen placenta tissue. Tissue is disrupted using a bead beater, and total RNA is isolated using the mirVana miRNA Isolation Kit from Ambion. 
+Written steps are adapted from Ambion's manual for the mirVana miRNA Isolation Kit and BioSpec's instructions for the Mini-BeadBeater-16.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation
+
+## Step 2: Preparation
+
+## Step 3: Cell lysis and tissue disruption
+
+## Step 4: Cell lysis and tissue disruption
+
+## Step 5: Cell lysis and tissue disruption
+
+## Step 6: Preparation
+
+## Step 7: Preparation
+
+## Step 8: Cell lysis and tissue disruption
+
+## Step 9: Cell lysis and tissue disruption
+
+## Step 10: Organic extraction
+
+## Step 11: Organic extraction
+
+## Step 12: Organic extraction
+
+## Step 13: Organic extraction
+
+## Step 14: Total RNA isolation
+
+## Step 15: Total RNA isolation
+
+## Step 16: Total RNA isolation
+
+## Step 17: Total RNA isolation
+
+## Step 18: Total RNA isolation
+
+## Step 19: Total RNA isolation
+
+## Step 20: Quality control
+
+## Step 21: Total RNA isolation
+
+## Step 22: Quality control
+
+## Step 23: Preparation
+
+## Step 24: Preparation

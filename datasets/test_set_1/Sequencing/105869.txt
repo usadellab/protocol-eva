@@ -1,0 +1,29 @@
+Title: Total DNA extraction 
+
+Description:
+This protocol outlines an optimized method for the extraction and purification of total DNA from woody plant samples, specifically designed for enriching native form of circular ssDNA viruses such as Grapevine Red Blotch Virus (GRBV). The process leverages a 3% CTAB extraction buffer enriched with polyvinylpyrrolidone (PVP40) and β-mercaptoethanol to efficiently handle polysaccharides and polyphenols abundant in woody plant tissues. Steps include mechanical disruption with bead beating, high-salt precipitation with sodium acetate (NaAc), RNA removal, and DNA washing to ensure high purity for downstream applications such as nanopore sequencing or molecular analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of Materials
+
+## Step 2: Preparation of Materials
+
+## Step 3: Sample Homogenization
+
+## Step 4: Sample Homogenization
+
+## Step 5: DNA Extraction
+
+## Step 6: DNA Extraction
+
+## Step 7: DNA Extraction
+
+## Step 8: RNA Removal and DNA Precipitation
+
+## Step 9: RNA Removal and DNA Precipitation
+
+## Step 10: Wash the DNA Pellet with Cold 75% Ethanol
+
+## Step 11: Wash the DNA Pellet with Cold 75% Ethanol

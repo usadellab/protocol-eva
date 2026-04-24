@@ -1,0 +1,19 @@
+Title: SARS-CoV-2 Receptor Binding Domain Deoxy Fragment Sequencing 
+
+Description:
+Since first reporting of SARS-CoV-2 case in China, there were urgent need to report and monitor emerging variants and keep track circulating mutation, in this methodology, we used simple, cost-effective method to monitor the circulating mutations which could be used to predict the SARS-CoV-2 variants based on accumulating mutations in the receptor binding domain. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: RNA Extraction 
+
+## Step 2: cDNA synthesis 
+
+## Step 3: cDNA synthesis 
+
+## Step 4: Amplicon Amplifications 
+
+## Step 5: Amplicon Amplifications 
+
+## Step 6: Amplicon Sequencing 

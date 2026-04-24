@@ -1,0 +1,480 @@
+{
+  "model": "qwen3.5-0.8b-optiq",
+  "timestamp": "2026-04-24T16:13:46.602335",
+  "summary": {
+    "model_key": "qwen3.5-0.8b-optiq",
+    "model_name": "Qwen3.5-0.8B-Optiq",
+    "model_id": "qwen3.5-0.8b-optiq",
+    "json_handler": "qwen",
+    "force_json_prefix": true,
+    "total_protocols": 7,
+    "successful": 1,
+    "failed": 0,
+    "success_rate": 14.3,
+    "avg_latency_s": 3.54,
+    "avg_score": 0.0,
+    "total_time_s": 24.8
+  },
+  "results": [
+    {
+      "protocol_id": "121645",
+      "protocol_name": "Bioinformatics - 121645",
+      "category": "Bioinformatics",
+      "original_steps": 12,
+      "success": true,
+      "latency_s": 4.36,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Preparation of RNA samples for sequencing and library construction.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "RNA quality",
+            "value": "High Quality",
+            "unit": "",
+            "description": "Assessment of RNA integrity and degradation levels"
+          },
+          {
+            "name": "Library complexity",
+            "value": "Moderate",
+            "unit": "",
+            "description": "Assessment of library composition and potential biases"
+          }
+        ],
+        "outputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "dataFiles": [
+          "RNA_sample_1.txt",
+          "RNA_sample_2.txt"
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "11015",
+      "protocol_name": "RNA_Extraction - 11015",
+      "category": "RNA_Extraction",
+      "original_steps": 23,
+      "success": true,
+      "latency_s": 4.85,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Lysis and RNA partitioning steps to isolate nucleic acids from arabidopsis siliques.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "temperature",
+            "value": "37°C",
+            "unit": "",
+            "description": "Standard incubation temperature for RNA extraction."
+          },
+          {
+            "name": "time",
+            "value": "24 hours",
+            "unit": "",
+            "description": "Standard incubation duration for RNA extraction."
+          },
+          {
+            "name": "volume",
+            "value": "10 mL",
+            "unit": "",
+            "description": "Volume required for RNA extraction."
+          }
+        ],
+        "outputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "dataFiles": []
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "12716",
+      "protocol_name": "PCR - 12716",
+      "category": "PCR",
+      "original_steps": 18,
+      "success": true,
+      "latency_s": 24.76,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Preparation of invertedClampFISH probes by phosphorylation and ligation.",
+        "inputs": [
+          {
+            "name": "T7 DNA Ligase",
+            "value": "750,000 units",
+            "unit": "",
+            "description": "T7 DNA Ligase used for ligation",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "name": "Monarch® PCR & DNA Cleanup Kit",
+            "value": "5 μg",
+            "unit": "",
+            "description": "PCR and DNA cleanup kit for probe purification",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "name": "T4 Polynucleotide Kinase",
+            "value": "2,500 units",
+            "unit": "",
+            "description": "T4 Polynucleotide Kinase for primer extension",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ],
+        "parameters": [
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "",
+            "description": ""
+          },
+          {
+            "name": "time",
+            "value": "",
+            "unit": "",
+            "description": ""
+          },
+          {
+            "name": "concentration",
+            "value": "",
+            "unit": "",
+            "description": ""
+          },
+          {
+            "name": "volume",
+            "value": "",
+            "unit": "",
+            "description": ""
+          }
+        ],
+        "outputs": [
+          {
+            "name": "invertedClampFISH probes",
+            "description": "Final purified probe material after purification steps"
+          }
+        ],
+        "dataFiles": [
+          {
+            "name": "Step 1: Probe backbone phosphorylation",
+            "description": ""
+          },
+          {
+            "name": "Step 2: Probe backbone phosphorylation",
+            "description": ""
+          },
+          {
+            "name": "Step 3: invertedClampFISH probe ligation",
+            "description": ""
+          },
+          {
+            "name": "Step 4: invertedClampFISH probe ligation",
+            "description": ""
+          },
+          {
+            "name": "Step 5: invertedClampFISH probe ligation",
+            "description": ""
+          },
+          {
+            "name": "Step 6: invertedClampFISH probe ligation",
+            "description": ""
+          },
+          {
+            "name": "Step 7: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 8: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 9: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 10: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 11: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 12: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 13: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 14: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 15: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 16: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 17: Column purify invertedClampFISH probes",
+            "description": ""
+          },
+          {
+            "name": "Step 18: Column purify invertedClampFISH probes",
+            "description": ""
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "105043",
+      "protocol_name": "Transformation - 105043",
+      "category": "Transformation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 2.18,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Plasmid transformation and expression of SARS-CoV-2 nsp3 macrodomain assay construct.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "temperature",
+            "value": "37°C",
+            "unit": "",
+            "description": "Expression temperature"
+          },
+          {
+            "name": "time",
+            "value": "48 hours",
+            "unit": "",
+            "description": "Expression duration"
+          },
+          {
+            "name": "volume",
+            "value": "<6L",
+            "unit": "",
+            "description": "Expression volume"
+          }
+        ],
+        "outputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "dataFiles": []
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "121743",
+      "protocol_name": "Bacterial_Cultivation - 121743",
+      "category": "Bacterial_Cultivation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 2.6,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Preparation of antimicrobial agents and inoculum sources for time-kill assays.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "Incubation Volume",
+            "value": "10 mL",
+            "unit": "",
+            "description": "Volume of the medium used for inoculation"
+          },
+          {
+            "name": "CO2 Concentration",
+            "value": "5%",
+            "unit": "",
+            "description": "Percentage of CO2 in the incubation medium"
+          },
+          {
+            "name": "Shaker Speed",
+            "value": "100 rpm",
+            "unit": "",
+            "description": "Rotational speed of the shaking vessel"
+          }
+        ],
+        "outputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "dataFiles": []
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "102038",
+      "protocol_name": "Sequencing - 102038",
+      "category": "Sequencing",
+      "original_steps": 9,
+      "success": true,
+      "latency_s": 3.14,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Collection",
+        "description": "Collecting algae samples from a homogenized bioassessment sample using 47mm Whatman/Swinnex filter holders or a filter funnel with 0.45µm cellulose nitrate filters.",
+        "inputs": [
+          "homogenized bioassessment sample"
+        ],
+        "parameters": [
+          {
+            "name": "filter type",
+            "value": "47mm Whatman/Swinnex filter holders or a filter funnel with 0.45µm cellulose nitrate filters",
+            "unit": "",
+            "description": "Filter holder or funnel used for algae capture"
+          },
+          {
+            "name": "filter pore size",
+            "value": "0.45µm cellulose nitrate filters",
+            "unit": "",
+            "description": "Filter pore size for algae capture"
+          },
+          {
+            "name": "preservation solution",
+            "value": "",
+            "unit": "",
+            "description": "Preservation solution for algae storage"
+          },
+          {
+            "name": "storage temperature",
+            "value": "-20°C or -80°C",
+            "unit": "",
+            "description": "Storage temperature for up to six months"
+          },
+          {
+            "name": "field blank collection",
+            "value": "",
+            "unit": "",
+            "description": "Field blanks collected by filtering deionized water"
+          }
+        ],
+        "outputs": [
+          "homogenized bioassessment sample",
+          "filtered algae samples"
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "103062",
+      "protocol_name": "DNA_Extraction - 103062",
+      "category": "DNA_Extraction",
+      "original_steps": 8,
+      "success": true,
+      "latency_s": 2.24,
+      "evaluation": {
+        "step_preservation": 0,
+        "parameter_extraction": 0,
+        "component_extraction": 0,
+        "sequence_order": 0,
+        "overall": 0,
+        "notes": "No valid output"
+      },
+      "raw_output": {
+        "name": "Sample Preparation",
+        "description": "Lysate clarification, viral concentration and purification using linear sucrose gradient.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "temperature",
+            "value": "37°C",
+            "unit": "",
+            "description": "Incubation temperature for viral lysis"
+          },
+          {
+            "name": "concentration",
+            "value": "10 mg/mL",
+            "unit": "",
+            "description": "Viral concentration after clarification"
+          },
+          {
+            "name": "gradient",
+            "value": "Linear sucrose gradient",
+            "unit": "",
+            "description": "Method used for purification"
+          }
+        ],
+        "outputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "dataFiles": []
+      },
+      "json_valid": true
+    }
+  ]
+}

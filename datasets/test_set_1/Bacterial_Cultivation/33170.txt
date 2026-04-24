@@ -1,0 +1,34 @@
+Title: Marchantia high throughput imaging in multiwell plates
+
+Description:
+This protocol allows high throughput imaging of Marchantia gemmae, using a cheap setup made with broadly available lab equipment. It was developed from the 3D-printed Imaging Growth Chamber developed by Mihails Delmans in his PhD work (https://github.com/HaseloffLab/MihailsDelmansThesis).
+We used a transparent 384 wells plate filled with 1/2 strength Gamborg B5 media with 1.2% agar and placed a single gemma at the centre of the well. Gene frames and coverslips treated with anti-fog spray were used to cover (seal) the wells. This setup can be paired with automated imaging of samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Media preparation
+
+## Step 2: Plate set up
+
+## Step 3: Plate set up
+
+## Step 4: Plate set up
+
+## Step 5: Plate set up
+
+## Step 6: Plate set up
+
+## Step 7: Plate set up
+
+## Step 8: Plate set up
+
+## Step 9: Plate set up
+
+=== MATERIALS ===
+- Gamborg B5 medium including vitamins 
+- 384 well microplate clear flat bottom
+- Gene Frame 1.7 x 2.8 cm
+- B-clean Anti-fog spray
+- Coverslip 22 x 50mm
+- Agar capsule 1g

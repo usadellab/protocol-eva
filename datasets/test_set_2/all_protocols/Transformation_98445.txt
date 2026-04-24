@@ -1,0 +1,35 @@
+Title: CODA (part 5): nuclear coordinate generation | HuBMAP | JHU-TMC
+
+Description:
+In this section, generate nuclear coordinates on the
+high-resolution H&E images through color deconvolution and identification
+of two-dimensional intensity minimums in the hematoxylin channels of the images
+(corresponding to the dark blue nuclei). This calculation is done on the
+high-resolution tiff images saved inside pth10x. 
+Note on cell detection: It is important that the cell
+coordinates are generated on unregistered images, as warping caused by the
+registeration process can cause inaccuracies in nuclear detection performed on
+the registered images. Instead, detect coordinates on the unregistered images,
+then apply the registration transformations to the cell coordinates to
+determine their positions in registered space.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Nuclear coordinate generation
+
+## Step 2: Nuclear coordinate generation
+
+## Step 3: Nuclear coordinate generation
+
+## Step 4: Nuclear coordinate generation
+
+## Step 5: Nuclear coordinate generation
+
+## Step 6: Nuclear coordinate generation
+
+## Step 7: Nuclear coordinate generation
+
+## Step 8: Nuclear coordinate generation
+
+## Step 9: Nuclear coordinate generation

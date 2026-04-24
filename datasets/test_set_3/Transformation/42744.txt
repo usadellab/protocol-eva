@@ -1,0 +1,18 @@
+Title: DNA Clean & Concentrator-5--CHEM 584
+
+Description:
+Product Description
+The DNA Clean & Concentrator™-5 (DCC™-5) provides a hassle-free method for the rapid purification and concentration of high-quality DNA from PCR, endonuclease digestions, cell lysates, and other impure DNA preparations. It can also be used for post-RT cDNA clean-up and purification of sequencing-ready DNA from M13 phage. Simply add the specially formulated DNA Binding Buffer to your sample and transfer the mixture to the supplied Zymo-Spin™ Column. There is no need for organic denaturants or chloroform. Instead, the product features Fast-Spin column technology to yield DNA that is free of salts and contaminants in just 2 minutes. The purified DNA is ideal for DNA ligation, sequencing, labeling, PCR, microarray, transfection, transformation, and restriction digestion procedures.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PCR Cleanup/Cleanup after Restriction Digest
+
+## Step 2: PCR Cleanup/Cleanup after Restriction Digest
+
+## Step 3: PCR Cleanup/Cleanup after Restriction Digest
+
+## Step 4: PCR Cleanup/Cleanup after Restriction Digest
+
+## Step 5: PCR Cleanup/Cleanup after Restriction Digest

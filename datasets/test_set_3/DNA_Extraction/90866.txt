@@ -1,0 +1,31 @@
+Title: Genomic DNA extraction from STERIVEX filter within capsule using QIAGEN´s DNeasy Blood and Tissue kit
+
+Description:
+This is our protocol for extracting environmental DNA from STERIVEX filters using QIAGEN´s Dneasy Blood and Tissue  KIT. The protocol is a combination of previously described protocols from:
+DNeasy Blood & Tissue Handbook (June 2023). QIAGEN
+Kawato, M., Yoshida, T., Miya, M., Tsuchida, S., Nagano, Y., Nomura, M., Yabuki, A., Fujiwara, Y., & Fujikura, K. (2021). Optimization of environmental DNA extraction and amplification methods for metabarcoding of deep-sea fish. MethodsX, 8, 101238. https://doi.org/https://doi.org/10.1016/j.mex.2021.101238
+Spens, J., Evans, A. R., Halfmaerten, D., Knudsen, S. W., Sengupta, M. E., Mak, S. S. T., Sigsgaard, E. E., & Hellström, M. (2017). Comparison of capture and storage methods for aqueous macrobial eDNA using an optimized extraction protocol: advantage of enclosed filter. Methods in Ecology and Evolution, 8(5), 635-645. https://doi.org/https://doi.org/10.1111/2041-210X.12683
+Wong, M. K.-S., Nakao, M., & Hyodo, S. (2020). Field application of an improved protocol for environmental DNA extraction, purification, and measurement using Sterivex filter. Scientific Reports, 10(1), 21531. https://doi.org/10.1038/s41598-020-77304-7
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

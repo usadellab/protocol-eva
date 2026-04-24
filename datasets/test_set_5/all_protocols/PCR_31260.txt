@@ -1,0 +1,40 @@
+Title: Environmental DNA (eDNA) metabarcoding protocol for fish species
+
+Description:
+ Environmental DNA metabarcoding universal primers targeting the hypervariable region of the 12S rRNA gene 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+## Step 4: First PCR reaction
+
+## Step 5: First PCR reaction for fish amplification
+
+## Step 6: First PCR reaction for amphibians amplification
+
+## Step 7: First PCR reaction for amphibians amplification
+
+## Step 8: Second PCR
+
+## Step 9: Second PCR
+
+## Step 10: Second PCR
+
+## Step 11: Second PCR
+
+## Step 12: Second PCR
+
+## Step 13: Second PCR
+
+## Step 14: Second PCR
+
+## Step 15: Sequencing
+
+=== MATERIALS ===
+- Agencourt Ampure XP
+- UltraPure™ DNase/RNase-Free Distilled Water
+- 10 mM dNTPs
+- Q5 High-Fidelity DNA Polymerase - 500 units

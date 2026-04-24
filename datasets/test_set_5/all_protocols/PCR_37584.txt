@@ -1,0 +1,54 @@
+Title: Quantification of fungal ITS Gene Copies Using ddPCR (EvaGreen-based assay: ITS1f-ITS2)
+
+Description:
+The protocol was designed to quantify microbial eukaryotic fungi using ITS region copy number evaluation by Droplet Digital PCR technology (ddPCR) from Bio-Rad company. 
+For the assay, we are using a universal fungal ITS rRNA primer pair:
+ITS1f         5'- CTT GGT CAT TTA GAG GAA GTA A -3', 38 bp upstream of ITS1 from White et al., 1990
+ITS2          5'- GCT GCG TTC TTC ATC GAT GC -3', identical to ITS2 from White et al., 1990until now because of its extreme length variability among the fungi species. In fact, this variability introduced a bias to final copy numbers estimated by qPCR,.
+Amplicon size: ~250–600 bp (Bokulich & Mills, 2013; Hoggart et al., 2018)
+The same ITS1f and ITS2 primers are recommended for use for fungi identification by the Earth Microbiome Project.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: ddPCR reaction mixture
+
+## Step 2: ddPCR reaction mixture
+
+## Step 3: ddPCR reaction mixture
+
+## Step 4: ddPCR reaction mixture
+
+## Step 5: ddPCR reaction mixture
+
+## Step 6: Droplets generation by AutoDG
+
+## Step 7: Droplets generation by AutoDG
+
+## Step 8: Droplets generation by AutoDG
+
+## Step 9: Droplets generation by AutoDG
+
+## Step 10: Droplets generation by AutoDG
+
+## Step 11: Droplets generation by AutoDG
+
+## Step 12: PCR program
+
+## Step 13: Droplets reading
+
+## Step 14: Droplets reading
+
+## Step 15: Droplets reading
+
+## Step 16: Droplets reading
+
+## Step 17: Analysis
+
+## Step 18: Analysis
+
+=== MATERIALS ===
+- PCR Plate Heat Seal foil piercable
+- ddPCR 96-well plates
+- QX200™ ddPCR™ EvaGreen Supermix
+- Automated Droplet Generation Oil for EvaGreen

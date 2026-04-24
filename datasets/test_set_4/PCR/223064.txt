@@ -1,0 +1,33 @@
+Title: artic-measles/400/v1.0.0 Protocol 
+
+Description:
+This protocol is how to generate the primer pools for artic-measles/400/v1.0.0. Then generate cDNA generation via LunaScript RT, and run the PCR reactions. Downstream library preparation relies on the ARTIC LoCost amplicon sequencing (SQK-NBD114). 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Primer pool preparation 
+
+## Step 2: Primer pool preparation 
+
+
+## Step 4: Multiplex PCR 
+
+
+## Step 6: cDNA Synthesis  
+
+## Step 7: cDNA Synthesis  
+
+## Step 8: cDNA Synthesis  
+
+## Step 9: Primer pool preparation 
+
+## Step 10: Primer pool preparation 
+
+## Step 11: Primer pool preparation 
+
+## Step 12: Primer pool preparation 
+
+## Step 13: Library preparation
+
+## Step 14: Quality Control

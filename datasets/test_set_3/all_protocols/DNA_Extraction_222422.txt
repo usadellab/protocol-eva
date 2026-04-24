@@ -1,0 +1,117 @@
+Title: DNA Extraction from Biopsy Samples (Ph:Chl & Microcon)
+
+Description:
+This protocol describes our latest protocol for extracting DNA from standard biopsy samples of whale skin. It uses a combination of phenol:chloroform to separate the DNA from other cellular material, and then Microcon filters to collect the DNA and then dissolve in the desired volume. This approach was motivated by original phenol:chloroform protocols described in Sambrook & Russell (2001), but modified based on organic extraction protocols used in the forensic sciences. From this protocol, we usually obtain ~250ng of DNA per milligram of starting tissue (a higher yield than that obtained from Qiagen columns, as well as phenol:chloroform followed by ethanol precipitation). The protocol takes place over 8 days. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Day 1
+
+## Step 2: Day 1
+
+## Step 3: Day 1
+
+## Step 4: Day 1
+
+## Step 5: Day 1
+
+## Step 6: Day 1
+
+## Step 7: Day 1
+
+## Step 8: Day 1
+
+## Step 9: Day 1
+
+## Step 10: Day 1
+
+## Step 11: Day 1
+
+## Step 12: Day 1
+
+## Step 13: Day 1
+
+## Step 14: Day 1
+
+## Step 15: Day 1
+
+## Step 16: Day 1
+
+## Step 17: Day 1
+
+## Step 18: Day 6
+
+## Step 19: Day 6
+
+## Step 20: Day 7
+
+## Step 21: Day 7
+
+## Step 22: Day 7
+
+## Step 23: Day 8
+
+## Step 24: Day 8
+
+## Step 25: Day 8
+
+## Step 26: Day 8
+
+## Step 27: Day 8
+
+## Step 28: Day 8
+
+## Step 29: Day 8
+
+## Step 30: Day 8
+
+## Step 31: Day 8
+
+## Step 32: Day 8
+
+## Step 33: Day 8
+
+## Step 34: Day 8
+
+## Step 35: Day 8
+
+## Step 36: Day 8
+
+## Step 37: Day 8
+
+## Step 38: Day 8
+
+## Step 39: Day 8
+
+## Step 40: Day 8
+
+## Step 41: Day 8
+
+## Step 42: Day 8
+
+## Step 43: Day 8
+
+## Step 44: Day 8
+
+## Step 45: Day 8
+
+## Step 46: Day 8
+
+## Step 47: Day 8
+
+## Step 48: Day 8
+
+## Step 49: Day 8
+
+## Step 50: Day 8
+
+## Step 51: Appendix
+
+## Step 52: Appendix
+
+## Step 53: Day 8
+
+## Step 54: Day 8
+
+## Step 55: Day 8

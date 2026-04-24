@@ -1,0 +1,50 @@
+Title: RNA Isolation from Plant Tissue Protocol 6: pBIOZOL and Qiagen RNeasy Plant Mini Kit Method
+
+Description:
+This protocol is part of a collection of eighteen protocols used to isolate total RNA from plant tissue. (RNA Isolation from Plant Tissue Collection: https://www.protocols.io/view/rna-isolation-from-plant-tissue-439gyr6) and was originally published as part of Appendix S1 of "Evaluating Methods for  Isolating Total RNA and Predicting the Success of Sequencing  Phylogenetically Diverse Plant Transcriptomes" Marc T. J. Johnson et al.  PLOS ONE, November 21, 2012.  https://doi.org/10.1371/journal.pone.0050226
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- RNeasy Plant Mini Kit

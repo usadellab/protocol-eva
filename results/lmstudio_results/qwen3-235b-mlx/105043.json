@@ -1,0 +1,144 @@
+{
+  "protocol_id": "105043",
+  "protocol_name": "Transformation - 105043",
+  "category": "Transformation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 33.3,
+  "evaluation": {
+    "step_preservation": 12.0,
+    "parameter_extraction": 450.0,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 142.3,
+    "extracted_steps": 3,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "SARS-CoV-2 nsp3 macrodomain protein",
+        "organism": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+        "characteristics": [
+          {
+            "category": "protein expression system",
+            "value": "recombinant protein expressed in bacterial host (likely E. coli)",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "tag",
+            "value": "N-terminal His-tag",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "scale",
+            "value": "small scale",
+            "unit": "<6L culture volume",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Plasmid Transformation",
+        "description": "Introduction of plasmid DNA into competent bacterial cells for protein expression.",
+        "inputs": [
+          "SARS-CoV-2 nsp3 macrodomain protein"
+        ],
+        "parameters": [
+          {
+            "name": "transformation temperature",
+            "value": "42°C",
+            "unit": "°C",
+            "description": "heat shock temperature for transformation"
+          },
+          {
+            "name": "recovery incubation time",
+            "value": "1 hour",
+            "unit": "hour",
+            "description": "duration of recovery in SOC medium post-heat shock"
+          },
+          {
+            "name": "recovery temperature",
+            "value": "37°C",
+            "unit": "°C",
+            "description": "temperature for recovery incubation"
+          }
+        ],
+        "outputs": [
+          "Transformed bacterial culture"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Protein expression",
+        "description": "Induction of recombinant protein expression in transformed bacterial culture.",
+        "inputs": [
+          "Transformed bacterial culture"
+        ],
+        "parameters": [
+          {
+            "name": "induction temperature",
+            "value": "18°C or 37°C (implied by expression steps)",
+            "unit": "°C",
+            "description": "temperature for protein induction, likely optimized to reduce inclusion bodies"
+          },
+          {
+            "name": "induction duration",
+            "value": "4–16 hours (typical range)",
+            "unit": "hours",
+            "description": "duration of IPTG induction for protein expression"
+          },
+          {
+            "name": "induction method",
+            "value": "IPTG-induced expression",
+            "unit": "",
+            "description": "use of isopropyl β-D-1-thiogalactopyranoside (IPTG) to induce T7/lac promoter"
+          }
+        ],
+        "outputs": [
+          "Protein-expressing bacterial culture"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Protein Purification",
+        "description": "Purification of His-tagged nsp3 macrodomain protein using affinity chromatography.",
+        "inputs": [
+          "Protein-expressing bacterial culture"
+        ],
+        "parameters": [
+          {
+            "name": "lysis buffer temperature",
+            "value": "4°C (implied)",
+            "unit": "°C",
+            "description": "cold temperature to maintain protein stability during lysis"
+          },
+          {
+            "name": "centrifugation speed",
+            "value": "15,000–20,000 ×g",
+            "unit": "×g",
+            "description": "high-speed centrifugation to pellet cell debris post-lysis"
+          },
+          {
+            "name": "affinity resin",
+            "value": "Ni-NTA (Nickel-Nitrilotriacetic acid)",
+            "unit": "",
+            "description": "chromatography resin for binding His-tagged proteins"
+          }
+        ],
+        "outputs": [
+          "Purified nsp3 macrodomain protein"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

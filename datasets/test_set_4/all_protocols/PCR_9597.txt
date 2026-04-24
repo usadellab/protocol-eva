@@ -1,0 +1,32 @@
+Title: Colony PCR (DreamTaq) with Synechocystis sp. PCC 6803 and gel electrophoresis
+
+Description:
+In this protocol, the extraction of template DNA out of Synechocystis sp. PCC 6803 samples, the PCR of the template and the application on a agarosegel are described. The protocol was handed over by Maximilian Dietsch MSc.
+
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Inoculation
+
+## Step 2: Heating
+
+## Step 3: Centrifugation
+
+## Step 4: Pipette your master mix
+
+## Step 5: Pipette your master mix to your sample
+
+## Step 6: Run your PCR
+
+## Step 7: Load your samples
+
+## Step 8: Load your gel
+
+## Step 9: Run your gel
+
+## Step 10: Check your results
+
+## Step 11: Prepare your agarose gel
+
+## Step 12: Pipette your samples

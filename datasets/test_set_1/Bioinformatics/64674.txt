@@ -1,0 +1,54 @@
+Title: Generation of E. coli MG1655 whole cell lysate for proteomics applications
+
+Description:
+This protocol describes the culture of E. coli MG1655 from a glycerol stock solution and subsequent lysis. It is intended for generating small quantities of whole cell lysate from cells grown in nutrient-rich (e.g. LB or TB medium) and/or nutrient-poor (e.g. M9 minimal) media for proteomics analysis. Culture and lysis of cells in a single Bio-Reaction tube minimizes the possibility of contamination.
+All cell culture steps should be carried out using sterile materials and proper aseptic technique. This procedure is intended to be carried out in a biosafety cabinet, but it can also easily be performed on a bench top with a Bunsen burner.
+Applications of this protocol at the National MagLab have utilized E. coli stocks from the Coli Genetic Stock Center at Yale University. The final lysate typically contains 300 - 500 μg/mL of protein for M9 minimal medium cultures and 750 - 1000 μg/mL for LB medium cultures, as determined by BCA assay.
+The cell lysis protocol is adapted from Preparing human WCL for analysis by qualitative TDMS by Caroline DeHart, with a few changes.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell culture
+
+## Step 2: Cell culture
+
+## Step 3: Cell culture
+
+## Step 4: Cell culture
+
+## Step 5: Cell culture
+
+## Step 6: Cell culture
+
+## Step 7: Cell lysis
+
+## Step 8: Cell lysis
+
+## Step 9: Cell lysis
+
+## Step 10: Cell lysis
+
+## Step 11: Cell lysis
+
+## Step 12: Cell lysis
+
+## Step 13: Cell lysis
+
+## Step 14: Cell lysis
+
+## Step 15: Cell lysis
+
+## Step 16: Cell lysis
+
+## Step 17: Cell lysis
+
+## Step 18: Cell lysis
+
+## Step 19: Cell culture
+
+## Step 20: Cell culture
+
+## Step 21: Cell culture
+
+## Step 22: Cell culture

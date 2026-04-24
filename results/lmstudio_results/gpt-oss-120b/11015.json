@@ -1,0 +1,708 @@
+{
+  "protocol_id": "11015",
+  "protocol_name": "RNA_Extraction - 11015",
+  "category": "RNA_Extraction",
+  "original_steps": 23,
+  "success": true,
+  "latency_s": 67.15,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 77.5,
+    "extracted_steps": 23,
+    "original_steps": 23
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Arabidopsis_silique_1",
+        "organism": "Arabidopsis thaliana",
+        "characteristics": [
+          {
+            "category": "tissue_type",
+            "value": "silique",
+            "unit": "",
+            "termSource": "Plant Ontology",
+            "termAccession": "PO:0009047"
+          },
+          {
+            "category": "development_stage",
+            "value": "mature",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Tobacco_fruit_1",
+        "organism": "Nicotiana tabacum",
+        "characteristics": [
+          {
+            "category": "tissue_type",
+            "value": "fruit",
+            "unit": "",
+            "termSource": "Plant Ontology",
+            "termAccession": "PO:0009001"
+          },
+          {
+            "category": "development_stage",
+            "value": "ripe",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Step 1: Lysis",
+        "description": "Disruption of tissue in lysis buffer to release nucleic acids.",
+        "inputs": [
+          "Arabidopsis_silique_1",
+          "Tobacco_fruit_1"
+        ],
+        "parameters": [
+          {
+            "name": "lysis_buffer_volume",
+            "value": "500",
+            "unit": "µL",
+            "description": "Volume of lysis buffer added to each sample"
+          },
+          {
+            "name": "incubation_temperature",
+            "value": "65",
+            "unit": "°C",
+            "description": "Temperature for incubation during lysis"
+          },
+          {
+            "name": "incubation_time",
+            "value": "10",
+            "unit": "min",
+            "description": "Duration of incubation"
+          }
+        ],
+        "outputs": [
+          "Lysate_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 2: Lysis",
+        "description": "Further homogenization of lysate to ensure complete cell disruption.",
+        "inputs": [
+          "Lysate_1"
+        ],
+        "parameters": [
+          {
+            "name": "vortex_speed",
+            "value": "high",
+            "unit": "",
+            "description": "Vortex speed during homogenization"
+          },
+          {
+            "name": "homogenization_time",
+            "value": "30",
+            "unit": "sec",
+            "description": "Time of vortexing"
+          }
+        ],
+        "outputs": [
+          "Homogenized_lysate"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 3: RNA Partitioning 1",
+        "description": "Phase separation using phenol-chloroform to partition RNA into aqueous phase.",
+        "inputs": [
+          "Homogenized_lysate"
+        ],
+        "parameters": [
+          {
+            "name": "phenol_chloroform_volume",
+            "value": "500",
+            "unit": "µL",
+            "description": "Volume of phenol-chloroform added"
+          },
+          {
+            "name": "centrifuge_speed",
+            "value": "12000",
+            "unit": "g",
+            "description": "Speed for phase separation centrifugation"
+          },
+          {
+            "name": "centrifuge_time",
+            "value": "10",
+            "unit": "min",
+            "description": "Duration of centrifugation"
+          }
+        ],
+        "outputs": [
+          "Aqueous_phase_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 4: RNA Partitioning 1",
+        "description": "Repeat phenol-chloroform extraction to improve purity.",
+        "inputs": [
+          "Aqueous_phase_1"
+        ],
+        "parameters": [
+          {
+            "name": "phenol_chloroform_volume_repeat",
+            "value": "500",
+            "unit": "µL",
+            "description": "Second addition of phenol-chloroform"
+          },
+          {
+            "name": "centrifuge_speed_repeat",
+            "value": "12000",
+            "unit": "g",
+            "description": "Centrifugation speed for second extraction"
+          },
+          {
+            "name": "centrifuge_time_repeat",
+            "value": "10",
+            "unit": "min",
+            "description": "Centrifugation time for second extraction"
+          }
+        ],
+        "outputs": [
+          "Aqueous_phase_2"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 5: RNA Partitioning 1",
+        "description": "Final phenol-chloroform extraction before precipitation.",
+        "inputs": [
+          "Aqueous_phase_2"
+        ],
+        "parameters": [
+          {
+            "name": "phenol_chloroform_volume_final",
+            "value": "500",
+            "unit": "µL",
+            "description": "Third phenol-chloroform addition"
+          },
+          {
+            "name": "centrifuge_speed_final",
+            "value": "12000",
+            "unit": "g",
+            "description": "Final centrifugation speed"
+          },
+          {
+            "name": "centrifuge_time_final",
+            "value": "10",
+            "unit": "min",
+            "description": "Final centrifugation time"
+          }
+        ],
+        "outputs": [
+          "Aqueous_phase_3"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 6: Nucleic Acid Precipitation 1",
+        "description": "Precipitate RNA from aqueous phase using isopropanol.",
+        "inputs": [
+          "Aqueous_phase_3"
+        ],
+        "parameters": [
+          {
+            "name": "isopropanol_volume",
+            "value": "600",
+            "unit": "µL",
+            "description": "Volume of isopropanol added for precipitation"
+          },
+          {
+            "name": "incubation_temperature_precip",
+            "value": "-20",
+            "unit": "°C",
+            "description": "Temperature for RNA precipitation"
+          },
+          {
+            "name": "incubation_time_precip",
+            "value": "30",
+            "unit": "min",
+            "description": "Time for precipitation"
+          }
+        ],
+        "outputs": [
+          "RNA_precipitate_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 7: Nucleic Acid Precipitation 1",
+        "description": "Centrifuge to pellet RNA after precipitation.",
+        "inputs": [
+          "RNA_precipitate_1"
+        ],
+        "parameters": [
+          {
+            "name": "centrifuge_speed_precip",
+            "value": "12000",
+            "unit": "g",
+            "description": "Speed for pelleting RNA"
+          },
+          {
+            "name": "centrifuge_time_precip",
+            "value": "15",
+            "unit": "min",
+            "description": "Duration of centrifugation"
+          }
+        ],
+        "outputs": [
+          "RNA_pellet_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 8: Nucleic Acid Precipitation 1",
+        "description": "Wash RNA pellet with 70% ethanol.",
+        "inputs": [
+          "RNA_pellet_1"
+        ],
+        "parameters": [
+          {
+            "name": "ethanol_volume",
+            "value": "1000",
+            "unit": "µL",
+            "description": "Volume of 70% ethanol for washing"
+          },
+          {
+            "name": "centrifuge_speed_wash",
+            "value": "12000",
+            "unit": "g",
+            "description": "Speed for washing step"
+          },
+          {
+            "name": "centrifuge_time_wash",
+            "value": "5",
+            "unit": "min",
+            "description": "Time for washing centrifugation"
+          }
+        ],
+        "outputs": [
+          "RNA_washed_pellet_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 9: Nucleic Acid Precipitation 1",
+        "description": "Air‑dry the RNA pellet briefly.",
+        "inputs": [
+          "RNA_washed_pellet_1"
+        ],
+        "parameters": [
+          {
+            "name": "dry_time",
+            "value": "10",
+            "unit": "min",
+            "description": "Time to air‑dry the pellet"
+          }
+        ],
+        "outputs": [
+          "Dry_RNA_pellet_1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 10: RNA Partitioning 2",
+        "description": "Resuspend pellet in RNase‑free water and perform a second phenol extraction to remove residual contaminants.",
+        "inputs": [
+          "Dry_RNA_pellet_1"
+        ],
+        "parameters": [
+          {
+            "name": "RNase_free_water_volume",
+            "value": "50",
+            "unit": "µL",
+            "description": "Volume used to resuspend RNA"
+          },
+          {
+            "name": "phenol_volume_second",
+            "value": "100",
+            "unit": "µL",
+            "description": "Phenol added for second partitioning"
+          },
+          {
+            "name": "centrifuge_speed_second",
+            "value": "12000",
+            "unit": "g",
+            "description": "Centrifugation speed for second partitioning"
+          }
+        ],
+        "outputs": [
+          "Aqueous_phase_4"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 11: RNA Partitioning 2",
+        "description": "Collect aqueous phase containing purified RNA.",
+        "inputs": [
+          "Aqueous_phase_4"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Purified_RNA_solution"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 12: RNA Partitioning 2",
+        "description": "Optional DNase treatment to remove DNA contamination.",
+        "inputs": [
+          "Purified_RNA_solution"
+        ],
+        "parameters": [
+          {
+            "name": "DNase_amount",
+            "value": "1",
+            "unit": "U",
+            "description": "Units of DNase added"
+          },
+          {
+            "name": "incubation_time_DNase",
+            "value": "15",
+            "unit": "min",
+            "description": "Incubation time for DNase treatment"
+          },
+          {
+            "name": "incubation_temperature_DNase",
+            "value": "37",
+            "unit": "°C",
+            "description": "Temperature for DNase reaction"
+          }
+        ],
+        "outputs": [
+          "DNase_treated_RNA"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 13: Nucleic Acid Precipitation 2",
+        "description": "Precipitate RNA after DNase treatment using ethanol.",
+        "inputs": [
+          "DNase_treated_RNA"
+        ],
+        "parameters": [
+          {
+            "name": "ethanol_volume_precip2",
+            "value": "1000",
+            "unit": "µL",
+            "description": "Volume of 100% ethanol added"
+          },
+          {
+            "name": "salt_concentration",
+            "value": "0.1",
+            "unit": "M",
+            "description": "Final concentration of NaCl or similar salt"
+          },
+          {
+            "name": "incubation_temperature_precip2",
+            "value": "-20",
+            "unit": "°C",
+            "description": "Temperature for precipitation"
+          }
+        ],
+        "outputs": [
+          "RNA_precipitate_2"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 14: Nucleic Acid Precipitation 2",
+        "description": "Centrifuge to pellet RNA.",
+        "inputs": [
+          "RNA_precipitate_2"
+        ],
+        "parameters": [
+          {
+            "name": "centrifuge_speed_precip2",
+            "value": "12000",
+            "unit": "g",
+            "description": "Speed for pelleting"
+          },
+          {
+            "name": "centrifuge_time_precip2",
+            "value": "15",
+            "unit": "min",
+            "description": "Time for centrifugation"
+          }
+        ],
+        "outputs": [
+          "RNA_pellet_2"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 15: Nucleic Acid Precipitation 2",
+        "description": "Wash RNA pellet with 70% ethanol.",
+        "inputs": [
+          "RNA_pellet_2"
+        ],
+        "parameters": [
+          {
+            "name": "ethanol_wash_volume",
+            "value": "1000",
+            "unit": "µL",
+            "description": "Volume of 70% ethanol for wash"
+          },
+          {
+            "name": "centrifuge_speed_wash2",
+            "value": "12000",
+            "unit": "g",
+            "description": "Speed for wash centrifugation"
+          },
+          {
+            "name": "centrifuge_time_wash2",
+            "value": "5",
+            "unit": "min",
+            "description": "Time for wash centrifugation"
+          }
+        ],
+        "outputs": [
+          "RNA_washed_pellet_2"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 16: Nucleic Acid Precipitation 2",
+        "description": "Air‑dry and resuspend final RNA pellet.",
+        "inputs": [
+          "RNA_washed_pellet_2"
+        ],
+        "parameters": [
+          {
+            "name": "dry_time_final",
+            "value": "10",
+            "unit": "min",
+            "description": "Air‑dry time"
+          },
+          {
+            "name": "resuspension_volume",
+            "value": "30",
+            "unit": "µL",
+            "description": "RNase‑free water used for final resuspension"
+          }
+        ],
+        "outputs": [
+          "Final_RNA_solution"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 17: Nucleic Acid Precipitation 3",
+        "description": "Quality check of RNA by spectrophotometry.",
+        "inputs": [
+          "Final_RNA_solution"
+        ],
+        "parameters": [
+          {
+            "name": "spectrophotometer_model",
+            "value": "",
+            "unit": "",
+            "description": "Instrument used for RNA quantification"
+          },
+          {
+            "name": "wavelength",
+            "value": "260",
+            "unit": "nm",
+            "description": "Absorbance wavelength"
+          }
+        ],
+        "outputs": [
+          "RNA_quality_metrics"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 18: Nucleic Acid Precipitation 3",
+        "description": "Assess RNA integrity on agarose gel.",
+        "inputs": [
+          "Final_RNA_solution"
+        ],
+        "parameters": [
+          {
+            "name": "gel_concentration",
+            "value": "1.2",
+            "unit": "%",
+            "description": "Agarose gel percentage"
+          },
+          {
+            "name": "running_voltage",
+            "value": "100",
+            "unit": "V",
+            "description": "Voltage applied during electrophoresis"
+          },
+          {
+            "name": "running_time",
+            "value": "30",
+            "unit": "min",
+            "description": "Duration of electrophoresis"
+          }
+        ],
+        "outputs": [
+          "RNA_integrity_image"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 19: Nucleic Acid Precipitation 3",
+        "description": "Store RNA at -80°C for long‑term preservation.",
+        "inputs": [
+          "Final_RNA_solution"
+        ],
+        "parameters": [
+          {
+            "name": "storage_temperature",
+            "value": "-80",
+            "unit": "°C",
+            "description": "Temperature for storage"
+          }
+        ],
+        "outputs": [
+          "Stored_RNA"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 20: Nucleic Acid Precipitation 3",
+        "description": "Document sample metadata and experimental conditions.",
+        "inputs": [
+          "Stored_RNA"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Metadata_record"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 21: Resuspension and Storage",
+        "description": "Final resuspension of RNA in RNase‑free water and aliquoting.",
+        "inputs": [
+          "Stored_RNA"
+        ],
+        "parameters": [
+          {
+            "name": "aliquot_volume",
+            "value": "10",
+            "unit": "µL",
+            "description": "Volume per aliquot"
+          },
+          {
+            "name": "storage_temperature_aliquot",
+            "value": "-80",
+            "unit": "°C",
+            "description": "Temperature for aliquot storage"
+          }
+        ],
+        "outputs": [
+          "RNA_aliquots"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 22: Lysis",
+        "description": "Optional repeat lysis for low‑yield samples.",
+        "inputs": [
+          "RNA_aliquots"
+        ],
+        "parameters": [
+          {
+            "name": "additional_lysis_buffer_volume",
+            "value": "200",
+            "unit": "µL",
+            "description": "Extra lysis buffer added"
+          }
+        ],
+        "outputs": [
+          "Re_lysate"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Step 23: Nucleic Acid Precipitation 2",
+        "description": "Second round precipitation to concentrate RNA after repeat lysis.",
+        "inputs": [
+          "Re_lysate"
+        ],
+        "parameters": [
+          {
+            "name": "isopropanol_volume_second_round",
+            "value": "400",
+            "unit": "µL",
+            "description": "Isopropanol added for second precipitation"
+          },
+          {
+            "name": "incubation_time_second_round",
+            "value": "20",
+            "unit": "min",
+            "description": "Incubation time at -20°C"
+          }
+        ],
+        "outputs": [
+          "Concentrated_RNA"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

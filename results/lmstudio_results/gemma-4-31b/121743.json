@@ -1,0 +1,179 @@
+{
+  "protocol_id": "121743",
+  "protocol_name": "Bacterial_Cultivation - 121743",
+  "category": "Bacterial_Cultivation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 77.5,
+  "evaluation": {
+    "step_preservation": 16.0,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 43.9,
+    "extracted_steps": 4,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Streptococcus agalactiae culture",
+        "organism": "Streptococcus agalactiae",
+        "characteristics": [
+          {
+            "category": "group",
+            "value": "Group B Streptococcus (GBS)",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Penicillin solution",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "type",
+            "value": "Antimicrobial agent",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Gentamicin solution",
+        "organism": "N/A",
+        "characteristics": [
+          {
+            "category": "type",
+            "value": "Antimicrobial agent",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Antimicrobial preparation",
+        "description": "Preparation of penicillin and gentamicin solutions for synergy testing.",
+        "inputs": [
+          "Penicillin solution",
+          "Gentamicin solution"
+        ],
+        "parameters": [
+          {
+            "name": "concentration",
+            "value": "",
+            "unit": "ug/mL",
+            "description": "Concentration of antimicrobial agents used in the assay"
+          },
+          {
+            "name": "solvent",
+            "value": "",
+            "unit": "",
+            "description": "Buffer or media used to dissolve antimicrobials"
+          }
+        ],
+        "outputs": [
+          "Prepared Antimicrobials"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Inoculum preparation",
+        "description": "Preparation of the Streptococcus agalactiae bacterial inoculum.",
+        "inputs": [
+          "Streptococcus agalactiae culture"
+        ],
+        "parameters": [
+          {
+            "name": "inoculum density",
+            "value": "",
+            "unit": "CFU/mL",
+            "description": "Standardized concentration of bacteria for the assay"
+          },
+          {
+            "name": "growth media",
+            "value": "",
+            "unit": "",
+            "description": "Media used for initial bacterial growth"
+          }
+        ],
+        "outputs": [
+          "Standardized Inoculum"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Settings Configuration",
+        "description": "Defining the environmental variables and equipment settings for the time-kill assay.",
+        "inputs": [
+          "Standardized Inoculum",
+          "Prepared Antimicrobials"
+        ],
+        "parameters": [
+          {
+            "name": "incubation volume",
+            "value": "",
+            "unit": "mL",
+            "description": "The total volume of the incubation medium"
+          },
+          {
+            "name": "CO2 proportion",
+            "value": "",
+            "unit": "%",
+            "description": "Percentage of CO2 in the incubator atmosphere"
+          },
+          {
+            "name": "shaker usage",
+            "value": "",
+            "unit": "rpm",
+            "description": "Whether a shaker is used and at what speed"
+          },
+          {
+            "name": "media type",
+            "value": "",
+            "unit": "",
+            "description": "The specific media chosen for the assay stability test"
+          }
+        ],
+        "outputs": [
+          "Experimental Setup"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Time-kill assay",
+        "description": "Execution of the time-kill assay to evaluate synergy between penicillin and gentamicin.",
+        "inputs": [
+          "Experimental Setup"
+        ],
+        "parameters": [
+          {
+            "name": "incubation temperature",
+            "value": "37",
+            "unit": "Celsius",
+            "description": "Standard incubation temperature for GBS"
+          },
+          {
+            "name": "sampling time points",
+            "value": "",
+            "unit": "hours",
+            "description": "Intervals at which bacterial counts are measured"
+          }
+        ],
+        "outputs": [
+          "Bacterial Growth Data"
+        ],
+        "dataFiles": [
+          "time_kill_results.csv"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

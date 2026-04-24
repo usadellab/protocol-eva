@@ -1,0 +1,10 @@
+Title: High Efficiency Microfluidic Electrotransformation
+
+Description:
+   Synthetic biology holds great potential for addressing pressing challenges for mankind and our planet. One technical challenge in tapping into the full potential of synthetic biology is the low efficiency and low throughput of genetic transformation for many types of cells. In this paper, we discuss a novel microfluidic system for improving bacterial electrotransformation efficiency and throughput. Our microfluidic system is comprised of non-uniform constrictions in microchannels to facilitate high electric fields with relatively small applied voltages to induce electroporation. Additionally, the microfluidic device has regions of low electric field to assist in electrophoretic transport of nucleic acids into the cells. The device features hydro- dynamically controlled electric fields that allow cells to experience a time dependent electric field that is otherwise difficult to achieve using standard electronics. Results suggest that transformation efficiency can be increased by ∼4×, while throughput can increase by 100–1000× compared to traditional electroporation cuvettes. This work will enable high-throughput and high efficiency genetic transformation of microbes, fa- cilitating accelerated development of genetically engineered organisms.
+ 
+ 
+ 
+
+
+=== PROTOCOL STEPS ===

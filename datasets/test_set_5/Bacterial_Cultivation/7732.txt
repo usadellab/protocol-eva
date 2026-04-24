@@ -1,0 +1,24 @@
+Title: Colony mix assay
+
+Description:
+Protocol to co-culture individual colonies of different strains (e.g. transformed with different vectors) on a LB agar plate in a distributed and random manner.
+This assay has been used for low cost and open source fluorescence imaging (please see https://osf.io/dy6p2/ for further information & data, https://github.com/SynBioUC/FluoPi for code and http://docubricks.com/viewer.jsp? for hardware assembly)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Growth
+
+## Step 2: Mixing strains
+
+## Step 3: Dilution
+
+
+## Step 5: Incubation
+
+
+=== MATERIALS ===
+- 14 ml round bottom culture tubes
+- LB agar plates with the proper antibiotic(s) (eg. Kanamycin)
+- Glass beads (~ 5mm diameter) or L shaped spreader
+- Sterile conditions (e.g. laminar flow or a flame)

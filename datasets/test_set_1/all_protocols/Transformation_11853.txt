@@ -1,0 +1,55 @@
+Title: Electroporation of Vibrio natriegens (Weinstock et al. 2016, modified .)
+
+Description:
+A protocoll outlining the Preperation and transformation of electro-competent cells for Vibrio natriegens
+Preparation of electrocompetent cells (Vibrio natrigens)
+10 mL BHI (Brain haert infusion) + v2 salts Overnight culture
+Inoculation of a new BHI + v2 media with 1% of the overnight culture as inoculum.
+Grow at 37°C shaking to an OD of 0.5
+Chill the culture on ice for 15 min
+Use a chilled (4°C) centrifuge at 4,500 r.p.m. for 20 min
+Decant the supernatant diligently and carefully
+Resuspend gently in 5-10 mL Electroporation-Buffer (680 mM sucrose, 7 mM K2HPO4, pH 7), then fill the falcon tube to the top.
+To wash, spin again at 4.500 r.p.m. for 15 min at 4 °C, then resuspend gently in 5 mL Electroporation-Buffer. Repeat washing twice for a total of three times.
+Spin again at 4.500 r.p.m. for 15 min at 4 °C, decant supernatant and resuspend carefully in the residual buffer.
+Adjust volume for a OD of 16
+Aliquot in chilled Micro-Reaction-Tubes, then snap freeze in liquid nitrogen
+Store at –80°C
+
+ Electroporation
+remove one aliquot with electrocompetent cells from storage
+keep on ice until thawed
+add plasmid and mix gently
+Transfer to chilled electroporation cuvette
+Electroporation is done with the following parameters: 700(–900) V, 25 μF, 200 Ω  in a 1mm cuvette
+Recover for one hour at 37°C in brain heart infusion with v2 salts
+Plate on LB2 agar plates. 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- sucrose
+- K2HPO4
+- v2 salt
+- Brain haert infusion

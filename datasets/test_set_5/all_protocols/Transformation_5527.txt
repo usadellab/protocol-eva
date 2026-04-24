@@ -1,0 +1,18 @@
+Title: Stable transfection protocol of unicellular relative to animals Corallochytrium limacisporum
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Perform transfection following transient transfection protocol
+
+## Step 2: After 3 days electroporation add puromycin as a selective agent
+
+## Step 3: After 7 days electroporation, centrifuge cells and resuspend with fresh medium and puromycin
+
+## Step 4: Keep doing 1:2 dilutions every 3-4 days
+
+## Step 5: Approximately after 20 days electroporation the culture should be mainly composed of transformants
+
+## Step 6: Plate 100 uL of the transformed culture into marine agar plates with puromycin for single colony isolation
+
+## Step 7: Grow single colonies in fresh medium without puromycin

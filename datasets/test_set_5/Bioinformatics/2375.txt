@@ -1,0 +1,23 @@
+Title: Script R11: Replication Cycle
+
+Description:
+This section outlines the analyses we used in our replication cycle section of our report. We first predict how many contigs are potentially of the temperate replication cycle and display this information using a Euler diagram. We then use a relative abundance approach by visualizing the percent of temperate phages present at each site. We end by visualizing the relative abundances of bacteria annotations of the phage contigs. Based on methods from the following publication:
+Hannigan, Geoffrey D., et al. "The Human Skin Double-Stranded DNA Virome: Topographical and Temporal Diversity, Genetic Enrichment, and Dynamic Associations with the Host Microbiome." mBio 6.5 (2015): e01578-15.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

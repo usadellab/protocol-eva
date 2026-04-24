@@ -1,0 +1,48 @@
+Title: RNA extraction protocol (Trizol)
+
+Description:
+This protocol describes how to extract total RNA from flatworms. It is from:
+Hebert, F, O; Grambauer, S; Barber, I; Landry, C, R; Aubin-Horth, N (2016): Reference transcriptome sequence resource for the study of the Cestode Schistocephalus solidus, a threespine stickleback parasite. GigaScience Database. http://dx.doi.org/10.5524/100197
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Phenol extraction
+
+## Step 2: Phenol extraction
+
+## Step 3: Phenol extraction
+
+## Step 4: Phenol extraction
+
+## Step 5: Phenol extraction
+
+## Step 6: Phenol extraction
+
+## Step 7: Chloroform extraction
+
+## Step 8: Chloroform extraction
+
+## Step 9: Chloroform extraction
+
+## Step 10: Precipitation
+
+## Step 11: Precipitation
+
+## Step 12: Precipitation
+
+## Step 13: Precipitation
+
+## Step 14: Cleaning
+
+## Step 15: Cleaning
+
+## Step 16: Cleaning
+
+## Step 17: Cleaning
+
+## Step 18: Resuspension
+
+## Step 19: Resuspension
+
+## Step 20: Resuspension

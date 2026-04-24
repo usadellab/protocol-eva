@@ -1,0 +1,71 @@
+Title: Cas9 Enrichment for Nanopore Sequencing
+
+Description:
+This protocol is designed to help users achieve targeted enrichment for regions of interest using nanopore sequencing, providing higher coverage for myriad future analysis applications.  GuideRNA components (crRNA and tracrRNA) were designed using online tools provided by IDT. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Making Ribonucleoprotein Complex 
+
+## Step 2: Making Ribonucleoprotein Complex 
+
+## Step 3: Making Ribonucleoprotein Complex 
+
+## Step 4: Making Ribonucleoprotein Complex 
+
+## Step 5: Making Ribonucleoprotein Complex 
+
+## Step 6: Making Ribonucleoprotein Complex 
+
+## Step 7: Making Ribonucleoprotein Complex 
+
+## Step 8: Dephosphorylation of Free DNA Ends 
+
+## Step 9: Cleavage and A-tailing of DNA
+
+## Step 10: Adaptor Ligation 
+
+## Step 11: Adaptor Ligation 
+
+## Step 12: Adaptor Ligation 
+
+## Step 13: Adaptor Ligation 
+
+## Step 14: Adaptor Ligation 
+
+## Step 15: Adaptor Ligation 
+
+## Step 16: Adaptor Ligation 
+
+## Step 17: Adaptor Ligation 
+
+## Step 18: Adaptor Ligation 
+
+## Step 19: Adaptor Ligation 
+
+## Step 20: Adaptor Ligation 
+
+## Step 21: Adaptor Ligation 
+
+## Step 22: Library Prep and Sequencing 
+
+## Step 23: Library Prep and Sequencing 
+
+## Step 24: Library Prep and Sequencing 
+
+## Step 25: Library Prep and Sequencing 
+
+## Step 26: Library Prep and Sequencing 
+
+=== MATERIALS ===
+- CutSmart Buffer - 5.0 ml
+- Taq DNA Polymerase with Standard Taq Buffer - 2,000 units
+- Quick Ligation Kit - 150 rxns
+- Quick Dephosphorylation Kit - 500 rxns
+- TE buffer
+- 	Alt-R® S.p. HiFi Cas9 Nuclease V3
+- Duplex Buffer
+- 1D Ligation Sequencing Kit 
+- AmpureXP beads 
+- dATP

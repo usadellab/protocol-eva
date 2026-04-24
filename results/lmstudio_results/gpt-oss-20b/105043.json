@@ -1,0 +1,245 @@
+{
+  "protocol_id": "105043",
+  "protocol_name": "Transformation - 105043",
+  "category": "Transformation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 13.27,
+  "evaluation": {
+    "step_preservation": 20.0,
+    "parameter_extraction": 800.0,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 233.0,
+    "extracted_steps": 5,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Plasmid_SARS_nsp3",
+        "organism": "E. coli (source plasmid)",
+        "characteristics": [
+          {
+            "category": "Vector",
+            "value": "pET-28a(+)",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Tag",
+            "value": "N-terminal His6",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Ecoli_Culture_Sample_1",
+        "organism": "Escherichia coli BL21(DE3)",
+        "characteristics": [
+          {
+            "category": "Growth medium",
+            "value": "LB",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Antibiotic",
+            "value": "Kanamycin",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Purified_nsp3",
+        "organism": "SARS-CoV-2 nsp3 macrodomain",
+        "characteristics": [
+          {
+            "category": "Purity",
+            "value": ">95%",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "Concentration",
+            "value": "10 mg/mL",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Plasmid Transformation",
+        "description": "Introduce plasmid into E. coli cells by heat shock.",
+        "inputs": [
+          "Plasmid_SARS_nsp3"
+        ],
+        "parameters": [
+          {
+            "name": "Temperature",
+            "value": "42°C",
+            "unit": "",
+            "description": "Heat shock temperature"
+          },
+          {
+            "name": "Time",
+            "value": "45 seconds",
+            "unit": "",
+            "description": "Duration of heat shock"
+          },
+          {
+            "name": "Recovery medium",
+            "value": "SOC",
+            "unit": "",
+            "description": "Medium for post-transformation recovery"
+          }
+        ],
+        "outputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Protein Expression",
+        "description": "Induce protein production in transformed E. coli.",
+        "inputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Induction agent",
+            "value": "IPTG",
+            "unit": "",
+            "description": "Inducer for T7 promoter"
+          },
+          {
+            "name": "IPTG concentration",
+            "value": "0.5 mM",
+            "unit": "",
+            "description": "Final IPTG concentration"
+          },
+          {
+            "name": "Temperature",
+            "value": "18°C",
+            "unit": "",
+            "description": "Expression temperature"
+          },
+          {
+            "name": "Time",
+            "value": "16 hours",
+            "unit": "",
+            "description": "Expression duration"
+          }
+        ],
+        "outputs": [
+          "Purified_nsp3"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Cell Harvesting",
+        "description": "Collect cells by centrifugation after expression.",
+        "inputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Centrifugation speed",
+            "value": "5000 g",
+            "unit": "",
+            "description": "Speed for pelleting cells"
+          },
+          {
+            "name": "Time",
+            "value": "15 minutes",
+            "unit": "",
+            "description": "Duration of centrifugation"
+          },
+          {
+            "name": "Temperature",
+            "value": "4°C",
+            "unit": "",
+            "description": "Centrifugation temperature"
+          }
+        ],
+        "outputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Cell Lysis",
+        "description": "Lyse cells to release protein.",
+        "inputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Lysis buffer volume",
+            "value": "10 mL per 1 g wet cell pellet",
+            "unit": "",
+            "description": "Volume of lysis buffer"
+          },
+          {
+            "name": "Buffer composition",
+            "value": "50 mM Tris-HCl pH 8.0, 300 mM NaCl, 10 mM imidazole",
+            "unit": "",
+            "description": "Lysis buffer constituents"
+          },
+          {
+            "name": "Sonication cycles",
+            "value": "5 cycles of 30 s on/30 s off",
+            "unit": "",
+            "description": "Sonication parameters"
+          }
+        ],
+        "outputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Affinity Chromatography",
+        "description": "Purify His-tagged protein using Ni-NTA resin.",
+        "inputs": [
+          "Ecoli_Culture_Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "Resin volume",
+            "value": "5 mL",
+            "unit": "",
+            "description": "Ni-NTA resin volume"
+          },
+          {
+            "name": "Wash buffer composition",
+            "value": "50 mM Tris-HCl pH 8.0, 300 mM NaCl, 20 mM imidazole",
+            "unit": "",
+            "description": "Wash buffer constituents"
+          },
+          {
+            "name": "Elution buffer composition",
+            "value": "50 mM Tris-HCl pH 8.0, 300 mM NaCl, 250 mM imidazole",
+            "unit": "",
+            "description": "Elution buffer constituents"
+          }
+        ],
+        "outputs": [
+          "Purified_nsp3"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

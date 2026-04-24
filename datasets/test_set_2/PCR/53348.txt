@@ -1,0 +1,11 @@
+Title: Primer TE (10mM Tris, 0.1mM EDTA, pH8.0)
+
+Description:
+This method was developed at the FDA’s Center for Food Safety and Applied Nutrition for GenomeTrakr’s pandemic response project, monitoring SARS-CoV-2 variants in wastewater​​. Protocols developed for this project cover wastewater collection, concentration, RNA extraction, RT-qPCR detection, library prep, genome sequencing, quality control checks, and data submission to NCBI. This method provides a reagent formula required in the extraction of RNA from viral concentrates using the RNeasy and Zymo kits. 
+
+
+=== PROTOCOL STEPS ===
+
+
+
+

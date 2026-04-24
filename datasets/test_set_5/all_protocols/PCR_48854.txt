@@ -1,0 +1,55 @@
+Title: How to get coding sequences of proteins of interest from plants  that have no genome data available
+
+Description:
+The protocol describes obtaining coding DNA sequences of plant proteins when genomic data is not available, but there are sequences of orthologs. The protocol was created during implementing the project no 1.1.1.2/VIAA/2/18/286 "Optimization of novel plant derived enzyme expression in microorganisms for biotechnological application" funded by European Regional Development Fund. Only the first two steps of the protocol are specific to plant material, the rest is universal.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Collecting and storing plant material
+
+## Step 2: RNA extraction and cDNA synthesis
+
+## Step 3: RNA extraction and cDNA synthesis
+
+## Step 4: Degenerate primer design
+
+## Step 5: Degenerate primer design
+
+## Step 6: Degenerate primer design
+
+## Step 7: Degenerate primer design
+
+## Step 8: Degenerate primer design
+
+## Step 9: Touchdown PCR
+
+## Step 10: Touchdown PCR
+
+## Step 11: Touchdown PCR
+
+## Step 12: Touchdown PCR
+
+## Step 13: Touchdown PCR
+
+## Step 14: Touchdown PCR
+
+## Step 15: 3’ RACE (Rapid amplification of cDNA ends)
+
+## Step 16: 3’ RACE (Rapid amplification of cDNA ends)
+
+## Step 17: 3’ RACE (Rapid amplification of cDNA ends)
+
+## Step 18: 5&#x27; RACE
+
+## Step 19: 5&#x27; RACE
+
+## Step 20: 5&#x27; RACE
+
+## Step 21: Full-length sequence
+
+## Step 22: Full-length sequence
+
+## Step 23: Full-length sequence
+
+## Step 24: Full-length sequence

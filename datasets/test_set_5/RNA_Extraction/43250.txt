@@ -1,0 +1,65 @@
+Title: V.3 - Direct wastewater RNA capture and purification via the &#34;Sewage, Salt, Silica and SARS-CoV-2 (4S)&#34; method
+
+Description:
+This protocol describes the procedure of the "4S" (Sewage, Salt, Silica and SARS-CoV-2) method for SARS-CoV-2 RNA extraction from wastewater. Offering a highly efficient, modular and economical alternative to existing wastewater RNA purification methods, this procedure lowers the barrier to entry for SARS-CoV-2 wastewater-based epidemiology. This procedure is intended to be carried out in a BSL2+ laboratory space, with precautions when handling raw wastewater samples.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing RNA wash buffers
+
+## Step 2: Preparing RNA wash buffers
+
+## Step 3: Preparing RNA wash buffers
+
+## Step 4: Sample preparation, RNA preservation and particle lysis
+
+## Step 5: Sample preparation, RNA preservation and particle lysis
+
+## Step 6: Sample preparation, RNA preservation and particle lysis
+
+## Step 7: Sample preparation, RNA preservation and particle lysis
+
+## Step 8: Direct RNA extraction (RNA Binding, Washing, Eluting)
+
+## Step 9: Direct RNA extraction (RNA Binding, Washing, Eluting)
+
+## Step 10: Direct RNA extraction (RNA Binding, Washing, Eluting)
+
+## Step 11: Direct RNA extraction (RNA Binding, Washing, Eluting)
+
+## Step 12: Direct RNA extraction (RNA Binding, Washing, Eluting)
+
+## Step 13: RNA elution
+
+## Step 14: RNA elution
+
+## Step 15: RNA elution
+
+## Step 16: RNA elution
+
+## Step 17: RNA elution
+
+## Step 18: RNA elution
+
+## Step 19: Storage
+
+## Step 20: Preparing RNA wash buffers
+
+## Step 21: Sample preparation, RNA preservation and particle lysis
+
+## Step 22: Sample preparation, RNA preservation and particle lysis
+
+=== MATERIALS ===
+- Tris
+- EDTA
+- Sodium Chloride
+- Microcentrifuge
+- Ethanol
+- Zymo III-P column
+- EZ-Vac Vacuum Manifold
+- Durapore® Membrane Filter 5.0 µm
+- Magnetic Funnel 300mL 47mm
+- Bovilis Coronavirus Calf Vaccine
+- Swinnex Filter Holder
+- ZymoPURE Elution Buffer

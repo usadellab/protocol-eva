@@ -1,0 +1,27 @@
+Title: Effects of Intraoperative Hypothermia on Patients Undergoing Laparoscopic Surgery: A Retrospective Cohort Study
+
+Description:
+This study aims to explore the association between intraoperative hypothermia and
+outcomes in adult patients undergoing laparoscopic surgery. A retrospective analysis of 2048 adult laparoscopic surgery patients treated between 2020 and 2021 was conducted at Songklanagarind Hospital, Thailand.
+Intraoperative hypothermia, defined as a core temperature below 36 ˚C, was recorded as either one or more than one episode. Patient demographics, clinical information and postoperative outcomes were extracted from the hospital information
+system. The outcomes were intraoperative and postoperative cardiac arrhythmias, postoperative oxygen
+requirement, length of post-anesthetic care unit (PACU) stay, and length of hospital stay. Univariate and multivariate logistic/linear regression models were fit to assess the association between hypothermia and outcomes, presented as odds ratio (OR) or beta-coefficient (b) with 95% confidence interval (CI).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Methodology
+
+## Step 2: Methodology
+
+## Step 3: Methodology
+
+## Step 4: Methodology
+
+## Step 5: Methodology
+
+## Step 6: Methodology
+
+## Step 7: Statistical analysis
+
+## Step 8: Statistical analysis

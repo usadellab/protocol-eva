@@ -1,0 +1,50 @@
+Title: Script P9: Phage-Bacteria Interaction Network
+
+Description:
+This protocol provides a method to study phage-bacteria interactions by generating a Network in Cytoscape using the application CoNet. To CoNet tutorial can help with analysis. Based on the methods from the following publication:
+Hannigan, Geoffrey D., et al. "The Human Skin Double-Stranded DNA Virome: Topographical and Temporal Diversity, Genetic Enrichment, and Dynamic Associations with the Host Microbiome." mBio 6.5 (2015): e01578-15.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: CoNet Analysis
+
+## Step 2: CoNet Analysis
+
+## Step 3: CoNet Analysis
+
+## Step 4: CoNet Analysis
+
+## Step 5: CoNet Analysis
+
+## Step 6: CoNet Analysis
+
+## Step 7: CoNet Analysis
+
+## Step 8: CoNet Analysis
+
+## Step 9: CoNet Analysis
+
+## Step 10: CoNet Analysis
+
+## Step 11: CoNet Analysis
+
+## Step 12: CoNet Analysis
+
+## Step 13: CoNet Analysis
+
+## Step 14: CoNet Analysis
+
+## Step 15: CoNet Analysis
+
+## Step 16: CoNet Analysis
+
+## Step 17: CoNet Analysis
+
+## Step 18: CoNet Analysis
+
+## Step 19: CoNet Analysis
+
+## Step 20: CoNet Analysis
+
+## Step 21: CoNet Analysis

@@ -1,0 +1,15 @@
+Title: Experiment 5: Bioinformatic Analysis
+
+Goal:
+
+Preprocessing and assembly ofE.coligenomes
+Used data from sequencing runAssay - Experiment 4: Sequencing Run
+
+Procedure:
+
+Methods:Software:Quality Control:FastQC (v0.11.9), MultiQC (v1.9)Trimming:Trimmomatic (v0.39)Assembly:SPAdes (v3.15.3)Annotation:Prokka (v1.14.6), NCBI RefSeqBioinformatics Pipeline:Custom Snakemake workflow (Version 1.2)Reference Database:NCBI RefSeq bacterial genomes (downloaded 2025-06-01)
+Results:QC Reports:All samples passed quality thresholds (high quality reads, minimal adapter contamination).Assembly Statistics:Average Contig N50: 1.5 MbpTotal Contig Length: ~4.8-5.2 Mbp per sample (consistent withE. coligenome size)Number of Contigs: 50-70 per sampleAnnotation:Number of Predicted Genes: ~4500-5000 per sampleIdentified Species:Escherichia coliK-12 confirmed for all samples.
+
+Results:
+
+Data Access Link (External):smb://institutionserver/microbial_genomics_data/analysis/20250625_MGL_Analysis_Run1(Contains assembled genomes, annotation files, QC reports)

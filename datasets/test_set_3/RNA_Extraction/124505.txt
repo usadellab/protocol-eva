@@ -1,0 +1,58 @@
+Title: Small volume viral RNA extraction using MagMAX  Viral RNA Isolation Kit 
+
+Description:
+This protocol describes the viral nucleic acid recovery and purification from stool suspensions. The method utilises the magnetic bead based MagMAX ‱ Viral  RNA Isolation Kit to purify nucleic acid from 300 µL of sample. To perform manual extractions follow Workflow A, for automated extraction on King Fisher Duo Prime follow steps in Workflow B, and for automated extraction on King Fisher Flex follow Workflow C. 
+Version 2 has a few minor edits to text for better clarity and updated settings to match specifications across the attached extraction programs for King Fisher Duo Prime and King Fisher Flex devices.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Reagent Preparation
+
+## Step 2: Reagent Preparation
+
+## Step 3: Reagent Preparation
+
+## Step 4: Reagent Preparation
+
+## Step 5: Reagent Preparation
+
+## Step 6: Reagent Preparation
+
+## Step 7: Reagent Preparation
+
+## Step 8: Reagent Preparation
+
+## Step 9: Reagent Preparation
+
+## Step 10: Reagent Preparation
+
+## Step 11: Reagent Preparation
+
+## Step 12: Reagent Preparation
+
+## Step 13: Reagent Preparation
+
+## Step 14: RNA extraction - Workflows A,B,C
+
+## Step 15: RNA extraction - Workflows A,B,C
+
+## Step 16: RNA extraction - Workflows A,B,C
+
+## Step 17: RNA extraction - Workflows A,B,C
+
+## Step 18: RNA extraction - Workflows A,B,C
+
+## Step 19: RNA extraction - Workflows A,B,C
+
+## Step 20: RNA extraction - Workflows A,B,C
+
+## Step 21: RNA extraction - Workflows A,B,C
+
+## Step 22: RNA extraction - Workflows A,B,C
+
+## Step 23: RNA extraction - Workflows A,B,C
+
+## Step 24: RNA extraction - Workflows A,B,C
+
+## Step 25: RNA extraction - Workflows A,B,C

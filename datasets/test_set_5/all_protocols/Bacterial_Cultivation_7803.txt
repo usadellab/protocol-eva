@@ -1,0 +1,37 @@
+Title: Ensayo angiogénesis in vitro
+
+Description:
+Angionesis in vitro: Es la formación In vitro de tubos capilares por células endoteliales en la matriz de una membrana basal, es un metodo in vitro poderoso para evaluar varios factores que promueven o inhiben angiogenesis. Es para definir las rutas de señalización en angiogenesis, identificando los genes reguladores de angiogenesis y caracterizando las células endoteliales del progenitor.
+El ensayo puede ser hecho como primera valoración antes de una prueba costosa con animales y puede ser hecho como un proceso de alta tecnología. Este es un método in vitro privilegiado para evaluar reguladores angiogenicos.
+La realizacion de este protocolo fue posible gracias al apoyo del departamento administrativo de ciencia tecnología e innovacion, Colciencias a traves del proyecto 111356933173 convocatoria569-2012. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Pase de  células EaHy926. 
+
+## Step 2: Descongelar el extracto de membrana basal. 
+
+## Step 3: Cubrir placas de 96 pozos con el extracto de membrana basal. 
+
+## Step 4: Adhesión celular (Células endoteliales EaHy926)
+
+## Step 5: Análisis estadístico
+
+## Step 6: Conteo de tubos vasculares 
+
+## Step 7: Calceina AM 
+
+## Step 8: Preparación y adición de controles y tratamientos a evaluar
+
+=== MATERIALS ===
+- 10µl Pipette Tips
+- Cultrex® 3-D Culture Matrix™ Reduced Growth Factor Basement Membrane Extract, PathClear®
+- Recombinant Human VEGF-121 (carrier-free)
+- Calcein, AM, cell-permeant dye
+- DMEM, powder, high glucose
+- EA.hy926 (ATCC® CRL-2922™)
+- fetal bovine serum
+- Basic Fibroblast Growth Factor, human (hbFGF)
+- Antibiotic Antimycotic Solution (100×), Stabilized
+- Sodium Pyruvate (100 mM)

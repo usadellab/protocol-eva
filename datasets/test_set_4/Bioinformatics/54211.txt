@@ -1,0 +1,40 @@
+Title: Plasmid Sequence Analysis from Long Reads
+
+Description:
+This protocol demonstrates how to assemble reads from plasmid DNA, and generate a circularised and non-repetitive consensus sequence
+At the moment, this protocol uses Canu to de-novo assemble high-quality single-cut reads.
+Input(s): 
+demultiplexed fastq files (see protocol Demultiplexing Nanopore reads with LAST). I've noticed that the default demultiplexing carried out by Guppy (at least up to v4.2.2, as used in the first version of this protocol) has issues with chimeric reads, which can affect assembly.
+Output(s):
+Consensus sequence per barcode as a fasta file
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Read file preparation
+
+## Step 2: Read file preparation
+
+## Step 3: Read file preparation
+
+## Step 4: Read file preparation
+
+## Step 5: Read filitering
+
+## Step 6: Read filitering
+
+## Step 7: Choice 1: mapping to a reference sequence
+
+## Step 8: Choice 1: mapping to a reference sequence
+
+## Step 9: Choice 1: mapping to a reference sequence
+
+## Step 10: Choice 1: mapping to a reference sequence
+
+## Step 11: Choice 1: mapping to a reference sequence
+
+## Step 12: Choice 2: De-novo Canu Assembly
+
+## Step 13: Choice 2: De-novo Canu Assembly
+
+## Step 14: Choice 1: mapping to a reference sequence

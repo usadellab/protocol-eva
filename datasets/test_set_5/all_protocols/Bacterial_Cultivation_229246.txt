@@ -1,0 +1,42 @@
+Title: Plaque assay T7 bacteriophage, double agar method
+
+Description:
+This is a protocol for the quantification of T7 in a sample in Plaque Forming Units (PFU) per mL.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Create an E. coli culture
+
+## Step 2: Add the E. coli and pour the plates
+
+
+## Step 4: Create an E. coli culture
+
+## Step 5: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 6: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 7: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 8: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 9: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 10: Make a range dilutions, by a factor 10 each, and a control
+
+## Step 11: Add the E. coli and pour the plates
+
+## Step 12: Prepare LB agar, and LB agar plates
+
+## Step 13: Prepare LB agar, and LB agar plates
+
+## Step 14: Prepare LB agar, and LB agar plates
+
+## Step 15: Add the E. coli and pour the plates
+
+## Step 16: Prepare a safe phage work area.
+
+=== MATERIALS ===
+- Liquid LB medium
+- LB agar

@@ -1,0 +1,41 @@
+Title: DNA extraction from environmental biofilm using the NucleoSpin® Soil kit (MACHEREY-NAGEL) 
+
+Description:
+This protocol is part of the DNA workflow applied in the Eco-AlpsWater Project.
+The methodological step described here is the extraction of DNA, this is a critical step for obtaining relevant results since molecular inventories might be influenced by the DNA extraction method used.
+The choice of the methodology for biofilms DNA extraction is based on previous studies and in particular on the work done by Vasselon et al. (2017) where the authors have tested 5 DNA extraction methods combining various types of cell lysis and DNA purification to extract DNA (from pure diatom cultures and biofilms samples from streams and lakes).
+For the Eco-AlpsWater project, after being sampled in lakes or rivers, biofilms are stored in 50 mL tubes in ethanol at 4°C, and for a maximum of 3 months before DNA extraction (the extraction should preferably be done in the month following the sampling).
+The DNA extraction protocol presented below has been used in several recent studies (e.g. Vasselon et al 2017ab, 2018) focussed on the application of diatoms metabarcoding; this extraction is based on a protocol adapted from the NucleoSpin® Soil kit (MACHEREY-NAGEL) with specific modifications for biofilm DNA extraction.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Prepare the sample
+
+## Step 2: Prepare the sample
+
+## Step 3: Adjust lysis conditions
+
+## Step 4: Sample lysis
+
+## Step 5: Precipitate contaminants
+
+## Step 6: Filter lysate
+
+## Step 7: Adjust binding conditions
+
+## Step 8: Bind DNA
+
+## Step 9: Wash and dry silica membrane
+
+## Step 10: Wash and dry silica membrane
+
+## Step 11: Wash and dry silica membrane
+
+## Step 12: Wash and dry silica membrane
+
+## Step 13: Wash and dry silica membrane
+
+## Step 14: Dry silica membrane
+
+## Step 15: Elute DNA

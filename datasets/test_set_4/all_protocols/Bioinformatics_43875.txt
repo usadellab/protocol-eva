@@ -1,0 +1,27 @@
+Title: Bioinformatics Analysis
+
+Description:
+A plethora of biological processes like gene transcription, DNA replication, DNA recombination, and chromosome segregation are mediated through protein–DNA interactions. A powerful method for investigating proteins within a native chromatin environment in the cell is chromatin immunoprecipitation (ChIP). Combined with the recent technological advancement in next generation sequencing, the ChIP assay can map the exact binding sites of a protein of interest across the entire genome. Here we describe a-step-by step protocol for ChIP followed by library preparation for ChIP-seq from yeast cells.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Bioinformatics Analysis
+
+## Step 2: Bioinformatics Analysis
+
+## Step 3: Bioinformatics Analysis
+
+## Step 4: Bioinformatics Analysis
+
+## Step 5: Bioinformatics Analysis
+
+## Step 6: Bioinformatics Analysis
+
+## Step 7: Bioinformatics Analysis
+
+## Step 8: Bioinformatics Analysis
+
+## Step 9: Bioinformatics Analysis
+
+## Step 10: Bioinformatics Analysis

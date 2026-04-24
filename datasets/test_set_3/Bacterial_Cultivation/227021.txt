@@ -1,0 +1,79 @@
+Title: 2nd generation Lentiviral production
+
+Description:
+This is a protocol to amplify and purify plasmids (with gRNA of interest) and package into lentivirus for future transduction. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Bacteria growth on agar plates
+
+## Step 2: Vector Design
+
+## Step 3: Bacteria growth on agar plates
+
+## Step 4: Bacteria growth on agar plates
+
+## Step 5: Bacteria growth on agar plates
+
+## Step 6: Liquid Broth 
+
+## Step 7: Liquid Broth 
+
+## Step 8: Liquid Broth 
+
+## Step 9: Liquid Broth 
+
+## Step 10: Liquid Broth 
+
+## Step 11: Maxi-Prep 
+
+## Step 12: Maxi-Prep 
+
+## Step 13: Maxi-Prep 
+
+## Step 14: Maxi-Prep 
+
+## Step 15: Maxi-Prep 
+
+## Step 16: Maxi-Prep 
+
+## Step 17: Maxi-Prep 
+
+## Step 18: Maxi-Prep 
+
+## Step 19: Maxi-Prep 
+
+## Step 20: Maxi-Prep 
+
+## Step 21: Maxi-Prep 
+
+## Step 22: Maxi-Prep 
+
+## Step 23: Maxi-Prep 
+
+## Step 24: Lentiviral Production 
+
+## Step 25: Lentiviral Production 
+
+## Step 26: Lentiviral Production 
+
+## Step 27: Lentiviral Production 
+
+## Step 28: Lentiviral Production 
+
+## Step 29: Lentiviral Production 
+
+## Step 30: Lentiviral Production 
+
+## Step 31: Lentiviral Production 
+
+## Step 32: Lentiviral Production 
+
+## Step 33: Lentiviral Production 
+
+## Step 34: Lentiviral Production 
+
+## Step 35: Lentiviral Production 
+
+## Step 36: Lentiviral Production 

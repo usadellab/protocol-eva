@@ -1,0 +1,24 @@
+Title: DNA Barcoding Standard Operating Protocol Lichens at RBGE, Lab methods: DNA extraction v2025
+
+Description:
+This is part of the collection DToL Taxon-specific Standard Operating Procedures for the Plant Working Group (protocols.io). The SOP collection contains guidance on how to process the various land plant and lichen taxa within the scope of the Darwin Tree of Life project. The guidance specifically refers to the tissue samples needed for DNA barcoding (which takes place at the Royal Botanic Garden (RBGE)). Every specimen is submitted for DNA barcoding first before potentially being sent to the Wellcome Sanger institute.
+This DNA barcoding SOP outlines DNA extractions from lichen samples for the Darwin Tree of Life project (DToL) at the Royal Botanic Garden Edinburgh (RBGE). 
+DNA barcoding is used as part of the species identification process AND sample tracking (to check that the genome sequence corresponds to the material that was sent and that there have been no sample mix-ups).
+Definition: Lichens
+Including: Lichenized fungi
+Excluding: All non-lichenized fungi
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: DNA extraction 
+
+
+
+## Step 4: DNA extraction 
+
+## Step 5: DNA extraction 
+
+## Step 6: DNA extraction 
+
+## Step 7: DNA extraction 

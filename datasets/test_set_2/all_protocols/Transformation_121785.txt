@@ -1,0 +1,35 @@
+Title: A two hybrid test for interaction partners of inner nuclear membrane resident proteins
+
+Description:
+A guideline and a sample protocol is provided for analysis of protein-protein interactions when at least one protein is a resident of the inner nuclear membrane.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Cloning and Transformation Process
+
+## Step 2: Procedure: Cloning and Transformation Process
+
+## Step 3: Procedure: Cloning and Transformation Process
+
+## Step 4: Procedure: Cloning and Transformation Process
+
+## Step 5: Procedure: Cloning and Transformation Process
+
+## Step 6: Procedure: Cloning and Transformation Process
+
+## Step 7: Procedure: Cloning and Transformation Process
+
+## Step 8: Procedure: Cloning and Transformation Process
+
+## Step 9: Procedure: Cloning and Transformation Process
+
+## Step 10: Procedure: Cloning and Transformation Process
+
+## Step 11: Timing
+
+## Step 12: Anticipated Results
+
+## Step 13: Additional Declarations
+
+## Step 14: Associated Publications

@@ -1,0 +1,37 @@
+Title: Generation of CRISPR/Cas9 edited mammalian cells with small epitope tags
+
+Description:
+This protocol explains how to endogenously edit immortalized mammalian cell culture lines to engineer an in-frame small epitope tag into a gene of interest.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Assemble the gRNA
+
+## Step 2: Assemble the gRNA
+
+## Step 3: Assemble the RNP
+
+## Step 4: Assemble the RNP
+
+## Step 5: Prepare repair oligo
+
+## Step 6: Prepare cell &amp; electroporation
+
+## Step 7: Prepare cell &amp; electroporation
+
+## Step 8: Assemble the gRNA
+
+## Step 9: Assemble the gRNA
+
+## Step 10: Prepare cell &amp; electroporation
+
+## Step 11: Prepare cell &amp; electroporation
+
+## Step 12: Prepare cell &amp; electroporation
+
+## Step 13: Prepare cell &amp; electroporation
+
+## Step 14: Post electroporation
+
+## Step 15: Post electroporation

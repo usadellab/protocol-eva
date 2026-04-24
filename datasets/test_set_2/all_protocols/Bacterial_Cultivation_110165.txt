@@ -1,0 +1,38 @@
+Title: TB Media Preparation
+
+Description:
+Terrific Broth (TB) as described by Tartoff, K.D. and Hobbs, C.A. (1987) is a nutritionally rich medium, with higher concentrations of peptone, yeast extract, and glycerol as a carbon source (Thermo Scientific | Terrific Broth). It supports high cell titers (Wood et al. 2017), and subsequent yields for plasmid DNA (Wood et al. 2017). While it has been referenced often we could not find the original Tartoff, K.D. and Hobbs, C.A. (1987) publication. What we present here has been passed down by oral tradition. We had sadly no access to the original publication.
+Here we describe the steps we take to prepare the two solutions, denoted here as solution 1 and 2. Each is prepared and autoclaved separately before being combined in a 1:10 ratio shortly before inoculation with bacteria and antibiotics. The first solution contains all nutritional components, while the second has buffer characteristics, probably allowing a constant pH during the growth of the bacteria.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation solution 1
+
+## Step 2: Preparation solution 1
+
+## Step 3: Preparation solution 1
+
+## Step 4: Preparation solution 1
+
+## Step 5: Preparation solution 1
+
+## Step 6: Preparation solution 1
+
+## Step 7: Preparation solution 1
+
+## Step 8: Preparation of solution 2
+
+## Step 9: Preparation of solution 2
+
+## Step 10: Preparation of solution 2
+
+## Step 11: Preparation of solution 2
+
+## Step 12: Preparation of solution 2
+
+## Step 13: Preparation solution 1
+
+## Step 14: Preparation of solution 2
+
+## Step 15: Combining the solutions

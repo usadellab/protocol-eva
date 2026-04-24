@@ -1,0 +1,28 @@
+Title: Protocol for a retrospective cohort study for evaluating the early antibiotics use in non-severe COVID-19 patients 
+
+
+Description:
+The use of antibiotics is common in the treatment of COVID-19, but adequate evaluation is lacking. We aimed to evaluate the efficacy of antibiotic use in non-severe COVID-19 patients, particularly in patients admitted with low risk of bacterial infection. This is a multi-center retrospective cohort study. Patients are screened strictly according to the inclusion/exclusion criteria and are divided into two groups based on antibiotics exposure. The exposure is defined as the treatment of antibiotics prescribed within 48 hours after admission, with a course of treatment≥3 days; and patients in this group are classified as early antibiotic use group. Otherwise, patients are classified as the non early antibiotic use group. The primary end point of the study is progressing from non-severe type COVID-19 into severe type. This is the first protocol to put a focus on the transformation of the severity of the disease, based on a multi-center retrospective cohort design.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Study Information Collection
+
+## Step 2: Procedure: Data Clarification
+
+## Step 3: Procedure: Patient Screening
+
+## Step 4: Procedure: Group Classification
+
+## Step 5: Procedure: Outcome Recording
+
+## Step 6: Troubleshooting
+
+## Step 7: Time Taken
+
+## Step 8: Anticipated Results
+
+## Step 9: Associated Publications
+
+## Step 10: Figures

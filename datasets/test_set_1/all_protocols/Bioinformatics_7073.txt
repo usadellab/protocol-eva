@@ -1,0 +1,15 @@
+Title: Touch transfer assay for the evaluation of antimicrobial surfaces
+
+Description:
+Transmission of bacteria from inanimate surfaces in healthcare associated environments is an important source of hospital acquired infections. A number of commercially available medical devices promise to fulfill antibacterial activity to reduce environmental contamination. Under usual ambient air conditions of hospital rooms no condensation of humidity is expected on inanimate surfaces. In contrast, current standardized methods for the analysis of antibacterial activity of solid surfaces in general use mostly planktonic bacterial cells which are kept in thin liquid or agarose layers on tested surfaces. Therefore, we developed a touch transfer assay modeling fingerprint transmission to investigate the antibacterial activity of surfaces in a dry state. We suggest the newly developed touch transfer assay as a new additional tool for the assessment of potential antimicrobial surfaces prior utilization in hospital environments.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of the primary contaminated surface (PCS)
+
+## Step 2: Preparation of test surfaces
+
+## Step 3: Touch transfer
+
+## Step 4: Quantitative culture

@@ -1,0 +1,267 @@
+{
+  "protocol_id": "121645",
+  "protocol_name": "Bioinformatics - 121645",
+  "category": "Bioinformatics",
+  "original_steps": 12,
+  "success": true,
+  "latency_s": 23.65,
+  "evaluation": {
+    "step_preservation": 50.0,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 57.5,
+    "extracted_steps": 6,
+    "original_steps": 12
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Homo sapiens",
+        "characteristics": [
+          {
+            "category": "tissue_type",
+            "value": "cell_line_A",
+            "unit": "",
+            "termSource": "NCIT",
+            "termAccession": "C12773"
+          },
+          {
+            "category": "treatment",
+            "value": "control",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Sample_2",
+        "organism": "Homo sapiens",
+        "characteristics": [
+          {
+            "category": "tissue_type",
+            "value": "cell_line_B",
+            "unit": "",
+            "termSource": "NCIT",
+            "termAccession": "C12773"
+          },
+          {
+            "category": "treatment",
+            "value": "stimulated",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Raw read acquisition",
+        "description": "Obtain raw FASTQ files from sequencing instrument.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "sequencing_platform",
+            "value": "Illumina NovaSeq 6000",
+            "unit": "",
+            "description": "Instrument used for sequencing"
+          },
+          {
+            "name": "read_length",
+            "value": "150",
+            "unit": "bp",
+            "description": "Length of each read"
+          },
+          {
+            "name": "paired_end",
+            "value": "true",
+            "unit": "",
+            "description": "Whether sequencing was paired‑end"
+          }
+        ],
+        "outputs": [
+          "Raw_FASTQ_Sample_1",
+          "Raw_FASTQ_Sample_2"
+        ],
+        "dataFiles": [
+          "Sample_1_R1.fastq.gz",
+          "Sample_1_R2.fastq.gz",
+          "Sample_2_R1.fastq.gz",
+          "Sample_2_R2.fastq.gz"
+        ]
+      },
+      {
+        "name": "Read alignment",
+        "description": "Align raw reads to the reference genome using Subread.",
+        "inputs": [
+          "Raw_FASTQ_Sample_1",
+          "Raw_FASTQ_Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "Rsubread::align",
+            "unit": "",
+            "description": "Subread alignment function from Rsubread package"
+          },
+          {
+            "name": "reference_genome",
+            "value": "GRCh38/hg38",
+            "unit": "",
+            "description": "Human reference genome build"
+          },
+          {
+            "name": "max_mismatches",
+            "value": "3",
+            "unit": "",
+            "description": "Maximum allowed mismatches per read"
+          }
+        ],
+        "outputs": [
+          "Aligned_BAM_Sample_1",
+          "Aligned_BAM_Sample_2"
+        ],
+        "dataFiles": [
+          "Sample_1_aligned.bam",
+          "Sample_2_aligned.bam"
+        ]
+      },
+      {
+        "name": "Read summarization",
+        "description": "Count reads per gene using featureCounts.",
+        "inputs": [
+          "Aligned_BAM_Sample_1",
+          "Aligned_BAM_Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "Rsubread::featureCounts",
+            "unit": "",
+            "description": "FeatureCounts function from Rsubread package"
+          },
+          {
+            "name": "annotation",
+            "value": "Ensembl GTF v105",
+            "unit": "",
+            "description": "Gene annotation file"
+          },
+          {
+            "name": "strand_specific",
+            "value": "yes",
+            "unit": "",
+            "description": "Strand specificity of the library"
+          }
+        ],
+        "outputs": [
+          "Gene_Counts"
+        ],
+        "dataFiles": [
+          "gene_counts.txt"
+        ]
+      },
+      {
+        "name": "Normalization",
+        "description": "Normalize raw counts using voom transformation.",
+        "inputs": [
+          "Gene_Counts"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "limma::voom",
+            "unit": "",
+            "description": "Voom function from limma package"
+          },
+          {
+            "name": "library_size_normalization",
+            "value": "TMM",
+            "unit": "",
+            "description": "Trimmed Mean of M-values method"
+          }
+        ],
+        "outputs": [
+          "Voom_Normalized_Matrix"
+        ],
+        "dataFiles": [
+          "voom_normalized.rds"
+        ]
+      },
+      {
+        "name": "Differential expression testing",
+        "description": "Identify differentially expressed genes between the two conditions using empirical Bayes moderated t‑statistics.",
+        "inputs": [
+          "Voom_Normalized_Matrix"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "limma::eBayes",
+            "unit": "",
+            "description": "Empirical Bayes moderation in limma"
+          },
+          {
+            "name": "design_matrix",
+            "value": "condition (control vs stimulated)",
+            "unit": "",
+            "description": "Experimental design specification"
+          },
+          {
+            "name": "adjustment_method",
+            "value": "Benjamini-Hochberg",
+            "unit": "",
+            "description": "False discovery rate correction"
+          },
+          {
+            "name": "significance_threshold",
+            "value": "0.05",
+            "unit": "",
+            "description": "Adjusted p‑value cutoff for significance"
+          }
+        ],
+        "outputs": [
+          "Differential_Expression_Results"
+        ],
+        "dataFiles": [
+          "DE_results.csv"
+        ]
+      },
+      {
+        "name": "Result reporting",
+        "description": "Generate summary tables and plots of differentially expressed genes.",
+        "inputs": [
+          "Differential_Expression_Results"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "R (ggplot2, pheatmap)",
+            "unit": "",
+            "description": "Visualization libraries used"
+          },
+          {
+            "name": "top_n_genes",
+            "value": "20",
+            "unit": "",
+            "description": "Number of top genes displayed in plots"
+          }
+        ],
+        "outputs": [
+          "DE_Report"
+        ],
+        "dataFiles": [
+          "DE_summary.pdf",
+          "volcano_plot.png",
+          "heatmap.png"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

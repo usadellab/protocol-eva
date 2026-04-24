@@ -1,0 +1,195 @@
+{
+  "protocol_id": "105043",
+  "protocol_name": "Transformation - 105043",
+  "category": "Transformation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 22.43,
+  "evaluation": {
+    "step_preservation": 12.0,
+    "parameter_extraction": 600.0,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 179.8,
+    "extracted_steps": 3,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Plasmid_DNA_nsp3_HisTag",
+        "organism": "E. coli",
+        "characteristics": [
+          {
+            "category": "vector",
+            "value": "pET-derived expression vector",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "insert",
+            "value": "SARS-CoV-2 nsp3 macrodomain with N‑terminal His tag",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Ecoli_Culture_Expression",
+        "organism": "Escherichia coli BL21(DE3)",
+        "characteristics": [
+          {
+            "category": "culture_volume",
+            "value": "5",
+            "unit": "L",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "temperature",
+            "value": "37",
+            "unit": "°C",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Purified_nsp3_Macrodomain_HisTag",
+        "organism": "Recombinant protein (SARS-CoV-2)",
+        "characteristics": [
+          {
+            "category": "purity",
+            "value": ">95",
+            "unit": "%",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "concentration",
+            "value": "2",
+            "unit": "mg/mL",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Plasmid Transformation",
+        "description": "Introduce the nsp3 His‑tag plasmid into chemically competent E. coli cells.",
+        "inputs": [
+          "Plasmid_DNA_nsp3_HisTag"
+        ],
+        "parameters": [
+          {
+            "name": "Heat shock temperature",
+            "value": "42",
+            "unit": "°C",
+            "description": "Temperature for heat shock step"
+          },
+          {
+            "name": "Heat shock duration",
+            "value": "45",
+            "unit": "s",
+            "description": "Length of heat shock"
+          },
+          {
+            "name": "Recovery temperature",
+            "value": "37",
+            "unit": "°C",
+            "description": "Temperature for recovery incubation"
+          },
+          {
+            "name": "Recovery time",
+            "value": "1",
+            "unit": "h",
+            "description": "Duration of recovery after heat shock"
+          }
+        ],
+        "outputs": [
+          "Ecoli_Culture_Expression"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Protein Expression",
+        "description": "Grow transformed E. coli and induce expression of the His‑tagged nsp3 macrodomain.",
+        "inputs": [
+          "Ecoli_Culture_Expression"
+        ],
+        "parameters": [
+          {
+            "name": "Induction OD600",
+            "value": "0.6",
+            "unit": "",
+            "description": "Cell density at which IPTG is added"
+          },
+          {
+            "name": "IPTG concentration",
+            "value": "0.5",
+            "unit": "mM",
+            "description": "Concentration of IPTG used for induction"
+          },
+          {
+            "name": "Post‑induction temperature",
+            "value": "18",
+            "unit": "°C",
+            "description": "Temperature during protein expression"
+          },
+          {
+            "name": "Expression time",
+            "value": "16",
+            "unit": "h",
+            "description": "Duration of overnight expression"
+          }
+        ],
+        "outputs": [
+          "Purified_nsp3_Macrodomain_HisTag"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Protein Purification",
+        "description": "Purify the His‑tagged nsp3 macrodomain using Ni‑NTA affinity chromatography.",
+        "inputs": [
+          "Purified_nsp3_Macrodomain_HisTag"
+        ],
+        "parameters": [
+          {
+            "name": "Binding buffer imidazole",
+            "value": "20",
+            "unit": "mM",
+            "description": "Imidazole concentration in binding buffer"
+          },
+          {
+            "name": "Wash buffer imidazole",
+            "value": "40",
+            "unit": "mM",
+            "description": "Imidazole concentration in wash buffer"
+          },
+          {
+            "name": "Elution buffer imidazole",
+            "value": "250",
+            "unit": "mM",
+            "description": "Imidazole concentration in elution buffer"
+          },
+          {
+            "name": "Column type",
+            "value": "Ni‑NTA agarose",
+            "unit": "",
+            "description": "Affinity resin used for purification"
+          }
+        ],
+        "outputs": [
+          "Purified_nsp3_Macrodomain_HisTag"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

@@ -1,0 +1,20 @@
+Title: Nuclei extraction protocol for flow cytometry based genome size estimation
+
+Description:
+Flow cytometry (FCM) is widely opted to estimate genome size in plants. The sample preparations include chopping a fresh plant material in a suitable buffer to release intact nuclei. The nuclear integrity is a vital component of flow cytometry. However, due to logistic constraints and lack of immediate lab facilities, fresh plant material becomes unsuitable for flow cytometry purposes. Plant material is frozen for genome size sequencing purposes, and it is common to extract nuclei from frozen plant material for nuclei acid extractions. The method presented here is for extracting nuclei from frozen plant material which can be used to estimate FCM-based genome size.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Reagents
+
+## Step 2: Equipments
+
+## Step 3: Buffer Preparation
+
+## Step 4: Buffer Preparation
+
+
+## Step 6: Nuclear Isolation Protocol
+
+## Step 7: References

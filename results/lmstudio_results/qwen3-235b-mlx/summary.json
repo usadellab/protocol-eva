@@ -1,0 +1,1423 @@
+{
+  "model": "qwen3-235b-mlx",
+  "timestamp": "2026-04-24T17:07:40.088561",
+  "summary": {
+    "model_key": "qwen3-235b-mlx",
+    "model_name": "Qwen3-235B-A22B-MLX",
+    "model_id": "qwen3-235b-a22b-instruct-2507-mlx",
+    "json_handler": "qwen",
+    "force_json_prefix": true,
+    "total_protocols": 7,
+    "successful": 7,
+    "failed": 0,
+    "success_rate": 100.0,
+    "avg_latency_s": 46.1,
+    "avg_score": 139.6,
+    "total_time_s": 322.7,
+    "processed_this_run": 7
+  },
+  "results": [
+    {
+      "protocol_id": "121645",
+      "protocol_name": "Bioinformatics - 121645",
+      "category": "Bioinformatics",
+      "original_steps": 12,
+      "success": true,
+      "latency_s": 34.9,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 77.5,
+        "extracted_steps": 12,
+        "original_steps": 12
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "",
+            "characteristics": []
+          },
+          {
+            "name": "Sample_2",
+            "organism": "",
+            "characteristics": []
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Step 1",
+            "description": "",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 2 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 2",
+            "description": "",
+            "inputs": [
+              "Step 2 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 3 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 3",
+            "description": "",
+            "inputs": [
+              "Step 3 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 4 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 4",
+            "description": "",
+            "inputs": [
+              "Step 4 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 5 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 5",
+            "description": "",
+            "inputs": [
+              "Step 5 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 6 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 6",
+            "description": "",
+            "inputs": [
+              "Step 6 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 7 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 7",
+            "description": "",
+            "inputs": [
+              "Step 7 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Step 8 Input"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 8",
+            "description": "",
+            "inputs": [
+              "Step 8 Input"
+            ],
+            "parameters": [],
+            "outputs": [
+              "Final Output"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 9",
+            "description": "Timing information for the protocol steps.",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "Timing",
+                "value": "",
+                "unit": "",
+                "description": "Duration or time points associated with the protocol steps."
+              }
+            ],
+            "outputs": [],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 10",
+            "description": "Anticipated results from the RNA-seq analysis pipeline.",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "Expected Output",
+                "value": "Lists of differentially expressed genes",
+                "unit": "",
+                "description": "The pipeline reports lists of genes found to be differentially expressed in comparisons of different cell types."
+              }
+            ],
+            "outputs": [
+              "Final Output"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 11",
+            "description": "Additional declarations related to the protocol.",
+            "inputs": [],
+            "parameters": [],
+            "outputs": [],
+            "dataFiles": []
+          },
+          {
+            "name": "Step 12",
+            "description": "Associated publications for the protocol.",
+            "inputs": [],
+            "parameters": [
+              {
+                "name": "Reference",
+                "value": "[1] Subread read alignment; [2] featureCounts read summarization; [3] voom normalization; [4] empirical Bayes moderated t-statistic",
+                "unit": "",
+                "description": "Citations for the analysis modules used in the pipeline."
+              }
+            ],
+            "outputs": [],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "11015",
+      "protocol_name": "RNA_Extraction - 11015",
+      "category": "RNA_Extraction",
+      "original_steps": 23,
+      "success": true,
+      "latency_s": 64.63,
+      "evaluation": {
+        "step_preservation": 30.4,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 49.7,
+        "extracted_steps": 7,
+        "original_steps": 23
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Arabidopsis thaliana",
+            "characteristics": [
+              {
+                "category": "tissue type",
+                "value": "siliques",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Sample_2",
+            "organism": "Nicotiana tabacum",
+            "characteristics": [
+              {
+                "category": "tissue type",
+                "value": "fruit tissue",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Lysis",
+            "description": "Cell lysis to release RNA from siliques and tobacco fruit tissue.",
+            "inputs": [
+              "Sample_1",
+              "Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "lysis buffer composition",
+                "value": "",
+                "unit": "",
+                "description": "Buffer used for cell disruption; specific composition not detailed in protocol"
+              },
+              {
+                "name": "homogenization method",
+                "value": "",
+                "unit": "",
+                "description": "Mechanical disruption technique such as grinding or bead-beating"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Temperature during lysis; not specified in protocol"
+              }
+            ],
+            "outputs": [
+              "Lysate_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "RNA Partitioning 1",
+            "description": "Phase separation to isolate RNA into aqueous phase using phenol-based reagent.",
+            "inputs": [
+              "Lysate_1"
+            ],
+            "parameters": [
+              {
+                "name": "phase separation reagent",
+                "value": "phenol-chloroform",
+                "unit": "",
+                "description": "Reagent used for RNA phase separation"
+              },
+              {
+                "name": "centrifugation speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Speed setting for centrifuge during phase separation"
+              },
+              {
+                "name": "centrifugation temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Temperature during centrifugation; typically 4°C"
+              }
+            ],
+            "outputs": [
+              "Aqueous_Phase_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Nucleic Acid Precipitation 1",
+            "description": "Precipitation of nucleic acids from aqueous phase using alcohol and salt.",
+            "inputs": [
+              "Aqueous_Phase_1"
+            ],
+            "parameters": [
+              {
+                "name": "precipitation agent",
+                "value": "isopropanol or ethanol",
+                "unit": "",
+                "description": "Alcohol used for nucleic acid precipitation"
+              },
+              {
+                "name": "salt concentration",
+                "value": "",
+                "unit": "M",
+                "description": "Concentration of salt (e.g., sodium acetate) to aid precipitation"
+              },
+              {
+                "name": "centrifugation duration",
+                "value": "",
+                "unit": "minutes",
+                "description": "Time for centrifugation to pellet nucleic acids"
+              }
+            ],
+            "outputs": [
+              "RNA_Pellet_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "RNA Partitioning 2",
+            "description": "Second round of RNA phase separation to further purify RNA.",
+            "inputs": [
+              "RNA_Pellet_1"
+            ],
+            "parameters": [
+              {
+                "name": "re-extraction buffer",
+                "value": "aqueous buffer or water",
+                "unit": "",
+                "description": "Buffer used to resuspend pellet before second partitioning"
+              },
+              {
+                "name": "phase separation reagent",
+                "value": "phenol-chloroform or acidic phenol",
+                "unit": "",
+                "description": "Reagent for second phase separation"
+              },
+              {
+                "name": "centrifugation speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Speed setting for centrifuge during second partitioning"
+              }
+            ],
+            "outputs": [
+              "Aqueous_Phase_2"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Nucleic Acid Precipitation 2",
+            "description": "Second precipitation of RNA to concentrate and desalt.",
+            "inputs": [
+              "Aqueous_Phase_2"
+            ],
+            "parameters": [
+              {
+                "name": "precipitation agent",
+                "value": "isopropanol or ethanol",
+                "unit": "",
+                "description": "Alcohol used for second precipitation"
+              },
+              {
+                "name": "centrifugation duration",
+                "value": "",
+                "unit": "minutes",
+                "description": "Duration of centrifugation to pellet RNA"
+              },
+              {
+                "name": "washing agent",
+                "value": "70% ethanol",
+                "unit": "%",
+                "description": "Ethanol concentration used for washing pellet"
+              }
+            ],
+            "outputs": [
+              "RNA_Pellet_2"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Nucleic Acid Precipitation 3",
+            "description": "Final precipitation step to ensure complete recovery of RNA.",
+            "inputs": [
+              "RNA_Pellet_2"
+            ],
+            "parameters": [
+              {
+                "name": "centrifugation speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Speed setting for final centrifugation"
+              },
+              {
+                "name": "centrifugation time",
+                "value": "",
+                "unit": "minutes",
+                "description": "Duration of final centrifugation"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Temperature during final precipitation"
+              }
+            ],
+            "outputs": [
+              "Final_RNA_Pellet"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Resuspension and Storage",
+            "description": "RNA pellet is resuspended in RNase-free water or buffer and stored.",
+            "inputs": [
+              "Final_RNA_Pellet"
+            ],
+            "parameters": [
+              {
+                "name": "resuspension volume",
+                "value": "",
+                "unit": "µL",
+                "description": "Volume of buffer used to dissolve RNA pellet"
+              },
+              {
+                "name": "storage temperature",
+                "value": "-80 or -20",
+                "unit": "°C",
+                "description": "RNA stored at -80°C for long-term or -20°C for short-term"
+              },
+              {
+                "name": "resuspension buffer",
+                "value": "RNase-free water or TE buffer",
+                "unit": "",
+                "description": "Buffer used to solubilize RNA"
+              }
+            ],
+            "outputs": [
+              "Resuspended_RNA",
+              "Stored_RNA"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "12716",
+      "protocol_name": "PCR - 12716",
+      "category": "PCR",
+      "original_steps": 18,
+      "success": true,
+      "latency_s": 29.65,
+      "evaluation": {
+        "step_preservation": 16.7,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 44.2,
+        "extracted_steps": 3,
+        "original_steps": 18
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "",
+            "characteristics": []
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Probe backbone phosphorylation",
+            "description": "Phosphorylation of the probe backbone using T4 Polynucleotide Kinase",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "enzyme",
+                "value": "T4 Polynucleotide Kinase",
+                "unit": "",
+                "description": "Enzyme used for phosphorylation, 2,500 units"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Standard reaction temperature for T4 Polynucleotide Kinase, typically 37°C"
+              },
+              {
+                "name": "incubation time",
+                "value": "",
+                "unit": "minutes",
+                "description": "Typical incubation duration for phosphorylation reaction, often 30 minutes"
+              }
+            ],
+            "outputs": [
+              "phosphorylated_probe_intermediate_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "invertedClampFISH probe ligation",
+            "description": "Ligation of invertedClampFISH probes using T7 DNA Ligase",
+            "inputs": [
+              "phosphorylated_probe_intermediate_1"
+            ],
+            "parameters": [
+              {
+                "name": "enzyme",
+                "value": "T7 DNA Ligase",
+                "unit": "",
+                "description": "Enzyme used for ligation, 750,000 units"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Standard reaction temperature for T7 DNA Ligase, typically 25°C"
+              },
+              {
+                "name": "incubation time",
+                "value": "",
+                "unit": "hours or minutes",
+                "description": "Typical incubation duration for ligation reaction, often 1 hour at room temperature"
+              }
+            ],
+            "outputs": [
+              "ligated_probe_intermediate_2"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Column purify invertedClampFISH probes",
+            "description": "Purification of ligated invertedClampFISH probes using Monarch® PCR & DNA Cleanup Kit",
+            "inputs": [
+              "ligated_probe_intermediate_2"
+            ],
+            "parameters": [
+              {
+                "name": "cleanup kit",
+                "value": "Monarch® PCR & DNA Cleanup Kit",
+                "unit": "",
+                "description": "Kit used for purification, capacity 5 μg"
+              },
+              {
+                "name": "elution volume",
+                "value": "",
+                "unit": "μL",
+                "description": "Typical elution volume after column purification, often 30-50 μL"
+              },
+              {
+                "name": "binding conditions",
+                "value": "",
+                "unit": "",
+                "description": "Standard buffer conditions for DNA binding to silica membrane"
+              }
+            ],
+            "outputs": [
+              "purified_invertedClampFISH_probe_final"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "105043",
+      "protocol_name": "Transformation - 105043",
+      "category": "Transformation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 33.3,
+      "evaluation": {
+        "step_preservation": 12.0,
+        "parameter_extraction": 450.0,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 142.3,
+        "extracted_steps": 3,
+        "original_steps": 25
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "SARS-CoV-2 nsp3 macrodomain protein",
+            "organism": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)",
+            "characteristics": [
+              {
+                "category": "protein expression system",
+                "value": "recombinant protein expressed in bacterial host (likely E. coli)",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "tag",
+                "value": "N-terminal His-tag",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "scale",
+                "value": "small scale",
+                "unit": "<6L culture volume",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Plasmid Transformation",
+            "description": "Introduction of plasmid DNA into competent bacterial cells for protein expression.",
+            "inputs": [
+              "SARS-CoV-2 nsp3 macrodomain protein"
+            ],
+            "parameters": [
+              {
+                "name": "transformation temperature",
+                "value": "42°C",
+                "unit": "°C",
+                "description": "heat shock temperature for transformation"
+              },
+              {
+                "name": "recovery incubation time",
+                "value": "1 hour",
+                "unit": "hour",
+                "description": "duration of recovery in SOC medium post-heat shock"
+              },
+              {
+                "name": "recovery temperature",
+                "value": "37°C",
+                "unit": "°C",
+                "description": "temperature for recovery incubation"
+              }
+            ],
+            "outputs": [
+              "Transformed bacterial culture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Protein expression",
+            "description": "Induction of recombinant protein expression in transformed bacterial culture.",
+            "inputs": [
+              "Transformed bacterial culture"
+            ],
+            "parameters": [
+              {
+                "name": "induction temperature",
+                "value": "18°C or 37°C (implied by expression steps)",
+                "unit": "°C",
+                "description": "temperature for protein induction, likely optimized to reduce inclusion bodies"
+              },
+              {
+                "name": "induction duration",
+                "value": "4–16 hours (typical range)",
+                "unit": "hours",
+                "description": "duration of IPTG induction for protein expression"
+              },
+              {
+                "name": "induction method",
+                "value": "IPTG-induced expression",
+                "unit": "",
+                "description": "use of isopropyl β-D-1-thiogalactopyranoside (IPTG) to induce T7/lac promoter"
+              }
+            ],
+            "outputs": [
+              "Protein-expressing bacterial culture"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Protein Purification",
+            "description": "Purification of His-tagged nsp3 macrodomain protein using affinity chromatography.",
+            "inputs": [
+              "Protein-expressing bacterial culture"
+            ],
+            "parameters": [
+              {
+                "name": "lysis buffer temperature",
+                "value": "4°C (implied)",
+                "unit": "°C",
+                "description": "cold temperature to maintain protein stability during lysis"
+              },
+              {
+                "name": "centrifugation speed",
+                "value": "15,000–20,000 ×g",
+                "unit": "×g",
+                "description": "high-speed centrifugation to pellet cell debris post-lysis"
+              },
+              {
+                "name": "affinity resin",
+                "value": "Ni-NTA (Nickel-Nitrilotriacetic acid)",
+                "unit": "",
+                "description": "chromatography resin for binding His-tagged proteins"
+              }
+            ],
+            "outputs": [
+              "Purified nsp3 macrodomain protein"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "121743",
+      "protocol_name": "Bacterial_Cultivation - 121743",
+      "category": "Bacterial_Cultivation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 65.05,
+      "evaluation": {
+        "step_preservation": 28.0,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 48.7,
+        "extracted_steps": 7,
+        "original_steps": 25
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Streptococcus agalactiae",
+            "characteristics": [
+              {
+                "category": "strain",
+                "value": "Group B Streptococcus (GBS)",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "sample type",
+                "value": "bacterial culture",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "treatment",
+                "value": "antibiotics: penicillin and gentamicin",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Antimicrobial preparation",
+            "description": "Preparation of antimicrobial agents (penicillin and gentamicin) for time-kill assay",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "antibiotic concentration",
+                "value": "",
+                "unit": "µg/mL or IU/mL (implied by context)",
+                "description": "Concentration of penicillin and gentamicin used in the assay"
+              },
+              {
+                "name": "preparation volume",
+                "value": "",
+                "unit": "mL (implied)",
+                "description": "Volume of antimicrobial solution prepared"
+              },
+              {
+                "name": "temperature",
+                "value": "room temperature or specified storage temp",
+                "unit": "°C",
+                "description": "Temperature condition during antimicrobial preparation"
+              }
+            ],
+            "outputs": [
+              "Antimicrobial_Solution_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Inoculum preparation",
+            "description": "Preparation of bacterial inoculum from Streptococcus agalactiae for time-kill assay",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "inoculum size",
+                "value": "",
+                "unit": "CFU/mL",
+                "description": "Final concentration of bacterial cells in the assay"
+              },
+              {
+                "name": "preparation volume",
+                "value": "",
+                "unit": "mL",
+                "description": "Volume of inoculum prepared"
+              },
+              {
+                "name": "media type",
+                "value": "",
+                "unit": "",
+                "description": "Type of growth media used for inoculum (e.g., broth)"
+              }
+            ],
+            "outputs": [
+              "Inoculum_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Settings",
+            "description": "Configuration of incubation conditions including CO2 proportion, media type, volume, and shaking",
+            "inputs": [
+              "Inoculum_1"
+            ],
+            "parameters": [
+              {
+                "name": "incubation volume",
+                "value": "",
+                "unit": "mL",
+                "description": "Volume of culture during incubation"
+              },
+              {
+                "name": "media type",
+                "value": "",
+                "unit": "",
+                "description": "Type of growth media used in time-kill assay"
+              },
+              {
+                "name": "CO2 proportion",
+                "value": "",
+                "unit": "%",
+                "description": "Concentration of CO2 in incubator atmosphere"
+              },
+              {
+                "name": "shaker use",
+                "value": "",
+                "unit": "",
+                "description": "Whether orbital shaker is used during incubation"
+              },
+              {
+                "name": "temperature",
+                "value": "37",
+                "unit": "°C",
+                "description": "Standard incubation temperature for bacterial cultures"
+              },
+              {
+                "name": "incubation time points",
+                "value": "0, 2, 4, 6, 8, 12, 24 hours (implied by time-kill assay)",
+                "unit": "hours",
+                "description": "Time points at which bacterial counts are measured"
+              }
+            ],
+            "outputs": [
+              "Treated_Culture_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Time-kill assay",
+            "description": "Execution of time-kill assay to measure bactericidal activity of penicillin and gentamicin alone and in combination",
+            "inputs": [
+              "Treated_Culture_1"
+            ],
+            "parameters": [
+              {
+                "name": "antibiotic combination",
+                "value": "penicillin plus gentamicin",
+                "unit": "",
+                "description": "Synergistic antibiotic combination tested"
+              },
+              {
+                "name": "time points",
+                "value": "0, 2, 4, 6, 8, 12, 24",
+                "unit": "hours",
+                "description": "Time intervals for sampling and CFU determination"
+              },
+              {
+                "name": "detection limit",
+                "value": "100",
+                "unit": "CFU/mL",
+                "description": "Minimum quantifiable bacterial concentration"
+              }
+            ],
+            "outputs": [
+              "Time_Kill_Data_1"
+            ],
+            "dataFiles": [
+              "time_kill_curve_data.csv",
+              "CFU_counts.xlsx"
+            ]
+          },
+          {
+            "name": "Troubleshooting",
+            "description": "Guidelines for identifying and resolving common issues in time-kill assays",
+            "inputs": [
+              "Time_Kill_Data_1"
+            ],
+            "parameters": [
+              {
+                "name": "common issues",
+                "value": "contamination, unstable antibiotic activity, improper inoculum density",
+                "unit": "",
+                "description": "Potential problems affecting assay reproducibility"
+              },
+              {
+                "name": "control measures",
+                "value": "sterile technique, proper storage of antibiotics, calibration of equipment",
+                "unit": "",
+                "description": "Recommended actions to ensure assay validity"
+              }
+            ],
+            "outputs": [
+              "Troubleshooting_Report_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Anticipated Results",
+            "description": "Expected outcomes including synergistic killing with penicillin-gentamicin combination",
+            "inputs": [
+              "Time_Kill_Data_1"
+            ],
+            "parameters": [
+              {
+                "name": "synergy definition",
+                "value": "≥2 log10 reduction in CFU/mL with combination vs most active single agent",
+                "unit": "log10 CFU/mL",
+                "description": "Standard criterion for defining synergy in time-kill assays"
+              },
+              {
+                "name": "bactericidal threshold",
+                "value": "≥3 log10 reduction in CFU/mL from initial inoculum",
+                "unit": "log10 CFU/mL",
+                "description": "Definition of bactericidal effect"
+              }
+            ],
+            "outputs": [
+              "Expected_Results_Report_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Additional Declarations",
+            "description": "Supplementary information such as reagent sources, ethical statements, or conflict of interest",
+            "inputs": [],
+            "parameters": [],
+            "outputs": [],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "102038",
+      "protocol_name": "Sequencing - 102038",
+      "category": "Sequencing",
+      "original_steps": 9,
+      "success": true,
+      "latency_s": 48.36,
+      "evaluation": {
+        "step_preservation": 55.6,
+        "parameter_extraction": 1500.0,
+        "component_extraction": 700.0,
+        "sequence_order": 100,
+        "overall": 552.2,
+        "extracted_steps": 5,
+        "original_steps": 9
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Algae_Sample_1",
+            "organism": "Algae",
+            "characteristics": [
+              {
+                "category": "Sample Type",
+                "value": "Homogenized bioassessment sample",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Preservation Temperature",
+                "value": "-20°C or -80°C",
+                "unit": "°C",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "Storage Duration",
+                "value": "Up to six months",
+                "unit": "months",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Field_Blank_1",
+            "organism": "Deionized Water",
+            "characteristics": [
+              {
+                "category": "Purpose",
+                "value": "Contamination control",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Sample Collection",
+            "description": "Collection of homogenized bioassessment samples containing algae.",
+            "inputs": [
+              "Algae_Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "Sample Type",
+                "value": "Homogenized bioassessment sample",
+                "unit": "",
+                "description": "Type of environmental sample collected"
+              },
+              {
+                "name": "Collection Vessel",
+                "value": "Screw cap tubes",
+                "unit": "",
+                "description": "Container used for sample collection"
+              },
+              {
+                "name": "Sterilization Requirement",
+                "value": "Essential to prevent cross-contamination",
+                "unit": "",
+                "description": "Equipment must be sterilized before use"
+              }
+            ],
+            "outputs": [
+              "Collected_Sample_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Filtering",
+            "description": "Filtration of algae using 47mm filter holders or funnel with 0.45µm cellulose nitrate filters.",
+            "inputs": [
+              "Collected_Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "Filter Type",
+                "value": "Cellulose nitrate",
+                "unit": "",
+                "description": "Material of the filter membrane"
+              },
+              {
+                "name": "Filter Diameter",
+                "value": "47mm",
+                "unit": "mm",
+                "description": "Size of the filter used"
+              },
+              {
+                "name": "Pore Size",
+                "value": "0.45",
+                "unit": "µm",
+                "description": "Pore size of the filter membrane"
+              }
+            ],
+            "outputs": [
+              "Filtered_Algae_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "After Filtering",
+            "description": "Preservation of filtered algae in screw cap tubes with preservation solution.",
+            "inputs": [
+              "Filtered_Algae_1"
+            ],
+            "parameters": [
+              {
+                "name": "Preservation Solution",
+                "value": "Not specified, but implied to be DNA stabilization buffer",
+                "unit": "",
+                "description": "Chemical solution used to preserve DNA integrity"
+              },
+              {
+                "name": "Storage Temperature",
+                "value": "-20°C or -80°C",
+                "unit": "°C",
+                "description": "Temperature for long-term storage of preserved samples"
+              },
+              {
+                "name": "Storage Duration",
+                "value": "Up to six months",
+                "unit": "months",
+                "description": "Maximum recommended storage time for DNA stability"
+              }
+            ],
+            "outputs": [
+              "Preserved_Algae_1"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Collecting a Field Blank",
+            "description": "Collection of field blank by filtering deionized water to monitor contamination.",
+            "inputs": [
+              "Field_Blank_1"
+            ],
+            "parameters": [
+              {
+                "name": "Blank Type",
+                "value": "Field blank",
+                "unit": "",
+                "description": "Control sample to detect environmental or procedural contamination"
+              },
+              {
+                "name": "Filtrate Source",
+                "value": "Deionized water",
+                "unit": "",
+                "description": "Source material used for blank generation"
+              },
+              {
+                "name": "Purpose",
+                "value": "Cross-contamination detection",
+                "unit": "",
+                "description": "Ensures reliability of DNA sequencing results"
+              }
+            ],
+            "outputs": [
+              "Field_Blank_Output"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Sample Metadata",
+            "description": "Recording of sample metadata including labeling and documentation.",
+            "inputs": [
+              "Preserved_Algae_1",
+              "Field_Blank_Output"
+            ],
+            "parameters": [
+              {
+                "name": "Labeling Requirement",
+                "value": "Samples must be labeled",
+                "unit": "",
+                "description": "Ensures traceability and proper identification"
+              },
+              {
+                "name": "Metadata Documentation",
+                "value": "Sample information recorded in field logs or LIMS",
+                "unit": "",
+                "description": "Critical for data integrity and reproducibility"
+              },
+              {
+                "name": "Traceability",
+                "value": "Full chain of custody maintained",
+                "unit": "",
+                "description": "Ensures sample integrity from collection to analysis"
+              }
+            ],
+            "outputs": [
+              "Metadata_Recorded"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "103062",
+      "protocol_name": "DNA_Extraction - 103062",
+      "category": "DNA_Extraction",
+      "original_steps": 8,
+      "success": true,
+      "latency_s": 46.78,
+      "evaluation": {
+        "step_preservation": 62.5,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 62.5,
+        "extracted_steps": 5,
+        "original_steps": 8
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Marine DNA virus",
+            "characteristics": [
+              {
+                "category": "source",
+                "value": "marine environment",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "sample type",
+                "value": "virus lysate",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              },
+              {
+                "category": "treatment",
+                "value": "sucrose density gradient purification",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Lysate preparation",
+            "description": "Initial processing of virus lysate for downstream clarification and concentration.",
+            "inputs": [
+              "Sample_1"
+            ],
+            "parameters": [
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Incubation temperature during lysate preparation, unspecified in protocol"
+              },
+              {
+                "name": "duration",
+                "value": "",
+                "unit": "min",
+                "description": "Processing time for lysate preparation, unspecified in protocol"
+              },
+              {
+                "name": "volume",
+                "value": "",
+                "unit": "mL",
+                "description": "Volume of starting lysate, unspecified in protocol"
+              }
+            ],
+            "outputs": [
+              "Sample_2"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral clarification and concentration",
+            "description": "Removal of cellular debris and concentration of viral particles from lysate.",
+            "inputs": [
+              "Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "centrifugation speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Speed used for clarification centrifugation, unspecified in protocol"
+              },
+              {
+                "name": "centrifugation time",
+                "value": "",
+                "unit": "min",
+                "description": "Duration of centrifugation for clarification, unspecified in protocol"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Temperature during centrifugation, assumed to be 4°C for stability"
+              }
+            ],
+            "outputs": [
+              "Sample_3"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient",
+            "description": "Purification of concentrated viral particles through a linear sucrose density gradient to separate virions based on buoyant density.",
+            "inputs": [
+              "Sample_3"
+            ],
+            "parameters": [
+              {
+                "name": "sucrose concentration gradient",
+                "value": "linear",
+                "unit": "% (w/w)",
+                "description": "Linear sucrose gradient, typically ranging from 10% to 70%, unspecified exact values"
+              },
+              {
+                "name": "centrifugation speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Ultracentrifugation speed for gradient separation, unspecified"
+              },
+              {
+                "name": "centrifugation time",
+                "value": "",
+                "unit": "h",
+                "description": "Duration of ultracentrifugation, unspecified"
+              }
+            ],
+            "outputs": [
+              "Sample_4"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Extraction of DNA",
+            "description": "Isolation of viral genomic DNA from purified virions using chemical or commercial kit-based methods.",
+            "inputs": [
+              "Sample_4"
+            ],
+            "parameters": [
+              {
+                "name": "extraction method",
+                "value": "chemical lysis or column-based purification",
+                "unit": "",
+                "description": "DNA extraction technique, unspecified in protocol"
+              },
+              {
+                "name": "elution volume",
+                "value": "",
+                "unit": "µL",
+                "description": "Final volume of DNA eluate, unspecified"
+              },
+              {
+                "name": "temperature",
+                "value": "",
+                "unit": "°C",
+                "description": "Incubation temperatures during extraction steps, unspecified"
+              }
+            ],
+            "outputs": [
+              "Sample_5"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "QuBit quantification using Qubit 4 fluorimeter",
+            "description": "Quantitative measurement of double-stranded DNA concentration using fluorescent dye and Qubit 4.0 fluorimeter.",
+            "inputs": [
+              "Sample_5"
+            ],
+            "parameters": [
+              {
+                "name": "fluorometer",
+                "value": "Qubit 4 fluorimeter",
+                "unit": "",
+                "description": "Instrument used for nucleic acid quantification"
+              },
+              {
+                "name": "dye",
+                "value": "Qubit dsDNA Assay Kit",
+                "unit": "",
+                "description": "Fluorescent dye specific for double-stranded DNA"
+              },
+              {
+                "name": "detection range",
+                "value": "0.5 pg/µL to 100 ng/µL",
+                "unit": "pg/µL or ng/µL",
+                "description": "Sensitivity range of Qubit assay for dsDNA"
+              }
+            ],
+            "outputs": [
+              "Sample_6"
+            ],
+            "dataFiles": [
+              "Quantification_Data_Qubit.csv"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    }
+  ]
+}

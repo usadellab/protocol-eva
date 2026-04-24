@@ -1,0 +1,33 @@
+Title: COHCAP Analysis of CpG Island Methylation for Illumina 450k Methylation Arrays
+
+Description:
+This protocol provides detailed instructions on how to produce quality control metrics, differentially methylated CpG sites, and differentially methylated CpG islands for Illumina 450k methylation array data using the COHCAP Bioconductor package.  Scripts for comparing tools to identify differentially methylated regions are also provided, with benchmarks described in the introduction to this protocol.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Process Raw Data
+
+## Step 2: Procedure: Process Raw Data
+
+## Step 3: Procedure: Process Raw Data
+
+## Step 4: Procedure: Annotation and Quality Control
+
+## Step 5: Procedure: CpG Site Analysis
+
+## Step 6: Procedure: CpG Island Analysis
+
+## Step 7: Procedure: Visualizing CpG Site Methylation via IGV8 (Optional)
+
+## Step 8: Procedure: Visualizing CpG Site Methylation via UCSC Genome Browser9 (Optional)
+
+## Step 9: Timing
+
+## Step 10: Troubleshooting
+
+## Step 11: Anticipated Results
+
+## Step 12: Additional Declarations
+
+## Step 13: Figures

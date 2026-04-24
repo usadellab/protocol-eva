@@ -1,0 +1,44 @@
+Title: GenomeTrakr WGS Protocol Collection and Workflow for MiSeq
+
+Description:
+Here we have created a collection of all the protocols used for WGS using the MiSeq, in order, from sample extraction to NCBI submission. 
+This collection has three sections:
+Section 1: WGS Wet lab workflow for Illumina MiSeq
+Section 2: Dry lab workflow for sequence QC and NCBI submission - Direct Submission
+Section 3: Dry lab workflow for sequence QC and NCBI submission - PulseNet labs
+Associated protocols:
+Querying the NCBI database for GenomeTrakr data (protocols.io)
+NCBI data curation protocol - SOP for editing GenomeTrakr submissions (protocols.io)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Wet lab
+
+## Step 2: Wet lab
+
+## Step 3: Wet lab
+
+## Step 4: Wet lab
+
+## Step 5: Wet lab
+
+## Step 6: Dry lab - Direct Submission
+
+## Step 7: Dry lab - Direct Submission
+
+## Step 8: Dry lab - Direct Submission
+
+## Step 9: Dry lab - Direct Submission
+
+## Step 10: Dry lab - Direct Submission
+
+## Step 11: Dry lab - PulseNet submission
+
+## Step 12: Dry lab - PulseNet submission
+
+## Step 13: Dry lab - PulseNet submission
+
+## Step 14: Dry lab - PulseNet submission
+
+## Step 15: Dry lab - PulseNet submission

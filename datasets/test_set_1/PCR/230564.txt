@@ -1,0 +1,76 @@
+Title: SIMPLseq protocol
+
+Description:
+SIMPLseq is a 6-locus Plasmodium falciparum AmpSeq miniplex optimized for high-sensitivity analyses that also integrates a contamination detection system based on well-specific inline barcodes applied during PCR1.
+The 'six informative malaria parasite loci' contained within the panel represent the following 6 genes:
+CSP (Pf3D7_0304600)
+TRAP (Pf3D7_1335900)
+SERA8 (Pf3D7_0207300)
+SURFIN 4.2 (Pf3D7_0424400)
+WDCP (Pf3D7_1410300)
+KELT (Pf3D7_1475900)
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: SIMPLseq primer cocktail preparation (for a 96-well plate)
+
+## Step 2: SIMPLseq primer cocktail preparation (for a 96-well plate)
+
+## Step 3: PCR1
+
+## Step 4: PCR1
+
+## Step 5: PCR1
+
+## Step 6: PCR1
+
+## Step 7: ExoSap digestion
+
+## Step 8: ExoSap digestion
+
+## Step 9: ExoSap digestion
+
+## Step 10: ExoSap digestion
+
+## Step 11: ExoSap digestion
+
+## Step 12: PCR2
+
+## Step 13: PCR2
+
+## Step 14: PCR2
+
+## Step 15: Sample pooling and clean-up (removal of fragments except the ca. 300-550 bp target range)
+
+## Step 16: Sample pooling and clean-up (removal of fragments except the ca. 300-550 bp target range)
+
+## Step 17: Sample pooling and clean-up (removal of fragments except the ca. 300-550 bp target range)
+
+## Step 18: Bioanalyzer QC / library selection
+
+## Step 19: Bioanalyzer QC / library selection
+
+## Step 20: Bioanalyzer QC / library selection
+
+## Step 21: qPCR quantification of selected library
+
+## Step 22: qPCR quantification of selected library
+
+## Step 23: qPCR quantification of selected library
+
+## Step 24: qPCR quantification of selected library
+
+## Step 25: qPCR quantification of selected library
+
+## Step 26: qPCR quantification of selected library
+
+## Step 27: Final sequencing preparation
+
+## Step 28: Final sequencing preparation
+
+## Step 29: PCR2
+
+## Step 30: PCR2
+
+## Step 31: qPCR quantification of selected library

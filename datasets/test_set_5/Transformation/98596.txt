@@ -1,0 +1,66 @@
+Title: MERS-CoV Mpro large scale purification protocol
+
+Description:
+This protocol details the expression and purification of MERS Mpro construct bearing a N-terminal His-SUMO tag at large scale (>6L).
+
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Plasmid Transformation
+
+## Step 2: Protein Purifcation
+
+## Step 3: Protein Purifcation
+
+## Step 4: Protein Purifcation
+
+## Step 5: Protein Purifcation
+
+## Step 6: Protein Purifcation
+
+## Step 7: Protein Purifcation
+
+## Step 8: Protein Purifcation
+
+## Step 9: Protein Purifcation
+
+## Step 10: Protein Purifcation
+
+## Step 11: Protein Purifcation
+
+## Step 12: Abbreviations
+
+## Step 13: Protein Purifcation
+
+## Step 14: Protein Purifcation
+
+## Step 15: Protein Purifcation
+
+## Step 16: Protein Purifcation
+
+## Step 17: Protein Purifcation
+
+## Step 18: Protein Purifcation
+
+## Step 19: Protein Purifcation
+
+## Step 20: Protein Purifcation
+
+## Step 21: Protein Purifcation
+
+## Step 22: Protein Purifcation
+
+## Step 23: Protein Purifcation
+
+## Step 24: Protein Purifcation
+
+## Step 25: Protein Purifcation
+
+## Step 26: Protein Purifcation
+
+## Step 27: Protein Purifcation
+
+## Step 28: Protein Purifcation
+
+## Step 29: Protein Expression

@@ -1,0 +1,254 @@
+{
+  "protocol_id": "121743",
+  "protocol_name": "Bacterial_Cultivation - 121743",
+  "category": "Bacterial_Cultivation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 65.05,
+  "evaluation": {
+    "step_preservation": 28.0,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 48.7,
+    "extracted_steps": 7,
+    "original_steps": 25
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Streptococcus agalactiae",
+        "characteristics": [
+          {
+            "category": "strain",
+            "value": "Group B Streptococcus (GBS)",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "sample type",
+            "value": "bacterial culture",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "treatment",
+            "value": "antibiotics: penicillin and gentamicin",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Antimicrobial preparation",
+        "description": "Preparation of antimicrobial agents (penicillin and gentamicin) for time-kill assay",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "antibiotic concentration",
+            "value": "",
+            "unit": "µg/mL or IU/mL (implied by context)",
+            "description": "Concentration of penicillin and gentamicin used in the assay"
+          },
+          {
+            "name": "preparation volume",
+            "value": "",
+            "unit": "mL (implied)",
+            "description": "Volume of antimicrobial solution prepared"
+          },
+          {
+            "name": "temperature",
+            "value": "room temperature or specified storage temp",
+            "unit": "°C",
+            "description": "Temperature condition during antimicrobial preparation"
+          }
+        ],
+        "outputs": [
+          "Antimicrobial_Solution_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Inoculum preparation",
+        "description": "Preparation of bacterial inoculum from Streptococcus agalactiae for time-kill assay",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "inoculum size",
+            "value": "",
+            "unit": "CFU/mL",
+            "description": "Final concentration of bacterial cells in the assay"
+          },
+          {
+            "name": "preparation volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume of inoculum prepared"
+          },
+          {
+            "name": "media type",
+            "value": "",
+            "unit": "",
+            "description": "Type of growth media used for inoculum (e.g., broth)"
+          }
+        ],
+        "outputs": [
+          "Inoculum_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Settings",
+        "description": "Configuration of incubation conditions including CO2 proportion, media type, volume, and shaking",
+        "inputs": [
+          "Inoculum_1"
+        ],
+        "parameters": [
+          {
+            "name": "incubation volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume of culture during incubation"
+          },
+          {
+            "name": "media type",
+            "value": "",
+            "unit": "",
+            "description": "Type of growth media used in time-kill assay"
+          },
+          {
+            "name": "CO2 proportion",
+            "value": "",
+            "unit": "%",
+            "description": "Concentration of CO2 in incubator atmosphere"
+          },
+          {
+            "name": "shaker use",
+            "value": "",
+            "unit": "",
+            "description": "Whether orbital shaker is used during incubation"
+          },
+          {
+            "name": "temperature",
+            "value": "37",
+            "unit": "°C",
+            "description": "Standard incubation temperature for bacterial cultures"
+          },
+          {
+            "name": "incubation time points",
+            "value": "0, 2, 4, 6, 8, 12, 24 hours (implied by time-kill assay)",
+            "unit": "hours",
+            "description": "Time points at which bacterial counts are measured"
+          }
+        ],
+        "outputs": [
+          "Treated_Culture_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Time-kill assay",
+        "description": "Execution of time-kill assay to measure bactericidal activity of penicillin and gentamicin alone and in combination",
+        "inputs": [
+          "Treated_Culture_1"
+        ],
+        "parameters": [
+          {
+            "name": "antibiotic combination",
+            "value": "penicillin plus gentamicin",
+            "unit": "",
+            "description": "Synergistic antibiotic combination tested"
+          },
+          {
+            "name": "time points",
+            "value": "0, 2, 4, 6, 8, 12, 24",
+            "unit": "hours",
+            "description": "Time intervals for sampling and CFU determination"
+          },
+          {
+            "name": "detection limit",
+            "value": "100",
+            "unit": "CFU/mL",
+            "description": "Minimum quantifiable bacterial concentration"
+          }
+        ],
+        "outputs": [
+          "Time_Kill_Data_1"
+        ],
+        "dataFiles": [
+          "time_kill_curve_data.csv",
+          "CFU_counts.xlsx"
+        ]
+      },
+      {
+        "name": "Troubleshooting",
+        "description": "Guidelines for identifying and resolving common issues in time-kill assays",
+        "inputs": [
+          "Time_Kill_Data_1"
+        ],
+        "parameters": [
+          {
+            "name": "common issues",
+            "value": "contamination, unstable antibiotic activity, improper inoculum density",
+            "unit": "",
+            "description": "Potential problems affecting assay reproducibility"
+          },
+          {
+            "name": "control measures",
+            "value": "sterile technique, proper storage of antibiotics, calibration of equipment",
+            "unit": "",
+            "description": "Recommended actions to ensure assay validity"
+          }
+        ],
+        "outputs": [
+          "Troubleshooting_Report_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Anticipated Results",
+        "description": "Expected outcomes including synergistic killing with penicillin-gentamicin combination",
+        "inputs": [
+          "Time_Kill_Data_1"
+        ],
+        "parameters": [
+          {
+            "name": "synergy definition",
+            "value": "≥2 log10 reduction in CFU/mL with combination vs most active single agent",
+            "unit": "log10 CFU/mL",
+            "description": "Standard criterion for defining synergy in time-kill assays"
+          },
+          {
+            "name": "bactericidal threshold",
+            "value": "≥3 log10 reduction in CFU/mL from initial inoculum",
+            "unit": "log10 CFU/mL",
+            "description": "Definition of bactericidal effect"
+          }
+        ],
+        "outputs": [
+          "Expected_Results_Report_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Additional Declarations",
+        "description": "Supplementary information such as reagent sources, ethical statements, or conflict of interest",
+        "inputs": [],
+        "parameters": [],
+        "outputs": [],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

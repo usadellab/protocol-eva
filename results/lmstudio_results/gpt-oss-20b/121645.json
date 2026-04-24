@@ -1,0 +1,114 @@
+{
+  "protocol_id": "121645",
+  "protocol_name": "Bioinformatics - 121645",
+  "category": "Bioinformatics",
+  "original_steps": 12,
+  "success": true,
+  "latency_s": 3.66,
+  "evaluation": {
+    "step_preservation": 25.0,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 47.5,
+    "extracted_steps": 3,
+    "original_steps": 12
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "",
+        "characteristics": []
+      },
+      {
+        "name": "Sample_2",
+        "organism": "",
+        "characteristics": []
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Read Alignment",
+        "description": "Align raw RNA-seq reads to reference genome using Subread aligner.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "Rsubread",
+            "unit": "",
+            "description": "RNA-seq read aligner"
+          },
+          {
+            "name": "version",
+            "value": "",
+            "unit": "",
+            "description": "Software version"
+          }
+        ],
+        "outputs": [
+          "Aligned_Reads_1",
+          "Aligned_Reads_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Read Summarization",
+        "description": "Generate read counts per gene using featureCounts.",
+        "inputs": [
+          "Aligned_Reads_1",
+          "Aligned_Reads_2"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "featureCounts",
+            "unit": "",
+            "description": "Read summarization tool"
+          },
+          {
+            "name": "version",
+            "value": "",
+            "unit": "",
+            "description": "Software version"
+          }
+        ],
+        "outputs": [
+          "Gene_Counts_1",
+          "Gene_Counts_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Differential Expression Analysis",
+        "description": "Normalize counts with voom and test differential expression using limma.",
+        "inputs": [
+          "Gene_Counts_1",
+          "Gene_Counts_2"
+        ],
+        "parameters": [
+          {
+            "name": "software",
+            "value": "limma",
+            "unit": "",
+            "description": "Differential expression analysis package"
+          },
+          {
+            "name": "method",
+            "value": "voom+empirical Bayes moderated t-statistic",
+            "unit": "",
+            "description": "Normalization and testing method"
+          }
+        ],
+        "outputs": [
+          "DEG_List_1_vs_2"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

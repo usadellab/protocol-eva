@@ -1,0 +1,15 @@
+Title: MQRT-PCR
+
+Description:
+Gene expression - MQRT-PCR
+Reverse transcriptase reactions were performed using High Capacity cDNA Reverse transcription kit (Applied Biosystems, FosterCity, CA, USA) according to the manufacturer ’ s protocol with 350 ng of total RNA. Multiplex quantitative RT-PCR Real-time PCR was performed using Rotor-Gene Q (Qiagen, Hilden, Germany). All reactions were run in triplicate using PerfeCTa® MultiPlex qPCR SuperMix (Quanta Biosciences, Inc. Gaithersburg, MD, USA) with primer and probe sets for target genes at 300 nM concentration each. 3 ′ 6-Carboxyfluorescein (FAM), 6-Hexachlorofluorescein (HEX), Texas Red and CY5 (all from Eurogentec Ltd, Fawley, Hampshire, UK) were used as fluorochrome reporters for the hydrolysis probes analysed in multiplexed reactions with between 2 and 4 genes per run including the control. Cycling parameters were 2 min at 95°C, then 45 cycles of 10 s at 95°C and 60 s at 60°C. Data were collected and analyzed by Rotor-Gene Q Series Software. Gene target Ct (cycle threshold) values were normalized to a Hypoxanthine-Guanine phosphoribosyltransferase 1 (HPRT1) internal control. Ct values were converted to transcript quantity using standard curves obtained by serial dilution of PCR-amplified DNA fragments of each gene. The linear dynamic range of the standard curves covering six orders of magnitude (serial dilution from 3.2 x 10-4 to 8.2 x 10-10) gave PCR efficiencies between 93% and 103% for each gene with R2 > 0.998. Relative gene expression levels after irradiation were determined relative to unexposed controls.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+

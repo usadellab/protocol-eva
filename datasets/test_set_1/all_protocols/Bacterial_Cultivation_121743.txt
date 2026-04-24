@@ -1,0 +1,57 @@
+Title: Time kill assays for Streptococcus agalactiae and synergy testing
+
+Description:
+Group B Streptococcus (GBS) is increasingly causing invasive infections in nonpregnant adults. Previously a synergism in killing the bacteria was postulated, when a combination of penicillin plus gentamicin is used. This synergism is based on results from time-kill assays. Although, the technique of time-kill assays is known for decades, several variables may influence the stability of results, and vary for a given bacterial genus and its species. These include the incubation volume, the media, the proportion of CO2, and the use of a shaker. In this protocol, we compared these conditions with each other and outline the test results of the corresponding time-kill assays.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Antimicrobial preparation
+
+## Step 2: Procedure: Antimicrobial preparation
+
+## Step 3: Procedure: Antimicrobial preparation
+
+## Step 4: Procedure: Inoculum preparation
+
+## Step 5: Procedure: Inoculum preparation
+
+## Step 6: Procedure: Inoculum preparation
+
+## Step 7: Procedure: Inoculum preparation
+
+## Step 8: Procedure: Inoculum preparation
+
+## Step 9: Procedure: Inoculum preparation
+
+## Step 10: Procedure: Settings
+
+## Step 11: Procedure: Settings
+
+## Step 12: Procedure: Settings
+
+## Step 13: Procedure: Settings
+
+## Step 14: Procedure: Settings
+
+## Step 15: Procedure: Settings
+
+## Step 16: Procedure: Time-kill assay
+
+## Step 17: Procedure: Time-kill assay
+
+## Step 18: Procedure: Time-kill assay
+
+## Step 19: Procedure: Time-kill assay
+
+## Step 20: Procedure: Time-kill assay
+
+## Step 21: Procedure: Time-kill assay
+
+## Step 22: Procedure: Time-kill assay
+
+## Step 23: Troubleshooting
+
+## Step 24: Anticipated Results
+
+## Step 25: Additional Declarations

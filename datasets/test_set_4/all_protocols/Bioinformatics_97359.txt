@@ -1,0 +1,20 @@
+Title: Proteomic Analysis of Human Ovarian Cortex and Medulla Secretome Using Liquid Chromatography-Tandem Mass Spectrometry (LC-MS/MS) Acquisition by Data-Independent Acquisition (DIA) on an Orbitrap Eclipse Tribrid Mass Spectrometer
+
+Description:
+Ovaries from human donors were cut into 3-5 mm sections. These sections were further processed into 500 μm slices containing cortex and medulla. The slices were then processed into pieces (1 mm x 1 mm x 500 µm), and cortex and medulla pieces were cultured separately as explants in static cultures. 
+Explants were cultured and treated with either DMSO vehicle control or 0.1 µg/mL doxorubicin to induce
+senescence. After 10 days, cortex and medulla explants were thoroughly washed with serum-free basal media and transferred to a clean plate with pre-equilibrated serum-free basal media and inserts. The conditioned media were collected after 24 hours for secretome proteomics profiling. 
+The concentrated conditioned media was subjected to tryptic digestion using S-trap Spin columns. The reconstituted peptide elution was desalted with C18 hydrophilic-lipophilic balance (HLB) cartridges. The final reconstituted peptides were diluted with 2% ACN and 0.1% FA. Proteolytic peptide measurement was completed using liquid chromatography-tandem mass spectrometry (LC-MS/MS) acquisition by Data-Independent Acquisition (DIA) on an Orbitrap Eclipse Tribrid mass spectrometer for peptide/protein identification and quantification.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Conditioned Media Concentration with Amicon Ultra Centrifugal Filters
+
+## Step 2: Protein Digestion with S-trap Spin Columns using Conditioned Concentrated Media
+
+## Step 3: Proteolytic Peptide Desalting with C18 HLB Cartridges
+
+## Step 4: DIA Data Processing using Spectronaut/directDIA (Biognosys): Secretome Analysis
+
+## Step 5: LC-MS/MS Acquisition by DIA on an Orbitrap Eclipse Tribrid Mass Spectrometer

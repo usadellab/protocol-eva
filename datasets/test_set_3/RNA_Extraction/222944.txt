@@ -1,0 +1,71 @@
+Title: RNA and Organic Reagent Extraction for Analysis
+
+Description:
+This protocol is for the extraction of RNA and organic compounds (primarily carotenoids) from a single sample. Expected RNA yeilds should lie around 500-1000ng/μL per sample. Extraction of organic compounds will vary by solvent used.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Tissue Lysis
+
+## Step 2: Tissue Lysis
+
+## Step 3: Tissue Lysis
+
+## Step 4: Tissue Lysis
+
+## Step 5: Tissue Lysis
+
+## Step 6: RNA extraction
+
+## Step 7: RNA extraction
+
+## Step 8: RNA extraction
+
+## Step 9: RNA extraction
+
+## Step 10: RNA extraction
+
+## Step 11: RNA extraction
+
+## Step 12: RNA extraction
+
+## Step 13: RNA extraction
+
+## Step 14: RNA extraction
+
+## Step 15: RNA extraction
+
+## Step 16: RNA extraction
+
+## Step 17: RNA extraction
+
+## Step 18: RNA extraction
+
+## Step 19: RNA extraction
+
+## Step 20: Organic extraction
+
+## Step 21: Organic extraction
+
+## Step 22: Organic extraction
+
+## Step 23: Organic extraction
+
+## Step 24: Organic extraction
+
+## Step 25: Organic extraction
+
+## Step 26: HPLC METHOD
+
+## Step 27: HPLC METHOD
+
+## Step 28: HPLC METHOD
+
+## Step 29: HPLC METHOD
+
+## Step 30: HPLC METHOD
+
+## Step 31: Organic extraction
+
+## Step 32: Tissue Lysis

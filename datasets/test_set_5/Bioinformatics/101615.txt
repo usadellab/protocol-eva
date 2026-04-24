@@ -1,0 +1,27 @@
+Title: Single-step assembly of double guide plasmid (pCas9-Duo) for gene-editing in Plasmodium 
+
+Description:
+This protocol describes a one-pot GoldenGate assembly of a new dual-guide targeting plasmid (pCas9-Duo) expressing two distinct guide RNAs in order to enhance the chances of a successful Cas9-mediated modification at a target region in Plasmodium falciparum. Designed as part of SHIFTiKO (frameshift-based trackable inducible knockout) system1 (based on2).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: gRNA oligo design
+
+## Step 2: Anneal gRNA oligos
+
+## Step 3: Anneal gRNA oligos
+
+## Step 4: Single-step GoldenGate assembly 
+
+## Step 5: Single-step GoldenGate assembly 
+
+## Step 6: Single-step GoldenGate assembly 
+
+## Step 7: Transform, plate and screen colonies
+
+## Step 8: Transform, plate and screen colonies
+
+## Step 9: Transform, plate and screen colonies
+
+## Step 10: Transform, plate and screen colonies

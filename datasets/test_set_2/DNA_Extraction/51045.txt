@@ -1,0 +1,55 @@
+Title: DNA extraction protocol for animal blood samples using the E.Z.N.A blood mini kit
+
+Description:
+The E.Z.N.A. Blood DNA Mini Kit provides an easy and rapid method for the isolation of genomic DNA for consistent PCR and Southern analysis. Up to 250 μL fresh, frozen, or anticoagulated whole blood can be readily processed at one time. The E.Z.N.A. Blood DNA Mini Kit can also be used for the preparation of genomic DNA from buffy coat, serum, plasma, saliva, buccal swabs, and other body fluids. The E.Z.N.A. Blood DNA Kit allows for single or multiple simultaneous processing of multiple samples. There is no need for phenol/chloroform extractions, and time-consuming steps are eliminated (e.g. precipitation using isopropanol or ethanol). Purified DNA obtained with the E.Z.N.A. Blood DNA Kit is ready for applications such as PCR, restriction digestion, and Southern blotting.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lyse
+
+## Step 2: Adjust binding conditions
+
+## Step 3: Bind
+
+## Step 4: Wash
+
+## Step 5: Dry
+
+## Step 6: Elute
+
+## Step 7: Lyse
+
+## Step 8: Lyse
+
+## Step 9: Lyse
+
+## Step 10: Adjust binding conditions
+
+## Step 11: Bind
+
+## Step 12: Bind
+
+## Step 13: Bind
+
+## Step 14: Bind
+
+## Step 15: Bind
+
+## Step 16: Bind
+
+## Step 17: Wash
+
+## Step 18: Wash
+
+## Step 19: Wash
+
+## Step 20: Elute
+
+## Step 21: Elute
+
+## Step 22: Elute
+
+## Step 23: Elute
+
+## Step 24: Store

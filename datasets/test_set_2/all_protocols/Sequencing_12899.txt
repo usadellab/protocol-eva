@@ -1,0 +1,49 @@
+Title: Cell dissociation from nasal and bronchial brushings with cold-active protease for single-cell RNA-seq
+
+Description:
+This protocol provides details on the cell dissociation that should be performed to obtain single-cell suspensions from nasal epithelium brushings.
+Cell dissociation is performed at 4°C to avoid gene expression alterations and maximize viability. 
+The typical cell number recovery is 200 000 - 300 000 for one brushing.
+Cell suspensions are suitable for single-cell RNA-sequencing protocols.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- EDTA
+- 23G Needles
+- Protease from Bacillus Licheniformis 
+- HypoThermosol® FRS 100 mL
+- Quick-Read 10 Chamber Slide
+- Countess™ Cell Counting Chamber Slides
+- DPBS no calcium, no magnesium
+- 21G needle
+- HBSS

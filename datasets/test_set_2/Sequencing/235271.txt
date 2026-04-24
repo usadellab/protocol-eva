@@ -1,0 +1,41 @@
+Title: UTAG-seq: accurate detection of somatic mutations by single-cell duplex-sequencing
+
+Description:
+Here, we developed UTAG-seq, a single-cell duplex-sequencing method that enables comprehensive genome coverage. Applying UTAG-seq to individual human umbilical cord blood cells, we validated the somatic mutation calling accuracy to be < 10-9. Together, these results demonstrate that UTAG-seq supports highly accurate single-cell somatic mutation detection and will facilitate the characterization of somatic mosaicism across diverse biological contexts.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell lysis
+
+## Step 2: Cell lysis
+
+## Step 3: Custom Tn5 transposase assembly
+
+## Step 4: Custom Tn5 transposase assembly
+
+## Step 5: Custom Tn5 transposase assembly
+
+## Step 6: Single-cell UTAG procedure
+
+## Step 7: Single-cell UTAG procedure
+
+## Step 8: Single-cell UTAG procedure
+
+## Step 9: Single-cell UTAG procedure
+
+## Step 10: Single-cell UTAG procedure
+
+## Step 11: Single-cell UTAG procedure
+
+## Step 12: Single-cell UTAG procedure
+
+## Step 13: Single-cell UTAG procedure
+
+## Step 14: Single-cell UTAG procedure
+
+## Step 15: Single-cell UTAG procedure
+
+## Step 16: Single-cell UTAG procedure
+
+## Step 17: Single-cell UTAG procedure

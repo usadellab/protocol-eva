@@ -1,0 +1,162 @@
+{
+  "protocol_id": "11015",
+  "protocol_name": "RNA_Extraction - 11015",
+  "category": "RNA_Extraction",
+  "original_steps": 23,
+  "success": true,
+  "latency_s": 12.11,
+  "evaluation": {
+    "step_preservation": 30.4,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 49.7,
+    "extracted_steps": 7,
+    "original_steps": 23
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Arabidopsis thaliana",
+        "characteristics": [
+          {
+            "category": "tissue type",
+            "value": "siliques",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "source",
+            "value": "plant tissue",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Sample_2",
+        "organism": "Nicotiana tabacum",
+        "characteristics": [
+          {
+            "category": "tissue type",
+            "value": "fruit tissue",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "source",
+            "value": "plant tissue",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Lysis",
+        "description": "Cell lysis to release nucleic acids from plant tissues.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Lysate_1",
+          "Lysate_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "RNA Partitioning 1",
+        "description": "First partitioning step to separate RNA from other cellular components.",
+        "inputs": [
+          "Lysate_1",
+          "Lysate_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "RNA_Partition1_1",
+          "RNA_Partition1_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 1",
+        "description": "First precipitation to collect nucleic acids from the partitioned RNA.",
+        "inputs": [
+          "RNA_Partition1_1",
+          "RNA_Partition1_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Precipitate1_1",
+          "Precipitate1_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "RNA Partitioning 2",
+        "description": "Second partitioning step to further purify RNA.",
+        "inputs": [
+          "Precipitate1_1",
+          "Precipitate1_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "RNA_Partition2_1",
+          "RNA_Partition2_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 2",
+        "description": "Second precipitation to recover RNA from the second partition.",
+        "inputs": [
+          "RNA_Partition2_1",
+          "RNA_Partition2_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Precipitate2_1",
+          "Precipitate2_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 3",
+        "description": "Third precipitation to finalize RNA purification.",
+        "inputs": [
+          "Precipitate2_1",
+          "Precipitate2_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "Precipitate3_1",
+          "Precipitate3_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Resuspension and Storage",
+        "description": "Resuspend purified RNA in buffer and store for downstream applications.",
+        "inputs": [
+          "Precipitate3_1",
+          "Precipitate3_2"
+        ],
+        "parameters": [],
+        "outputs": [
+          "RNA_Final_1",
+          "RNA_Final_2"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

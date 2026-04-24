@@ -1,0 +1,43 @@
+Title: Collection  from Wastewater Treatment Plant, Transportation, and Storage of Raw Wastewater 
+
+Description:
+This method was developed at the FDA’s Center for Food Safety and Applied Nutrition for GenomeTrakr’s pandemic response project, monitoring SARS-CoV-2 variants in wastewater​​. Protocols developed for this project cover wastewater collection, concentration, RNA extraction, RT-qPCR detection, library prep, genome sequencing, quality control checks, and data submission to NCBI. This method describes the collection and transport of raw wastewater samples from a wastewater treatment plant. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample Storage
+
+## Step 2: Composite Sample Collection
+
+## Step 3: Composite Sample Collection
+
+## Step 4: Grab Sample Collection
+
+## Step 5: Grab Sample Collection
+
+## Step 6: Grab Sample Collection
+
+## Step 7: Grab Sample Collection
+
+## Step 8: Grab Sample Collection
+
+## Step 9: Grab Sample Collection
+
+## Step 10: Composite Sample Collection
+
+## Step 11: Composite Sample Collection
+
+## Step 12: Composite Sample Collection
+
+## Step 13: Composite Sample Collection
+
+## Step 14: Sample Transportation
+
+## Step 15: Sample Transportation
+
+## Step 16: Sample Transportation
+
+## Step 17: Sample Storage
+
+## Step 18: Composite Sample Collection

@@ -1,0 +1,50 @@
+Title: Fetal Calf Serum (FCS / FBS) Protein Binding
+
+Description:
+In vitro pharmacological and toxicological evaluation of chemicals is performed using a wide variety of cell‐based assay systems. One of the major factors influencing the in vitro responses of chemicals is the amount of unbound chemicals present at the target site. The concentrations of the unbound chemicals primarily depend on the protein levels and their binding affinities. Fetal calf/bovine serum (FCS / FBS) Protein binding assay is used in cell culture in cell biology research and in the pharmaceutical industry to support this analysis.
+Assay to Determine Protein binding in fetal calf / bovine serum (FCS / FBS) capabilities for compounds and reference compound (Verapamil) - In 2% heat-inactivated FCS (30 min, 56ºC) using HPLC-MS/MS. The task was performed by spiking test compounds at a concentration of 1 μM into 2% FCS and dialyzing against buffer until equilibrium is achieved. Peak areas of the compound in both 2% FCS and buffer were determined to calculate the percentage of protein-bound compound.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Samples Preparation
+
+## Step 2: Samples Preparation
+
+## Step 3: Samples Preparation
+
+## Step 4: Samples Preparation
+
+## Step 5: Samples Preparation
+
+## Step 6: Samples Preparation
+
+## Step 7: Samples Preparation
+
+## Step 8: Samples Preparation
+
+## Step 9: Samples Preparation
+
+## Step 10: Samples Preparation
+
+## Step 11: Samples Preparation
+
+## Step 12: Samples Preparation
+
+## Step 13: Samples Preparation
+
+## Step 14: Samples Preparation
+
+## Step 15: Samples Preparation
+
+## Step 16: Samples Preparation
+
+## Step 17: Samples Preparation
+
+## Step 18: Samples Preparation
+
+## Step 19: Samples Preparation
+
+## Step 20: Data Analysis
+
+## Step 21: Data Analysis

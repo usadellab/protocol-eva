@@ -1,0 +1,433 @@
+{
+  "protocol_id": "12716",
+  "protocol_name": "PCR - 12716",
+  "category": "PCR",
+  "original_steps": 18,
+  "success": true,
+  "latency_s": 40.92,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 77.5,
+    "extracted_steps": 18,
+    "original_steps": 18
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "",
+        "characteristics": [
+          {
+            "category": "",
+            "value": "",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Probe backbone phosphorylation - Step 1",
+        "description": "Phosphorylate the probe backbone using T4 Polynucleotide Kinase.",
+        "inputs": [
+          "Sample_1",
+          "T4 Polynucleotide Kinase"
+        ],
+        "parameters": [
+          {
+            "name": "Enzyme units",
+            "value": "2500",
+            "unit": "units",
+            "description": "Amount of T4 Polynucleotide Kinase used"
+          }
+        ],
+        "outputs": [
+          "Phosphorylated_Backbone_Step1"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Probe backbone phosphorylation - Step 2",
+        "description": "Second phosphorylation step to ensure complete modification of the probe backbone.",
+        "inputs": [
+          "Phosphorylated_Backbone_Step1",
+          "T4 Polynucleotide Kinase"
+        ],
+        "parameters": [
+          {
+            "name": "Enzyme units",
+            "value": "2500",
+            "unit": "units",
+            "description": "Amount of T4 Polynucleotide Kinase used"
+          }
+        ],
+        "outputs": [
+          "Phosphorylated_Backbone_Step2"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "invertedClampFISH probe ligation - Step 3",
+        "description": "Ligate the phosphorylated probes using T7 DNA Ligase.",
+        "inputs": [
+          "Phosphorylated_Backbone_Step2",
+          "T7 DNA Ligase"
+        ],
+        "parameters": [
+          {
+            "name": "Ligase units",
+            "value": "750000",
+            "unit": "units",
+            "description": "Amount of T7 DNA Ligase used"
+          }
+        ],
+        "outputs": [
+          "Ligated_Probe_Step3"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "invertedClampFISH probe ligation - Step 4",
+        "description": "Second ligation round to improve yield.",
+        "inputs": [
+          "Ligated_Probe_Step3",
+          "T7 DNA Ligase"
+        ],
+        "parameters": [
+          {
+            "name": "Ligase units",
+            "value": "750000",
+            "unit": "units",
+            "description": "Amount of T7 DNA Ligase used"
+          }
+        ],
+        "outputs": [
+          "Ligated_Probe_Step4"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "invertedClampFISH probe ligation - Step 5",
+        "description": "Third ligation iteration.",
+        "inputs": [
+          "Ligated_Probe_Step4",
+          "T7 DNA Ligase"
+        ],
+        "parameters": [
+          {
+            "name": "Ligase units",
+            "value": "750000",
+            "unit": "units",
+            "description": "Amount of T7 DNA Ligase used"
+          }
+        ],
+        "outputs": [
+          "Ligated_Probe_Step5"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "invertedClampFISH probe ligation - Step 6",
+        "description": "Final ligation step before purification.",
+        "inputs": [
+          "Ligated_Probe_Step5",
+          "T7 DNA Ligase"
+        ],
+        "parameters": [
+          {
+            "name": "Ligase units",
+            "value": "750000",
+            "unit": "units",
+            "description": "Amount of T7 DNA Ligase used"
+          }
+        ],
+        "outputs": [
+          "Ligated_Probe_Step6"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 7",
+        "description": "First column purification using Monarch PCR & DNA Cleanup Kit.",
+        "inputs": [
+          "Ligated_Probe_Step6",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step7"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 8",
+        "description": "Second column purification to increase purity.",
+        "inputs": [
+          "Purified_Probe_Step7",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step8"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 9",
+        "description": "Third column purification.",
+        "inputs": [
+          "Purified_Probe_Step8",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step9"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 10",
+        "description": "Fourth column purification.",
+        "inputs": [
+          "Purified_Probe_Step9",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step10"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 11",
+        "description": "Fifth column purification.",
+        "inputs": [
+          "Purified_Probe_Step10",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step11"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 12",
+        "description": "Sixth column purification.",
+        "inputs": [
+          "Purified_Probe_Step11",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step12"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 13",
+        "description": "Seventh column purification.",
+        "inputs": [
+          "Purified_Probe_Step12",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step13"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 14",
+        "description": "Eighth column purification.",
+        "inputs": [
+          "Purified_Probe_Step13",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step14"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 15",
+        "description": "Ninth column purification.",
+        "inputs": [
+          "Purified_Probe_Step14",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step15"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 16",
+        "description": "Tenth column purification.",
+        "inputs": [
+          "Purified_Probe_Step15",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step16"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 17",
+        "description": "Eleventh column purification.",
+        "inputs": [
+          "Purified_Probe_Step16",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Purified_Probe_Step17"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      },
+      {
+        "name": "Column purify invertedClampFISH probes - Step 18",
+        "description": "Final column purification yielding the final invertedClampFISH probes.",
+        "inputs": [
+          "Purified_Probe_Step17",
+          "Monarch PCR & DNA Cleanup Kit"
+        ],
+        "parameters": [
+          {
+            "name": "Kit capacity",
+            "value": "5",
+            "unit": "μg",
+            "description": "Maximum DNA amount the kit can handle"
+          }
+        ],
+        "outputs": [
+          "Final_InvertedClampFISH_Probes"
+        ],
+        "dataFiles": [
+          ""
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

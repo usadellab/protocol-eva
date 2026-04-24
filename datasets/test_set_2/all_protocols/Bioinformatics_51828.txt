@@ -1,0 +1,13 @@
+Title: Flow Cytometry ICS Nuclear Antigens
+
+Description:
+High-parameter flow cytometry enables identification and characterization of a wide range of cell populations within a biological sample. A combined analysis of extracellular epitope staining (ECS) and intra-cellular epitope staining (ICS) using a collection of fluorophore-labeled antibodies sufficiently identifies discrete cell populations and their respective phenotypes. Importantly, ECS/ICS can be applied to cryo-preserved cell suspensions recovered in tissue culture media, enabling samples to be conveniently analyzed after collection and proper cryopreservation. However, consistent cryopreserved sample recovery and ECS procedures are critical to data comparison across multiple experiments. Herein, we describe a standardized protocol for cryopreserved sample recovery and ECS/ICS procedures for cell-surface and intra-cellular epitope labeling.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure
+
+## Step 2: Procedure
+
+## Step 3: Procedure

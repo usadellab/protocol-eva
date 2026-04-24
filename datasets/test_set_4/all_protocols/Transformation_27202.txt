@@ -1,0 +1,49 @@
+Title: Bacterial transformation
+
+Description:
+Transformation of competent Escherichia coli cultures with heterologous DNA. 
+This protocol allows the introduction of external DNA into competent E. coli cells. Typically, the piece of DNA consists of a plasmid, either for its cloning or for heterologous protein expression.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Transformation
+
+## Step 2: Transformation
+
+## Step 3: Transformation
+
+## Step 4: Transformation
+
+## Step 5: Transformation
+
+## Step 6: Transformation
+
+## Step 7: Transformation
+
+## Step 8: Selection of transformants
+
+## Step 9: Selection of transformants
+
+## Step 10: Selection of transformants
+
+## Step 11: Selection of transformants
+
+## Step 12: Selection of transformants
+
+## Step 13: Selection of transformants
+
+## Step 14: Selection of recombinants
+
+## Step 15: Selection of recombinants
+
+=== MATERIALS ===
+- 37˚C Incubator
+- Shaker incubator
+- LB agar plates with the proper antibiotic(s) (eg. Kanamycin)
+- Positive transformation control DNA 
+- Competent Cells
+- SOC Media 
+- Ice & ice bucket
+- 42°C water bath
+- Microcentrifuge tubes

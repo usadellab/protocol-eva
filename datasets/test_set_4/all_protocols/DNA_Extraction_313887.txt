@@ -1,0 +1,34 @@
+Title: ARISE Herbarium Plant DNA Extraction
+
+Description:
+Magnetic bead DNA extraction with home-made chemicals, specifically suitable for plant samples from herbarium collections, where fragmented DNA is expected.This protocol is designed as a low-cost, high-quality, high-throughput DNA extraction (ca € 0,25 per sample).
+This protocol is a modification of the standard for plant DNA extractions within the ARISE program at Naturalis Biodiversity Center. For more information about ARISE, visit https://www.arise-biodiversity.nl/. This protocol was optimized for use in the Biodiversity Genomics Europe project, for genome skimming of herbarium material. For more information about BGE, visit https://biodiversitygenomics.eu/.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of Buffers
+
+## Step 2: Preparation of Buffers
+
+## Step 3: Preparation of Buffers
+
+## Step 4: Preparation of Buffers
+
+## Step 5: Preparation of Buffers
+
+## Step 6: Tissue Sampling and Lysis
+
+## Step 7: DNA Purification
+
+## Step 8: Tissue Sampling and Lysis
+
+## Step 9: Tissue Sampling and Lysis
+
+## Step 10: DNA Purification
+
+## Step 11: DNA Purification
+
+## Step 12: Calibration of Tissue Binding Buffer
+
+## Step 13: Tissue Sampling and Lysis

@@ -1,0 +1,43 @@
+Title: RNA Extraction with Trizol
+
+Description:
+This is a protocol for RNA extractions (using Trizol). A maximum of 3 samples can be extracted at once using this protocol. The entire protocol should be run in the fumehood. This protocol is time- and temperature-sensitive, so read all instructions before attempting and make sure you are adequately prepared.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Homogenize Tissues
+
+## Step 2: Homogenize Tissues
+
+## Step 3: Homogenize Tissues
+
+## Step 4: Homogenize Tissues
+
+## Step 5: Homogenize Tissues
+
+## Step 6: Homogenize Tissues
+
+## Step 7: RNA purification &amp; DNase I treatment
+
+## Step 8: RNA purification &amp; DNase I treatment
+
+## Step 9: RNA purification &amp; DNase I treatment
+
+## Step 10: RNA purification &amp; DNase I treatment
+
+## Step 11: RNA purification &amp; DNase I treatment
+
+## Step 12: RNA purification &amp; DNase I treatment
+
+## Step 13: RNA purification &amp; DNase I treatment
+
+## Step 14: RNA purification &amp; DNase I treatment
+
+## Step 15: RNA purification &amp; DNase I treatment
+
+## Step 16: RNA purification &amp; DNase I treatment
+
+## Step 17: RNA purification &amp; DNase I treatment
+
+## Step 18: RNA purification &amp; DNase I treatment

@@ -1,0 +1,65 @@
+Title: Dinoflagellate Single Cell Transcriptome
+
+Description:
+This protocol provides instruction on how to generate transcriptomes from Dinoflagellates, either from single-cell or small batch cultures.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Step 1. Isolate Cells in RNAlater
+
+## Step 2: Step 1. Isolate Cells in RNAlater
+
+## Step 3: Step 2. RNA Isolation
+
+## Step 4: Step 2. RNA Isolation
+
+## Step 5: Step 2. RNA Isolation
+
+## Step 6: Step 2. RNA Isolation
+
+## Step 7: Step 2. RNA Isolation
+
+## Step 8: Step 2. RNA Isolation
+
+## Step 9: Step 2. RNA Isolation
+
+## Step 10: Step 2. RNA Isolation
+
+## Step 11: Step 2. RNA Isolation
+
+## Step 12: Step 2. RNA Isolation
+
+## Step 13: Step 3. Check RNA quality and quantity (optional)
+
+## Step 14: Step 4. SmartSeq v4 RNA Kit
+
+## Step 15: Step 4. SmartSeq v4 RNA Kit
+
+## Step 16: Step 4. SmartSeq v4 RNA Kit
+
+## Step 17: Step 4. SmartSeq v4 RNA Kit
+
+## Step 18: Step 4. SmartSeq v4 RNA Kit
+
+## Step 19: Step 4. SmartSeq v4 RNA Kit
+
+## Step 20: Step 4. SmartSeq v4 RNA Kit
+
+## Step 21: Step 5. Bioanalyzer
+
+## Step 22: Step 6. Nextera Library Preparation Kit
+
+## Step 23: Step 6. Nextera Library Preparation Kit
+
+## Step 24: Step 6. Nextera Library Preparation Kit
+
+## Step 25: Step 6. Nextera Library Preparation Kit
+
+## Step 26: Step 6. Nextera Library Preparation Kit
+
+## Step 27: Step 6. Nextera Library Preparation Kit
+
+## Step 28: Step 6. Nextera Library Preparation Kit
+
+## Step 29: 7. Example Normalization Spreadsheet

@@ -1,0 +1,50 @@
+{
+  "protocol_id": "105043",
+  "protocol_name": "Transformation - 105043",
+  "category": "Transformation",
+  "original_steps": 25,
+  "success": true,
+  "latency_s": 2.18,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Plasmid transformation and expression of SARS-CoV-2 nsp3 macrodomain assay construct.",
+    "inputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "parameters": [
+      {
+        "name": "temperature",
+        "value": "37°C",
+        "unit": "",
+        "description": "Expression temperature"
+      },
+      {
+        "name": "time",
+        "value": "48 hours",
+        "unit": "",
+        "description": "Expression duration"
+      },
+      {
+        "name": "volume",
+        "value": "<6L",
+        "unit": "",
+        "description": "Expression volume"
+      }
+    ],
+    "outputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "dataFiles": []
+  },
+  "json_valid": true
+}

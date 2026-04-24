@@ -1,0 +1,42 @@
+Title: FACS-based enrichment of transfected hPSCs
+
+Description:
+This protocol describes the procedure FACS-based enrichment of transfected human pluripotent stem cells (hPSCs).
+Protocol overview
+A. Preparation of samples for FACS sorting
+B. After FACS
+General notes
+1. Throughout this protocol, the term hPSC is used to collectively refer to both hiPSCs and hESCs. All described procedures have been tested and work equally well for hiPSCs and hESCs.
+2. Dependent on the genome editing strategy, we use either drug selection or FACS sorting to enrich transfected cell populations based on the presence of a fluorescent protein (either as part of the transfected plasmids or through co-transfection of a fluorescent protein expressing plasmid).
+3. Either drug selection or FACS sorting will be usually performed 48 – 72 hours after electroporation/nucleofection. 
+4. Carefully plan the timeline of FACS experiments and schedule required FACS sorting time at core facility (requires approximately 45 min sorting time per sample)
+5. Every FACS sorting experiment requires an additional non-electroporated well of hPSCs (parental cell line) as a negative control to determine the appropriate FACS gates.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: A. Preparation of samples for FACS sorting
+
+## Step 2: A. Preparation of samples for FACS sorting
+
+## Step 3: A. Preparation of samples for FACS sorting
+
+## Step 4: A. Preparation of samples for FACS sorting
+
+## Step 5: A. Preparation of samples for FACS sorting
+
+## Step 6: A. Preparation of samples for FACS sorting
+
+## Step 7: A. Preparation of samples for FACS sorting
+
+## Step 8: A. Preparation of samples for FACS sorting
+
+## Step 9: A. Preparation of samples for FACS sorting
+
+## Step 10: A. Preparation of samples for FACS sorting
+
+## Step 11: A. Preparation of samples for FACS sorting
+
+## Step 12: B. After FACS 
+
+## Step 13: B. After FACS 

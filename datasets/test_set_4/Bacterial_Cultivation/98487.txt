@@ -1,0 +1,32 @@
+Title: Microtiter plate microbial growth measurements
+
+Description:
+Automated microtiter plate growth kinetics measurements for microorganisms are known to be subject to significant bias due to several factors, including variation in initial optical density (OD) of growth curves, improper background subtraction, and variation in background OD for uninoculated media. We have devised a method with accompanying Matlab LiveScript software to help facilitate accurate measurements for microbial growth parameters. The method employs an automated microtiter plate reader with 96 well microtiter plates having a final volume of 200 uL of growth media per well. The method and software can be used for estimating maximum growth rate, lag time, and maximum OD readings. Serial dilutions of cells are prepared within the plate and multiple uninoculated background wells are used so various sources of error can be both estimated and minimized. The Matlab LiveScript software, ProcessMicroplate, generates output data including comma-delimited spreadsheet files and graphs showing maximum growth rate, doubling time, minimum and maximum OD for the growth curves, along with standard deviations for selected replicate data in rows or columns.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Inoculum preparation 
+
+## Step 2: Inoculum preparation 
+
+## Step 3: Microtiter plate preparation in a sterile biological-containment hood (air-curtain hood)
+
+
+## Step 5: Overnight culture preparation
+
+## Step 6: Microtiter plate inoculation
+
+## Step 7: Microtiter plate inoculation
+
+## Step 8: Microtiter plate inoculation
+
+## Step 9: Cell growth and automated optical density data 
+
+## Step 10: Cell growth and automated optical density data 
+
+## Step 11: Data analysis with ProcessMicroplate, Matlab LiveScript software
+
+## Step 12: Overnight culture preparation
+
+## Step 13: Microtiter plate inoculation

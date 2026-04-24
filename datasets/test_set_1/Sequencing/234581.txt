@@ -1,0 +1,15 @@
+Title: Application of Metabolic Engineering Strategies in Streptomyces Species for Secondary Metabolite Production: A Systematic Review
+
+Description:
+This systematic review protocol aims to synthesize current evidence on the impact of metabolic engineering strategies on the production of secondary metabolites in Streptomyces species. Secondary metabolites from Streptomyces play a crucial role in biotechnology, particularly in antibiotic, anticancer, and industrial applications. Despite major advances in metabolic engineering, including CRISPR-Cas systems, pathway optimization, and regulatory network modification, the overall effectiveness and outcomes of these interventions remain scattered across the literature. This review will systematically identify, evaluate, and compare relevant studies to determine how metabolic engineering strategies influence metabolite yield, diversity, and activation of cryptic biosynthetic gene clusters. The findings will provide an integrated understanding of current approaches and inform future research directions in microbial biotechnology.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Quality assessment
+
+## Step 2: DATA SYNTHESIS
+
+## Step 3: DATA SYNTHESIS
+
+## Step 4: Timeline

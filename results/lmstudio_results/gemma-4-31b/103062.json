@@ -1,0 +1,215 @@
+{
+  "protocol_id": "103062",
+  "protocol_name": "DNA_Extraction - 103062",
+  "category": "DNA_Extraction",
+  "original_steps": 8,
+  "success": true,
+  "latency_s": 95.09,
+  "evaluation": {
+    "step_preservation": 100,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 77.5,
+    "extracted_steps": 8,
+    "original_steps": 8
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Marine Virus Sample",
+        "organism": "Marine DNA virus",
+        "characteristics": [
+          {
+            "category": "source",
+            "value": "marine environment",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Lysate preparation",
+        "description": "Preparation of the initial virus lysate from the marine sample.",
+        "inputs": [
+          "Marine Virus Sample"
+        ],
+        "parameters": [
+          {
+            "name": "centrifugation_speed",
+            "value": "",
+            "unit": "g",
+            "description": "Centrifugation force used for lysate preparation"
+          },
+          {
+            "name": "temperature",
+            "value": "4",
+            "unit": "°C",
+            "description": "Standard temperature for viral processing"
+          }
+        ],
+        "outputs": [
+          "Virus Lysate"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral clarification and concentration (Step 2)",
+        "description": "First stage of clarifying the lysate to remove debris.",
+        "inputs": [
+          "Virus Lysate"
+        ],
+        "parameters": [
+          {
+            "name": "filter_pore_size",
+            "value": "",
+            "unit": "µm",
+            "description": "Pore size used for clarification filtration"
+          }
+        ],
+        "outputs": [
+          "Clarified Lysate"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral clarification and concentration (Step 3)",
+        "description": "Second stage focusing on concentrating the viral particles.",
+        "inputs": [
+          "Clarified Lysate"
+        ],
+        "parameters": [
+          {
+            "name": "concentration_method",
+            "value": "",
+            "unit": "",
+            "description": "Method used for concentration (e.g., ultrafiltration)"
+          }
+        ],
+        "outputs": [
+          "Concentrated Virus"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral purification using linear sucrose gradient (Step 4)",
+        "description": "Initial setup and layering of the linear sucrose gradient.",
+        "inputs": [
+          "Concentrated Virus"
+        ],
+        "parameters": [
+          {
+            "name": "gradient_type",
+            "value": "linear",
+            "unit": "",
+            "description": "The type of sucrose density gradient used"
+          },
+          {
+            "name": "sucrose_concentration",
+            "value": "",
+            "unit": "%",
+            "description": "Range of sucrose concentrations in the gradient"
+          }
+        ],
+        "outputs": [
+          "Layered Sucrose Gradient"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral purification using linear sucrose gradient (Step 5)",
+        "description": "Ultracentrifugation of the layered sucrose gradient to separate viral particles.",
+        "inputs": [
+          "Layered Sucrose Gradient"
+        ],
+        "parameters": [
+          {
+            "name": "centrifugation_time",
+            "value": "",
+            "unit": "hours",
+            "description": "Duration of the ultracentrifugation run"
+          },
+          {
+            "name": "centrifugation_speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Speed of the ultracentrifuge"
+          }
+        ],
+        "outputs": [
+          "Separated Viral Bands"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral purification using linear sucrose gradient (Step 6)",
+        "description": "Recovery and collection of purified viral particles from the gradient.",
+        "inputs": [
+          "Separated Viral Bands"
+        ],
+        "parameters": [
+          {
+            "name": "fraction_volume",
+            "value": "",
+            "unit": "ml",
+            "description": "Volume of each fraction collected from the gradient"
+          }
+        ],
+        "outputs": [
+          "Purified Virus Particles"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Extraction of DNA",
+        "description": "Extraction of genomic DNA from the purified viral particles.",
+        "inputs": [
+          "Purified Virus Particles"
+        ],
+        "parameters": [
+          {
+            "name": "extraction_method",
+            "value": "",
+            "unit": "",
+            "description": "Chemical or kit-based method used for DNA extraction"
+          }
+        ],
+        "outputs": [
+          "Extracted Viral DNA"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "QuBit quantification",
+        "description": "Quantification of the extracted nucleic acids using a fluorimeter.",
+        "inputs": [
+          "Extracted Viral DNA"
+        ],
+        "parameters": [
+          {
+            "name": "equipment",
+            "value": "Qubit 4 fluorimeter",
+            "unit": "",
+            "description": "The device used for quantification"
+          },
+          {
+            "name": "assay_type",
+            "value": "DNA Broad Range or High Sensitivity",
+            "unit": "",
+            "description": "The specific Qubit assay used"
+          }
+        ],
+        "outputs": [
+          "Quantification Data"
+        ],
+        "dataFiles": [
+          "quantification_results.txt"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

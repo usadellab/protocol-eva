@@ -1,0 +1,45 @@
+Title: HEK3/LINC01509 Library Preparation
+
+Description:
+Library preparation for HEK3 recording site (LINC01509) using PCR and digestion.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: HEK293T Cell Lysis
+
+
+
+## Step 4: PCR Amplification of Genomic DNA
+
+## Step 5: SPRI Bead Concentration
+
+## Step 6: Digestion of Zero-Length Recordings
+
+## Step 7: Gel Separation and Extraction of Recordings
+
+## Step 8: Indexing PCR of Recombinant DNA
+
+## Step 9: Gel Separation and Extraction of Recordings
+
+## Step 10: SPRI Bead Purification
+
+## Step 11: D1000 Tapescreen
+
+## Step 12: PCR Amplification of Genomic DNA
+
+## Step 13: D1000 Tapescreen
+
+## Step 14: PCR Amplification of Genomic DNA
+
+## Step 15: PCR Amplification of Genomic DNA
+
+## Step 16: PCR Amplification of Genomic DNA
+
+## Step 17: Indexing PCR of Recombinant DNA
+
+## Step 18: Indexing PCR of Recombinant DNA
+
+## Step 19: Indexing PCR of Recombinant DNA
+
+## Step 20: Indexing PCR of Recombinant DNA

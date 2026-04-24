@@ -1,0 +1,32 @@
+Title: Hepatitis E and Enterovirus Multiplex Nested RT-PCR
+
+Description:
+For multiplex, nested amplification of Hepatitis E (HEV) and Enterovirus (EV) samples.
+Primer sets and target amplicon size
+Outer HEV: HEV_38_f and HEV_39_r (538 bps)
+HEV_38_f: GARGCYATGGTBGAGAARG
+HEV_39_r: GCCATRTTCCARACRGTRTTCC
+Inner HEV: HEV_37_f and HEV_27_r (306 bps)
+HEV_37_f: GGTTYCGYGCYATTGARAARG
+HEV_27_r: TCRCCRGARTGYTTCTTCC
+Outer EV: For1_5NCR and Rev7_5NCR (535 bps)
+For1_5NCR: CGGTACCYTTGTRCGCCTG
+Rev7_5NCR: ATTGTCACCATAAGCAGCC
+Inner EV: For2_5NCR and Rev6_5NCR (388 bps)
+For2_5NCR: CAAGCACTTCTGTTWCCC
+Rev6_5NCR: CCAAAGTAGTCGGTTCCGC
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Hepatitis E and Enterovirus Multiplex Nested PCR 
+
+## Step 2: Hepatitis E and Enterovirus Multiplex Nested PCR 
+
+## Step 3: Hepatitis E and Enterovirus Multiplex Nested PCR 
+
+## Step 4: Hepatitis E and Enterovirus Multiplex Nested PCR 
+
+## Step 5: Hepatitis E and Enterovirus Multiplex Nested PCR 
+
+## Step 6: Hepatitis E and Enterovirus Multiplex Nested PCR 

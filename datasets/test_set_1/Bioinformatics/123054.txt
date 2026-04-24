@@ -1,0 +1,29 @@
+Title:  
+
+Effect of Boswellia sacra and Moringa oleifera leaf extract as root canal Irrigants on bacterial reduction and biofilm eradication in single-rooted teeth. (A Comparative In Vitro Study)
+
+
+Description:
+The aim of this study is to evaluate the efficacy of Boswellia sacra and Moringa olifera leaf extract as intra-canal irrigation in terms of bacterial reduction and biofilm eradication.
+Single-rooted mandibular premolars will be instrumented and categorized into 3 experimental groups depending on the irrigant used: Group I: irrigarion with 10% B. sacra extract. Group II: irrigated with 20% Moringa olifera. Group III: control group irrigated with 2.5% soduim hypochlorite. Scanning electron microscopic analysis will be performed to assess biofilm eradication in the coronal, middle, and apical portions of each root canal.along with microbial sampling and CFU counting for bacteriological reduction analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Procedure: Sample Preparation
+
+## Step 2: Procedure: Sample Sterilization
+
+## Step 3: Procedure: Grouping of teeth
+
+## Step 4: Procedure: Mature biofilm preparation and root canal inoculation
+
+## Step 5: Procedure: Sample (S1) collection
+
+## Step 6: Procedure: Intracanal irrigation application
+
+## Step 7: Procedure: Intracanal irrigation application
+
+## Step 8: Procedure: Sample (S2) collection
+
+## Step 9: Procedure: Samples preparation for SEM assessment

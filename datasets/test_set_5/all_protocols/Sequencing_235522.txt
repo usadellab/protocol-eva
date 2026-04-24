@@ -1,0 +1,7 @@
+Title: Molecular Inversion Probes _User Friendly SOP
+
+Description:
+TM Viral RNA Target Capture Kit is used to prepare next-generation sequencing libraries for whole genome or targeted sequencing of RNA viruses. This protocol contains instructions for library preparation for sequencing on Illumina platforms. Users should refer to product labeling for the probe design code as well as the probe fill size and the design version number. The authors have tested this protocol using a probe panel designed to cover the genome of Highly Pathogenic Avian Influenza H5N1 clade 2.3.4.4b genotype B3.13. The authors have had good success recovering the complete, or nearly complete, HPAI genomes from samples with high viral loads (e.g., when Ct values are ≤30). Samples with lower viral loads are unlikely to yield the complete HPAI genome using this protocol.
+
+
+=== PROTOCOL STEPS ===

@@ -1,0 +1,33 @@
+Title: Visualisation of bacteria around roots
+
+Description:
+This protocol is carried out to observe the growth of the bacterial biofilm along with the roots in the rhizosphere. In the paper by Bennett, R. and Lynch, J (1981), they inoculated the plant with the bacterial strain and analyzed the growth of the bacterial biofilm around roots. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Removal of roots and bacterial counts
+
+## Step 2: Removal of roots and bacterial counts
+
+## Step 3: Removal of roots and bacterial counts
+
+## Step 4: Removal of roots and bacterial counts
+
+## Step 5: Removal of roots and bacterial counts
+
+## Step 6: Microscopy
+
+## Step 7: Microscopy
+
+## Step 8: Microscopy
+
+## Step 9: Removal of roots and bacterial counts
+
+## Step 10: Biofilm Formation
+
+## Step 11: Biofilm Formation
+
+## Step 12: Biofilm Formation
+
+## Step 13: Biofilm Formation

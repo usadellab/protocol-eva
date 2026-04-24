@@ -1,0 +1,29 @@
+Title: scRNA-seq of human femoral bone marrow.
+
+Description:
+This protocol describes the methods used for collection and single-cell isolation of human femoral bone marrow cells for single-cell RNA sequencing.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Biosample Collection
+
+## Step 2: Biosample Collection
+
+## Step 3: Cell Digestion
+
+## Step 4: Cell Digestion
+
+## Step 5: Cell Digestion
+
+## Step 6: Cell Digestion
+
+## Step 7: Cell Digestion
+
+## Step 8: Cell Digestion
+
+## Step 9: Single-cell processing for RNA-seq
+
+## Step 10: Single-cell processing for RNA-seq
+
+## Step 11: Single-cell processing for RNA-seq

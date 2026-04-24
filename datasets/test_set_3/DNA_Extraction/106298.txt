@@ -1,0 +1,57 @@
+Title: DNA EXTRACTION Protocol Template
+
+Description:
+A protocol template created through the BeBOP project for DNA Extraction. For more information please visit our github site at https://github.com/BeBOP-OBON.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: MIOP: Minimum Information about an Omics Protocol
+
+## Step 2: AUTHORS
+
+## Step 3: RELATED PROTOCOLS
+
+## Step 4: ACRONYMS AND ABBREVIATIONS
+
+## Step 5: GLOSSARY
+
+## Step 6: EQUIPMENT
+
+## Step 7: STANDARD OPERATING PROCEDURE
+
+## Step 8: REFERENCES
+
+## Step 9: APPENDIX A: DATASHEETS
+
+## Step 10: BACKGROUND
+
+## Step 11: BACKGROUND
+
+## Step 12: BACKGROUND
+
+## Step 13: BACKGROUND
+
+## Step 14: BACKGROUND
+
+## Step 15: BACKGROUND
+
+## Step 16: BACKGROUND
+
+## Step 17: PREPARATION
+
+## Step 18: EXTRACTION
+
+## Step 19: EXTRACTION
+
+## Step 20: EXTRACTION
+
+## Step 21: QUALITY CONTROL
+
+## Step 22: BASIC TROUBLESHOOTING GUIDE
+
+## Step 23: EXTRACTION
+
+## Step 24: PREPARATION
+
+## Step 25: PREPARATION

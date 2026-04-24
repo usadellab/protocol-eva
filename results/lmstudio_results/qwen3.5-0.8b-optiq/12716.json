@@ -1,0 +1,153 @@
+{
+  "protocol_id": "12716",
+  "protocol_name": "PCR - 12716",
+  "category": "PCR",
+  "original_steps": 18,
+  "success": true,
+  "latency_s": 24.76,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Preparation of invertedClampFISH probes by phosphorylation and ligation.",
+    "inputs": [
+      {
+        "name": "T7 DNA Ligase",
+        "value": "750,000 units",
+        "unit": "",
+        "description": "T7 DNA Ligase used for ligation",
+        "termSource": "",
+        "termAccession": ""
+      },
+      {
+        "name": "Monarch® PCR & DNA Cleanup Kit",
+        "value": "5 μg",
+        "unit": "",
+        "description": "PCR and DNA cleanup kit for probe purification",
+        "termSource": "",
+        "termAccession": ""
+      },
+      {
+        "name": "T4 Polynucleotide Kinase",
+        "value": "2,500 units",
+        "unit": "",
+        "description": "T4 Polynucleotide Kinase for primer extension",
+        "termSource": "",
+        "termAccession": ""
+      }
+    ],
+    "parameters": [
+      {
+        "name": "temperature",
+        "value": "",
+        "unit": "",
+        "description": ""
+      },
+      {
+        "name": "time",
+        "value": "",
+        "unit": "",
+        "description": ""
+      },
+      {
+        "name": "concentration",
+        "value": "",
+        "unit": "",
+        "description": ""
+      },
+      {
+        "name": "volume",
+        "value": "",
+        "unit": "",
+        "description": ""
+      }
+    ],
+    "outputs": [
+      {
+        "name": "invertedClampFISH probes",
+        "description": "Final purified probe material after purification steps"
+      }
+    ],
+    "dataFiles": [
+      {
+        "name": "Step 1: Probe backbone phosphorylation",
+        "description": ""
+      },
+      {
+        "name": "Step 2: Probe backbone phosphorylation",
+        "description": ""
+      },
+      {
+        "name": "Step 3: invertedClampFISH probe ligation",
+        "description": ""
+      },
+      {
+        "name": "Step 4: invertedClampFISH probe ligation",
+        "description": ""
+      },
+      {
+        "name": "Step 5: invertedClampFISH probe ligation",
+        "description": ""
+      },
+      {
+        "name": "Step 6: invertedClampFISH probe ligation",
+        "description": ""
+      },
+      {
+        "name": "Step 7: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 8: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 9: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 10: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 11: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 12: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 13: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 14: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 15: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 16: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 17: Column purify invertedClampFISH probes",
+        "description": ""
+      },
+      {
+        "name": "Step 18: Column purify invertedClampFISH probes",
+        "description": ""
+      }
+    ]
+  },
+  "json_valid": true
+}

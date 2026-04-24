@@ -1,0 +1,269 @@
+{
+  "protocol_id": "11015",
+  "protocol_name": "RNA_Extraction - 11015",
+  "category": "RNA_Extraction",
+  "original_steps": 23,
+  "success": true,
+  "latency_s": 64.63,
+  "evaluation": {
+    "step_preservation": 30.4,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 49.7,
+    "extracted_steps": 7,
+    "original_steps": 23
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Arabidopsis thaliana",
+        "characteristics": [
+          {
+            "category": "tissue type",
+            "value": "siliques",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      },
+      {
+        "name": "Sample_2",
+        "organism": "Nicotiana tabacum",
+        "characteristics": [
+          {
+            "category": "tissue type",
+            "value": "fruit tissue",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Lysis",
+        "description": "Cell lysis to release RNA from siliques and tobacco fruit tissue.",
+        "inputs": [
+          "Sample_1",
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "lysis buffer composition",
+            "value": "",
+            "unit": "",
+            "description": "Buffer used for cell disruption; specific composition not detailed in protocol"
+          },
+          {
+            "name": "homogenization method",
+            "value": "",
+            "unit": "",
+            "description": "Mechanical disruption technique such as grinding or bead-beating"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Temperature during lysis; not specified in protocol"
+          }
+        ],
+        "outputs": [
+          "Lysate_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "RNA Partitioning 1",
+        "description": "Phase separation to isolate RNA into aqueous phase using phenol-based reagent.",
+        "inputs": [
+          "Lysate_1"
+        ],
+        "parameters": [
+          {
+            "name": "phase separation reagent",
+            "value": "phenol-chloroform",
+            "unit": "",
+            "description": "Reagent used for RNA phase separation"
+          },
+          {
+            "name": "centrifugation speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Speed setting for centrifuge during phase separation"
+          },
+          {
+            "name": "centrifugation temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Temperature during centrifugation; typically 4°C"
+          }
+        ],
+        "outputs": [
+          "Aqueous_Phase_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 1",
+        "description": "Precipitation of nucleic acids from aqueous phase using alcohol and salt.",
+        "inputs": [
+          "Aqueous_Phase_1"
+        ],
+        "parameters": [
+          {
+            "name": "precipitation agent",
+            "value": "isopropanol or ethanol",
+            "unit": "",
+            "description": "Alcohol used for nucleic acid precipitation"
+          },
+          {
+            "name": "salt concentration",
+            "value": "",
+            "unit": "M",
+            "description": "Concentration of salt (e.g., sodium acetate) to aid precipitation"
+          },
+          {
+            "name": "centrifugation duration",
+            "value": "",
+            "unit": "minutes",
+            "description": "Time for centrifugation to pellet nucleic acids"
+          }
+        ],
+        "outputs": [
+          "RNA_Pellet_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "RNA Partitioning 2",
+        "description": "Second round of RNA phase separation to further purify RNA.",
+        "inputs": [
+          "RNA_Pellet_1"
+        ],
+        "parameters": [
+          {
+            "name": "re-extraction buffer",
+            "value": "aqueous buffer or water",
+            "unit": "",
+            "description": "Buffer used to resuspend pellet before second partitioning"
+          },
+          {
+            "name": "phase separation reagent",
+            "value": "phenol-chloroform or acidic phenol",
+            "unit": "",
+            "description": "Reagent for second phase separation"
+          },
+          {
+            "name": "centrifugation speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Speed setting for centrifuge during second partitioning"
+          }
+        ],
+        "outputs": [
+          "Aqueous_Phase_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 2",
+        "description": "Second precipitation of RNA to concentrate and desalt.",
+        "inputs": [
+          "Aqueous_Phase_2"
+        ],
+        "parameters": [
+          {
+            "name": "precipitation agent",
+            "value": "isopropanol or ethanol",
+            "unit": "",
+            "description": "Alcohol used for second precipitation"
+          },
+          {
+            "name": "centrifugation duration",
+            "value": "",
+            "unit": "minutes",
+            "description": "Duration of centrifugation to pellet RNA"
+          },
+          {
+            "name": "washing agent",
+            "value": "70% ethanol",
+            "unit": "%",
+            "description": "Ethanol concentration used for washing pellet"
+          }
+        ],
+        "outputs": [
+          "RNA_Pellet_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Nucleic Acid Precipitation 3",
+        "description": "Final precipitation step to ensure complete recovery of RNA.",
+        "inputs": [
+          "RNA_Pellet_2"
+        ],
+        "parameters": [
+          {
+            "name": "centrifugation speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Speed setting for final centrifugation"
+          },
+          {
+            "name": "centrifugation time",
+            "value": "",
+            "unit": "minutes",
+            "description": "Duration of final centrifugation"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Temperature during final precipitation"
+          }
+        ],
+        "outputs": [
+          "Final_RNA_Pellet"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Resuspension and Storage",
+        "description": "RNA pellet is resuspended in RNase-free water or buffer and stored.",
+        "inputs": [
+          "Final_RNA_Pellet"
+        ],
+        "parameters": [
+          {
+            "name": "resuspension volume",
+            "value": "",
+            "unit": "µL",
+            "description": "Volume of buffer used to dissolve RNA pellet"
+          },
+          {
+            "name": "storage temperature",
+            "value": "-80 or -20",
+            "unit": "°C",
+            "description": "RNA stored at -80°C for long-term or -20°C for short-term"
+          },
+          {
+            "name": "resuspension buffer",
+            "value": "RNase-free water or TE buffer",
+            "unit": "",
+            "description": "Buffer used to solubilize RNA"
+          }
+        ],
+        "outputs": [
+          "Resuspended_RNA",
+          "Stored_RNA"
+        ],
+        "dataFiles": []
+      }
+    ]
+  },
+  "json_valid": true
+}

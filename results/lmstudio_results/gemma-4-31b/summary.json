@@ -1,0 +1,923 @@
+{
+  "model": "gemma-4-31b",
+  "timestamp": "2026-04-24T16:26:14.799063",
+  "summary": {
+    "model_key": "gemma-4-31b",
+    "model_name": "Gemma-4-31B",
+    "model_id": "google/gemma-4-31b",
+    "json_handler": "standard",
+    "force_json_prefix": true,
+    "total_protocols": 7,
+    "successful": 5,
+    "failed": 2,
+    "success_rate": 71.4,
+    "avg_latency_s": 105.53,
+    "avg_score": 118.7,
+    "total_time_s": 738.7
+  },
+  "results": [
+    {
+      "protocol_id": "121645",
+      "protocol_name": "Bioinformatics - 121645",
+      "category": "Bioinformatics",
+      "original_steps": 12,
+      "success": true,
+      "latency_s": 70.2,
+      "evaluation": {
+        "step_preservation": 33.3,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 50.8,
+        "extracted_steps": 4,
+        "original_steps": 12
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Sample_1",
+            "organism": "Not specified",
+            "characteristics": [
+              {
+                "category": "cell type",
+                "value": "Type A",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Sample_2",
+            "organism": "Not specified",
+            "characteristics": [
+              {
+                "category": "cell type",
+                "value": "Type B",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Read Alignment",
+            "description": "Alignment of raw sequencing reads to a reference genome",
+            "inputs": [
+              "Raw read output of Sample_1",
+              "Raw read output of Sample_2"
+            ],
+            "parameters": [
+              {
+                "name": "Software",
+                "value": "Subread / Rsubread",
+                "unit": "",
+                "description": "Tool used for read alignment"
+              },
+              {
+                "name": "Platform",
+                "value": "Bioconductor",
+                "unit": "",
+                "description": "Software repository"
+              }
+            ],
+            "outputs": [
+              "Aligned reads"
+            ],
+            "dataFiles": [
+              "alignment_files.bam"
+            ]
+          },
+          {
+            "name": "Read Summarization",
+            "description": "Summarizing aligned reads to count features",
+            "inputs": [
+              "Aligned reads"
+            ],
+            "parameters": [
+              {
+                "name": "Software",
+                "value": "featureCounts",
+                "unit": "",
+                "description": "Tool used for read summarization"
+              }
+            ],
+            "outputs": [
+              "Read counts matrix"
+            ],
+            "dataFiles": [
+              "counts.txt"
+            ]
+          },
+          {
+            "name": "Normalization",
+            "description": "Normalization of read count data to account for variance",
+            "inputs": [
+              "Read counts matrix"
+            ],
+            "parameters": [
+              {
+                "name": "Method",
+                "value": "voom",
+                "unit": "",
+                "description": "Normalization method used to transform count data"
+              },
+              {
+                "name": "Software",
+                "value": "limma",
+                "unit": "",
+                "description": "R package providing the voom function"
+              }
+            ],
+            "outputs": [
+              "Normalized expression data"
+            ],
+            "dataFiles": [
+              "normalized_data.csv"
+            ]
+          },
+          {
+            "name": "Differential Expression Analysis",
+            "description": "Statistical testing to identify differentially expressed genes between cell types",
+            "inputs": [
+              "Normalized expression data"
+            ],
+            "parameters": [
+              {
+                "name": "Statistical Test",
+                "value": "empirical Bayes moderated t-statistic",
+                "unit": "",
+                "description": "Method used for statistical testing of differential expression"
+              },
+              {
+                "name": "Software",
+                "value": "limma",
+                "unit": "",
+                "description": "R package used for the moderated t-statistic calculation"
+              }
+            ],
+            "outputs": [
+              "List of differentially expressed genes"
+            ],
+            "dataFiles": [
+              "deg_list.csv"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "11015",
+      "protocol_name": "RNA_Extraction - 11015",
+      "category": "RNA_Extraction",
+      "original_steps": 23,
+      "success": false,
+      "latency_s": 164.47,
+      "evaluation": {
+        "overall": 0,
+        "notes": "JSON parse failed"
+      },
+      "raw_output": {
+        "error": "Expecting value: line 311 column 22 (char 8620)",
+        "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"Arabidopsis_Silique\",\n      \"organism\": \"Arabidopsis thaliana\",\n      \"characteristics\": [\n        {\n          \"category\": \"tissue\",\n          \"value\": \"silique\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Tobacco_Fruit\",\n      \"organism\": \"Nicotiana tabacum\",\n      \"characteristics\": [\n        {\n          \"category\": \"tissue\",\n          \"value\": \"fruit tissue\",\n          \"uni"
+      },
+      "json_valid": false,
+      "error": "Expecting value: line 311 column 22 (char 8620)"
+    },
+    {
+      "protocol_id": "12716",
+      "protocol_name": "PCR - 12716",
+      "category": "PCR",
+      "original_steps": 18,
+      "success": true,
+      "latency_s": 80.24,
+      "evaluation": {
+        "step_preservation": 16.7,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 44.2,
+        "extracted_steps": 3,
+        "original_steps": 18
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Probe_Backbone",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "type",
+                "value": "DNA backbone",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Phosphorylated_Probe_Backbone",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "state",
+                "value": "phosphorylated",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Ligated_invertedClampFISH_Probes",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "state",
+                "value": "ligated",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Purified_invertedClampFISH_Probes",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "state",
+                "value": "purified",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Probe backbone phosphorylation",
+            "description": "Phosphorylation of the probe backbone using T4 Polynucleotide Kinase.",
+            "inputs": [
+              "Probe_Backbone",
+              "T4 Polynucleotide Kinase"
+            ],
+            "parameters": [
+              {
+                "name": "Enzyme Activity",
+                "value": "2,500",
+                "unit": "units",
+                "description": "Activity of T4 Polynucleotide Kinase used for phosphorylation"
+              },
+              {
+                "name": "Incubation Temperature",
+                "value": "",
+                "unit": "Celsius",
+                "description": "Temperature for kinase reaction"
+              }
+            ],
+            "outputs": [
+              "Phosphorylated_Probe_Backbone"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "invertedClampFISH probe ligation",
+            "description": "Ligation of the phosphorylated probe backbones to create invertedClampFISH probes.",
+            "inputs": [
+              "Phosphorylated_Probe_Backbone",
+              "T7 DNA Ligase"
+            ],
+            "parameters": [
+              {
+                "name": "Enzyme Activity",
+                "value": "750,000",
+                "unit": "units",
+                "description": "Activity of T7 DNA Ligase used for ligation"
+              },
+              {
+                "name": "Ligation Time",
+                "value": "",
+                "unit": "hours",
+                "description": "Duration of the ligation reaction"
+              }
+            ],
+            "outputs": [
+              "Ligated_invertedClampFISH_Probes"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Column purify invertedClampFISH probes",
+            "description": "Purification of the ligated probes using a DNA cleanup kit.",
+            "inputs": [
+              "Ligated_invertedClampFISH_Probes",
+              "Monarch® PCR & DNA Cleanup Kit (5 μg)"
+            ],
+            "parameters": [
+              {
+                "name": "Column Capacity",
+                "value": "5",
+                "unit": "μg",
+                "description": "Maximum binding capacity of the Monarch cleanup column"
+              },
+              {
+                "name": "Wash Volume",
+                "value": "",
+                "unit": "ml",
+                "description": "Volume of wash buffer used during purification"
+              }
+            ],
+            "outputs": [
+              "Purified_invertedClampFISH_Probes"
+            ],
+            "dataFiles": []
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "105043",
+      "protocol_name": "Transformation - 105043",
+      "category": "Transformation",
+      "original_steps": 25,
+      "success": false,
+      "latency_s": 168.24,
+      "evaluation": {
+        "overall": 0,
+        "notes": "JSON parse failed"
+      },
+      "raw_output": {
+        "error": "Unterminated string starting at: line 137 column 19 (char 4115)",
+        "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"SARS-CoV-2 nsp3 macrodomain plasmid\",\n      \"organism\": \"SARS-CoV-2\",\n      \"characteristics\": [\n        {\n          \"category\": \"feature\",\n          \"value\": \"N-terminal His tag\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Transformed E. coli cells\",\n      \"organism\": \"Escherichia coli\",\n      \"characteristics\": []\n    },\n    {\n      \"name\": \"Crude protein lysate\",\n      \"org"
+      },
+      "json_valid": false,
+      "error": "Unterminated string starting at: line 137 column 19 (char 4115)"
+    },
+    {
+      "protocol_id": "121743",
+      "protocol_name": "Bacterial_Cultivation - 121743",
+      "category": "Bacterial_Cultivation",
+      "original_steps": 25,
+      "success": true,
+      "latency_s": 77.5,
+      "evaluation": {
+        "step_preservation": 16.0,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 43.9,
+        "extracted_steps": 4,
+        "original_steps": 25
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Streptococcus agalactiae culture",
+            "organism": "Streptococcus agalactiae",
+            "characteristics": [
+              {
+                "category": "group",
+                "value": "Group B Streptococcus (GBS)",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Penicillin solution",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "type",
+                "value": "Antimicrobial agent",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Gentamicin solution",
+            "organism": "N/A",
+            "characteristics": [
+              {
+                "category": "type",
+                "value": "Antimicrobial agent",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Antimicrobial preparation",
+            "description": "Preparation of penicillin and gentamicin solutions for synergy testing.",
+            "inputs": [
+              "Penicillin solution",
+              "Gentamicin solution"
+            ],
+            "parameters": [
+              {
+                "name": "concentration",
+                "value": "",
+                "unit": "ug/mL",
+                "description": "Concentration of antimicrobial agents used in the assay"
+              },
+              {
+                "name": "solvent",
+                "value": "",
+                "unit": "",
+                "description": "Buffer or media used to dissolve antimicrobials"
+              }
+            ],
+            "outputs": [
+              "Prepared Antimicrobials"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Inoculum preparation",
+            "description": "Preparation of the Streptococcus agalactiae bacterial inoculum.",
+            "inputs": [
+              "Streptococcus agalactiae culture"
+            ],
+            "parameters": [
+              {
+                "name": "inoculum density",
+                "value": "",
+                "unit": "CFU/mL",
+                "description": "Standardized concentration of bacteria for the assay"
+              },
+              {
+                "name": "growth media",
+                "value": "",
+                "unit": "",
+                "description": "Media used for initial bacterial growth"
+              }
+            ],
+            "outputs": [
+              "Standardized Inoculum"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Settings Configuration",
+            "description": "Defining the environmental variables and equipment settings for the time-kill assay.",
+            "inputs": [
+              "Standardized Inoculum",
+              "Prepared Antimicrobials"
+            ],
+            "parameters": [
+              {
+                "name": "incubation volume",
+                "value": "",
+                "unit": "mL",
+                "description": "The total volume of the incubation medium"
+              },
+              {
+                "name": "CO2 proportion",
+                "value": "",
+                "unit": "%",
+                "description": "Percentage of CO2 in the incubator atmosphere"
+              },
+              {
+                "name": "shaker usage",
+                "value": "",
+                "unit": "rpm",
+                "description": "Whether a shaker is used and at what speed"
+              },
+              {
+                "name": "media type",
+                "value": "",
+                "unit": "",
+                "description": "The specific media chosen for the assay stability test"
+              }
+            ],
+            "outputs": [
+              "Experimental Setup"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Time-kill assay",
+            "description": "Execution of the time-kill assay to evaluate synergy between penicillin and gentamicin.",
+            "inputs": [
+              "Experimental Setup"
+            ],
+            "parameters": [
+              {
+                "name": "incubation temperature",
+                "value": "37",
+                "unit": "Celsius",
+                "description": "Standard incubation temperature for GBS"
+              },
+              {
+                "name": "sampling time points",
+                "value": "",
+                "unit": "hours",
+                "description": "Intervals at which bacterial counts are measured"
+              }
+            ],
+            "outputs": [
+              "Bacterial Growth Data"
+            ],
+            "dataFiles": [
+              "time_kill_results.csv"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "102038",
+      "protocol_name": "Sequencing - 102038",
+      "category": "Sequencing",
+      "original_steps": 9,
+      "success": true,
+      "latency_s": 83.0,
+      "evaluation": {
+        "step_preservation": 55.6,
+        "parameter_extraction": 800.0,
+        "component_extraction": 700.0,
+        "sequence_order": 100,
+        "overall": 377.2,
+        "extracted_steps": 5,
+        "original_steps": 9
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Algae Sample",
+            "organism": "Algae",
+            "characteristics": [
+              {
+                "category": "source",
+                "value": "bioassessment sample",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          },
+          {
+            "name": "Field Blank",
+            "organism": "Deionized water",
+            "characteristics": [
+              {
+                "category": "type",
+                "value": "negative control",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Sample Collection",
+            "description": "Collection and homogenization of bioassessment samples to prepare for filtering.",
+            "inputs": [
+              "Algae Sample"
+            ],
+            "parameters": [
+              {
+                "name": "homogenization",
+                "value": "yes",
+                "unit": "",
+                "description": "Samples must be homogenized before filtration"
+              }
+            ],
+            "outputs": [
+              "Homogenized Algae Sample"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Filtering",
+            "description": "Capturing algae from the homogenized sample using cellulose nitrate filters.",
+            "inputs": [
+              "Homogenized Algae Sample"
+            ],
+            "parameters": [
+              {
+                "name": "filter holder size",
+                "value": "47",
+                "unit": "mm",
+                "description": "Whatman/Swinnex filter holders or filter funnel size"
+              },
+              {
+                "name": "filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "description": "Pore size of cellulose nitrate filters"
+              }
+            ],
+            "outputs": [
+              "Filtered Algae"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Preservation",
+            "description": "Placing filtered algae in screw cap tubes with preservation solution and storing at low temperatures.",
+            "inputs": [
+              "Filtered Algae"
+            ],
+            "parameters": [
+              {
+                "name": "storage temperature low",
+                "value": "-20",
+                "unit": "°C",
+                "description": "Minimum storage temperature option 1"
+              },
+              {
+                "name": "storage temperature ultra-low",
+                "value": "-80",
+                "unit": "°C",
+                "description": "Minimum storage temperature option 2"
+              },
+              {
+                "name": "maximum storage duration",
+                "value": "6",
+                "unit": "months",
+                "description": "Maximum time samples can be stored"
+              }
+            ],
+            "outputs": [
+              "Preserved Algae Sample"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Field Blank Collection",
+            "description": "Filtering deionized water to create a field blank for contamination control.",
+            "inputs": [
+              "Field Blank"
+            ],
+            "parameters": [
+              {
+                "name": "filter pore size",
+                "value": "0.45",
+                "unit": "µm",
+                "description": "Pore size of cellulose nitrate filters used for blank"
+              }
+            ],
+            "outputs": [
+              "Filtered Field Blank"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Sample Metadata Recording",
+            "description": "Recording and labeling metadata for the collected samples.",
+            "inputs": [
+              "Preserved Algae Sample",
+              "Filtered Field Blank"
+            ],
+            "parameters": [
+              {
+                "name": "labeling",
+                "value": "required",
+                "unit": "",
+                "description": "All tubes must be labeled for identification"
+              }
+            ],
+            "outputs": [
+              "Sample Metadata File"
+            ],
+            "dataFiles": [
+              "metadata.csv"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    },
+    {
+      "protocol_id": "103062",
+      "protocol_name": "DNA_Extraction - 103062",
+      "category": "DNA_Extraction",
+      "original_steps": 8,
+      "success": true,
+      "latency_s": 95.09,
+      "evaluation": {
+        "step_preservation": 100,
+        "parameter_extraction": 50,
+        "component_extraction": 50,
+        "sequence_order": 100,
+        "overall": 77.5,
+        "extracted_steps": 8,
+        "original_steps": 8
+      },
+      "raw_output": {
+        "samples": [
+          {
+            "name": "Marine Virus Sample",
+            "organism": "Marine DNA virus",
+            "characteristics": [
+              {
+                "category": "source",
+                "value": "marine environment",
+                "unit": "",
+                "termSource": "",
+                "termAccession": ""
+              }
+            ]
+          }
+        ],
+        "protocols": [
+          {
+            "name": "Lysate preparation",
+            "description": "Preparation of the initial virus lysate from the marine sample.",
+            "inputs": [
+              "Marine Virus Sample"
+            ],
+            "parameters": [
+              {
+                "name": "centrifugation_speed",
+                "value": "",
+                "unit": "g",
+                "description": "Centrifugation force used for lysate preparation"
+              },
+              {
+                "name": "temperature",
+                "value": "4",
+                "unit": "°C",
+                "description": "Standard temperature for viral processing"
+              }
+            ],
+            "outputs": [
+              "Virus Lysate"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral clarification and concentration (Step 2)",
+            "description": "First stage of clarifying the lysate to remove debris.",
+            "inputs": [
+              "Virus Lysate"
+            ],
+            "parameters": [
+              {
+                "name": "filter_pore_size",
+                "value": "",
+                "unit": "µm",
+                "description": "Pore size used for clarification filtration"
+              }
+            ],
+            "outputs": [
+              "Clarified Lysate"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral clarification and concentration (Step 3)",
+            "description": "Second stage focusing on concentrating the viral particles.",
+            "inputs": [
+              "Clarified Lysate"
+            ],
+            "parameters": [
+              {
+                "name": "concentration_method",
+                "value": "",
+                "unit": "",
+                "description": "Method used for concentration (e.g., ultrafiltration)"
+              }
+            ],
+            "outputs": [
+              "Concentrated Virus"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient (Step 4)",
+            "description": "Initial setup and layering of the linear sucrose gradient.",
+            "inputs": [
+              "Concentrated Virus"
+            ],
+            "parameters": [
+              {
+                "name": "gradient_type",
+                "value": "linear",
+                "unit": "",
+                "description": "The type of sucrose density gradient used"
+              },
+              {
+                "name": "sucrose_concentration",
+                "value": "",
+                "unit": "%",
+                "description": "Range of sucrose concentrations in the gradient"
+              }
+            ],
+            "outputs": [
+              "Layered Sucrose Gradient"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient (Step 5)",
+            "description": "Ultracentrifugation of the layered sucrose gradient to separate viral particles.",
+            "inputs": [
+              "Layered Sucrose Gradient"
+            ],
+            "parameters": [
+              {
+                "name": "centrifugation_time",
+                "value": "",
+                "unit": "hours",
+                "description": "Duration of the ultracentrifugation run"
+              },
+              {
+                "name": "centrifugation_speed",
+                "value": "",
+                "unit": "rpm",
+                "description": "Speed of the ultracentrifuge"
+              }
+            ],
+            "outputs": [
+              "Separated Viral Bands"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Viral purification using linear sucrose gradient (Step 6)",
+            "description": "Recovery and collection of purified viral particles from the gradient.",
+            "inputs": [
+              "Separated Viral Bands"
+            ],
+            "parameters": [
+              {
+                "name": "fraction_volume",
+                "value": "",
+                "unit": "ml",
+                "description": "Volume of each fraction collected from the gradient"
+              }
+            ],
+            "outputs": [
+              "Purified Virus Particles"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "Extraction of DNA",
+            "description": "Extraction of genomic DNA from the purified viral particles.",
+            "inputs": [
+              "Purified Virus Particles"
+            ],
+            "parameters": [
+              {
+                "name": "extraction_method",
+                "value": "",
+                "unit": "",
+                "description": "Chemical or kit-based method used for DNA extraction"
+              }
+            ],
+            "outputs": [
+              "Extracted Viral DNA"
+            ],
+            "dataFiles": []
+          },
+          {
+            "name": "QuBit quantification",
+            "description": "Quantification of the extracted nucleic acids using a fluorimeter.",
+            "inputs": [
+              "Extracted Viral DNA"
+            ],
+            "parameters": [
+              {
+                "name": "equipment",
+                "value": "Qubit 4 fluorimeter",
+                "unit": "",
+                "description": "The device used for quantification"
+              },
+              {
+                "name": "assay_type",
+                "value": "DNA Broad Range or High Sensitivity",
+                "unit": "",
+                "description": "The specific Qubit assay used"
+              }
+            ],
+            "outputs": [
+              "Quantification Data"
+            ],
+            "dataFiles": [
+              "quantification_results.txt"
+            ]
+          }
+        ]
+      },
+      "json_valid": true
+    }
+  ]
+}

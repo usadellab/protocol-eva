@@ -1,0 +1,33 @@
+Title: Electroporation of Thalassiosira pseudonana
+
+Description:
+An electroporation-mediated genetic transformation or the marine diatom Thalassiosira pseudonana was developed. Using a sorbitol-based buffer, T. pseudonana cells were successfully transformed with the Tpfcp/nat plasmid at an efficiency of 2820 per 108 cells.  This  represents a six-fold improvement compared with previously published methods. 
+
+
+=== PROTOCOL STEPS ===
+
+
+## Step 2: Cell collection option 1
+
+## Step 3: Cell collection option 1
+
+## Step 4: Cell collection option 2
+
+## Step 5: Cell collection option 2
+
+## Step 6: Electroporation
+
+## Step 7: Electroporation
+
+## Step 8: Electroporation
+
+## Step 9: Electroporation
+
+## Step 10: Electroporation
+
+## Step 11: Electroporation
+
+## Step 12: Electroporation
+
+=== MATERIALS ===
+- f/2 medium

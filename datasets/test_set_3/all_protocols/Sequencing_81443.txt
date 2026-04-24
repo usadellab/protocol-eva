@@ -1,0 +1,22 @@
+Title: a protocol for the detection mitochondrial heteroplasmy in a non model organism from whole genome sequencing data
+
+Description:
+In the great majority of sexual eukaryotic organisms, mitochondrial inheritance is uniparental (usually maternal) which is tightly regulated to maintain homoplasmy in the progeny. However, many situations give rise to a cell with a mixture of two or more types of mitochondria, a state referred to as heteroplasmy. The situations where mitochondrial heteroplasmy can occur include:
+ Somatic hybridization (exchange of cytoplasm).
+Biparental inheritance of mt-genomes. 
+Paternal leakage of mitochondrial DNA.
+Random de novo mutations. 
+Somatic hybridization or anastomosis (hyphal fusion) has been reported in many fungal and plant species where cells of two diverse isolates fuse to produce offspring with a hybrid. In the event where two highly diverse mt-genomes come together in one cell leading to a high level of cytonuclear incompatibility, the cell selectively eliminates one of the mt-genomes eg for the Rhizophagusirregularis mushroom fungus. However, if there is no cytonuclear incompatibility, slightly different mt-genomes can co-exist within a single cell.
+Detecting mitochondrial heteroplasmy in a non-model organism can be a  challenging task as there may be limited genomic resources available.  However, with the advancements in next-generation sequencing  technologies, it is possible to sequence and assemble the mitochondrial  genome even in non-model organisms. Here are some detailed steps for  detecting mitochondrial heteroplasmy in a non-model species from  whole-genome sequencing data
+
+
+
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+

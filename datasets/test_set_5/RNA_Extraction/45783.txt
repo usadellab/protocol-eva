@@ -1,0 +1,22 @@
+Title: Copy of COVID 19 testing using ATR spectrometer and AI.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Sample collection and RNA extraction
+
+## Step 2: Sample collection and RNA extraction
+
+## Step 3: Sample collection and RNA extraction
+
+## Step 4: Genetic extract spectra measurement and classification 
+
+## Step 5: Genetic extract spectra measurement and classification 
+
+## Step 6: Genetic extract spectra measurement and classification 
+
+## Step 7: Genetic extract spectra measurement and classification 
+
+## Step 8: Genetic extract spectra measurement and classification 
+
+## Step 9: Genetic extract spectra measurement and classification 

@@ -1,0 +1,95 @@
+Title: eDNA Extraction using Zymo Miniprep plus kit
+
+Description:
+The Zymo miniprep plus kit is highly versatile, and has manufacturer protocols for extracting DNA from many types of samples.  In addition to the sample types mentioned in the official protocol, this kit can also be used for extracting DNA from filtered eDNA.  With additional initial heating and vortexing steps, extracted eDNA yields from this kit are comparable to those from much more expensive kits.  This protocol includes adaptations for extracting eDNA from Sterivex filters as well as from disk filters.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation
+
+## Step 2: Preparation
+
+## Step 3: Preparation
+
+## Step 4: Extraction
+
+## Step 5: Extraction
+
+## Step 6: Extraction
+
+## Step 7: Extraction
+
+## Step 8: Extraction
+
+## Step 9: Extraction
+
+## Step 10: Extraction
+
+## Step 11: Extraction
+
+## Step 12: Extraction
+
+## Step 13: Extraction
+
+## Step 14: Extraction
+
+## Step 15: Qubit
+
+## Step 16: Extraction
+
+## Step 17: Extraction
+
+## Step 18: Extraction
+
+## Step 19: Extraction
+
+## Step 20: Extraction
+
+## Step 21: Extraction
+
+## Step 22: Extraction
+
+## Step 23: Extraction
+
+## Step 24: Extraction
+
+## Step 25: Extraction
+
+## Step 26: Extraction
+
+## Step 27: Qubit
+
+## Step 28: Qubit
+
+## Step 29: Qubit
+
+## Step 30: Qubit
+
+## Step 31: Qubit
+
+## Step 32: Qubit
+
+## Step 33: Qubit
+
+## Step 34: Qubit
+
+## Step 35: Qubit
+
+## Step 36: Sterivex only
+
+## Step 37: Preparation
+
+## Step 38: Preparation
+
+## Step 39: Sterivex only
+
+## Step 40: Sterivex only
+
+## Step 41: Sterivex only
+
+## Step 42: Extraction
+
+## Step 43: Extraction
+
+## Step 44: Extraction

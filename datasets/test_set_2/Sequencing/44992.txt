@@ -1,0 +1,82 @@
+Title: METATAC V.1
+
+Description:
+Abstract
+Here we describe a protocol for multiplexed end-tagging amplification of transposase accessible
+chromatin (METATAC), a high-sensitivity single-cell ATAC-seq technique with the help of META chemistry and extensive biochemical modifications. We improved the protocol from three aspects, first, we used Omni-ATAC protocol to permeabilize cells, which greatly reduced mitochondrial reads to less than 0.5%. Second, we used sodium
+dodecyl sulfate (SDS) to release Tn5 from bound DNA, which enabled maximum DNA recovery. Third, we use META transposome instead Nextera transposome used in other protocols, which avoids half loss due to self-looping during amplification, thus further increasing library size. Specifically, META sequences also serve as a barcode to fragment decontamination, which provides high-sensitivity and precise single-cell chromatin accessibility analysis.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Bulk Transposition
+
+## Step 2: Bulk Transposition
+
+## Step 3: Bulk Transposition
+
+## Step 4: Bulk Transposition
+
+## Step 5: Bulk Transposition
+
+## Step 6: Bulk Transposition
+
+## Step 7: Bulk Transposition
+
+## Step 8: Bulk Transposition
+
+## Step 9: Bulk Transposition
+
+## Step 10: Bulk Transposition
+
+## Step 11: Bulk Transposition
+
+## Step 12: FACS single nuclei
+
+## Step 13: FACS single nuclei
+
+## Step 14: Amplification
+
+## Step 15: Amplification
+
+## Step 16: Amplification
+
+## Step 17: Amplification
+
+## Step 18: Amplification
+
+## Step 19: Amplification
+
+## Step 20: Amplification
+
+## Step 21: Amplification
+
+## Step 22: Library preparation
+
+## Step 23: Library preparation
+
+## Step 24: Library preparation
+
+## Step 25: REAGENT SETUP
+
+## Step 26: REAGENT SETUP
+
+## Step 27: REAGENT SETUP
+
+## Step 28: REAGENT SETUP
+
+## Step 29: REAGENT SETUP
+
+## Step 30: REAGENT SETUP
+
+## Step 31: REAGENT SETUP
+
+## Step 32: Library preparation
+
+## Step 33: Amplification
+
+## Step 34: Sequencing
+
+## Step 35: Library preparation
+
+## Step 36: Sequencing

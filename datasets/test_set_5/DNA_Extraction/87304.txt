@@ -1,0 +1,66 @@
+Title: Sanger Tree of Life HMW DNA Extraction: Manual Nucleated Blood Nanobind®
+
+Description:
+This protocol describes the manual extraction of HMW DNA from nucleated blood samples intended for long-read sequencing using the Nanobind® tissue kit and following the ‘Extracting HMW DNA from nucleated blood using Nanobind® kits’ procedure from PacBio. This process is effective for any species with nucleated blood within the Chordate group, covered by the Tree of Life Programme, however difficulties can arise with samples where preservation has not been optimal. The output of this protocol is high quality and quantity HMW DNA, which can be directed towards the HMW DNA Fragmentation: Diagenode Megaruptor®3 for LI PacBio protocol.
+Acronyms:
+HMW: high-molecular weight
+LI: low input
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Laboratory protocol
+
+## Step 2: Laboratory protocol
+
+## Step 3: Laboratory protocol
+
+## Step 4: Laboratory protocol
+
+## Step 5: Laboratory protocol
+
+## Step 6: Laboratory protocol
+
+## Step 7: Laboratory protocol
+
+## Step 8: Laboratory protocol
+
+## Step 9: Laboratory protocol
+
+## Step 10: Laboratory protocol
+
+## Step 11: Laboratory protocol
+
+## Step 12: Laboratory protocol
+
+## Step 13: Laboratory protocol
+
+## Step 14: Laboratory protocol
+
+## Step 15: Laboratory protocol
+
+## Step 16: Laboratory protocol
+
+## Step 17: Laboratory protocol
+
+## Step 18: Laboratory protocol
+
+## Step 19: Laboratory protocol
+
+## Step 20: Laboratory protocol
+
+## Step 21: Laboratory protocol
+
+## Step 22: Laboratory protocol
+
+## Step 23: Laboratory protocol
+
+## Step 24: Laboratory protocol
+
+## Step 25: Laboratory protocol
+
+## Step 26: Laboratory protocol
+
+## Step 27: Laboratory protocol
+
+## Step 28: Laboratory protocol

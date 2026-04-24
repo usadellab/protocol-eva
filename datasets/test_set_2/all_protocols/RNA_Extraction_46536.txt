@@ -1,0 +1,31 @@
+Title: Intracardiac perfusion and brain fixation for immunohistochemistry
+
+Description:
+This protocol aims to preserve brain tissue for immunohistochemistry studies. It is not valid for protein or RNA extraction studies.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Animal Sacrifice
+
+## Step 2: Animal Sacrifice
+
+## Step 3: Brain post-fixation and cryoprotection
+
+## Step 4: Brain post-fixation and cryoprotection
+
+## Step 5: Brain post-fixation and cryoprotection
+
+## Step 6: Brain post-fixation and cryoprotection
+
+## Step 7: Animal Sacrifice
+
+## Step 8: Animal Sacrifice
+
+## Step 9: Brain freezing
+
+## Step 10: Brain freezing
+
+## Step 11: Brain freezing
+
+## Step 12: Brain freezing

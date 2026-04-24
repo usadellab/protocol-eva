@@ -1,0 +1,24 @@
+Title:   Purification of marine DNA virus by sucrose density gradient.
+
+Description:
+This protocol describes our workflow for processing the virus lysate to study the genome of marine DNA viruses. The steps include lysate clarification, viral concentration and purification using sucrose density gradient, DNA extraction and a last step of nucleic acids quantification. The DNA obtained using this protocol can be use for sequencing.
+This method was adapted to F.Lelchat et al.,2019.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lysate preparation.
+
+## Step 2: Viral clarification and concentration.
+
+## Step 3: Viral clarification and concentration.
+
+## Step 4: Viral purification using linear sucrose gradient.
+
+## Step 5: Viral purification using linear sucrose gradient.
+
+## Step 6: Viral purification using linear sucrose gradient.
+
+## Step 7: Extraction of DNA.
+
+## Step 8: QuBit quantification using Qubit 4 fluorimeter.

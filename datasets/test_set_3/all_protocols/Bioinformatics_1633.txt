@@ -1,0 +1,43 @@
+Title: Qiagen QIAquick Gel Extraction Kit (28704 and 28706), centrifuge processing
+
+Description:
+The Qiagen QIAquick Gel Extraction kit (catalog #28704 and 28706) are for extraction of DNA fragments (70 bp – 10 kb) from standard or low-melt agarose gels in TAE buffer (Tris·acetate/EDTA) or TBE buffer (Tris·borate/ EDTA) and DNA cleanup from enzymatic reactions. The kit is suitable for purification of up to 10μg of DNA (70bp to 10kb).
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Extraction
+
+## Step 2: Extraction
+
+## Step 3: Extraction
+
+## Step 4: Extraction
+
+## Step 5: Extraction
+
+## Step 6: Extraction
+
+## Step 7: Binding
+
+## Step 8: Binding
+
+## Step 9: Binding
+
+## Step 10: Wash
+
+## Step 11: Wash
+
+## Step 12: Wash
+
+## Step 13: Wash
+
+## Step 14: Wash
+
+## Step 15: Wash
+
+## Step 16: Elution
+
+## Step 17: Elution
+
+## Step 18: Analysis

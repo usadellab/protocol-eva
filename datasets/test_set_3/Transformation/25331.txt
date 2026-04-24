@@ -1,0 +1,21 @@
+Title: Efforts to transform Heterosigma akashiwo using an Agrobacterium-mediated approach
+
+Description:
+This protocol was developed for transformation of Heterosigma akashiwo by Agrobacterium tumefaciens. H. akashiwo does not grow on solid medium, so transformants are grown "in bulk" and should not be considered clonal. We have had limited success with this protocol and may require further optimization. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparing H.akashiwo for co-cultivation
+
+## Step 2: Co-cultivation
+
+## Step 3: Selection to identify putative algal transformants
+
+## Step 4: Test results and Outcomes
+
+## Step 5: Preparing an Agrobacterium starter culture
+
+## Step 6: Preparing an Agrobacterium transformation culture
+
+## Step 7: Additional Information

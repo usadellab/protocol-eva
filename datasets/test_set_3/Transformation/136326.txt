@@ -1,0 +1,37 @@
+Title: C. neoformans Electroporation Transformation
+
+Description:
+Protocol for electroporation transformation of digested plasmid or PCR products into C. neoformans utilised in Hardwick lab. Adapted from "Modified Transient CRISPR-Cas9 Coupled with Electroporation(TRACE)", see references. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation &amp; Precultures 
+
+## Step 2: Preparation &amp; Precultures 
+
+## Step 3: Preparation &amp; Precultures 
+
+## Step 4: Competent Cell Preparation
+
+## Step 5: Preparation &amp; Precultures 
+
+## Step 6: Competent Cell Preparation
+
+## Step 7: Competent Cell Preparation
+
+## Step 8: Competent Cell Preparation
+
+## Step 9: Competent Cell Preparation
+
+## Step 10: Electroporation Transformation
+
+## Step 11: Electroporation Transformation
+
+## Step 12: Electroporation Transformation
+
+## Step 13: Electroporation Transformation
+
+## Step 14: Growth and Screening
+
+## Step 15: Growth and Screening

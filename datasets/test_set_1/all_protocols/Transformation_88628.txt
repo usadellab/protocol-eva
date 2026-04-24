@@ -1,0 +1,65 @@
+Title: Production of GTPase Deficient RAB1A(Q70L) Protein
+
+Description:
+Bacterial expression of the GTPase deficient Q70L mutant of human RAB1A.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Transformation and Colony Selection
+
+## Step 2: Transformation and Colony Selection
+
+## Step 3: Transformation and Colony Selection
+
+## Step 4: Pre-culture and Expansion
+
+## Step 5: Pre-culture and Expansion
+
+## Step 6: Main Culture Preparation
+
+## Step 7: Main Culture Preparation
+
+## Step 8: Cooling and Induction
+
+## Step 9: Cooling and Induction
+
+## Step 10: Cooling and Induction
+
+## Step 11: Cell Harvest and Pelleting
+
+## Step 12: Cell Washing and Freezing
+
+## Step 13: Cell Washing and Freezing
+
+## Step 14: Cell Washing and Freezing
+
+## Step 15: Cell Washing and Freezing
+
+## Step 16: Cell Lysis
+
+## Step 17: Cell Lysis
+
+## Step 18: Cell Lysis
+
+## Step 19: Cell Lysis
+
+## Step 20: Clarification by Centrifugation
+
+## Step 21: Protein Purification on Ni-NTA Column
+
+## Step 22: Protein Purification on Ni-NTA Column
+
+## Step 23: Protein Purification on Ni-NTA Column
+
+## Step 24: Size Exclusion Chromatography
+
+## Step 25: Size Exclusion Chromatography
+
+## Step 26: Final Protein Concentration
+
+## Step 27: Final Protein Concentration
+
+## Step 28: Cryopreservation
+
+## Step 29: Cryopreservation

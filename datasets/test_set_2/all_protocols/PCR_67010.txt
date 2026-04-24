@@ -1,0 +1,36 @@
+Title: SNICR barcode library generation    
+
+Description:
+SNICR barcodes contain a 10x Capture Sequence (Capture Sequence 2) at the 3' end of the transcript. However, the barcodes are located 3' of a full-length H2B-GFP transcript, and are therefore much longer than typical Capture Sequence expressing gRNAs. The 10x protocol can be followed for the first step to perform cDNA amplification from the capture sequence, but afterwards must follow a custom protocol to recover the long transcripts and sub-amplify the barcodes.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 10x steps
+
+
+## Step 3: Subamplification of SNICR barcodes
+
+## Step 4: 10x steps
+
+## Step 5: Subamplification of SNICR barcodes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

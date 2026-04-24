@@ -1,0 +1,18 @@
+{
+  "protocol_id": "121743",
+  "protocol_name": "Bacterial_Cultivation - 121743",
+  "category": "Bacterial_Cultivation",
+  "original_steps": 25,
+  "success": false,
+  "latency_s": 28.08,
+  "evaluation": {
+    "overall": 0,
+    "notes": "JSON parse failed"
+  },
+  "raw_output": {
+    "error": "Expecting property name enclosed in double quotes: line 168 column 11 (char 4715)",
+    "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"GBS_Isolate_1\",\n      \"organism\": \"Streptococcus agalactiae\",\n      \"characteristics\": [\n        {\n          \"category\": \"strain\",\n          \"value\": \"ATCC 12345\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        },\n        {\n          \"category\": \"source\",\n          \"value\": \"clinical isolate from non‑pregnant adult\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    "
+  },
+  "json_valid": false,
+  "error": "Expecting property name enclosed in double quotes: line 168 column 11 (char 4715)"
+}

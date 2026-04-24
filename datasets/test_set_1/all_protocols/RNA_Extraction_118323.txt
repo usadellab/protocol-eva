@@ -1,0 +1,49 @@
+Title: RNA Extraction From Mouse Tissue 
+
+Description:
+how to extract RNA from mouse tissue 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation before Perfusion 
+
+## Step 2: Preparation before Perfusion 
+
+## Step 3: Preparation before Perfusion 
+
+## Step 4: Preparation before Perfusion 
+
+## Step 5: Preparation before Perfusion 
+
+## Step 6: Mouse Perfusion with only DPBS
+
+## Step 7: Preparation before Perfusion 
+
+## Step 8: Mouse Perfusion with only DPBS
+
+## Step 9: Mouse Perfusion with only DPBS
+
+## Step 10: Mouse Perfusion with only DPBS
+
+## Step 11: Mouse Perfusion with only DPBS
+
+## Step 12: Mouse Perfusion with only DPBS
+
+## Step 13: Mouse Perfusion with only DPBS
+
+## Step 14: Mouse Perfusion with only DPBS
+
+## Step 15: Mouse Perfusion with only DPBS
+
+## Step 16: Extracting tissue 
+
+## Step 17: Extracting tissue 
+
+## Step 18: Extracting tissue 
+
+## Step 19: Extracting tissue 
+
+## Step 20: Extracting tissue 
+
+## Step 21: Qiagen Rneasy Mini Columns Protocol  

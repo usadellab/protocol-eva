@@ -1,0 +1,45 @@
+Title: Mouse Tissue mtDNA Copy Number Protocol
+
+Description:
+ Mouse Tissue mtDNA Copy Number Protocol developed in the Picard lab at Departments of Psychiatry and Neurology, Robert N Butler Columbia Aging Center, Columbia
+University Irving Medical Center, New York, NY, USA
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Consumables, with catalog numbers:
+
+## Step 2: Lysis buffer for mtDNA measurement
+
+## Step 3: Lysis buffer for mtDNA measurement
+
+## Step 4: Lysis buffer for mtDNA measurement
+
+## Step 5: Lysis buffer for mtDNA measurement
+
+## Step 6: Lysis buffer for mtDNA measurement
+
+## Step 7: Lysis buffer for mtDNA measurement
+
+## Step 8: Lysis buffer for mtDNA measurement
+
+## Step 9: Lysis buffer for mtDNA measurement
+
+## Step 10: Lysis buffer for mtDNA measurement
+
+
+## Step 12: 6.	qPCR data analysis and error checking
+
+## Step 13: 6.	qPCR data analysis and error checking
+
+## Step 14: 6.	qPCR data analysis and error checking
+
+## Step 15: 6.	qPCR data analysis and error checking
+
+## Step 16: Appendix A: qPCR Reagents and MasterMix Recipe
+
+## Step 17: Appendix A: qPCR Reagents and MasterMix Recipe
+
+## Step 18: Appendix A: qPCR Reagents and MasterMix Recipe
+
+## Step 19: Appendix A: qPCR Reagents and MasterMix Recipe

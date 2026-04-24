@@ -1,0 +1,53 @@
+Title: Yeast Peptone Dextrose (YPD) medium
+
+Description:
+Yeast peptone dextrose is a medium composition used to grow many common yeasts, among others Saccharomyces cerevisiae. Glucose is the primary carbon and energy source, while nitrogen and essential amino acids are provided by the yeast extract and peptone. It is nonselective and the addition of protein and yeast extract allows faster growth so that during exponential or log-phase growth, the cells divide every 90 minutes in S. cerevisiae.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 100 mL Dextrose solution
+
+## Step 2: 500 mL YPD (broth) medium
+
+## Step 3: 500 mL YPD (agar) medium
+
+## Step 4: 100 mL Dextrose solution
+
+## Step 5: 100 mL Dextrose solution
+
+## Step 6: 100 mL Dextrose solution
+
+## Step 7: 100 mL Dextrose solution
+
+## Step 8: 100 mL Dextrose solution
+
+## Step 9: 100 mL Dextrose solution
+
+## Step 10: 500 mL YPD (broth) medium
+
+## Step 11: 500 mL YPD (broth) medium
+
+## Step 12: 500 mL YPD (broth) medium
+
+## Step 13: 500 mL YPD (broth) medium
+
+## Step 14: 500 mL YPD (broth) medium
+
+## Step 15: 500 mL YPD (broth) medium
+
+## Step 16: 500 mL YPD (broth) medium
+
+## Step 17: 500 mL YPD (agar) medium
+
+## Step 18: 500 mL YPD (agar) medium
+
+## Step 19: 500 mL YPD (agar) medium
+
+## Step 20: 500 mL YPD (agar) medium
+
+## Step 21: 500 mL YPD (agar) medium
+
+## Step 22: 500 mL YPD (agar) medium
+
+## Step 23: 500 mL YPD (agar) medium

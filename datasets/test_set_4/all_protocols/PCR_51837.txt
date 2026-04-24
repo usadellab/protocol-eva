@@ -1,0 +1,53 @@
+Title: SMART-Seq
+
+Description:
+This protocol details the cell lysis / Oligot-dT priming, reverse transcription, PCR preamplification and quality Check cDNA and tagmentation reaction.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell Lysis / Oligot-dT Priming
+
+## Step 2: Cell Lysis / Oligot-dT Priming
+
+## Step 3: Cell Lysis / Oligot-dT Priming
+
+## Step 4: Cell Lysis / Oligot-dT Priming
+
+## Step 5: Cell Lysis / Oligot-dT Priming
+
+## Step 6: Cell Lysis / Oligot-dT Priming
+
+## Step 7: Cell Lysis / Oligot-dT Priming
+
+## Step 8: Reverse Transcription
+
+## Step 9: Reverse Transcription
+
+## Step 10: Reverse Transcription
+
+## Step 11: PCR preamplification
+
+## Step 12: PCR preamplification
+
+## Step 13: Ampure Cleanup
+
+## Step 14: Ampure Cleanup
+
+## Step 15: Quality Check cDNA
+
+## Step 16: Quality Check cDNA
+
+## Step 17: Tagmentation Reaction
+
+## Step 18: Tagmentation Reaction
+
+## Step 19: Tagmentation Reaction
+
+## Step 20: Tagmentation Reaction
+
+## Step 21: Enrichment of Tagmented cDNA
+
+## Step 22: Enrichment of Tagmented cDNA
+
+## Step 23: Expected results:

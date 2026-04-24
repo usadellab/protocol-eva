@@ -1,0 +1,30 @@
+Title: DNA extraction from avian faeces stored in ethanol
+
+Description:
+DNA extraction from blue tit (Cyanistes caeruleus) faeces stored in ethanol.
+Methodology uses the Qiagen QIAamp DNA Stool Kit (Qiagen part no. 51504), following the “Isolation of DNA from Stool for Pathogen Detection” protocol (June 2012 edition), with some modifications following Zeale et al. 2011 (Mol. Ecol. Res. 11: 236-244) and custom modifications to accommodate dried avian faeces.  Custom modifications include homogenisation of samples in lysis buffer by shaking in a TissueLyser with a tungsten carbine bead, increased lysis times in the presence of additional Proteinase K, and use of larger buffer volumes; all these modifications were experimentally validated to improve DNA yields.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=== MATERIALS ===
+- QIAamp® Fast DNA Stool Mini Kit 

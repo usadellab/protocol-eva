@@ -1,0 +1,35 @@
+Title: Cell deposition and drug sensitivity assay
+
+Description:
+This protocol describes how to deposit several cells of S. robusta in droplets on a petri dish, allowing the experimenter to track the growth of approximately single cell isolates with high throughput. This was used to determine drug sensitivity.
+We found that in, liquid culture, S. robusta is sensitive to 10 ug/mL puromycin and 250 ug/mL glyphosate. One caveat to keep in mind is that S. robusta appears more tolerant to antibiotics when grown on agar plates, being insensitive to up to 20 ug/mL of puromycin, for example. We recommend selection in liquid culture.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Measure density of floating cells in culture
+
+## Step 2: Measure density of floating cells in culture
+
+## Step 3: Measure density of floating cells in culture
+
+## Step 4: Deposit cells in droplets on a petri dish
+
+## Step 5: Deposit cells in droplets on a petri dish
+
+## Step 6: Deposit cells in droplets on a petri dish
+
+## Step 7: Count initial cells
+
+## Step 8: Count initial cells
+
+## Step 9: Count initial cells
+
+## Step 10: Assay
+
+## Step 11: Measure density of floating cells in culture
+
+=== MATERIALS ===
+- Puromycin dihydrochloride
+- Hygromycin B
+- Glyphosate

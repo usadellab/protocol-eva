@@ -1,0 +1,39 @@
+Title: Tranformation of Thalassiosira pseudonana via bacterial conjugation
+
+Description:
+This protocol has been successfully used to express nourseothricin resistance gene, mVenus fluorescence protein and other proteins related to triterpenoids production in Thalassiosira pseudonana (Tp) strain CCMP1335.  The original protocol was published by Karas et al. (2015) where a  detailed description of L1 medium and plates preparation is presented. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Growth and preparation of E. coli donor
+
+## Step 2: Growth and preparation of E. coli donor
+
+## Step 3: Growth and preparation of E. coli donor
+
+## Step 4: Growth and preparation of E. coli donor
+
+## Step 5: Growth and preparation of E. coli donor
+
+## Step 6: Growth and preparation of diatom cells
+
+## Step 7: Conjugation
+
+## Step 8: Conjugation
+
+## Step 9: Conjugation
+
+## Step 10: Conjugation
+
+## Step 11: Conjugation
+
+## Step 12: Growth and preparation of diatom cells
+
+## Step 13: Selection
+
+## Step 14: Selection
+
+## Step 15: Selection
+
+## Step 16: Growth and preparation of diatom cells

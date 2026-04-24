@@ -1,0 +1,26 @@
+Title: Cyanobacteria Total Lipid Extraction from Polycarbonate Filters
+
+Description:
+This protocol is designed/used for extraction of total cellular lipids from cyanobacteria samples (either lab cultures or field samples) collected on polycarbonate filters for use in lipid analysis and quantification via mass spectrometry. 
+Please contact Dr. Steven Wilhelm (wilhelm@utk.edu) or Robbie M. Martin (rmarti49@vols.utk.edu) for additional information regarding this protocol.
+Modified from Guan, X. L., Riezman, I., Wenk, M. R., & Riezman, H. (2010).  Yeast lipid analysis and quantification by mass spectrometry.  Methods in Enzymology, 470, 369-391.
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

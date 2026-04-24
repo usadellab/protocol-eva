@@ -1,0 +1,27 @@
+Title: SOP for snap-freezing tissues
+
+Description:
+The collection of (human) tissue is essential for many aspects of biomedical research. In order to maintain tissue quality and achieve reproducible and representative results, it is critical that the tissue is collected in a consistent manner, especially when tissue is collected by different people, at different locations, and/or over a long period of time. This is particularly important for snap-frozen tissue, which can be stored for long periods of time before use in a range of experiments including bulk and single nucleus RNA sequencing and imaging. Therefore, this protocol for the collection of snap-frozen tissue provides a set of reproducible steps, including recommendations for pictures to be taken and specific details to be noted down, to ensure that consistent tissue collection, such that the collected tissue can be optimally used in the future.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Before collection of specimen(s)
+
+## Step 2: Before arrival of specimen(s)
+
+## Step 3: Before arrival of specimen(s)
+
+## Step 4: When specimen(s) arrive
+
+## Step 5: When specimen(s) arrive
+
+## Step 6: When specimen(s) arrive
+
+## Step 7: When specimen(s) arrive
+
+## Step 8: When specimen(s) arrive
+
+## Step 9: When specimen(s) arrive
+
+## Step 10: When specimen(s) arrive

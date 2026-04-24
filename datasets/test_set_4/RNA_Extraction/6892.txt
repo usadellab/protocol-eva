@@ -1,0 +1,40 @@
+Title: RNA Extraction from Duck Spleen Tissues using TRIzol Reagent
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Add 1 mL of TRIzol™ Reagent per 50–100 mg of tissue to the sample and homogenize using a homogenizer.
+
+## Step 2: Incubate for 5 minutes to permit complete dissociation of the nucleoproteins complex.
+
+## Step 3: Add 0.2 mL of chloroform per 1 mL of TRIzol™ Reagent used for lysis, then securely cap the tube.
+
+## Step 4: Incubate for 2–3 minutes.
+
+## Step 5: Centrifuge the sample for 15 minutes at 12,000 × g at 4°C.
+
+## Step 6: Transfer the aqueous phase containing the RNA to a new tube.
+
+## Step 7: Transfer the aqueous phase containing the RNA to a new tube by angling the tube at 45°and pipettingthe solution out.
+
+## Step 8: Add 0.5 mL of isopropanol to the aqueous phase, per 1 mL of TRIzol™ Reagent used for lysis.
+
+## Step 9: Incubate for 10 minutes.
+
+## Step 10: Centrifuge for 10 minutes at 12,000 × g at 4℃.
+
+## Step 11: Discard the supernatant with a micropipettor.
+
+## Step 12: Resuspend the pellet in 1 mL of 75% ethanol per 1mL of TRIzolTMReagent used for lysis.
+
+## Step 13: Vortex the sample briefly, then centrifuge for 5 minutes at 7500×g at 4℃.
+
+## Step 14: Discard the supernatant with a micropipettor.
+
+## Step 15: Air dry the RNA pellet for 5-10 minutes.
+
+## Step 16: Resuspend the pellet in 20-50 μL of RNase-free water solution by pipetting up and down.
+
+## Step 17: Incubate in a water bath or heat block set at 55-60℃ for 10-15 minutes.
+
+## Step 18: Proceed to downstream applications, such as DNase treatment or cDNA synthesis, or store at -70˚C.

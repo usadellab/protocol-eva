@@ -1,0 +1,61 @@
+Title: Plant DNA extraction with Qiagen Genomic Tip 
+
+Description:
+This protocol is designed for isolation of genomic DNA from 1–2 g of starting material (plant leaf) with a QIAGEN Genomic-tip 500/G. However, it can be scaled down for use with QIAGEN Genomic-tip 100/G.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of the lysate
+
+## Step 2: Preparation of the lysate
+
+## Step 3: Preparation of the lysate
+
+## Step 4: Preparation of the lysate
+
+## Step 5: Preparation of the lysate
+
+## Step 6: Preparation of the lysate
+
+## Step 7: Preparation of the lysate
+
+## Step 8: Preparation of the lysate
+
+## Step 9: Preparation of the lysate
+
+## Step 10: Preparation of the lysate
+
+## Step 11: Setup of QIAGEN Genomic-tips
+
+## Step 12: DNA binding on QIAGEN Genomic-tips
+
+## Step 13: DNA washing on Qiagen Genomic Tips 
+
+## Step 14: DNA elution and precipitation 
+
+## Step 15: DNA elution and precipitation 
+
+## Step 16: DNA elution and precipitation 
+
+## Step 17: Determination of yield, purity and length on the DNA 
+
+## Step 18: Determination of yield, purity and length on the DNA 
+
+## Step 19: Determination of yield, purity and length on the DNA 
+
+## Step 20: DNA elution and precipitation 
+
+## Step 21: DNA elution and precipitation 
+
+## Step 22: DNA elution and precipitation 
+
+## Step 23: DNA elution and precipitation 
+
+## Step 24: DNA elution and precipitation 
+
+## Step 25: DNA elution and precipitation 
+
+## Step 26: DNA elution and precipitation 
+
+## Step 27: DNA elution and precipitation 

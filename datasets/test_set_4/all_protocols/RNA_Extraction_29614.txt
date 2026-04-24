@@ -1,0 +1,68 @@
+Title: RNA Extraction for RIN and DV 200 Analysis
+
+Description:
+Scope: Extract RNA for RIN and DV 200 Assessment.
+Expected Outcome:  RIN and DV 200 measurements for tissue quality assessment.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Homogenize Tissue
+
+## Step 2: Homogenize Tissue
+
+## Step 3: Homogenize Tissue
+
+## Step 4: Homogenize Tissue
+
+## Step 5: Homogenize Tissue
+
+## Step 6: Collection
+
+## Step 7: Loading
+
+## Step 8: Loading
+
+## Step 9: Loading
+
+## Step 10: Loading
+
+## Step 11: Loading
+
+## Step 12: Loading
+
+## Step 13: Loading
+
+## Step 14: Loading
+
+## Step 15: Loading
+
+## Step 16: Loading
+
+## Step 17: Loading
+
+## Step 18: Loading
+
+## Step 19: Loading
+
+## Step 20: Collection
+
+## Step 21: Collection
+
+## Step 22: Collection
+
+## Step 23: Collection
+
+## Step 24: Collection
+
+## Step 25: Collection
+
+## Step 26: Collection
+
+## Step 27: Collection
+
+## Step 28: Collection
+
+## Step 29: Collection
+
+## Step 30: Collection

@@ -1,0 +1,63 @@
+Title: Protocol for detection of Salmonella Typhi and Salmonella Paratyphi A in Street Food
+
+Description:
+The protocol describes method for qualitative detection (presence/ absence) of Salmonella Typhi and Salmonella Paratyphi A in street food by enrichment culture followed by real-time PCR.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: 1. Processing of Street food
+
+## Step 2: 1. Processing of Street food
+
+## Step 3: 1. Processing of Street food
+
+## Step 4: 1. Processing of Street food
+
+## Step 5: 1. Processing of Street food
+
+## Step 6: 1. Processing of Street food
+
+## Step 7: 1. Processing of Street food
+
+## Step 8: 1. Processing of Street food
+
+## Step 9: 2. Enrichment culture
+
+## Step 10: 2. Enrichment culture
+
+## Step 11: 2. Enrichment culture
+
+## Step 12: 2. Enrichment culture
+
+## Step 13: 3. DNA Extraction
+
+## Step 14: 3. DNA Extraction
+
+## Step 15: 3. DNA Extraction
+
+## Step 16: 3. DNA Extraction
+
+## Step 17: 3. DNA Extraction
+
+## Step 18: 3. DNA Extraction
+
+## Step 19: 3. DNA Extraction
+
+## Step 20: 3. DNA Extraction
+
+## Step 21: 3. DNA Extraction
+
+## Step 22: 3. DNA Extraction
+
+## Step 23: 3. DNA Extraction
+
+## Step 24: 3. DNA Extraction
+
+## Step 25: 3. DNA Extraction
+
+## Step 26: 4. Real-time PCR
+
+## Step 27: 4. Real-time PCR
+
+## Step 28: 4. Real-time PCR

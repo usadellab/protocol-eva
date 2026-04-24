@@ -1,0 +1,18 @@
+{
+  "protocol_id": "105043",
+  "protocol_name": "Transformation - 105043",
+  "category": "Transformation",
+  "original_steps": 25,
+  "success": false,
+  "latency_s": 168.24,
+  "evaluation": {
+    "overall": 0,
+    "notes": "JSON parse failed"
+  },
+  "raw_output": {
+    "error": "Unterminated string starting at: line 137 column 19 (char 4115)",
+    "raw_response": "{\n  \"samples\": [\n    {\n      \"name\": \"SARS-CoV-2 nsp3 macrodomain plasmid\",\n      \"organism\": \"SARS-CoV-2\",\n      \"characteristics\": [\n        {\n          \"category\": \"feature\",\n          \"value\": \"N-terminal His tag\",\n          \"unit\": \"\",\n          \"termSource\": \"\",\n          \"termAccession\": \"\"\n        }\n      ]\n    },\n    {\n      \"name\": \"Transformed E. coli cells\",\n      \"organism\": \"Escherichia coli\",\n      \"characteristics\": []\n    },\n    {\n      \"name\": \"Crude protein lysate\",\n      \"org"
+  },
+  "json_valid": false,
+  "error": "Unterminated string starting at: line 137 column 19 (char 4115)"
+}

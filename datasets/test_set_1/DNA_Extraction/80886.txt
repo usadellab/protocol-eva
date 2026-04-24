@@ -1,0 +1,55 @@
+Title: Promega Wizard DNA extraction - Drosophila whole body protocol
+
+Description:
+Edited version of the 'Promega Wizard Genomic DNA Purification' protocol optimised to work on pooled whole-body fruit fly samples. 
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Lysis &amp; Incubation
+
+## Step 2: Lysis &amp; Incubation
+
+## Step 3: Lysis &amp; Incubation
+
+## Step 4: Lysis &amp; Incubation
+
+## Step 5: Lysis &amp; Incubation
+
+## Step 6: Lysis &amp; Incubation
+
+## Step 7: Lysis &amp; Incubation
+
+## Step 8: Lysis &amp; Incubation
+
+## Step 9: Protein Precipitation
+
+## Step 10: Protein Precipitation
+
+## Step 11: Protein Precipitation
+
+## Step 12: Protein Precipitation
+
+## Step 13: Protein Precipitation
+
+## Step 14: Protein Precipitation
+
+## Step 15: Protein Precipitation
+
+## Step 16: DNA elution and cleansing
+
+## Step 17: DNA elution and cleansing
+
+## Step 18: DNA elution and cleansing
+
+## Step 19: DNA elution and cleansing
+
+## Step 20: DNA elution and cleansing
+
+## Step 21: DNA elution and cleansing
+
+## Step 22: DNA elution and cleansing
+
+## Step 23: DNA elution and cleansing
+
+## Step 24: DNA elution and cleansing

@@ -1,0 +1,50 @@
+{
+  "protocol_id": "11015",
+  "protocol_name": "RNA_Extraction - 11015",
+  "category": "RNA_Extraction",
+  "original_steps": 23,
+  "success": true,
+  "latency_s": 4.85,
+  "evaluation": {
+    "step_preservation": 0,
+    "parameter_extraction": 0,
+    "component_extraction": 0,
+    "sequence_order": 0,
+    "overall": 0,
+    "notes": "No valid output"
+  },
+  "raw_output": {
+    "name": "Sample Preparation",
+    "description": "Lysis and RNA partitioning steps to isolate nucleic acids from arabidopsis siliques.",
+    "inputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "parameters": [
+      {
+        "name": "temperature",
+        "value": "37°C",
+        "unit": "",
+        "description": "Standard incubation temperature for RNA extraction."
+      },
+      {
+        "name": "time",
+        "value": "24 hours",
+        "unit": "",
+        "description": "Standard incubation duration for RNA extraction."
+      },
+      {
+        "name": "volume",
+        "value": "10 mL",
+        "unit": "",
+        "description": "Volume required for RNA extraction."
+      }
+    ],
+    "outputs": [
+      "Sample_1",
+      "Sample_2"
+    ],
+    "dataFiles": []
+  },
+  "json_valid": true
+}

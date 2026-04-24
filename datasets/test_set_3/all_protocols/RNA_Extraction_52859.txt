@@ -1,0 +1,59 @@
+Title: RNA extraction for Karlodinium veneficum PLY720
+
+Description:
+A methodology for cell harvesting and RNA extraction from Karlodinium veneficum for the purposes of RNA-seq.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Cell harvesting
+
+## Step 2: Cell harvesting
+
+## Step 3: Cell harvesting
+
+## Step 4: Cell lysis and phase separation
+
+## Step 5: Cell lysis and phase separation
+
+## Step 6: Cell lysis and phase separation
+
+## Step 7: Cell lysis and phase separation
+
+## Step 8: Cell lysis and phase separation
+
+## Step 9: Cell lysis and phase separation
+
+## Step 10: RNA precipitation
+
+## Step 11: RNA precipitation
+
+## Step 12: RNA precipitation
+
+## Step 13: Wash the RNA
+
+## Step 14: Wash the RNA
+
+## Step 15: Wash the RNA
+
+## Step 16: Wash the RNA
+
+## Step 17: Wash the RNA
+
+## Step 18: Dissolve the RNA
+
+## Step 19: Dissolve the RNA
+
+## Step 20: Dissolve the RNA
+
+## Step 21: Quantification, quality control and storage
+
+## Step 22: Quantification, quality control and storage
+
+## Step 23: Quantification, quality control and storage
+
+## Step 24: Cell harvesting
+
+## Step 25: Cell harvesting
+
+## Step 26: Cell harvesting

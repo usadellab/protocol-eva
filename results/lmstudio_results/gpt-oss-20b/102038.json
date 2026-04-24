@@ -1,0 +1,168 @@
+{
+  "protocol_id": "102038",
+  "protocol_name": "Sequencing - 102038",
+  "category": "Sequencing",
+  "original_steps": 9,
+  "success": true,
+  "latency_s": 6.1,
+  "evaluation": {
+    "step_preservation": 55.6,
+    "parameter_extraction": 1100.0,
+    "component_extraction": 500.0,
+    "sequence_order": 100,
+    "overall": 412.2,
+    "extracted_steps": 5,
+    "original_steps": 9
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Algae",
+        "characteristics": []
+      },
+      {
+        "name": "Field_Blank_1",
+        "organism": "None",
+        "characteristics": []
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Sample Collection",
+        "description": "Collect homogenized bioassessment sample containing algae.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "sample_type",
+            "value": "homogenized bioassessment sample",
+            "unit": "",
+            "description": "Type of sample collected"
+          },
+          {
+            "name": "collection_method",
+            "value": "manual sampling",
+            "unit": "",
+            "description": "Method used to collect sample"
+          }
+        ],
+        "outputs": [
+          "Sample_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Filtering",
+        "description": "Filter algae from sample using 0.45µm cellulose nitrate filters in 47mm Whatman/Swinnex filter holders or a filter funnel.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "filter_pore_size",
+            "value": "0.45",
+            "unit": "µm",
+            "description": "Pore size of cellulose nitrate filter"
+          },
+          {
+            "name": "filter_holder_type",
+            "value": "47mm Whatman/Swinnex or filter funnel",
+            "unit": "",
+            "description": "Type of filter holder used"
+          },
+          {
+            "name": "filtration_volume",
+            "value": "unknown",
+            "unit": "",
+            "description": "Volume filtered per run"
+          }
+        ],
+        "outputs": [
+          "Filtered_Algae"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Preservation",
+        "description": "Place filtered algae into screw cap tubes with preservation solution and store at low temperature.",
+        "inputs": [
+          "Filtered_Algae"
+        ],
+        "parameters": [
+          {
+            "name": "preservation_solution",
+            "value": "unspecified",
+            "unit": "",
+            "description": "Solution used to preserve algae"
+          },
+          {
+            "name": "storage_temperature",
+            "value": "-20 or -80",
+            "unit": "°C",
+            "description": "Temperature at which samples are stored"
+          },
+          {
+            "name": "storage_duration",
+            "value": "up to 6 months",
+            "unit": "",
+            "description": "Maximum duration samples can be stored"
+          }
+        ],
+        "outputs": [
+          "Preserved_Algae"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Field Blank Collection",
+        "description": "Collect field blank by filtering deionized water to monitor contamination.",
+        "inputs": [
+          "Field_Blank_1"
+        ],
+        "parameters": [
+          {
+            "name": "blank_type",
+            "value": "deionized water",
+            "unit": "",
+            "description": "Medium filtered for field blank"
+          },
+          {
+            "name": "filter_pore_size",
+            "value": "0.45",
+            "unit": "µm",
+            "description": "Pore size of filter used for blank"
+          }
+        ],
+        "outputs": [
+          "Field_Blank_1"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Metadata Recording",
+        "description": "Record sample metadata including identifiers and collection details.",
+        "inputs": [
+          "Preserved_Algae",
+          "Field_Blank_1"
+        ],
+        "parameters": [
+          {
+            "name": "metadata_fields",
+            "value": "identifier, organism, collection_date, storage_temperature",
+            "unit": "",
+            "description": "Fields recorded for each sample"
+          }
+        ],
+        "outputs": [
+          "Metadata_File"
+        ],
+        "dataFiles": [
+          "Metadata_File"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

@@ -1,0 +1,30 @@
+Title: Real-time PCR amplification and genotyping of the 23s rRNA from Bordetella pertussis using the LightCycler 480
+
+Description:
+The method is an adaptation for LC480 (version II, Roche) of the one described by Kamachi et al., EID 2020 (PMID: 32946738 - Supplementary Materials "Cycleave Real-Time PCR Assay for Detection of the A2047G Mutation"). qPCR targeting 23S rRNA differentiates two alleles of the ribosomal RNA of the 23S subunit of Bordetella pertussis (present in 3 copies per genome). The A2047G mutation distinguishes macrolide-susceptible isolates, with an A at position 2047, from macrolide-resistant Bordetella pertussis isolates (MRBP), with a G at position 2047.
+
+Real-time amplification is performed from DNA extracted from a respiratory sample that has previously given a positive result for the detection of pertussis toxin (qPCR PTa, 1 copy per genome). Two distinct fluorescent probes are employed: one specific for the susceptible allele (FAM) and the other for the resistant allele (HEX). These probes specifically detect a 123 bp fragment of the 23S ribosomal RNA of B. pertussis and identify the A2047G mutation.
+This qPCR is performed only for samples that have given a positive qPCR-PT result, which has a similar analytical sensitivity.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: PRIMERS AND PROBES
+
+## Step 2: SAMPLE PROCESSING
+
+## Step 3: EXPERIMENTAL PROTOCOL
+
+## Step 4: EXPERIMENTAL PROTOCOL
+
+## Step 5: EXPERIMENTAL PROTOCOL
+
+## Step 6: EXPERIMENTAL PROTOCOL
+
+## Step 7: EXPERIMENTAL PROTOCOL
+
+## Step 8: DATA ANALYSIS
+
+## Step 9: EXPERIMENTAL PROTOCOL
+
+## Step 10: POSITIVE OR STANDARD CONTROLS

@@ -1,0 +1,208 @@
+{
+  "protocol_id": "103062",
+  "protocol_name": "DNA_Extraction - 103062",
+  "category": "DNA_Extraction",
+  "original_steps": 8,
+  "success": true,
+  "latency_s": 46.78,
+  "evaluation": {
+    "step_preservation": 62.5,
+    "parameter_extraction": 50,
+    "component_extraction": 50,
+    "sequence_order": 100,
+    "overall": 62.5,
+    "extracted_steps": 5,
+    "original_steps": 8
+  },
+  "raw_output": {
+    "samples": [
+      {
+        "name": "Sample_1",
+        "organism": "Marine DNA virus",
+        "characteristics": [
+          {
+            "category": "source",
+            "value": "marine environment",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "sample type",
+            "value": "virus lysate",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          },
+          {
+            "category": "treatment",
+            "value": "sucrose density gradient purification",
+            "unit": "",
+            "termSource": "",
+            "termAccession": ""
+          }
+        ]
+      }
+    ],
+    "protocols": [
+      {
+        "name": "Lysate preparation",
+        "description": "Initial processing of virus lysate for downstream clarification and concentration.",
+        "inputs": [
+          "Sample_1"
+        ],
+        "parameters": [
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Incubation temperature during lysate preparation, unspecified in protocol"
+          },
+          {
+            "name": "duration",
+            "value": "",
+            "unit": "min",
+            "description": "Processing time for lysate preparation, unspecified in protocol"
+          },
+          {
+            "name": "volume",
+            "value": "",
+            "unit": "mL",
+            "description": "Volume of starting lysate, unspecified in protocol"
+          }
+        ],
+        "outputs": [
+          "Sample_2"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral clarification and concentration",
+        "description": "Removal of cellular debris and concentration of viral particles from lysate.",
+        "inputs": [
+          "Sample_2"
+        ],
+        "parameters": [
+          {
+            "name": "centrifugation speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Speed used for clarification centrifugation, unspecified in protocol"
+          },
+          {
+            "name": "centrifugation time",
+            "value": "",
+            "unit": "min",
+            "description": "Duration of centrifugation for clarification, unspecified in protocol"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Temperature during centrifugation, assumed to be 4°C for stability"
+          }
+        ],
+        "outputs": [
+          "Sample_3"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Viral purification using linear sucrose gradient",
+        "description": "Purification of concentrated viral particles through a linear sucrose density gradient to separate virions based on buoyant density.",
+        "inputs": [
+          "Sample_3"
+        ],
+        "parameters": [
+          {
+            "name": "sucrose concentration gradient",
+            "value": "linear",
+            "unit": "% (w/w)",
+            "description": "Linear sucrose gradient, typically ranging from 10% to 70%, unspecified exact values"
+          },
+          {
+            "name": "centrifugation speed",
+            "value": "",
+            "unit": "rpm",
+            "description": "Ultracentrifugation speed for gradient separation, unspecified"
+          },
+          {
+            "name": "centrifugation time",
+            "value": "",
+            "unit": "h",
+            "description": "Duration of ultracentrifugation, unspecified"
+          }
+        ],
+        "outputs": [
+          "Sample_4"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "Extraction of DNA",
+        "description": "Isolation of viral genomic DNA from purified virions using chemical or commercial kit-based methods.",
+        "inputs": [
+          "Sample_4"
+        ],
+        "parameters": [
+          {
+            "name": "extraction method",
+            "value": "chemical lysis or column-based purification",
+            "unit": "",
+            "description": "DNA extraction technique, unspecified in protocol"
+          },
+          {
+            "name": "elution volume",
+            "value": "",
+            "unit": "µL",
+            "description": "Final volume of DNA eluate, unspecified"
+          },
+          {
+            "name": "temperature",
+            "value": "",
+            "unit": "°C",
+            "description": "Incubation temperatures during extraction steps, unspecified"
+          }
+        ],
+        "outputs": [
+          "Sample_5"
+        ],
+        "dataFiles": []
+      },
+      {
+        "name": "QuBit quantification using Qubit 4 fluorimeter",
+        "description": "Quantitative measurement of double-stranded DNA concentration using fluorescent dye and Qubit 4.0 fluorimeter.",
+        "inputs": [
+          "Sample_5"
+        ],
+        "parameters": [
+          {
+            "name": "fluorometer",
+            "value": "Qubit 4 fluorimeter",
+            "unit": "",
+            "description": "Instrument used for nucleic acid quantification"
+          },
+          {
+            "name": "dye",
+            "value": "Qubit dsDNA Assay Kit",
+            "unit": "",
+            "description": "Fluorescent dye specific for double-stranded DNA"
+          },
+          {
+            "name": "detection range",
+            "value": "0.5 pg/µL to 100 ng/µL",
+            "unit": "pg/µL or ng/µL",
+            "description": "Sensitivity range of Qubit assay for dsDNA"
+          }
+        ],
+        "outputs": [
+          "Sample_6"
+        ],
+        "dataFiles": [
+          "Quantification_Data_Qubit.csv"
+        ]
+      }
+    ]
+  },
+  "json_valid": true
+}

@@ -1,0 +1,39 @@
+Title: Preparing MEF-cultured hPSCs for nucleofection
+
+Description:
+This protocol describes the procedure or preparing MEF-cultured human pluripotent stem cells (hPSCs) for the delivery of plasmids, mRNA or ribonucleoprotein (RNP) using nucleofection.
+General notes
+1. Throughout this protocol, the term hPSC is used to collectively refer to both hiPSCs and hESCs. All described procedures have been tested and work equally well for hiPSCs and hESCs.
+2. This protocol is to prepare cells for protocol nucleofection of hPSCs. Before starting, familiarize yourself with the protocol and the required preparations. A detailed protocol on maintaining MEF-cultured hPSCs can be found in the collection "Maintenance and inactivation of mouse embryonic fibroblasts (MEFs) as feeder cells for human pluripotent stem cell culture;" doi:
+3. Detailed protocols for preparing plasmids, RNA, and RNP for nucleofection can be found in the collection "Nucleofection (Amaxa) and electroporation (Biorad) of hPSCs." A link to this collection can be found in the title section of this protocol, located above
+
+
+=== PROTOCOL STEPS ===
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

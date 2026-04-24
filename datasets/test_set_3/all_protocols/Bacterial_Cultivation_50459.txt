@@ -1,0 +1,16 @@
+Title: Media Preparation for E. coli growth for Cell-free Protein Synthesis
+
+Description:
+Cell-free protein synthesis reactions require cell-free extract derived from rapidly dividing E. coli cells to produce high yields of protein therapeutics, antigens, enzymes, vaccines, and other proteins. Standard protocols use 2xYTPG media for cell growth. This protocol is for making 1 L of 2xYTPG media.
+Read more on cell-free protein synthesis here: https://www.swiftscalebio.com/blog/cell-free-protein-synthesis
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Media Preparation for E. coli growth for Cell-free Protein Synthesis
+
+## Step 2: Media Preparation for E. coli growth for Cell-free Protein Synthesis
+
+## Step 3: Media Preparation for E. coli growth for Cell-free Protein Synthesis
+
+## Step 4: Media Preparation for E. coli growth for Cell-free Protein Synthesis

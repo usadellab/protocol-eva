@@ -1,0 +1,41 @@
+Title: RNA extraction from Drosophila embryos
+
+Description:
+A simple protocol for RNA extraction and cDNA synthesis from Drosophila embryos
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: RNA extraction
+
+## Step 2: RNA extraction
+
+## Step 3: RNA extraction
+
+## Step 4: RNA extraction
+
+## Step 5: RNA extraction
+
+## Step 6: RNA extraction
+
+## Step 7: RNA extraction
+
+## Step 8: RNA extraction
+
+## Step 9: RNA extraction
+
+## Step 10: RNA extraction
+
+## Step 11: RNA extraction
+
+## Step 12: RNA extraction
+
+## Step 13: DNAse treatment and reverse transcription
+
+## Step 14: DNAse treatment and reverse transcription
+
+## Step 15: DNAse treatment and reverse transcription
+
+## Step 16: DNAse treatment and reverse transcription
+
+## Step 17: DNAse treatment and reverse transcription

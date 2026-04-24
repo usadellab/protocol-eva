@@ -1,0 +1,37 @@
+Title: Electrophoresis
+
+Description:
+Separate the PCR products to verify the presence of the target DNA fragment and determine whether its size is correct.
+
+
+=== PROTOCOL STEPS ===
+
+## Step 1: Preparation of TAE Buffer (skip if already available)
+
+## Step 2: Preparation of TAE Buffer (skip if already available)
+
+## Step 3: Preparation of TAE Buffer (skip if already available)
+
+## Step 4: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 5: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 6: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 7: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 8: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 9: Preparation of Agarose Gel (0.8% agarose)
+
+## Step 10: Sample Preparation and Loading
+
+## Step 11: Sample Preparation and Loading
+
+## Step 12: Sample Preparation and Loading
+
+## Step 13: Sample Preparation and Loading
+
+## Step 14: Sample Preparation and Loading
+
+## Step 15: Sample Preparation and Loading
