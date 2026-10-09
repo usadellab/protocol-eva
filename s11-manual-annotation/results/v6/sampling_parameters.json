@@ -1,0 +1,40 @@
+{
+ "table": "Table S11-1 of the supplement",
+ "rows": [
+  {
+   "model_and_access_route": "Claude Opus 5.5, Sonnet 5.5 (CLI, print mode)",
+   "sampling_parameters": "CLI defaults; no sampling parameters set by the runner"
+  },
+  {
+   "model_and_access_route": "Kimi-K3 (Kimi Code CLI, agent harness)",
+   "sampling_parameters": "harness defaults; no sampling parameters set by the runner"
+  },
+  {
+   "model_and_access_route": "DeepSeek-V4.1-Flash (hosted API)",
+   "sampling_parameters": "the application's own settings: temperature 1.0, top_p 0.95, repetition_penalty 1.1, thinking off, max_tokens 28000"
+  },
+  {
+   "model_and_access_route": "Gemma-4-31B, GLM-4.7-Flash (LM Studio)",
+   "sampling_parameters": "Gemma: temperature 1.0, top_p 0.95, top_k 64, max_tokens 32768; GLM: temperature 1.0, top_p 0.95, max_tokens 65536"
+  },
+  {
+   "model_and_access_route": "MiniMax-M3 (oMLX)",
+   "sampling_parameters": "temperature 1.0, top_p 0.95, max_tokens 65536"
+  },
+  {
+   "model_and_access_route": "Gemma-4-31B (GPU cluster, vLLM)",
+   "sampling_parameters": "temperature 1.0, top_p 0.95, top_k 64, max_tokens 32768"
+  },
+  {
+   "model_and_access_route": "OpenRouter free-tier models",
+   "sampling_parameters": "temperature 0, max_tokens 64000"
+  }
+ ],
+ "source_files": {
+  "MiniMax-M3 (oMLX)": "params/model_params.json",
+  "LM Studio models": "params/model_params_lmstudio.json",
+  "Gemma-4-31B on the GPU cluster": "params/model_params_cluster.json",
+  "OpenRouter free-tier models": "params/model_params_openrouter.json"
+ },
+ "note": "Claude (CLI print mode) and Kimi Code (agent harness) set no sampling parameters; DeepSeek-V4.1-Flash uses the settings of the application itself."
+}

@@ -1,0 +1,11 @@
+model_label_in_csv_files,row_in_table_S11-2,route,route_group,entries,runs,failed_runs
+Claude Opus,Claude Opus 5.5,"Claude CLI, print mode",commercial,5,5,0
+Claude Sonnet 5.5,Claude Sonnet 5.5,"Claude CLI, print mode",commercial,5,15,0
+dots-3-note-preview (OpenRouter free),dots-3-note-preview,OpenRouter free tier,free tier,5,5,0
+Gemma-4-31B (local LM Studio),Gemma-4-31B,"Mac, LM Studio, GGUF Q4_K_M",local,5,15,0
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",Gemma-4-31B,"GPU cluster, vLLM, QAT w4a16",cluster,5,15,0
+Nemotron-3-Ultra-550B (OpenRouter free),Nemotron-3-Ultra-550B,OpenRouter free tier,free tier,5,5,1
+MiniMax-M3-4bit (local oMLX),MiniMax-M3-4bit,"Mac, oMLX, 4-bit",local,5,15,5
+DeepSeek-V4.1-Flash,DeepSeek-V4.1-Flash,hosted API,api,5,15,2
+GLM-4.7-Flash (local LM Studio),GLM-4.7-Flash,"Mac, LM Studio, MLX 6-bit",local,5,15,1
+Kimi-K3 (Kimi Code),Kimi-K3,Kimi Code CLI (agent harness),cli,5,15,6

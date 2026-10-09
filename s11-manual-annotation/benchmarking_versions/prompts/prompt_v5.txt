@@ -1,0 +1,107 @@
+You are a scientific data extraction assistant. Analyze this experimental protocol${chunks.length > 1 ? ' section' : ''} and extract structured information.
+${contextInfo}
+Protocol Text${chunkInfo}:
+"""
+${chunk}
+"""
+
+Extract and return ONLY a JSON object (no markdown, no explanation) with this structure:
+{
+  "samples": [{"name": "...", "organism": "...",
+    "characteristics": [{"category": "...", "value": "...", "unit": "", "termSource": "", "termAccession": ""}]}],
+  "protocols": [{"name": "...", "description": "...",
+    "inputs": ["one sample/material name PER ROW"],
+    "parameters": [{"name": "...", "value": "single value, or an ARRAY with one value per row", "unit": "", "description": ""}],
+    "outputs": ["one name PER ROW - same length as inputs"],
+    "dataFiles": ["one concrete filename PER ROW - same length as inputs, '' when none"]}]
+}
+
+PARAMETERS - extract ALL mentioned in the entry, at least 2-3 per step, values only as stated
+(never invented). Look for:
+- Physical measurements: temperature, incubation time, volume, OD, mass
+- Chemicals and concentrations: medium/buffer, antibiotic, inducer, DNA, treatment chemicals
+- Equipment settings: centrifuge speed, plate reader program, shaker rpm, voltage
+- Software/tool names and versions, algorithm arguments, thresholds and cutoffs
+  (e.g. "FastQC version", "minimum read length", "quality threshold")
+- File paths, reference databases, file formats
+Rules:
+1. **Per-row values** - CRITICAL: a single string when the value is the same for every row; an ARRAY
+   with one value per row (same order as inputs) when it differs. A table with N rows carries every
+   per-row reading the entry recorded (each OD, volume, time) as an N-entry array - do not drop
+   readings because there are many rows.
+2. Measured values go on the step where they were measured - NOT in sample characteristics.
+   Example (3 cultures washed): inputs ["WT", "Mutant", "Biosensor"],
+   {"name": "OD after washing", "value": ["0.27", "0.36", "0.33"], "unit": ""}
+
+SAMPLES:
+1. **Record the experiment AS PERFORMED, not only the method** - CRITICAL: first enumerate every run
+   (each date/heading where the procedure was performed) x every culture/sample in it: one samples
+   entry per run x culture - NEVER one per strain (8 runs x 3 cultures = 24 samples, not 3). Name
+   each with the run's OWN date or label as written next to that run (its inoculation/start date,
+   "2024-03-05_Sample_A") - NEVER the entry's creation date or title date.
+2. All runs using the SAME procedure share ONE protocol per step (its rows = every run's cultures) -
+   do not create one protocol per run; only an actually changed procedure (e.g. a pilot vs a later
+   modified protocol) is a separate protocol.
+3. Preparations (media, reagents, dilution series) and side procedures (e.g. sending samples for
+   sequencing) are protocols of their own, with the materials used as inputs.
+4. Add organism and characteristics (strain, genotype, treatment, ...) per sample, with
+   termSource/termAccession when known (e.g. NCBITaxon:562 for E. coli), else "".
+   If no specific samples are mentioned, create generic ones ("Sample_1", "Sample_2").
+5. Keep every recorded measurement as written, on the row of the sample it belongs to; never state
+   a value the entry does not contain - use "". Never summarise differing values into ranges
+   ("20-25", "2-3 h") - give each row its own value. Use the entry's own labels for materials and
+   parameters (do not rename or re-classify them).
+
+PROTOCOLS:
+1. **Link steps sequentially** - CRITICAL: the OUTPUT of one step MUST EXACTLY MATCH the INPUT of the
+   next. A step's output name must DIFFER from its input name: append the step to the sample name
+   (input "2024-03-05_Sample_A" -> output "2024-03-05_Sample_A_washed"). Never copy the inputs array
+   into outputs unchanged. The first step's inputs reference names from the samples array.
+   Tools/software are parameters, NOT outputs.
+2. **Order**: steps that prepare or verify the starting materials (reagent/media preparation,
+   sequencing of the source material) come FIRST; then the experimental chain in execution order.
+3. **One-to-many / many-to-one** (barcoding, splitting, pooling) - resolve immediately, do not
+   deliberate: inputs/outputs stay the same length by REPEATING entries. One input -> N outputs:
+   inputs ["S1","S1","S2","S2"], outputs ["Lib_1a","Lib_1b","Lib_2a","Lib_2b"]. N inputs -> one
+   output: inputs ["S1","S2","S3"], outputs ["Pool","Pool","Pool"].
+4. **Gradients / condition series expand the rows** - CRITICAL: one row per sample x condition (e.g.
+   each dilution of a treatment), repeating inputs; the condition is a per-row parameter.
+   2 cultures x 4 CCCP concentrations = 8 rows: inputs ["C1","C1","C1","C1","C2","C2","C2","C2"],
+   outputs ["C1_100uM","C1_10uM","C1_1uM","C1_0uM","C2_100uM","C2_10uM","C2_1uM","C2_0uM"],
+   {"name": "CCCP concentration", "value": ["100","10","1","0","100","10","1","0"], "unit": "µM"}
+5. The "description" references the source file: "See detailed protocol in: ${metadata.protocolPath || '[protocol file path]'}".
+
+DATAFILES: concrete, standalone filenames only - one per row, same length as inputs. Repeat a
+shared file on every row it covers (["measurements.xlsx","measurements.xlsx","measurements.xlsx"]).
+NO wildcards ("*.fastq", "sample_*.txt") and NO URLs/network paths ("smb://...", "https://...") -
+those are not files committed to the ARC; use "" instead. Only a general description ("FASTQ files
+generated") -> "". Attached files with no stated per-sample attribution: assign in order, pad with
+"" (2 files, 5 rows -> ["a.png","b.png","","",""]).
+
+${chunks.length > 1 ? 'NOTE: This is part of a larger protocol, extract what you can from this section\n\n' : ''}WORKED EXAMPLE (entry: run 2024-03-05 with 2 E. coli cultures, grown overnight, then each treated with 2 CCCP doses on one plate):
+{
+  "samples": [
+    {"name": "2024-03-05_WT", "organism": "Escherichia coli", "characteristics": [
+      {"category": "strain", "value": "K-12", "unit": "", "termSource": "NCBITaxon", "termAccession": "NCBITaxon:83333"}]},
+    {"name": "2024-03-05_Mutant", "organism": "Escherichia coli", "characteristics": [
+      {"category": "strain", "value": "K-12 deltaXYZ", "unit": "", "termSource": "", "termAccession": ""}]}
+  ],
+  "protocols": [
+    {"name": "Overnight culture", "description": "See detailed protocol in: [protocol file path]",
+     "inputs": ["2024-03-05_WT", "2024-03-05_Mutant"],
+     "parameters": [
+       {"name": "temperature", "value": "37", "unit": "°C", "description": "incubation temperature"},
+       {"name": "OD before treatment", "value": ["0.51", "0.61"], "unit": "", "description": "one reading per row"}],
+     "outputs": ["2024-03-05_WT_overnight", "2024-03-05_Mutant_overnight"],
+     "dataFiles": ["", ""]},
+    {"name": "CCCP treatment", "description": "See detailed protocol in: [protocol file path]",
+     "inputs": ["2024-03-05_WT_overnight", "2024-03-05_WT_overnight", "2024-03-05_Mutant_overnight", "2024-03-05_Mutant_overnight"],
+     "parameters": [
+       {"name": "CCCP concentration", "value": ["62.5", "0", "62.5", "0"], "unit": "µM", "description": "final concentration on plate"},
+       {"name": "measurement duration", "value": "3", "unit": "h", "description": "plate reader runtime"}],
+     "outputs": ["2024-03-05_WT_CCCP_62.5uM", "2024-03-05_WT_CCCP_0uM", "2024-03-05_Mutant_CCCP_62.5uM", "2024-03-05_Mutant_CCCP_0uM"],
+     "dataFiles": ["plate1.xlsx", "plate1.xlsx", "plate1.xlsx", "plate1.xlsx"]}
+  ]
+}
+
+Return ONLY valid JSON, no additional text.

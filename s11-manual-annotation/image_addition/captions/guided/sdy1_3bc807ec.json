@@ -1,0 +1,17 @@
+{
+ "case": "sdy1",
+ "image": "3bc807ec",
+ "mode": "guided",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1183,
+  537
+ ],
+ "sent_size": [
+  1000,
+  454
+ ],
+ "seconds": 61.1,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.\n\nThe protocol text around this figure is given below only so that you understand what the figure is for. Describe ONLY what is visible in the image; do not copy facts from the text into the description.\nPay attention to the information a lab annotator would record as data: lane assignments, which items are marked, plotted quantities and their axes, conditions and legends.\n\nTEXT BEFORE THE FIGURE:\nStrains AB33, UMa2700 (Pssd1-SSD1-GFP), UMa2950 (Pcrg1-SSD1-GFP) were grown in CM-glucose and in CM-arabinose media overnight. OD600 was determined and set to OD600 = 1 and serially deluted 1:10 in a 96 microtiter well plate in water. 5 uL were spotted on the following media and allowed to grow for 48h and macrographs were taken: inhibitors tested: CM-glucose medium inhibitor stock conc final conc target congo red 15 mg/mL 150 ug glucan micafungin 5 mg/mL 200 nM glucan micafungin 5 mg/mL 500 nM glucan SDS 10% 0.1% membrane SDS 10% 0.05% membrane Nikkomycin Z 0.5 mg/mL 5 uM chitin CFW 2 mg/mL 20 uM chitin repeat spotting on 29.01.25 under same conditions:\n\nTEXT AFTER THE FIGURE:\n",
+ "description": "1. **Figure type**: Photograph of plates (spotting assay).\n\n2. **Text labels**:\n    * Top left: \"30.01.25 48h\"\n    * Column headers (left to right): \"CM [glucose]\", \"CM [arabinose]\", \"CFW [10 $\\mu$M]\", \"CFW [20 $\\mu$M]\", \"caspofungin [100 nM]\", \"caspofungin [500 nM]\", \"Nikkomycin Z [2.5 $\\mu$M]\", \"Nikkomycin Z [5 $\\mu$M]\"\n    * Row headers (top to bottom): \"AB33\", \"Pssd1-SSD1-GFP\", \"OFF Pcrg1-SSD1-GFP\", \"ON Pcrg1-SSD1-GFP\"\n    * Text below the grid: \"Congo red [150 $\\mu$M] SDS [0.1%] SDS [0.05%] $\\rightarrow$ no growth\"\n    * Bullet points: \n        * \"conditional mutant phenotype is reproducible on Nikkomycin Z, with lower inhibitor concentration still significant growth defect\"\n        * \"overexpression phenotype is also reproducible on caspofungin, but not at lower inhibitor concentration\"\n        * \"AB33 control strain did not grow, but starting OD was very low\"\n    * Table: \n        * \"OD600 AB33 0.165\"\n        * \"2700 0.696\"\n        * \"2950glc 0.505\"\n        * \"2950ara 0.552\"\n\n3. **Plates layout**: The figure consists of a grid of images showing bacterial growth spots. There are 8 columns corresponding to the media/inhibitors listed in the column headers and 4 rows corresponding to the strains listed in the row headers."
+}

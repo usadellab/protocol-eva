@@ -1,0 +1,17 @@
+{
+ "case": "biolector034",
+ "image": "5c18fdef",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1314,
+  687
+ ],
+ "sent_size": [
+  1000,
+  523
+ ],
+ "seconds": 76.9,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. **Figure type**: A set of six line plots arranged in a 2x3 grid.\n\n2. **Text labels**:\n    * Top row titles: \"Biomass\", \"GFP\", \"GFP\"\n    * Right side labels (by row): \"Promoter:eGFP\", \"Promoter:eGFP-d2-L\"\n    * Y-axis labels (left column): \"Biomass [AU]\"\n    * Y-axis labels (middle and right columns): \"GFP [RFU]\"\n    * X-axis labels (all plots): \"Time [h]\"\n    * Legend entries (Top Left plot): \"+ H₂O\" (Phsp70, Prpl10, Potef), \"+ Nitrogen\" (Phsp70, Prpl10, Potef)\n    * Legend entries (Top Middle plot): \"+ H₂O\" (Phsp70, Prpl10), \"+ Nitrogen\" (Phsp70, Prpl10)\n    * Legend entries (Top Right plot): \"+ H₂O\" (Potef), \"+ Nitrogen\" (Potef)\n    * Legend entries (Bottom Left plot): \"+ H₂O\" (Phsp70, Prpl10, Potef), \"+ Nitrogen\" (Phsp70, Prpl10, Potef)\n    * Legend entries (Bottom Middle plot): \"+ H₂O\" (Phsp70, Prpl10), \"+ Nitrogen\" (Phsp70, Prpl10)\n    * Legend entries (Bottom Right plot): \"+ H₂O\" (Potef), \"+ Nitrogen\" (Potef)\n    * X-axis values: 0, 10, 20, 30, 40, 50, 60, 70\n    * Y-axis values (Biomass plots): 0, 100, 200, 300, 400, 500, 600, 700, 800\n    * Y-axis values (Top GFP plots): 0, 200, 400, 600, 800, 1000, 1200\n    * Y-axis values (Bottom GFP plots): 0, 25, 50, 75, 100, 125, 150, 175, 200\n\n3. **Plots**:\n    * **Layout**: The figure consists of two rows and three columns. The top row corresponds to \"Promoter:eGFP\" and the bottom row corresponds to \"Promoter:eGFP-d2-L\".\n    * **Axes**: All plots have an x-axis titled \"Time [h]\" ranging from 0 to 70. The first column has a y-axis titled \"Biomass [AU]\". The second and third columns have y-axes titled \"GFP [RFU]\".\n    * **Curves**: Each plot contains multiple colored lines with surrounding shaded areas of the same color.\n    * **Annotations**: There is a single downward-pointing arrow located at approximately 40 hours on the x-axis in the middle and right plots of both the top and bottom rows."
+}

@@ -1,0 +1,17 @@
+{
+ "case": "phage",
+ "image": "gelp1",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1741,
+  2158
+ ],
+ "sent_size": [
+  803,
+  996
+ ],
+ "seconds": 34.5,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: agarose gel\n2. Text labels:\n    - BD_R1\n    - BD_R2\n    - BD_R3\n    - B_R1\n    - B_R2\n    - B_R3\n    - 1kb Plus ladder\n    - 20 kb\n    - 5 kb\n    - 1.5 kb\n    - 0.5 kb\n3. Lanes (left to right):\n    - Lane 1: BD_R1\n    - Lane 2: BD_R2\n    - Lane 3: BD_R3\n    - Lane 4: B_R1\n    - Lane 5: B_R2\n    - Lane 6: B_R3\n    - Lane 7: 1kb Plus ladder. This lane has lines connecting specific bands to the labels 20 kb, 5 kb, 1.5 kb, and 0.5 kb."
+}

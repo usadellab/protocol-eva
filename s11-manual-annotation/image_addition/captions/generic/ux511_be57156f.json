@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "be57156f",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  655,
+  576
+ ],
+ "sent_size": [
+  655,
+  576
+ ],
+ "seconds": 66.9,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: Agarose gel.\n2. Text labels (left to right, top to bottom):\n    - UX515 (centered over the first group of lanes)\n    - UX516 (centered over the second group of lanes)\n    - 1, 2, 4, 5, 7, 11, 1, 5, 11, 12, UMa 133\n    - 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500 (listed vertically on the left)\n3. Lanes (left to right):\n    - Lane 1: Marker lane with size labels to its left (10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500).\n    - Lanes under the UX515 bracket:\n        - Lane labeled \"1\" in green.\n        - Lane labeled \"2\" in black.\n        - Lane labeled \"4\" in green.\n        - Lane labeled \"5\" in green.\n        - Lane labeled \"7\" in black.\n        - Lane labeled \"11\" in black.\n    - Lanes under the UX516 bracket:\n        - Lane labeled \"1\" in green.\n        - Lane labeled \"5\" in black.\n        - Lane labeled \"11\" in green.\n        - Lane labeled \"12\" in green.\n    - Lane labeled \"UMa 133\" in black.\n    - Final lane: Marker lane (no labels)."
+}

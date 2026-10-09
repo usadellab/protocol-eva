@@ -1,0 +1,17 @@
+{
+ "case": "pux782",
+ "image": "grafik",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1217,
+  732
+ ],
+ "sent_size": [
+  1000,
+  601
+ ],
+ "seconds": 45.9,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\nX786: 2281 bp pUX787: 2287 bp 3 min 64°C * cell material of a single **white** colony (pink-white screening) was resuspended in 10 µl H2O * after 1 µl of the cell suspension was tranferred to the PCR tube, 30 µl dYT medium were added to the cell suspension and the cell suspension was stored at 4°C * **PCR protocol: ** Primer fw (100 µM) 0.2 µl Primer rv (100 µM) 0.2 µl GoTaq ® Green Master Mix 2X 10 µl H 2 O ( ad 20 µl) 8.6 µl cell suspension of a single colony 1 µl * 19 µl MM + 1 µl cell suspension of a single colony * 2 clones per plasmid * **PCR program:** Preheating lid 95 °C infinite &nbsp; Initial denaturation 95 °C 30 sec &nbsp; Denaturation 95 °C 30 sec 34 x Annealing see above 30 sec Elongation 72 °C see above Final elongation 72 °C 8 min &nbsp; &nbsp; 4 °C infinite &nbsp; * **Agarose gel:** * 0.8% agarose in 1X TAE buffer + Midori Green * 10 µl PCR on the gel * 5 µl 1 kb ladder\n\nTEXT AFTER THE FIGURE:\n⇒ all clones show the expected PCR product **Inoculation of _E. coli_ cultures:** * the cell suspension from the Colony PCR were added to 5 ml **dYT + Amp medium** * one correct clone per plasmid * the cultures were incubated on a rotating wheel at 37 °C overnight * * * 2026-02-12 **MiniPrep:** ([Method](https://elabftw.example.org/experiments.php?mode=view&id=24292)) * DNA",
+ "description": "Lanes are labeled pUX782 (#1, #2), pUX783 (#1, #2), pUX784 (#1, #2), pUX785 (#1, #2), pUX786 (#1, #2), and pUX787 (#1, #2). DNA ladder labels: 10000 bp, 8000 bp, 6000 bp, 5000 bp, 4000 bp, 3000 bp, 2500 bp, 2000 bp, 1500 bp, 1000 bp, 750 bp, 500 bp, and 250 bp."
+}

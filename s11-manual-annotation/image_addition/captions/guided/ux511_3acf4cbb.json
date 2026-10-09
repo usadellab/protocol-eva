@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "3acf4cbb",
+ "mode": "guided",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  450,
+  529
+ ],
+ "sent_size": [
+  450,
+  529
+ ],
+ "seconds": 46.7,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.\n\nThe protocol text around this figure is given below only so that you understand what the figure is for. Describe ONLY what is visible in the image; do not copy facts from the text into the description.\nPay attention to the information a lab annotator would record as data: lane assignments, which items are marked, plotted quantities and their axes, conditions and legends.\n\nTEXT BEFORE THE FIGURE:\nX521 #6 = g → only holy stock * UX522 #1 = k → only holy stock UX522 #6 = g → only holy stock * UX523 #6 = k → only holy stock + cell pellet stored at -20°C UX523 #8 → only working stock + cell pellet stored at -20°C UX523 #10 → only working stock + cell pellet stored at -20°C UX523 #11 → only working stock + cell pellet stored at -20°C * * * 2026-05-28 **gDNA extraction:** ([Method](experiments.php?mode=view&id=24292)) * UX523 #6, 8, 10, 11 * UMa133 **gDNA digest:** * Restriction enzymes: **XmnI** * UMa133: 2658 bp, 1982 bp * UX523: 7375 bp gDNA 15 µl CutSmart 2 µl Enzyme 1 µl H 2 O ( ad 20 µl) 2 µl * 37°C overnight * * * 2026-06-09 **Southern blot:** ([Method](experiments.php?mode=view&id=24292)) * 1 southern gel * assembly of the blot * * * 2026-06-10 * disassembly of the blot * hybridizing → [new _car2_ probe](experiments.php?mode=view&id=63497) * * * 2026-06-11 * washing & detection\n\nTEXT AFTER THE FIGURE:\n**Glycerol stocks of verified clones:** * UX523 #6 = k → only holy stock UX523 #10 = g → only holy stock Summary and Conclusions: ------------------------ ⇒ generation of UX511-523 was successful",
+ "description": "1. Kind of figure: Southern blot.\n2. Visible text labels:\n    - UX523 (top center, above a bracket)\n    - 6 (green), 8, 10 (green), 11 (below the bracket)\n    - UMa 133 (above the second to last lane)\n    - 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500 (left side)\n3. Lanes (from left to right):\n    - Lane 1: Size marker with bands corresponding to the labels on the left.\n    - Lane 2: Labelled \"6\" in green.\n    - Lane 3: Labelled \"8\".\n    - Lane 4: Labelled \"10\" in green.\n    - Lane 5: Labelled \"11\".\n    - (Lanes 2 through 5 are grouped under a bracket labelled \"UX523\").\n    - Lane 6: Labelled \"UMa 133\".\n    - Lane 7: Size marker with bands corresponding to the labels on the left."
+}

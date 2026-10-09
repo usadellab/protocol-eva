@@ -1,0 +1,17 @@
+{
+ "case": "biolector034",
+ "image": "5c18fdef",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1314,
+  687
+ ],
+ "sent_size": [
+  1000,
+  523
+ ],
+ "seconds": 39.7,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\nn + 1% Arabinose](experiments.php?mode=view&id=72828) * [Verduyn + 1% Maltose](experiments.php?mode=view&id=72828) * \\+ the respective volume of the main culture (see table above) * the wells **B01 & C01** as well as **B02 & C02** got mixed up! * B01 & B02 = UX271 instead of UX351 * C01 & C02 = UX351 instead of UX271 * Blank 1 = Verduyn + 1% Malt + 250 µl Verduyn + 1% Glc Blank 2 = Verduyn + 1% Ara + 250 µl Verduyn + 1% Glc * * * 2026-03-11 **Addition of Glucose/Maltose/Arabinose:** * after **24 h** * \\+ 60 µl 25% [sugar solution](experiments.php?mode=view&id=72810) per well = 1% Glucose, Maltose or Arabinose * * * 2026-03-12 **Addition of Nitrogen:** * after **45 h** * \\+ 60 µl 25 g/L (NH4)2SO4 per well = 1 g/L (NH4)2SO4 (1:4 dilution of 100 g/L stock with sterile H2O = 25 g/L) \\+ 60 µl sterile H2O per well * * * 2026-04-09 **Results:** **(duplicate = JP032 & JP034)** Pcrg/Pima1: Potef:\n\nTEXT AFTER THE FIGURE:\nSummary and Conclusions: ------------------------ ⇒ BioLector JP034 nicely reproduced the results from [BioLector 032\\_Pima1\\_Malt\\_+Glc](experiments.php?mode=view&id=72825)",
+ "description": "Six plots arranged by promoter (top row: eGFP; bottom row: eGFP-d2-L). Columns show Biomass [AU] and GFP [RFU] versus Time [h]. Legends distinguish + H2O and + Nitrogen for Phsp70, Prpl10, and Polef in the first two columns, and Potef in the third column. Vertical arrows are marked at approximately 45 h."
+}

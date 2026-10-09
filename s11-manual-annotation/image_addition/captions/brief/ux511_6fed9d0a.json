@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "6fed9d0a",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  925,
+  619
+ ],
+ "sent_size": [
+  925,
+  619
+ ],
+ "seconds": 49.7,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\n( ad 20 µl) 2 µl * 37°C overnight * * * 2026-03-17 **Southern blot:** ([Method](experiments.php?mode=view&id=24292)) * 2 southern gels * assembly of the blot * * * 2026-03-18 * disassembly of the blot * hybridizing → [new _car2_ probe](experiments.php?mode=view&id=63497) **Precultures:** * UX511 #7, 8 UX512 #4, 6 UX513 #2, 4 UX514 #3, 7 UX515 #4, 5 UX516 #1, 11 * 5 ml CM+Glc medium * rotating wheel at 28°C overnight * * * 2026-03-19 **Glycerol stocks of verified clones:** * UX511 #7 = k → only holy stock UX511 #8 = g → only holy stock * UX512 #4 = k → only holy stock UX512 #6 = g → only holy stock * UX513 #2 = k → only holy stock UX513 #4 = g → only holy stock * UX514 #3 = k → only holy stock UX514 #7 = g → only holy stock * UX515 #4 = k → only holy stock UX515 #5 = g → only holy stock * UX516 #1 = k → only holy stock UX516 #11 = g → only holy stock * * * 2026-03-24 * washing & detection\n\nTEXT AFTER THE FIGURE:\n* * * 2026-03-26 **Precultures:** * UX517 #9, 10 UX518 #5, 6 UX519 #5, 8 UX520 #1, 2 UX521 #1, 6 UX522 #1, 6 UX523 #6, 8, 10, 11 * 5 ml CM+Glc medium * rotating wheel at 28°C overnight * * * 2026-03-27 **Glycerol stocks of verified clones:",
+ "description": "Lanes from left to right: ladder (labels 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500), UX517 (1, 9 [green], 10 [green]), UX518 (5 [green], 6 [green], 9), UX519 (3, 5 [green], 8 [green]), UX520 (1 [green], 2 [green], 5), UMa 133, and ladder (labels 10000–1500)."
+}

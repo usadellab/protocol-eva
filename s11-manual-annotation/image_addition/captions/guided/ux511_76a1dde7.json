@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "76a1dde7",
+ "mode": "guided",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  549,
+  559
+ ],
+ "sent_size": [
+  549,
+  559
+ ],
+ "seconds": 67.6,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.\n\nThe protocol text around this figure is given below only so that you understand what the figure is for. Describe ONLY what is visible in the image; do not copy facts from the text into the description.\nPay attention to the information a lab annotator would record as data: lane assignments, which items are marked, plotted quantities and their axes, conditions and legends.\n\nTEXT BEFORE THE FIGURE:\nromoters or different fluorophore genes under the control of the same promoter. Procedure and Results: ---------------------- 2026-02-13 **Plasmid digest for _U. maydis_ trafo:** &nbsp; pUX782 #1 (410 ng/µl) pUX783 #1 (400 ng/µl) pUX784 #1 (400 ng/µl) pUX785 #1 (290 ng/µl) pUX786 #1 (410 ng/µl) pUX787 #1 (360 ng/µl) Expected fragment sizes: 5151 bp 2104 bp 616 bp 6824 bp 2104 bp 616 bp 6524 bp 2104 bp 616 bp 6624 bp 2104 bp 616 bp 6627 bp 2104 bp 616 bp 6633 bp 2104 bp 616 bp Plasmid ( 6 µg ) 15 µl 15 µl 15 µl 21 µl 15 µl 17 µl rCutSmart buffer 3 µl 3 µl 3 µl 3 µl 3 µl 3 µl SspI-HF 1 µl 1 µl 1 µl 1 µl 1 µl 1 µl H 2 O ( ad 30 µl) 11 µl 11 µl 11 µl 5 µl 11 µl 9 µl * 3 µl test digest containing 600 ng plasmid * at 37°C overnight * * * 2026-02-18 **Agarose gel of test digests:** * 0.8% agarose in 1X TAE buffer + Midori Green * 3 µl digest + 1 µl 6X purple loading dye (NEB) * 5 µl 1 kb ladder\n\nTEXT AFTER THE FIGURE:\n**_U. maydis_ transformation:** ([Method](https://elabftw.example.org/experiments.php?mode=view&id=24292)) &nbsp; UX511 <st",
+ "description": "1. **Figure type**: Agarose gel.\n\n2. **Text labels**:\n    *   Top (left to right): `pUX782`, `pUX783`, `pUX784`, `pUX785`, `pUX786`, `pUX787`\n    *   Left axis (top to bottom): `10000 bp -`, `8000 bp -`, `6000 bp -`, `5000 bp -`, `4000 bp -`, `3000 bp -`, `2500 bp -`, `2000 bp -`, `1500 bp -`, `1000 bp -`, `750 bp -`, `500 bp -`, `250 bp -`\n\n3. **Lanes**:\n    *   Lane 1: DNA marker with bands corresponding to the labels on the left axis.\n    *   Lane 2: labeled `pUX782`.\n    *   Lane 3: labeled `pUX783`.\n    *   Lane 4: labeled `pUX784`.\n    *   Lane 5: labeled `pUX785`.\n    *   Lane 6: labeled `pUX786`.\n    *   Lane 7: labeled `pUX787`.\n    *   **Annotations**: There are three black curved brackets on the right side of the gel, indicating different vertical regions."
+}

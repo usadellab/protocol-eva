@@ -1,0 +1,45 @@
+model,prompt,input,baseline_prompt,baseline_input,kind,entries_common,entries_in_config,f1_config_same_entries,f1_baseline_same_entries,delta_f1,precision_config_same_entries,precision_baseline_same_entries,spot_assay_f1_delta,spot_assay_precision_delta
+Claude Opus,evidence prompt v10,text only,general prompt v6,text only,evidence prompt,5,5,0.511,0.5906,-0.0796,0.595,0.641,-0.0738,-0.0036
+Claude Opus,evidence prompt v7.5,text only,general prompt v6,text only,evidence prompt,5,5,0.5124,0.5906,-0.0782,0.5561,0.641,-0.0462,0.0008
+Claude Opus,evidence prompt v9,text only,general prompt v6,text only,evidence prompt,5,5,0.4214,0.5906,-0.1692,0.5014,0.641,-0.1991,-0.0855
+Claude Sonnet 5.5,evidence prompt v10,text only,general prompt v6,text only,evidence prompt,5,5,0.4144,0.4188,-0.0043,0.5566,0.5331,-0.0934,-0.0459
+Claude Sonnet 5.5,evidence prompt v9,text only,general prompt v6,text only,evidence prompt,5,5,0.3968,0.4188,-0.0219,0.5197,0.5331,-0.0208,-0.055
+Claude Sonnet 5.5,evidence prompt v9.1,text only,general prompt v6,text only,evidence prompt,5,5,0.3012,0.4188,-0.1176,0.3333,0.5331,-0.1195,-0.1801
+DeepSeek-V4.1-Flash,evidence prompt v7,text only,general prompt v6,text only,evidence prompt,4,4,0.385,0.2716,0.1133,0.4509,0.319,0.2246,0.0122
+GLM-4.7-Flash (local LM Studio),evidence prompt v7,text only,general prompt v6,text only,evidence prompt,4,4,0.218,0.2465,-0.0284,0.4205,0.3864,0.0237,0.2778
+GLM-4.7-Flash (local LM Studio),evidence prompt v7.1,text only,general prompt v6,text only,evidence prompt,4,4,0.2719,0.2465,0.0254,0.438,0.3864,0.1881,0.1542
+GLM-4.7-Flash (local LM Studio),evidence prompt v7.5,text only,general prompt v6,text only,evidence prompt,2,2,0.2493,0.3224,-0.0731,0.2645,0.4016,,
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v10,text only,general prompt v6,text only,evidence prompt,5,5,0.3004,0.3292,-0.0288,0.7104,0.7219,-0.0394,-0.0404
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7,text only,general prompt v6,text only,evidence prompt,5,5,0.2755,0.3292,-0.0537,0.6734,0.7219,-0.0529,-0.0949
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7.1,text only,general prompt v6,text only,evidence prompt,5,5,0.259,0.3292,-0.0701,0.6373,0.7219,-0.0645,-0.0997
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7.4,text only,general prompt v6,text only,evidence prompt,5,5,0.299,0.3292,-0.0302,0.6686,0.7219,-0.041,-0.0627
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7.5,text only,general prompt v6,text only,evidence prompt,5,5,0.2731,0.3292,-0.056,0.672,0.7219,-0.0545,-0.055
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7.6,text only,general prompt v6,text only,evidence prompt,5,5,0.2948,0.3292,-0.0344,0.6789,0.7219,-0.0746,-0.0592
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v7.7,text only,general prompt v6,text only,evidence prompt,5,5,0.2858,0.3292,-0.0433,0.6785,0.7219,-0.0871,-0.1493
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v8,text only,general prompt v6,text only,evidence prompt,5,5,0.2703,0.3292,-0.0589,0.6592,0.7219,-0.084,-0.1138
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v9,text only,general prompt v6,text only,evidence prompt,5,5,0.2953,0.3292,-0.0338,0.7057,0.7219,-0.1004,-0.0851
+"Gemma-4-31B (cluster vLLM, QAT w4a16)",evidence prompt v9.1,text only,general prompt v6,text only,evidence prompt,5,5,0.2764,0.3292,-0.0527,0.6817,0.7219,-0.1226,-0.0757
+Gemma-4-31B (local LM Studio),evidence prompt v7,text only,general prompt v6,text only,evidence prompt,4,4,0.3118,0.3664,-0.0545,0.5671,0.6135,-0.0626,-0.0603
+Gemma-4-31B (local LM Studio),evidence prompt v7.1,text only,general prompt v6,text only,evidence prompt,4,4,0.3102,0.3664,-0.0562,0.5751,0.6135,-0.01,-0.0187
+Gemma-4-31B (local LM Studio),evidence prompt v7.4,text only,general prompt v6,text only,evidence prompt,4,4,0.3207,0.3664,-0.0457,0.6215,0.6135,-0.0753,0.041
+Gemma-4-31B (local LM Studio),evidence prompt v7.5,text only,general prompt v6,text only,evidence prompt,5,5,0.2898,0.3343,-0.0445,0.5938,0.6351,-0.0397,0.0489
+Gemma-4-31B (local LM Studio),evidence prompt v9,text only,general prompt v6,text only,evidence prompt,3,3,0.2293,0.2116,0.0177,0.5307,0.5553,,
+Kimi-K3 (Kimi Code),evidence prompt v7.1,text only,general prompt v6,text only,evidence prompt,1,1,0.2555,0.0401,0.2154,0.3576,0.1075,0.2154,0.2501
+Kimi-K3 (Kimi Code),evidence prompt v7.5,text only,general prompt v6,text only,evidence prompt,5,5,0.3974,0.2421,0.1552,0.5106,0.2612,0.5361,0.4871
+Kimi-K3 (Kimi Code),evidence prompt v9,text only,general prompt v6,text only,evidence prompt,5,5,0.1846,0.2421,-0.0576,0.2039,0.2612,-0.0401,-0.1075
+MiniMax-M3-4bit (local oMLX),evidence prompt v7,text only,general prompt v6,text only,evidence prompt,4,4,0.1523,0.289,-0.1367,0.222,0.2762,-0.3589,-0.3682
+Claude Opus,evidence prompt v7.5,generic image descriptions,evidence prompt v7.5,text only,figure addition,5,5,0.524,0.5124,0.0116,0.5889,0.5561,-0.1965,-0.1183
+Claude Opus,evidence prompt v7.5,short descriptions (v8 captioner),evidence prompt v7.5,text only,figure addition,5,5,0.5795,0.5124,0.0671,0.5984,0.5561,-0.0618,-0.0814
+Claude Opus,general prompt v6,guided image descriptions,general prompt v6,text only,figure addition,5,5,0.5162,0.5906,-0.0744,0.549,0.641,-0.435,-0.3799
+Gemma-4-31B (local),evidence prompt v7.1,generic image descriptions,evidence prompt v7.1,text only,figure addition,4,5,0.2659,0.3102,-0.0443,0.4775,0.5751,-0.2318,-0.3416
+Gemma-4-31B (local),evidence prompt v7.1,images interleaved,evidence prompt v7.1,text only,figure addition,3,3,0.3039,0.3517,-0.0478,0.6651,0.7131,-0.1556,-0.2562
+Gemma-4-31B (local),evidence prompt v7.5,generic image descriptions,evidence prompt v7.5,text only,figure addition,5,5,0.2926,0.2898,0.0029,0.5799,0.5938,-0.0498,-0.2656
+Gemma-4-31B (local),evidence prompt v7.5,images interleaved,evidence prompt v7.5,text only,figure addition,3,3,0.3531,0.3561,-0.003,0.6742,0.754,-0.0911,-0.3255
+Gemma-4-31B (local),general prompt v6,generic image descriptions,general prompt v6,text only,figure addition,5,5,0.2901,0.3343,-0.0442,0.57,0.6351,-0.1257,-0.2215
+Gemma-4-31B (local),general prompt v6,guided image descriptions,general prompt v6,text only,figure addition,5,5,0.2824,0.3343,-0.0519,0.5752,0.6351,-0.1555,-0.2638
+Kimi-K3 (Kimi Code),evidence prompt v7.5,generic image descriptions,evidence prompt v7.5,text only,figure addition,5,5,0.1716,0.3974,-0.2257,0.1625,0.5106,-0.5762,-0.5945
+Kimi-K3 (Kimi Code),general prompt v6,guided image descriptions,general prompt v6,text only,figure addition,5,5,0.3395,0.2421,0.0974,0.4215,0.2612,0.1778,0.1885
+DeepSeek-V4.1-Flash,deployed prompt,text only,general prompt v6,text only,other prompt version,1,1,0.2937,0.5267,-0.233,0.2493,0.4418,,
+DeepSeek-V4.1-Flash,general prompt v3,text only,general prompt v6,text only,other prompt version,1,1,0.4297,0.5267,-0.097,0.3256,0.4418,,
+DeepSeek-V4.1-Flash,general prompt v4,text only,general prompt v6,text only,other prompt version,2,2,0.6379,0.355,0.2829,0.6472,0.4178,0.4931,0.3854
+DeepSeek-V4.1-Flash,general prompt v5,text only,general prompt v6,text only,other prompt version,2,2,0.5521,0.355,0.1971,0.5429,0.4178,0.4648,0.3142

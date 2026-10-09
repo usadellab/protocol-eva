@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "e9e15b0e",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  622,
+  499
+ ],
+ "sent_size": [
+  622,
+  499
+ ],
+ "seconds": 72.5,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\n plates * 12 clones per strain * at 28°C for two days * * * 2026-03-04 **Plasmid digest for _U. maydis_ trafo:** &nbsp; pUX797 #1 (175 ng/µl) pUX798 #1 (795 ng/µl) pUX799 #1 (615 ng/µl) pUX800 #1 (760 ng/µl) pUX801 #1 (705 ng/µl) pUX802 #1 (610 ng/µl) pUX803 #1 (520 ng/µl) Expected fragment sizes: 6624 bp 2104 bp 616 bp 6627 bp 2104 bp 616 bp 6633 bp 2104 bp 616 bp 6624 bp 2104 bp 616 bp 6615 bp 2104 bp 616 bp 6609 bp 2104 bp 616 bp 6631 bp 2104 bp 616 bp Plasmid ( 6 µg ) 34 µl 8 µl 10 µl 8 µl 9 µl 10 µl 12 µl rCutSmart buffer 4 µl 3 µl 3 µl 3 µl 3 µl 3 µl 3 µl SspI-HF 1 µl 1 µl 1 µl 1 µl 1 µl 1 µl 1 µl H 2 O ( ad 30 µl) 11 µl 18 µl 16 µl 18 µl 17 µl 16 µl 14 µl * 3 µl test digest containing 600 ng plasmid * at 37°C overnight * * * 2026-03-05 **Agarose gel of test digests:** * 0.8% agarose in 1X TAE buffer + Midori Green * 3 µl digest + 1 µl 6X purple loading dye (NEB) * 5 µl 1 kb ladder\n\nTEXT AFTER THE FIGURE:\n**_U. maydis_ transformation:** ([Method](experiments.php?mode=view&id=24292)) &nbsp; UX517 UX518 <",
+ "description": "Lanes 1 and 9 contain a DNA ladder with printed labels at 250, 500, 750, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 8000, and 10000 bp. Lanes 2-8 are labeled pUX797, pUX798, pUX799, pUX800, pUX801, pUX802, and pUX803."
+}

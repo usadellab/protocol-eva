@@ -1,0 +1,14 @@
+{
+ "_source": "Local models served by LM Studio (:1234), each loaded with an explicit 131072-token context. Settings from the model cards / shipped generation_config.json (2026-09-30): GLM-4.7-Flash generation_config temperature 1.0 + GLM card top_p 0.95; Gemma-4-31B card temperature 1.0, top_p 0.95, top_k 64. max_tokens raised to 65536 (32768 for Gemma) because v7 adds a quote per value.",
+ "zai-org/glm-4.7-flash": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_tokens": 65536
+ },
+ "google/gemma-4-31b": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "top_k": 64,
+  "max_tokens": 32768
+ }
+}

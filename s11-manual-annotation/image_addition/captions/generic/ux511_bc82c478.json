@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "bc82c478",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  700,
+  606
+ ],
+ "sent_size": [
+  700,
+  606
+ ],
+ "seconds": 68.1,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: agarose gel.\n\n2. Text labels: \n- UX511, UX512, UX513, UX514 (top)\n- 4, 7, 8, 3, 4, 6, 2, 3, 4, 3, 7, 8 (lane labels)\n- UMa 133 (right side)\n- 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500 (left side)\n\n3. Lanes (from left to right):\n- Lane 1: Marker with sizes labeled on the left as 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, and 1500.\n- Lanes under UX511: labeled 4 (green), 7 (green), and 8 (green).\n- Lanes under UX512: labeled 3 (black), 4 (green), and 6 (green).\n- Lanes under UX513: labeled 2 (green), 3 (green), and 4 (green).\n- Lanes under UX514: labeled 3 (green), 7 (green), and 8 (black).\n- Lane labeled UMa 133.\n- Final lane on the right: Marker."
+}

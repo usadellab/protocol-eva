@@ -1,0 +1,17 @@
+{
+ "case": "phage",
+ "image": "gelp1",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1741,
+  2158
+ ],
+ "sent_size": [
+  803,
+  996
+ ],
+ "seconds": 37.2,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\na Frunzke. In total, six samples were provided: * BAS33\\_R1 * BAS33\\_R2 * BAS33\\_R3 * BAS33\\_Dau5\\_R1 * BAS33\\_Dau5\\_R2 * BAS33\\_Dau5\\_R3 Each sample contains the bacteriophage BAS33 together with its _E. coli_ host. The samples **BAS33\\_R1–R3** represent untreated control replicates, whereas **BAS33\\_Dau5\\_R1–R3** were treated with daunorubicin. **1\\. QC of provided DNA** In the following, the samples are abbreviated as: * **BAS33\\_R1–R3** → **B\\_R1–R3** * **BAS33\\_Dau5\\_R1–R3** → **BD\\_R1–R3** _**Qubit and Nanodrop check**: STD1:_ 581.84_STD2:_ 49578.98 &nbsp; Nanodrop Qubit sample ng/µl A260/A280 A260/A230 1.) ng/µl 2.) ng/µl average ng/µl B_R1 734 1.8 2.1 292 107 199.5 B_R2 521 1.9 2.4 97.8 93 95.4&nbsp; B_R3 569 1.8 2.4 117 242 179.5 BD_R1 405 1.8 2.2 116 96.2 106.1 BD_R2 414 1.9 2.2 127 94.6 110.6 BD_R3 523 1.7 2.0 173 94.2 133.6 gel check: 0.8% agarosegel 1µl / sample ; GelRed dye\n\nTEXT AFTER THE FIGURE:\nAs some samples were still highly heterogeneous, they were mixed overnight on a tube roller (slow rotation) before preparing the sample dilutions for native barcoding. Nevertheless, the dilutions will be checked again before starting the native barcoding protocol to confirm that the required DNA input is present in each sample. **2\\. Sample preparation** As more than four samples were included",
+ "description": "Lanes 1–3 contain BD_R1, BD_R2, and BD_R3; lanes 4–6 contain B_R1, B_R2, and B_R3. Lane 7 contains a 1kb Plus ladder with labels at 20 kb, 5 kb, 1.5 kb, and 0.5 kb."
+}

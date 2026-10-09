@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "84dc38ff",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  673,
+  613
+ ],
+ "sent_size": [
+  673,
+  613
+ ],
+ "seconds": 44.8,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: Agarose gel.\n2. Text labels:\n    - Top (left to right): UX521, UX522, UX523\n    - Lane labels (left to right): 1, 2, 6, 1, 6, 7, 6, 8, 10, UMa 133\n    - Left size-marker values (top to bottom): 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500\n3. Lanes (left to right):\n    - Lane 1: Size marker with values listed on the left.\n    - Lanes under UX521 bracket: 1, 2, and 6. Labels are in green text.\n    - Lanes under UX522 bracket: 1, 6, and 7. Labels are in green text.\n    - Lanes under UX523 bracket: 6 (green text), 8, and 10.\n    - Lane labeled UMa 133.\n    - Rightmost lane: Size marker without labels."
+}

@@ -1,0 +1,17 @@
+{
+ "case": "sdy1",
+ "image": "4355ff27",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1146,
+  733
+ ],
+ "sent_size": [
+  1000,
+  640
+ ],
+ "seconds": 78.2,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\nStrains AB33, UMa2700 (Pssd1-SSD1-GFP), UMa2950 (Pcrg1-SSD1-GFP) were grown in CM-glucose and in CM-arabinose media overnight. OD600 was determined and set to OD600 = 1 and serially deluted 1:10 in a 96 microtiter well plate in water. 5 uL were spotted on the following media and allowed to grow for 48h and macrographs were taken: inhibitors tested: CM-glucose medium inhibitor stock conc final conc target congo red 15 mg/mL 150 ug glucan micafungin 5 mg/mL 200 nM glucan micafungin 5 mg/mL 500 nM glucan SDS 10% 0.1% membrane SDS 10% 0.05% membrane Nikkomycin Z 0.5 mg/mL 5 uM chitin CFW 2 mg/mL 20 uM chitin\n\nTEXT AFTER THE FIGURE:\nrepeat spotting on 29.01.25 under same conditions:",
+ "description": "Spotting assays at 28°C; dilutions range from $10^7$ to $10^2$. Rows are labeled AB33, Pssd1-SSD1-GFP, OFF Pcrg1-SSD1-GFP, and ON Pcrg1-SSD1-GFP. Column labels include Congo red [150 $\\mu$M] and caspofungin [500 nM]. The second panel is labeled \"glucose Pcrg1-OFF condition\"."
+}

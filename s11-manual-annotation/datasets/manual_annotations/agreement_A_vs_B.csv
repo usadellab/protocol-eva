@@ -1,0 +1,3 @@
+entry,case,annotation_scored,annotation_used_as_reference,precision,recall,f1,records_scored,records_reference,records_aligned,script_call
+Bacteriophage sequencing,phage,manual annotation A,manual annotation B,0.4764,0.7594,0.5855,51,45,45,python3.13 scripts/score_agreement.py
+Bacteriophage sequencing,phage,manual annotation B,manual annotation A,0.7594,0.4764,0.5855,45,51,45,python3.13 scripts/score_agreement.py

@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "e9e15b0e",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  622,
+  499
+ ],
+ "sent_size": [
+  622,
+  499
+ ],
+ "seconds": 49.4,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Agarose gel\n2. Text labels:\n    - Top (left to right): pUX797, pUX798, pUX799, pUX800, pUX801, pUX802, pUX803\n    - Left side (top to bottom): 10000 bp, 8000 bp, 6000 bp, 5000 bp, 4000 bp, 3000 bp, 2500 bp, 2000 bp, 1500 bp, 1000 bp, 750 bp, 5000 bp, 250 bp\n3. Lanes (left to right):\n    - Lane 1: Marker with sizes labeled on the left as 10000 bp, 8000 bp, 6000 bp, 5000 bp, 4000 bp, 3000 bp, 2500 bp, 2000 bp, 1500 bp, 1000 bp, 750 bp, 500 bp, and 250 bp.\n    - Lane 2: pUX797\n    - Lane 3: pUX798\n    - Lane 4: pUX799\n    - Lane 5: pUX800\n    - Lane 6: pUX801\n    - Lane 7: pUX802\n    - Lane 8: pUX803\n    - Lane 9: Marker (no labels)"
+}

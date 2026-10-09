@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "6fed9d0a",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  925,
+  619
+ ],
+ "sent_size": [
+  925,
+  619
+ ],
+ "seconds": 58.6,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: Agarose gel.\n\n2. Text labels (left to right, top to bottom):\n- UX517\n- UX518\n- UX519\n- UX520\n- 1\n- 9 (green)\n- 10 (green)\n- 5 (green)\n- 6 (green)\n- 9\n- 3\n- 5 (green)\n- 8 (green)\n- 1 (green)\n- 2 (green)\n- 5\n- UMa 133\n- 10000\n- 8000\n- 6000\n- 5000\n- 4000\n- 3500\n- 3000\n- 2500\n- 2000\n- 1500\n\n3. Gels and blots:\n- Lane 1 (leftmost): Size marker with bands corresponding to the labels 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, and 1500.\n- Lanes under UX517: Lane 1 (black text), Lane 9 (green text), Lane 10 (green text).\n- Lanes under UX518: Lane 5 (green text), Lane 6 (green text), Lane 9 (black text).\n- Lanes under UX519: Lane 3 (black text), Lane 5 (green text), Lane 8 (green text).\n- Lanes under UX520: Lane 1 (green text), Lane 2 (green text), Lane 5 (black text).\n- Lane UMa 133.\n- Final lane (rightmost): Size marker with bands corresponding to the labels on the left."
+}

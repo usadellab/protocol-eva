@@ -1,0 +1,289 @@
+{
+ "rows": [
+  {
+   "figure": "phage:gelp1",
+   "n_facts": 19,
+   "printed": 11,
+   "observations": 5,
+   "layout": 3,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 11,
+    "printed_missed": []
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 11,
+    "printed_missed": []
+   },
+   "printed_supported_by_both": 11
+  },
+  {
+   "figure": "sdy1:4355ff27",
+   "n_facts": 32,
+   "printed": 25,
+   "observations": 6,
+   "layout": 1,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 25,
+    "printed_missed": []
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 23,
+    "printed_missed": [
+     "4355ff27-012 Nikkomycin Z [5 µM]",
+     "4355ff27-023 Nikkomycin Z [5 µM]"
+    ]
+   },
+   "printed_supported_by_both": 23
+  },
+  {
+   "figure": "sdy1:3bc807ec",
+   "n_facts": 29,
+   "printed": 25,
+   "observations": 3,
+   "layout": 1,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 24,
+    "printed_missed": [
+     "3bc807ec-018 arrow followed by 'no growth'"
+    ]
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 22,
+    "printed_missed": [
+     "3bc807ec-006 caspofungin [100 nM]",
+     "3bc807ec-007 caspofungin [500 nM]",
+     "3bc807ec-018 arrow followed by 'no growth'"
+    ]
+   },
+   "printed_supported_by_both": 22
+  },
+  {
+   "figure": "biolector034:38a110c5",
+   "n_facts": 46,
+   "printed": 34,
+   "observations": 3,
+   "layout": 9,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 32,
+    "printed_missed": [
+     "38a110c5-009 1600",
+     "38a110c5-019 1200"
+    ]
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 28,
+    "printed_missed": [
+     "38a110c5-006 + Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+     "38a110c5-011 + Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+     "38a110c5-016 + Glc: Pima1, Prpl10, Pima1short; + Malt",
+     "38a110c5-021 + Glc: Pima1, Prpl10, Pima1short; + Malt",
+     "38a110c5-026 + Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+     "38a110c5-031 + Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10"
+    ]
+   },
+   "printed_supported_by_both": 26
+  },
+  {
+   "figure": "biolector034:5c18fdef",
+   "n_facts": 38,
+   "printed": 29,
+   "observations": 2,
+   "layout": 7,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 27,
+    "printed_missed": [
+     "5c18fdef-007 800",
+     "5c18fdef-022 800"
+    ]
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 19,
+    "printed_missed": [
+     "5c18fdef-007 800",
+     "5c18fdef-009 + H2O: Phsp70, Prpl10, Potef; + Nitrogen",
+     "5c18fdef-014 + H2O: Phsp70, Prpl10; + Nitrogen: Phsp7",
+     "5c18fdef-019 + H2O: Potef; + Nitrogen: Potef",
+     "5c18fdef-022 800",
+     "5c18fdef-024 + H2O: Phsp70, Prpl10, Potef; + Nitrogen"
+    ]
+   },
+   "printed_supported_by_both": 19
+  },
+  {
+   "figure": "ux511:76a1dde7",
+   "n_facts": 24,
+   "printed": 19,
+   "observations": 4,
+   "layout": 1,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 19,
+    "printed_missed": []
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 19,
+    "printed_missed": []
+   },
+   "printed_supported_by_both": 19
+  },
+  {
+   "figure": "ux511:e9e15b0e",
+   "n_facts": 27,
+   "printed": 20,
+   "observations": 6,
+   "layout": 1,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 20,
+    "printed_missed": []
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 20,
+    "printed_missed": []
+   },
+   "printed_supported_by_both": 20
+  },
+  {
+   "figure": "ux511:bc82c478",
+   "n_facts": 46,
+   "printed": 15,
+   "observations": 4,
+   "layout": 1,
+   "colour_n": 12,
+   "R2_sonnet_subagent": {
+    "printed_supported": 15,
+    "printed_missed": [],
+    "colour_sequence_equal": true,
+    "colour_positions_agree": 12,
+    "reader_colour_n": 12
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 15,
+    "printed_missed": [],
+    "colour_sequence_equal": false,
+    "colour_positions_agree": 10,
+    "reader_colour_n": 12
+   },
+   "printed_supported_by_both": 15
+  },
+  {
+   "figure": "ux511:be57156f",
+   "n_facts": 39,
+   "printed": 13,
+   "observations": 3,
+   "layout": 1,
+   "colour_n": 10,
+   "R2_sonnet_subagent": {
+    "printed_supported": 13,
+    "printed_missed": [],
+    "colour_sequence_equal": true,
+    "colour_positions_agree": 10,
+    "reader_colour_n": 10
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 13,
+    "printed_missed": [],
+    "colour_sequence_equal": false,
+    "colour_positions_agree": 5,
+    "reader_colour_n": 10
+   },
+   "printed_supported_by_both": 13
+  },
+  {
+   "figure": "ux511:6fed9d0a",
+   "n_facts": 44,
+   "printed": 15,
+   "observations": 2,
+   "layout": 1,
+   "colour_n": 12,
+   "R2_sonnet_subagent": {
+    "printed_supported": 15,
+    "printed_missed": [],
+    "colour_sequence_equal": true,
+    "colour_positions_agree": 12,
+    "reader_colour_n": 12
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 15,
+    "printed_missed": [],
+    "colour_sequence_equal": false,
+    "colour_positions_agree": null,
+    "reader_colour_n": 9
+   },
+   "printed_supported_by_both": 15
+  },
+  {
+   "figure": "ux511:84dc38ff",
+   "n_facts": 39,
+   "printed": 14,
+   "observations": 4,
+   "layout": 1,
+   "colour_n": 9,
+   "R2_sonnet_subagent": {
+    "printed_supported": 14,
+    "printed_missed": [],
+    "colour_sequence_equal": true,
+    "colour_positions_agree": 9,
+    "reader_colour_n": 9
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 14,
+    "printed_missed": [],
+    "colour_sequence_equal": false,
+    "colour_positions_agree": 7,
+    "reader_colour_n": 9
+   },
+   "printed_supported_by_both": 14
+  },
+  {
+   "figure": "ux511:3acf4cbb",
+   "n_facts": 26,
+   "printed": 12,
+   "observations": 3,
+   "layout": 1,
+   "colour_n": 4,
+   "R2_sonnet_subagent": {
+    "printed_supported": 12,
+    "printed_missed": [],
+    "colour_sequence_equal": true,
+    "colour_positions_agree": 4,
+    "reader_colour_n": 4
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 12,
+    "printed_missed": [],
+    "colour_sequence_equal": false,
+    "colour_positions_agree": 2,
+    "reader_colour_n": 4
+   },
+   "printed_supported_by_both": 12
+  },
+  {
+   "figure": "pux782:grafik",
+   "n_facts": 37,
+   "printed": 31,
+   "observations": 4,
+   "layout": 2,
+   "colour_n": 0,
+   "R2_sonnet_subagent": {
+    "printed_supported": 31,
+    "printed_missed": []
+   },
+   "R3_haiku_cli": {
+    "printed_supported": 31,
+    "printed_missed": []
+   },
+   "printed_supported_by_both": 31
+  }
+ ],
+ "external_check_B_colour": {
+  "lanes_in_B_with_marking": 44,
+  "agree": 44,
+  "disagree": []
+ }
+}

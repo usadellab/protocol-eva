@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "3acf4cbb",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  450,
+  529
+ ],
+ "sent_size": [
+  450,
+  529
+ ],
+ "seconds": 61.3,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\nX521 #6 = g → only holy stock * UX522 #1 = k → only holy stock UX522 #6 = g → only holy stock * UX523 #6 = k → only holy stock + cell pellet stored at -20°C UX523 #8 → only working stock + cell pellet stored at -20°C UX523 #10 → only working stock + cell pellet stored at -20°C UX523 #11 → only working stock + cell pellet stored at -20°C * * * 2026-05-28 **gDNA extraction:** ([Method](experiments.php?mode=view&id=24292)) * UX523 #6, 8, 10, 11 * UMa133 **gDNA digest:** * Restriction enzymes: **XmnI** * UMa133: 2658 bp, 1982 bp * UX523: 7375 bp gDNA 15 µl CutSmart 2 µl Enzyme 1 µl H 2 O ( ad 20 µl) 2 µl * 37°C overnight * * * 2026-06-09 **Southern blot:** ([Method](experiments.php?mode=view&id=24292)) * 1 southern gel * assembly of the blot * * * 2026-06-10 * disassembly of the blot * hybridizing → [new _car2_ probe](experiments.php?mode=view&id=63497) * * * 2026-06-11 * washing & detection\n\nTEXT AFTER THE FIGURE:\n**Glycerol stocks of verified clones:** * UX523 #6 = k → only holy stock UX523 #10 = g → only holy stock Summary and Conclusions: ------------------------ ⇒ generation of UX511-523 was successful",
+ "description": "Lanes from left to right: marker, UX523 #6, #8, #10, #11, UMa 133, and marker. Left axis labels: 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500."
+}

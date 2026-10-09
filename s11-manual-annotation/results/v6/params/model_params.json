@@ -1,0 +1,8 @@
+{
+ "_source": "MiniMax-M3-4bit (local oMLX): generation_config.json of mlx-community/MiniMax-M3-4bit (temperature 1.0, top_p 0.95); thinking left at the chat template default; max_tokens 65536.",
+ "MiniMax-M3-4bit": {
+  "temperature": 1.0,
+  "top_p": 0.95,
+  "max_tokens": 65536
+ }
+}

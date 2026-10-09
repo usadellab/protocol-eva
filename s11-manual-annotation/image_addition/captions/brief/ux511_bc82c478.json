@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "bc82c478",
+ "mode": "brief",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  700,
+  606
+ ],
+ "sent_size": [
+  700,
+  606
+ ],
+ "seconds": 38.8,
+ "prompt": "You write a short caption for one figure of a lab notebook entry. The full entry text is given separately to another reader, so do NOT repeat anything the text already states. Report ONLY figure content the text cannot provide: printed labels and values; which item sits in which lane, well or position; marked or highlighted items; plotted quantities with axis titles and units. Maximum about 60 words. Facts only - no conclusions, no speculation, no guessing. If something cannot be read reliably, write \"unclear\" for that item.\n\nFor reference only (do NOT repeat it; describe only what the text cannot provide), the entry text around this figure:\nTEXT BEFORE THE FIGURE:\ne=view&id=24292)) **gDNA digest:** * Restriction enzymes: **XmnI** * UMa133: 2658 bp, 1982 bp * UX511: 5895 bp * UX512: 6132 bp, 1436 bp * UX513: 7368 bp * UX514: 7268 bp * Restriction enzymes: **BsrGI** * UMa133: 4936 bp * UX515: 7667 bp * UX516: 7673 bp gDNA 15 µl CutSmart 2 µl Enzyme 1 µl H 2 O ( ad 20 µl) 2 µl * 37°C overnight * * * 2026-03-11 **Southern blot:** ([Method](experiments.php?mode=view&id=24292)) * 2 southern gels * assembly of the blot **Single streak-outs:** * UX517-523 * CM + Hyg plates * 12 clones per strain * at 28°C for two days * * * 2026-03-12 * disassembly of the blot * hybridizing → [new _car2_ probe](experiments.php?mode=view&id=63497) * * * 2026-03-13 **Cultures for gDNA extraction:** * 3 ml CM+Glc medium were inoculated with a single colony and incubated three days at RT * UX517-523 ⇒ 6 whitish clones per strain * UMa133 * * * 2026-03-16 * washing & detection\n\nTEXT AFTER THE FIGURE:\n**gDNA extraction:** ([Method](experiments.php?mode=view&id=24292)) **gDNA digest:** * Restriction enzymes: **XmnI** * UMa133: 2658 bp, 1982 bp * UX517: 7368 bp * UX518: 7371 bp * UX519: 7377 bp * UX520: 7368 bp * UX521: 7359 bp * UX522: 535",
+ "description": "Lanes: UX511 (4, 7, 8), UX512 (3, 4, 6), UX513 (2, 3, 4), UX514 (3, 7, 8), and UMa133. Molecular weight marker labels: 10000, 8000, 6000, 5000, 4000, 3500, 3000, 2500, 2000, 1500."
+}

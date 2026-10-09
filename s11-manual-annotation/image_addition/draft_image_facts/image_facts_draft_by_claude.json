@@ -1,0 +1,4037 @@
+{
+ "name": "image_facts_draft_by_claude",
+ "status": "DRAFT. Read from the images with vision by Claude (Sonnet 5.5, window image-reading session, 2026-10-06). NOT a manual annotation, NOT manual annotation, not to be mixed with annotations A and B. Needs review by the curator / user before any use in a manuscript.",
+ "method": "images opened and viewed (prepared flat PNG or original; label rows of the blots enlarged 2x); every fact is one read-off. Second independent readings and the per-image agreement are in image_facts_agreement.md.",
+ "counts": {
+  "phage:gelp1": 19,
+  "sdy1:4355ff27": 32,
+  "sdy1:3bc807ec": 29,
+  "biolector034:38a110c5": 46,
+  "biolector034:5c18fdef": 38,
+  "ux511:76a1dde7": 24,
+  "ux511:e9e15b0e": 27,
+  "ux511:bc82c478": 46,
+  "ux511:be57156f": 39,
+  "ux511:6fed9d0a": 44,
+  "ux511:84dc38ff": 39,
+  "ux511:3acf4cbb": 26,
+  "pux782:grafik": 37
+ },
+ "total": 446,
+ "facts": [
+  {
+   "id": "gelp1-001",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 1",
+   "attribute": "lane label",
+   "value": "BD_R1",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-002",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 2",
+   "attribute": "lane label",
+   "value": "BD_R2",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-003",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 3",
+   "attribute": "lane label",
+   "value": "BD_R3",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-004",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 4",
+   "attribute": "lane label",
+   "value": "B_R1",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-005",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 5",
+   "attribute": "lane label",
+   "value": "B_R2",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-006",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 6",
+   "attribute": "lane label",
+   "value": "B_R3",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-007",
+   "figure": "phage:gelp1",
+   "kind": "label",
+   "locator": "lane 7",
+   "attribute": "lane label",
+   "value": "1kb Plus ladder",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-008",
+   "figure": "phage:gelp1",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "number of lanes",
+   "value": "7 (6 samples + 1 ladder)",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-009",
+   "figure": "phage:gelp1",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladder position",
+   "value": "right-most lane (lane 7)",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-010",
+   "figure": "phage:gelp1",
+   "kind": "mark",
+   "locator": "right side, lines to the ladder",
+   "attribute": "size mark",
+   "value": "20 kb",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-011",
+   "figure": "phage:gelp1",
+   "kind": "mark",
+   "locator": "right side, lines to the ladder",
+   "attribute": "size mark",
+   "value": "5 kb",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-012",
+   "figure": "phage:gelp1",
+   "kind": "mark",
+   "locator": "right side, lines to the ladder",
+   "attribute": "size mark",
+   "value": "1.5 kb",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-013",
+   "figure": "phage:gelp1",
+   "kind": "mark",
+   "locator": "right side, lines to the ladder",
+   "attribute": "size mark",
+   "value": "0.5 kb",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-014",
+   "figure": "phage:gelp1",
+   "kind": "observation",
+   "locator": "lanes 1-6",
+   "attribute": "signal type",
+   "value": "broad smear from the wells to below 0.5 kb in every sample lane; no discrete band",
+   "confidence": "high"
+  },
+  {
+   "id": "gelp1-015",
+   "figure": "phage:gelp1",
+   "kind": "observation",
+   "locator": "lane 1 (BD_R1)",
+   "attribute": "signal intensity",
+   "value": "strongest smear of all lanes, most intense between about 5 kb and 1.5 kb",
+   "confidence": "medium"
+  },
+  {
+   "id": "gelp1-016",
+   "figure": "phage:gelp1",
+   "kind": "observation",
+   "locator": "lanes 2-6",
+   "attribute": "signal intensity",
+   "value": "weaker smears than lane 1; lane 5 (B_R2) and lane 6 (B_R3) denser than lanes 2-4",
+   "confidence": "medium"
+  },
+  {
+   "id": "gelp1-017",
+   "figure": "phage:gelp1",
+   "kind": "observation",
+   "locator": "ladder lane",
+   "attribute": "ladder",
+   "value": "about 15 discrete bands; brightest at the 5 kb, 1.5 kb and 0.5 kb marks",
+   "confidence": "medium"
+  },
+  {
+   "id": "gelp1-018",
+   "figure": "phage:gelp1",
+   "kind": "observation",
+   "locator": "wells",
+   "attribute": "faint band",
+   "value": "faint high-molecular-weight band near the wells (about 20 kb mark) in several lanes",
+   "confidence": "medium"
+  },
+  {
+   "id": "gelp1-019",
+   "figure": "phage:gelp1",
+   "kind": "layout",
+   "locator": "image",
+   "attribute": "transparency",
+   "value": "RGBA PNG; labels are black text on a transparent background (not readable on black)",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-001",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "top left",
+   "attribute": "title",
+   "value": "48h, CM, 28°C",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-002",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "top left list",
+   "attribute": "strain listed",
+   "value": "AB33",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-003",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "top left list",
+   "attribute": "strain listed",
+   "value": "UMa2700",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-004",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "top left list",
+   "attribute": "strain listed",
+   "value": "UMa2950",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-005",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "top",
+   "attribute": "culture note",
+   "value": "over night main culture in glucose and/or arabinose",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-006",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "dilution wedge",
+   "attribute": "dilution range",
+   "value": "10^7 to 10^2",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-007",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 1",
+   "attribute": "plate title",
+   "value": "CM [glucose]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-008",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 2",
+   "attribute": "plate title",
+   "value": "CM [arabinose]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-009",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 3",
+   "attribute": "plate title",
+   "value": "CFW [20 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-010",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 4",
+   "attribute": "plate title",
+   "value": "Congo red [150 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-011",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 5",
+   "attribute": "plate title",
+   "value": "caspofungin [500 nM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-012",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 6",
+   "attribute": "plate title",
+   "value": "Nikkomycin Z [5 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-013",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 7",
+   "attribute": "plate title",
+   "value": "SDS [0.1%]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-014",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "upper row, plate 8",
+   "attribute": "plate title",
+   "value": "SDS [0.05%]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-015",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "AB33",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-016",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pssd1-SSD1-GFP",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-017",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pcrg1-SSD1-GFP (OFF)",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-018",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pcrg1-SSD1-GFP (ON)",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-019",
+   "figure": "sdy1:4355ff27",
+   "kind": "layout",
+   "locator": "upper row of plates",
+   "attribute": "spot rows per plate",
+   "value": "6 (AB33, Pssd1-SSD1-GFP, 2 x Pcrg1 OFF, 2 x Pcrg1 ON; the vertical bars mark the OFF rows and the ON rows)",
+   "confidence": "medium"
+  },
+  {
+   "id": "4355ff27-020",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "lower row, plate 1",
+   "attribute": "plate title",
+   "value": "CM [glucose]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-021",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "lower row, plate 2",
+   "attribute": "plate title",
+   "value": "CFW [20 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-022",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "lower row, plate 3",
+   "attribute": "plate title",
+   "value": "caspofungin [500 nM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-023",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "lower row, plate 4",
+   "attribute": "plate title",
+   "value": "Nikkomycin Z [5 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-024",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "lower row, right",
+   "attribute": "annotation",
+   "value": "glucose Pcrg1-OFF condition",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-025",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "bottom text",
+   "attribute": "conclusion 1",
+   "value": "conditional SSD1-mutant sensitive to chitin synthase inhibitor Nikkomycin Z but not CFW which binds to chitin, looks slightly more growth; surprisingly the conditional SSD1-mutant was way more resistant to ß-glucan inhibitor CR",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-026",
+   "figure": "sdy1:4355ff27",
+   "kind": "label",
+   "locator": "bottom text",
+   "attribute": "conclusion 2",
+   "value": "overexpression of SSD1 (only in pre-culture) was sufficient to produce a strong sensitivity phenotype in presence of caspofungin, inhibiting ß-glucan synthesis not present in the conditional-mutant",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-027",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "SDS [0.1%] and SDS [0.05%] plates",
+   "attribute": "growth",
+   "value": "no visible growth in any row",
+   "confidence": "high"
+  },
+  {
+   "id": "4355ff27-028",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "Nikkomycin Z [5 µM] plate",
+   "attribute": "growth by row",
+   "value": "Pcrg1 OFF rows: strongly reduced (almost no spots); Pcrg1 ON, AB33 and Pssd1 rows: growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "4355ff27-029",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "caspofungin [500 nM] plate",
+   "attribute": "growth by row",
+   "value": "Pcrg1 ON rows: strongly reduced (only small colonies at low dilution); other rows: growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "4355ff27-030",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "CFW [20 µM] plate",
+   "attribute": "growth",
+   "value": "reduced in all rows (first one or two spots only)",
+   "confidence": "medium"
+  },
+  {
+   "id": "4355ff27-031",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "Congo red [150 µM] plate",
+   "attribute": "growth by row",
+   "value": "only the Pcrg1 OFF rows show faint spots; other rows no growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "4355ff27-032",
+   "figure": "sdy1:4355ff27",
+   "kind": "observation",
+   "locator": "CM [glucose] and CM [arabinose] plates",
+   "attribute": "growth",
+   "value": "all rows grow with dilution series visible",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-001",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "top left",
+   "attribute": "title",
+   "value": "30.01.25 48h",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-002",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 1",
+   "attribute": "plate title",
+   "value": "CM [glucose]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-003",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 2",
+   "attribute": "plate title",
+   "value": "CM [arabinose]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-004",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 3",
+   "attribute": "plate title",
+   "value": "CFW [10 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-005",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 4",
+   "attribute": "plate title",
+   "value": "CFW [20 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-006",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 5",
+   "attribute": "plate title",
+   "value": "caspofungin [100 nM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-007",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 6",
+   "attribute": "plate title",
+   "value": "caspofungin [500 nM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-008",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 7",
+   "attribute": "plate title",
+   "value": "Nikkomycin Z [2.5 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-009",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "plate 8",
+   "attribute": "plate title",
+   "value": "Nikkomycin Z [5 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-010",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "AB33",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-011",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pssd1-SSD1-GFP",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-012",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pcrg1-SSD1-GFP (OFF)",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-013",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "row labels, left",
+   "attribute": "row label",
+   "value": "Pcrg1-SSD1-GFP (ON)",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-014",
+   "figure": "sdy1:3bc807ec",
+   "kind": "layout",
+   "locator": "plates",
+   "attribute": "spot rows per plate",
+   "value": "5 visible rows (Pssd1-SSD1-GFP, 2 x OFF, 2 x ON); AB33 row without growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "3bc807ec-015",
+   "figure": "sdy1:3bc807ec",
+   "kind": "legend",
+   "locator": "legend below the plates",
+   "attribute": "inhibitor without growth",
+   "value": "Congo red [150 µM]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-016",
+   "figure": "sdy1:3bc807ec",
+   "kind": "legend",
+   "locator": "legend below the plates",
+   "attribute": "inhibitor without growth",
+   "value": "SDS [0.1%]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-017",
+   "figure": "sdy1:3bc807ec",
+   "kind": "legend",
+   "locator": "legend below the plates",
+   "attribute": "inhibitor without growth",
+   "value": "SDS [0.05%]",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-018",
+   "figure": "sdy1:3bc807ec",
+   "kind": "legend",
+   "locator": "legend below the plates",
+   "attribute": "symbol",
+   "value": "arrow followed by 'no growth'",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-019",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "bottom text",
+   "attribute": "bullet 1",
+   "value": "conditional mutant phenotype is reproducible on Nikkomycin Z, with lower inhibitor concentration still significant growth defect",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-020",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "bottom text",
+   "attribute": "bullet 2",
+   "value": "overexpression phenotype is also reproducible on caspofungin, but not at lower inhibitor concentration",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-021",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "bottom text",
+   "attribute": "bullet 3",
+   "value": "AB33 control strain did not grow, but starting OD was very low",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-022",
+   "figure": "sdy1:3bc807ec",
+   "kind": "value",
+   "locator": "OD600 table, row AB33",
+   "attribute": "OD600 (start)",
+   "value": "0.165",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-023",
+   "figure": "sdy1:3bc807ec",
+   "kind": "value",
+   "locator": "OD600 table, row 2700",
+   "attribute": "OD600 (start)",
+   "value": "0.696",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-024",
+   "figure": "sdy1:3bc807ec",
+   "kind": "value",
+   "locator": "OD600 table, row 2950glc",
+   "attribute": "OD600 (start)",
+   "value": "0.505",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-025",
+   "figure": "sdy1:3bc807ec",
+   "kind": "value",
+   "locator": "OD600 table, row 2950ara",
+   "attribute": "OD600 (start)",
+   "value": "0.552",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-026",
+   "figure": "sdy1:3bc807ec",
+   "kind": "label",
+   "locator": "OD600 table",
+   "attribute": "table heading",
+   "value": "OD600",
+   "confidence": "high"
+  },
+  {
+   "id": "3bc807ec-027",
+   "figure": "sdy1:3bc807ec",
+   "kind": "observation",
+   "locator": "Nikkomycin Z [2.5 µM] and [5 µM] plates",
+   "attribute": "growth by row",
+   "value": "Pcrg1 OFF rows: strongly reduced; Pcrg1 ON and Pssd1 rows: growth",
+   "confidence": "medium"
+  },
+  {
+   "id": "3bc807ec-028",
+   "figure": "sdy1:3bc807ec",
+   "kind": "observation",
+   "locator": "caspofungin [500 nM] plate",
+   "attribute": "growth by row",
+   "value": "Pcrg1 ON rows reduced; caspofungin [100 nM] plate: no clear difference between rows",
+   "confidence": "medium"
+  },
+  {
+   "id": "3bc807ec-029",
+   "figure": "sdy1:3bc807ec",
+   "kind": "observation",
+   "locator": "CFW [20 µM] plate",
+   "attribute": "growth",
+   "value": "strongly reduced in all rows",
+   "confidence": "medium"
+  },
+  {
+   "id": "38a110c5-001",
+   "figure": "biolector034:38a110c5",
+   "kind": "label",
+   "locator": "top left",
+   "attribute": "heading",
+   "value": "Pcrg",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-002",
+   "figure": "biolector034:38a110c5",
+   "kind": "label",
+   "locator": "top right",
+   "attribute": "heading",
+   "value": "Pima1",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-003",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, upper row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-004",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, upper row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-005",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-006",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pcrg biomass, upper row",
+   "attribute": "legend",
+   "value": "+ Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-007",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pcrg biomass, upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-008",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-009",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "y-axis maximum",
+   "value": "1600",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-010",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-011",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "legend",
+   "value": "+ Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-012",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-013",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, upper row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-014",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, upper row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-015",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-016",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pima1 biomass, upper row",
+   "attribute": "legend",
+   "value": "+ Glc: Pima1, Prpl10, Pima1short; + Malt: Pima1, Prpl10, Pima1short",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-017",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pima1 biomass, upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-018",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-019",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "y-axis maximum",
+   "value": "1200",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-020",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-021",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "legend",
+   "value": "+ Glc: Pima1, Prpl10, Pima1short; + Malt: Pima1, Prpl10, Pima1short",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-022",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-023",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, lower row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-024",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, lower row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-025",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg biomass, lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-026",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pcrg biomass, lower row",
+   "attribute": "legend",
+   "value": "+ Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-027",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pcrg biomass, lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-028",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, lower row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-029",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, lower row",
+   "attribute": "y-axis maximum",
+   "value": "300",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-030",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pcrg GFP, lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-031",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pcrg GFP, lower row",
+   "attribute": "legend",
+   "value": "+ Glc: Pcrg, Prpl10; + Ara: Pcrg, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-032",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pcrg GFP, lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-033",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, lower row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-034",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, lower row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-035",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 biomass, lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-036",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pima1 biomass, lower row",
+   "attribute": "legend",
+   "value": "+ Glc: Pima1, Prpl10; + Malt: Pima1, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-037",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pima1 biomass, lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-038",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, lower row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-039",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, lower row",
+   "attribute": "y-axis maximum",
+   "value": "200",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-040",
+   "figure": "biolector034:38a110c5",
+   "kind": "axis",
+   "locator": "Pima1 GFP, lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-041",
+   "figure": "biolector034:38a110c5",
+   "kind": "legend",
+   "locator": "Pima1 GFP, lower row",
+   "attribute": "legend",
+   "value": "+ Glc: Pima1, Prpl10; + Malt: Pima1, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-042",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "Pima1 GFP, lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "38a110c5-043",
+   "figure": "biolector034:38a110c5",
+   "kind": "layout",
+   "locator": "all 8 panels",
+   "attribute": "marker",
+   "value": "black arrow at about 25 h",
+   "confidence": "medium"
+  },
+  {
+   "id": "38a110c5-044",
+   "figure": "biolector034:38a110c5",
+   "kind": "observation",
+   "locator": "all biomass panels",
+   "attribute": "level at 70 h",
+   "value": "Pcrg biomass plateaus near 500 AU, Pima1 biomass near 350-380 AU",
+   "confidence": "medium"
+  },
+  {
+   "id": "38a110c5-045",
+   "figure": "biolector034:38a110c5",
+   "kind": "observation",
+   "locator": "Pcrg GFP, upper row",
+   "attribute": "highest curve",
+   "value": "+ Ara Pcrg reaches about 1500 RFU (peak near 55 h)",
+   "confidence": "medium"
+  },
+  {
+   "id": "38a110c5-046",
+   "figure": "biolector034:38a110c5",
+   "kind": "observation",
+   "locator": "Pima1 GFP, upper row",
+   "attribute": "highest curve",
+   "value": "+ Malt Pima1 reaches about 1000 RFU",
+   "confidence": "medium"
+  },
+  {
+   "id": "5c18fdef-001",
+   "figure": "biolector034:5c18fdef",
+   "kind": "label",
+   "locator": "column heading",
+   "attribute": "column heading",
+   "value": "Biomass",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-002",
+   "figure": "biolector034:5c18fdef",
+   "kind": "label",
+   "locator": "column heading",
+   "attribute": "column heading",
+   "value": "GFP",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-003",
+   "figure": "biolector034:5c18fdef",
+   "kind": "label",
+   "locator": "column heading",
+   "attribute": "column heading",
+   "value": "GFP",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-004",
+   "figure": "biolector034:5c18fdef",
+   "kind": "label",
+   "locator": "right of the upper row",
+   "attribute": "row label",
+   "value": "Promoter:eGFP",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-005",
+   "figure": "biolector034:5c18fdef",
+   "kind": "label",
+   "locator": "right of the lower row",
+   "attribute": "row label",
+   "value": "Promoter:eGFP-d2-L",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-006",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, upper row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-007",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, upper row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-008",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-009",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "biomass, upper row",
+   "attribute": "legend",
+   "value": "+ H2O: Phsp70, Prpl10, Potef; + Nitrogen: Phsp70, Prpl10, Potef",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-010",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "biomass, upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-011",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), upper row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-012",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), upper row",
+   "attribute": "y-axis maximum",
+   "value": "1200",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-013",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-014",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "GFP (Phsp70, Prpl10), upper row",
+   "attribute": "legend",
+   "value": "+ H2O: Phsp70, Prpl10; + Nitrogen: Phsp70, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-015",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "GFP (Phsp70, Prpl10), upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-016",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), upper row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-017",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), upper row",
+   "attribute": "y-axis maximum",
+   "value": "1200",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-018",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), upper row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-019",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "GFP (Potef), upper row",
+   "attribute": "legend",
+   "value": "+ H2O: Potef; + Nitrogen: Potef",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-020",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "GFP (Potef), upper row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-021",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, lower row",
+   "attribute": "y-axis title",
+   "value": "Biomass [AU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-022",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, lower row",
+   "attribute": "y-axis maximum",
+   "value": "800",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-023",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "biomass, lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-024",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "biomass, lower row",
+   "attribute": "legend",
+   "value": "+ H2O: Phsp70, Prpl10, Potef; + Nitrogen: Phsp70, Prpl10, Potef",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-025",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "biomass, lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-026",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), lower row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-027",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), lower row",
+   "attribute": "y-axis maximum",
+   "value": "200",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-028",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Phsp70, Prpl10), lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-029",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "GFP (Phsp70, Prpl10), lower row",
+   "attribute": "legend",
+   "value": "+ H2O: Phsp70, Prpl10; + Nitrogen: Phsp70, Prpl10",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-030",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "GFP (Phsp70, Prpl10), lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-031",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), lower row",
+   "attribute": "y-axis title",
+   "value": "GFP [RFU]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-032",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), lower row",
+   "attribute": "y-axis maximum",
+   "value": "200",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-033",
+   "figure": "biolector034:5c18fdef",
+   "kind": "axis",
+   "locator": "GFP (Potef), lower row",
+   "attribute": "x-axis title",
+   "value": "Time [h]",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-034",
+   "figure": "biolector034:5c18fdef",
+   "kind": "legend",
+   "locator": "GFP (Potef), lower row",
+   "attribute": "legend",
+   "value": "+ H2O: Potef; + Nitrogen: Potef",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-035",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "GFP (Potef), lower row",
+   "attribute": "time axis range",
+   "value": "0 to 70 h",
+   "confidence": "high"
+  },
+  {
+   "id": "5c18fdef-036",
+   "figure": "biolector034:5c18fdef",
+   "kind": "layout",
+   "locator": "all 6 panels",
+   "attribute": "marker",
+   "value": "black arrow at about 43 h",
+   "confidence": "medium"
+  },
+  {
+   "id": "5c18fdef-037",
+   "figure": "biolector034:5c18fdef",
+   "kind": "observation",
+   "locator": "biomass panels",
+   "attribute": "effect of nitrogen",
+   "value": "after the arrow the + Nitrogen curves rise to about 700-750 AU while + H2O curves stay near 450-480 AU",
+   "confidence": "medium"
+  },
+  {
+   "id": "5c18fdef-038",
+   "figure": "biolector034:5c18fdef",
+   "kind": "observation",
+   "locator": "GFP (Phsp70, Prpl10) upper row",
+   "attribute": "effect of nitrogen",
+   "value": "+ Nitrogen Phsp70 rises to about 1150 RFU after the arrow; + H2O Phsp70 about 750 RFU",
+   "confidence": "medium"
+  },
+  {
+   "id": "76a1dde7-001",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 1",
+   "attribute": "lane label",
+   "value": "pUX782",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-002",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 2",
+   "attribute": "lane label",
+   "value": "pUX783",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-003",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 3",
+   "attribute": "lane label",
+   "value": "pUX784",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-004",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 4",
+   "attribute": "lane label",
+   "value": "pUX785",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-005",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 5",
+   "attribute": "lane label",
+   "value": "pUX786",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-006",
+   "figure": "ux511:76a1dde7",
+   "kind": "label",
+   "locator": "lane label 6",
+   "attribute": "lane label",
+   "value": "pUX787",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-007",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-008",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-009",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-010",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-011",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-012",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-013",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-014",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-015",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-016",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-017",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "750 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-018",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-019",
+   "figure": "ux511:76a1dde7",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "250 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-020",
+   "figure": "ux511:76a1dde7",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the six sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "76a1dde7-021",
+   "figure": "ux511:76a1dde7",
+   "kind": "observation",
+   "locator": "lane pUX782",
+   "attribute": "upper band",
+   "value": "about 5500-6000 bp (smeared, between the 6000 and 5000 bp markers)",
+   "confidence": "medium"
+  },
+  {
+   "id": "76a1dde7-022",
+   "figure": "ux511:76a1dde7",
+   "kind": "observation",
+   "locator": "lanes pUX783-pUX787",
+   "attribute": "upper band",
+   "value": "about 8000-9000 bp (smeared, around and above the 8000 bp marker)",
+   "confidence": "medium"
+  },
+  {
+   "id": "76a1dde7-023",
+   "figure": "ux511:76a1dde7",
+   "kind": "observation",
+   "locator": "all six lanes",
+   "attribute": "middle band",
+   "value": "about 2100-2200 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "76a1dde7-024",
+   "figure": "ux511:76a1dde7",
+   "kind": "observation",
+   "locator": "all six lanes",
+   "attribute": "lower band",
+   "value": "about 600-650 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-001",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 1",
+   "attribute": "lane label",
+   "value": "pUX797",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-002",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 2",
+   "attribute": "lane label",
+   "value": "pUX798",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-003",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 3",
+   "attribute": "lane label",
+   "value": "pUX799",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-004",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 4",
+   "attribute": "lane label",
+   "value": "pUX800",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-005",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 5",
+   "attribute": "lane label",
+   "value": "pUX801",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-006",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 6",
+   "attribute": "lane label",
+   "value": "pUX802",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-007",
+   "figure": "ux511:e9e15b0e",
+   "kind": "label",
+   "locator": "lane label 7",
+   "attribute": "lane label",
+   "value": "pUX803",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-008",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-009",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-010",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-011",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-012",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-013",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-014",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-015",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-016",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-017",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-018",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "750 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-019",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-020",
+   "figure": "ux511:e9e15b0e",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "250 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-021",
+   "figure": "ux511:e9e15b0e",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the seven sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "e9e15b0e-022",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "lane pUX797",
+   "attribute": "upper bands",
+   "value": "several bands between about 6000 and 10000 bp (three bands), unlike the other lanes",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-023",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "lanes pUX798, 799, 801, 802",
+   "attribute": "upper band",
+   "value": "single band at about 7000-8000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-024",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "lane pUX800",
+   "attribute": "upper band",
+   "value": "single band slightly higher than its neighbours",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-025",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "lane pUX803",
+   "attribute": "upper bands",
+   "value": "band at about 7500 bp plus an extra fainter band at about 9000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-026",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "all lanes",
+   "attribute": "middle band",
+   "value": "about 2100 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "e9e15b0e-027",
+   "figure": "ux511:e9e15b0e",
+   "kind": "observation",
+   "locator": "all lanes",
+   "attribute": "lower band",
+   "value": "about 650 bp, faint in pUX797 and pUX803",
+   "confidence": "medium"
+  },
+  {
+   "id": "bc82c478-001",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX511",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-002",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX511 lane",
+   "attribute": "clone number",
+   "value": "4",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-003",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX511 clone 4",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-004",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX511 lane",
+   "attribute": "clone number",
+   "value": "7",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-005",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX511 clone 7",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-006",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX511 lane",
+   "attribute": "clone number",
+   "value": "8",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-007",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX511 clone 8",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-008",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX512",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-009",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX512 lane",
+   "attribute": "clone number",
+   "value": "3",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-010",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX512 clone 3",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-011",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX512 lane",
+   "attribute": "clone number",
+   "value": "4",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-012",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX512 clone 4",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-013",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX512 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-014",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX512 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-015",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX513",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-016",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX513 lane",
+   "attribute": "clone number",
+   "value": "2",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-017",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX513 clone 2",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-018",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX513 lane",
+   "attribute": "clone number",
+   "value": "3",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-019",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX513 clone 3",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-020",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX513 lane",
+   "attribute": "clone number",
+   "value": "4",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-021",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX513 clone 4",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-022",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX514",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-023",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX514 lane",
+   "attribute": "clone number",
+   "value": "3",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-024",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX514 clone 3",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-025",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX514 lane",
+   "attribute": "clone number",
+   "value": "7",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-026",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX514 clone 7",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-027",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "UX514 lane",
+   "attribute": "clone number",
+   "value": "8",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-028",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UX514 clone 8",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-029",
+   "figure": "ux511:bc82c478",
+   "kind": "label",
+   "locator": "lane after the clones",
+   "attribute": "control lane label",
+   "value": "UMa133",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-030",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "UMa133",
+   "attribute": "marked as correct on blot image",
+   "value": "no (black)",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-031",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-032",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-033",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-034",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-035",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-036",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3500",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-037",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-038",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-039",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-040",
+   "figure": "ux511:bc82c478",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-041",
+   "figure": "ux511:bc82c478",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-042",
+   "figure": "ux511:bc82c478",
+   "kind": "colour-code",
+   "locator": "clone numbers",
+   "attribute": "colour code",
+   "value": "green clone numbers vs black clone numbers (green = marked correct)",
+   "confidence": "high"
+  },
+  {
+   "id": "bc82c478-043",
+   "figure": "ux511:bc82c478",
+   "kind": "observation",
+   "locator": "lanes UX511 clones 4, 7, 8",
+   "attribute": "main band",
+   "value": "about 6000 bp (at the 6000 marker)",
+   "confidence": "medium"
+  },
+  {
+   "id": "bc82c478-044",
+   "figure": "ux511:bc82c478",
+   "kind": "observation",
+   "locator": "lanes UX512 clones 4, 6",
+   "attribute": "main band",
+   "value": "about 6500-7000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "bc82c478-045",
+   "figure": "ux511:bc82c478",
+   "kind": "observation",
+   "locator": "lanes UX513 and UX514",
+   "attribute": "main band",
+   "value": "about 9000 bp (between the 8000 and 10000 markers)",
+   "confidence": "medium"
+  },
+  {
+   "id": "bc82c478-046",
+   "figure": "ux511:bc82c478",
+   "kind": "observation",
+   "locator": "UMa133 lane",
+   "attribute": "bands",
+   "value": "weak bands near 2000 and 3000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "be57156f-001",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX515",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-002",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-003",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-004",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "2",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-005",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 2",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-006",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "4",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-007",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 4",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-008",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "5",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-009",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 5",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-010",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "7",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-011",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 7",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-012",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX515 lane",
+   "attribute": "clone number",
+   "value": "11",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-013",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX515 clone 11",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-014",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX516",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-015",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX516 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-016",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX516 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-017",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX516 lane",
+   "attribute": "clone number",
+   "value": "5",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-018",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX516 clone 5",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-019",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX516 lane",
+   "attribute": "clone number",
+   "value": "11",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-020",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX516 clone 11",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-021",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "UX516 lane",
+   "attribute": "clone number",
+   "value": "12",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-022",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UX516 clone 12",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-023",
+   "figure": "ux511:be57156f",
+   "kind": "label",
+   "locator": "lane after the clones",
+   "attribute": "control lane label",
+   "value": "UMa133",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-024",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "UMa133",
+   "attribute": "marked as correct on blot image",
+   "value": "no (black)",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-025",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-026",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-027",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-028",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-029",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-030",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3500",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-031",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-032",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-033",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-034",
+   "figure": "ux511:be57156f",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-035",
+   "figure": "ux511:be57156f",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-036",
+   "figure": "ux511:be57156f",
+   "kind": "colour-code",
+   "locator": "clone numbers",
+   "attribute": "colour code",
+   "value": "green clone numbers vs black clone numbers (green = marked correct)",
+   "confidence": "high"
+  },
+  {
+   "id": "be57156f-037",
+   "figure": "ux511:be57156f",
+   "kind": "observation",
+   "locator": "UX515 clone 2 and clone 11",
+   "attribute": "signal",
+   "value": "very strong band near the top (above 10000 bp)",
+   "confidence": "medium"
+  },
+  {
+   "id": "be57156f-038",
+   "figure": "ux511:be57156f",
+   "kind": "observation",
+   "locator": "UX515 clones 1, 4, 5, 7 and UX516 clones 1, 5, 11, 12",
+   "attribute": "main band",
+   "value": "about 7500-8000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "be57156f-039",
+   "figure": "ux511:be57156f",
+   "kind": "observation",
+   "locator": "UMa133 lane",
+   "attribute": "band",
+   "value": "about 5000 bp (a single strong band)",
+   "confidence": "medium"
+  },
+  {
+   "id": "6fed9d0a-001",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX517",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-002",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX517 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-003",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX517 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-004",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX517 lane",
+   "attribute": "clone number",
+   "value": "9",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-005",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX517 clone 9",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-006",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX517 lane",
+   "attribute": "clone number",
+   "value": "10",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-007",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX517 clone 10",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-008",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX518",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-009",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX518 lane",
+   "attribute": "clone number",
+   "value": "5",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-010",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX518 clone 5",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-011",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX518 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-012",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX518 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-013",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX518 lane",
+   "attribute": "clone number",
+   "value": "9",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-014",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX518 clone 9",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-015",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX519",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-016",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX519 lane",
+   "attribute": "clone number",
+   "value": "3",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-017",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX519 clone 3",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-018",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX519 lane",
+   "attribute": "clone number",
+   "value": "5",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-019",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX519 clone 5",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-020",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX519 lane",
+   "attribute": "clone number",
+   "value": "8",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-021",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX519 clone 8",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-022",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX520",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-023",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX520 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-024",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX520 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-025",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX520 lane",
+   "attribute": "clone number",
+   "value": "2",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-026",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX520 clone 2",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-027",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "UX520 lane",
+   "attribute": "clone number",
+   "value": "5",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-028",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UX520 clone 5",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-029",
+   "figure": "ux511:6fed9d0a",
+   "kind": "label",
+   "locator": "lane after the clones",
+   "attribute": "control lane label",
+   "value": "UMa133",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-030",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "UMa133",
+   "attribute": "marked as correct on blot image",
+   "value": "no (black)",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-031",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-032",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-033",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-034",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-035",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-036",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3500",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-037",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-038",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-039",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-040",
+   "figure": "ux511:6fed9d0a",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-041",
+   "figure": "ux511:6fed9d0a",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-042",
+   "figure": "ux511:6fed9d0a",
+   "kind": "colour-code",
+   "locator": "clone numbers",
+   "attribute": "colour code",
+   "value": "green clone numbers vs black clone numbers (green = marked correct)",
+   "confidence": "high"
+  },
+  {
+   "id": "6fed9d0a-043",
+   "figure": "ux511:6fed9d0a",
+   "kind": "observation",
+   "locator": "all clone lanes",
+   "attribute": "main band",
+   "value": "about 8000 bp (just below the 8000 marker), lanes 3 of UX519 with an additional band near 10000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "6fed9d0a-044",
+   "figure": "ux511:6fed9d0a",
+   "kind": "observation",
+   "locator": "UMa133 lane",
+   "attribute": "bands",
+   "value": "weak bands near 2000 and 2800 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "84dc38ff-001",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX521",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-002",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX521 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-003",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX521 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-004",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX521 lane",
+   "attribute": "clone number",
+   "value": "2",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-005",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX521 clone 2",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-006",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX521 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-007",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX521 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-008",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX522",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-009",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX522 lane",
+   "attribute": "clone number",
+   "value": "1",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-010",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX522 clone 1",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-011",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX522 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-012",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX522 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-013",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX522 lane",
+   "attribute": "clone number",
+   "value": "7",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-014",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX522 clone 7",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-015",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX523",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-016",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-017",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX523 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-018",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "8",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-019",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX523 clone 8",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-020",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "10",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-021",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UX523 clone 10",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-022",
+   "figure": "ux511:84dc38ff",
+   "kind": "label",
+   "locator": "lane after the clones",
+   "attribute": "control lane label",
+   "value": "UMa133",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-023",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "UMa133",
+   "attribute": "marked as correct on blot image",
+   "value": "no (black)",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-024",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-025",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-026",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-027",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-028",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-029",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3500",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-030",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-031",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-032",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-033",
+   "figure": "ux511:84dc38ff",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-034",
+   "figure": "ux511:84dc38ff",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-035",
+   "figure": "ux511:84dc38ff",
+   "kind": "colour-code",
+   "locator": "clone numbers",
+   "attribute": "colour code",
+   "value": "green clone numbers vs black clone numbers (green = marked correct)",
+   "confidence": "high"
+  },
+  {
+   "id": "84dc38ff-036",
+   "figure": "ux511:84dc38ff",
+   "kind": "observation",
+   "locator": "UX521 clones 1, 2, 6",
+   "attribute": "main band",
+   "value": "about 7500 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "84dc38ff-037",
+   "figure": "ux511:84dc38ff",
+   "kind": "observation",
+   "locator": "UX522 clones 1, 6, 7",
+   "attribute": "bands",
+   "value": "main band about 5500 bp and a second band about 2000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "84dc38ff-038",
+   "figure": "ux511:84dc38ff",
+   "kind": "observation",
+   "locator": "UX523 clones 8 and 10",
+   "attribute": "signal",
+   "value": "diffuse smear near the top (above 10000 bp)",
+   "confidence": "medium"
+  },
+  {
+   "id": "84dc38ff-039",
+   "figure": "ux511:84dc38ff",
+   "kind": "observation",
+   "locator": "UX523 clone 6",
+   "attribute": "bands",
+   "value": "bands near 8000 bp and above 10000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "3acf4cbb-001",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "bracket over the lanes",
+   "attribute": "strain label",
+   "value": "UX523",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-002",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "6",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-003",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "UX523 clone 6",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-004",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "8",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-005",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "UX523 clone 8",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-006",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "10",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-007",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "UX523 clone 10",
+   "attribute": "marked as correct on blot image",
+   "value": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-008",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "UX523 lane",
+   "attribute": "clone number",
+   "value": "11",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-009",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "UX523 clone 11",
+   "attribute": "marked as correct on blot image",
+   "value": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-010",
+   "figure": "ux511:3acf4cbb",
+   "kind": "label",
+   "locator": "lane after the clones",
+   "attribute": "control lane label",
+   "value": "UMa133",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-011",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "UMa133",
+   "attribute": "marked as correct on blot image",
+   "value": "no (black)",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-012",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-013",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-014",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-015",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-016",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-017",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3500",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-018",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-019",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-020",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-021",
+   "figure": "ux511:3acf4cbb",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-022",
+   "figure": "ux511:3acf4cbb",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-023",
+   "figure": "ux511:3acf4cbb",
+   "kind": "colour-code",
+   "locator": "clone numbers",
+   "attribute": "colour code",
+   "value": "green clone numbers vs black clone numbers (green = marked correct)",
+   "confidence": "high"
+  },
+  {
+   "id": "3acf4cbb-024",
+   "figure": "ux511:3acf4cbb",
+   "kind": "observation",
+   "locator": "UX523 clone 6",
+   "attribute": "main band",
+   "value": "about 7500-8000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "3acf4cbb-025",
+   "figure": "ux511:3acf4cbb",
+   "kind": "observation",
+   "locator": "UX523 clone 10",
+   "attribute": "main band",
+   "value": "about 8000-8500 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "3acf4cbb-026",
+   "figure": "ux511:3acf4cbb",
+   "kind": "observation",
+   "locator": "UX523 clone 11",
+   "attribute": "signal",
+   "value": "very strong band near 10000 bp with a second band slightly below",
+   "confidence": "medium"
+  },
+  {
+   "id": "grafik-001",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX782",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-002",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX782 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-003",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX782 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-004",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX783",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-005",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX783 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-006",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX783 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-007",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX784",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-008",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX784 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-009",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX784 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-010",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX785",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-011",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX785 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-012",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX785 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-013",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX786",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-014",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX786 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-015",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX786 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-016",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "top, above two lanes",
+   "attribute": "plasmid label",
+   "value": "pUX787",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-017",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX787 lane",
+   "attribute": "replicate label",
+   "value": "#1",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-018",
+   "figure": "pux782:grafik",
+   "kind": "label",
+   "locator": "pUX787 lane",
+   "attribute": "replicate label",
+   "value": "#2",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-019",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "10000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-020",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "8000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-021",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "6000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-022",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "5000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-023",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "4000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-024",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "3000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-025",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-026",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "2000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-027",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-028",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "1000 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-029",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "750 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-030",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "500 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-031",
+   "figure": "pux782:grafik",
+   "kind": "mark",
+   "locator": "left side",
+   "attribute": "size marker",
+   "value": "250 bp",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-032",
+   "figure": "pux782:grafik",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "ladders",
+   "value": "one ladder left and one ladder right of the 12 sample lanes",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-033",
+   "figure": "pux782:grafik",
+   "kind": "layout",
+   "locator": "gel",
+   "attribute": "number of sample lanes",
+   "value": "12 (6 plasmids x 2 colonies)",
+   "confidence": "high"
+  },
+  {
+   "id": "grafik-034",
+   "figure": "pux782:grafik",
+   "kind": "observation",
+   "locator": "pUX782 #1, #2",
+   "attribute": "band",
+   "value": "single strong band at about 2000 bp (#2 slightly higher than #1)",
+   "confidence": "medium"
+  },
+  {
+   "id": "grafik-035",
+   "figure": "pux782:grafik",
+   "kind": "observation",
+   "locator": "pUX783, pUX784, pUX785 (#1, #2)",
+   "attribute": "band",
+   "value": "single strong band at about 2800-3000 bp",
+   "confidence": "medium"
+  },
+  {
+   "id": "grafik-036",
+   "figure": "pux782:grafik",
+   "kind": "observation",
+   "locator": "pUX786, pUX787 (#1, #2)",
+   "attribute": "band",
+   "value": "single strong band at about 3000-3100 bp, slightly higher than pUX783-785",
+   "confidence": "medium"
+  },
+  {
+   "id": "grafik-037",
+   "figure": "pux782:grafik",
+   "kind": "observation",
+   "locator": "all lanes",
+   "attribute": "extra bands",
+   "value": "no additional bands visible; faint smear above the main band in pUX783-787 lanes",
+   "confidence": "medium"
+  }
+ ]
+}

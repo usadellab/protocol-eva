@@ -28,9 +28,15 @@ protocol-eva/
 │   ├── OUTPUT_ANALYSIS.md
 │   └── DATAFILE_HALLUCINATION.md
 │
-└── docs/                        # Documentation
-    └── CLAUDE.md                # Full project documentation
+├── docs/                        # Documentation
+│   └── CLAUDE.md                # Full project documentation
+│
+└── s11-manual-annotation/   # Benchmark against manual annotations (Supplement S11), see below
 ```
+
+## s11-manual-annotation
+
+Five eLabFTW entries converted to ISA assay tables by LLMs and scored (record precision, recall, F1) against manual annotations. Material of Supplement S11 of the elab2arc publication: the scores of prompt version 6 on 10 model rows, the per-run scores, the other prompt versions, evidence-quote and figure experiments, and the code. See `s11-manual-annotation/README.md`.
 
 ## Quick Start
 

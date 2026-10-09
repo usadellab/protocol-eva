@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "76a1dde7",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  549,
+  559
+ ],
+ "sent_size": [
+  549,
+  559
+ ],
+ "seconds": 41.3,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. Type of figure: agarose gel\n2. Text labels: \n- Left side (top to bottom): 10000 bp, 8000 bp, 6000 bp, 5000 bp, 4000 bp, 3000 bp, 2500 bp, 2000 bp, 1500 bp, 1000 bp, 750 bp, 500 bp, 250 bp\n- Top (left to right): pUX782, pUX783, pUX784, pUX785, pUX786, pUX787\n3. Lanes:\n- Lane 1: Marker with bands corresponding to the size labels on the left.\n- Lane 2: pUX782\n- Lane 3: pUX783\n- Lane 4: pUX784\n- Lane 5: pUX785\n- Lane 6: pUX786\n- Lane 7: pUX787\n- Special markings: There are curly brackets on the right side of the gel image grouping bands in the upper and middle sections."
+}

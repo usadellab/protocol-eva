@@ -1,0 +1,17 @@
+{
+ "case": "ux511",
+ "image": "e9e15b0e",
+ "mode": "guided",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  622,
+  499
+ ],
+ "sent_size": [
+  622,
+  499
+ ],
+ "seconds": 43.8,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.\n\nThe protocol text around this figure is given below only so that you understand what the figure is for. Describe ONLY what is visible in the image; do not copy facts from the text into the description.\nPay attention to the information a lab annotator would record as data: lane assignments, which items are marked, plotted quantities and their axes, conditions and legends.\n\nTEXT BEFORE THE FIGURE:\n plates * 12 clones per strain * at 28°C for two days * * * 2026-03-04 **Plasmid digest for _U. maydis_ trafo:** &nbsp; pUX797 #1 (175 ng/µl) pUX798 #1 (795 ng/µl) pUX799 #1 (615 ng/µl) pUX800 #1 (760 ng/µl) pUX801 #1 (705 ng/µl) pUX802 #1 (610 ng/µl) pUX803 #1 (520 ng/µl) Expected fragment sizes: 6624 bp 2104 bp 616 bp 6627 bp 2104 bp 616 bp 6633 bp 2104 bp 616 bp 6624 bp 2104 bp 616 bp 6615 bp 2104 bp 616 bp 6609 bp 2104 bp 616 bp 6631 bp 2104 bp 616 bp Plasmid ( 6 µg ) 34 µl 8 µl 10 µl 8 µl 9 µl 10 µl 12 µl rCutSmart buffer 4 µl 3 µl 3 µl 3 µl 3 µl 3 µl 3 µl SspI-HF 1 µl 1 µl 1 µl 1 µl 1 µl 1 µl 1 µl H 2 O ( ad 30 µl) 11 µl 18 µl 16 µl 18 µl 17 µl 16 µl 14 µl * 3 µl test digest containing 600 ng plasmid * at 37°C overnight * * * 2026-03-05 **Agarose gel of test digests:** * 0.8% agarose in 1X TAE buffer + Midori Green * 3 µl digest + 1 µl 6X purple loading dye (NEB) * 5 µl 1 kb ladder\n\nTEXT AFTER THE FIGURE:\n**_U. maydis_ transformation:** ([Method](experiments.php?mode=view&id=24292)) &nbsp; UX517 UX518 <",
+ "description": "1. **Figure type**: Agarose gel.\n2. **Text labels**: \n    * Top (left to right): `pUX797`, `pUX798`, `pUX799`, `pUX800`, `pUX801`, `pUX802`, `pUX803`\n    * Left axis (top to bottom): `10000 bp`, `8000 bp`, `6000 bp`, `5000 bp`, `4000 bp`, `3000 bp`, `2500 bp`, `2000 bp`, `1500 bp`, `1000 bp`, `750 bp`, `500 bp`, `250 bp`\n3. **Lanes (left to right)**: \n    * Lane 1: DNA ladder, with sizes indicated by the labels on the left.\n    * Lane 2: `pUX797`\n    * Lane 3: `pUX798`\n    * Lane 4: `pUX799`\n    * Lane 5: `pUX800`\n    * Lane 6: `pUX801`\n    * Lane 7: `pUX802`\n    * Lane 8: `pUX803`\n    * Lane 9: DNA ladder."
+}

@@ -1,0 +1,17 @@
+{
+ "case": "sdy1",
+ "image": "4355ff27",
+ "mode": "generic",
+ "model": "google/gemma-4-31b",
+ "original_size": [
+  1146,
+  733
+ ],
+ "sent_size": [
+  1000,
+  640
+ ],
+ "seconds": 79.2,
+ "prompt": "This image is a figure attached to an electronic lab notebook entry. Describe it for a reader who cannot see it, as a factual list.\n1. What kind of figure is it (agarose gel, Southern blot, photograph of plates, plot, screenshot)?\n2. Transcribe every visible text label exactly as written (titles, lane and sample names, axis titles, legend entries, size-marker values, annotations), in reading order, left to right, top to bottom.\n3. Gels and blots: list the lanes from left to right with their labels and the marker sizes. Say which lanes or labels are marked differently (colour, box, arrow) and how.\n4. Plots: the axes with units, the panels, the curves or legend entries.\n5. Plates: the layout (which plate or condition is where).\nDescribe only what is visible. Do not interpret the experimental result. If something is unclear write \"unclear\" instead of guessing. Do not invent numbers or labels.",
+ "description": "1. **Figure type**: Photograph of plates (spot assays).\n\n2. **Text labels**:\n    * Top left: \"48h, CM, 28°C\"\n    * Below that: \"AB33\", \"UMa2700\", \"UMa2950\"\n    * To the right of those names: \"over night main culture in glucose and/or arabinose\"\n    * Above the first set of plates: \"$10^7$\" [triangle pointing right] \"$10^2$\"\n    * Top row plate labels (left to right): \"CM [glucose]\", \"CM [arabinose]\", \"CFW [20 $\\mu$M]\", \"Congo red [150 $\\mu$M]\", \"caspofungin [500 nM]\", \"Nikkomycin Z [5 $\\mu$M]\", \"SDS [0.1%]\", \"SDS [0.05%]\"\n    * Top row sample labels (left side, top to bottom): \"AB33\", \"Pssd1-SSD1-GFP\", \"OFF Pcrg1-SSD1-GFP\", \"ON Pcrg1-SSD1-GFP\"\n    * Bottom row plate labels (left to right): \"CM [glucose]\", \"CFW [20 $\\mu$M]\", \"caspofungin [500 nM]\", \"Nikkomycin Z [5 $\\mu$M]\"\n    * Bottom row sample labels (left side, top to bottom): \"AB33\", \"Pssd1-SSD1-GFP\", \"OFF Pcrg1-SSD1-GFP\", \"ON Pcrg1-SSD1-GFP\"\n    * To the right of the bottom plates: \"glucose Pcrg1-OFF condition\"\n    * Bottom annotations (bullet points): \n        * \"conditional SSD1-mutant sensitive to chitin synthase inhibitor NikkomycinZ but not CFW which binds to chitin, looks slightly more growth; surprisingly the conditional SSD1-mutant was way more resistant to $\\beta$-glucan inhibitor CR\"\n        * \"overexpression of SSD1 (only in pre-culture) was sufficient to produce a strong sensitivity phenotype in presence of caspofungin, inhibiting $\\beta$-glucan synthesis not present in the conditional-mutant\"\n\n3. **Plates layout**: \n    * The figure consists of two horizontal panels of spot assays.\n    * Top panel: Eight plates arranged side-by-side. Each plate contains four rows (corresponding to the sample labels) and six columns representing a serial dilution from $10^7$ on the left to $10^2$ on the right.\n    * Bottom panel: Four plates arranged side-by-side. Each plate contains four rows (corresponding to the sample labels) and six columns representing a serial dilution."
+}
