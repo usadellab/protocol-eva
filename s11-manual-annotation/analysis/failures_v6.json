@@ -1,0 +1,152 @@
+[
+ {
+  "model": "GLM-4.7-Flash (local LM Studio)",
+  "case": "sdy1",
+  "dir": "work/eval_sdy1/glm47flash-lms_v6_r2",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65535,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "sdy1",
+  "dir": "work/eval_sdy1/kimicode-k3_v6_r2",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "sdy1",
+  "dir": "work/eval_sdy1/kimicode-k3_v6_r3",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ },
+ {
+  "model": "MiniMax-M3-4bit (local oMLX)",
+  "case": "sdy1",
+  "dir": "work/eval_sdy1/minimax-m3_v6_r1",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65536,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "DeepSeek-V4.1-Flash",
+  "case": "ux511",
+  "dir": "work/eval_ux511/deepseek-v41_v6_r1",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 28000,
+  "max_tokens": 28000,
+  "route": "api"
+ },
+ {
+  "model": "DeepSeek-V4.1-Flash",
+  "case": "ux511",
+  "dir": "work/eval_ux511/deepseek-v41_v6_r3",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 28000,
+  "max_tokens": 28000,
+  "route": "api"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "ux511",
+  "dir": "work/eval_ux511/kimicode-k3_v6_r1",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "ux511",
+  "dir": "work/eval_ux511/kimicode-k3_v6_r2",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "ux511",
+  "dir": "work/eval_ux511/kimicode-k3_v6_r3",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ },
+ {
+  "model": "MiniMax-M3-4bit (local oMLX)",
+  "case": "ux511",
+  "dir": "work/eval_ux511/minimax-m3_v6_r1",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65536,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "MiniMax-M3-4bit (local oMLX)",
+  "case": "ux511",
+  "dir": "work/eval_ux511/minimax-m3_v6_r3",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65536,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "MiniMax-M3-4bit (local oMLX)",
+  "case": "biolector034",
+  "dir": "work/eval_biolector034/minimax-m3_v6_r2",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65536,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "MiniMax-M3-4bit (local oMLX)",
+  "case": "biolector034",
+  "dir": "work/eval_biolector034/minimax-m3_v6_r3",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 65536,
+  "max_tokens": 65536,
+  "route": "api"
+ },
+ {
+  "model": "Nemotron-3-Ultra-550B (OpenRouter free)",
+  "case": "biolector034",
+  "dir": "work/eval_biolector034/or-nemotron3ultra_v6_r1",
+  "cause": "budget",
+  "finish": "length",
+  "completion_tokens": 64000,
+  "max_tokens": 64000,
+  "route": "api"
+ },
+ {
+  "model": "Kimi-K3 (Kimi Code)",
+  "case": "pux782",
+  "dir": "work/eval_pux782/kimicode-k3_v6_r2",
+  "cause": "invalid JSON",
+  "finish": null,
+  "completion_tokens": null,
+  "max_tokens": null,
+  "route": "kimi-code"
+ }
+]

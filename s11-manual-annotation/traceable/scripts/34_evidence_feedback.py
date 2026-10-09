@@ -3,6 +3,8 @@
 
   34_evidence_feedback.py <run-dir> [--annotation]    -> <run-dir>/feedback.json + feedback.md
   34_evidence_feedback.py --control             controls: every check must fail on a deliberately wrong input
+  34_evidence_feedback.py --validate            feedback for every v7* run of the five entries, then the correlation of the
+                                                annotation-free signals with the annotation-based scores -> work/eval/EVIDENCE_FEEDBACK_validation.md
 
 Inputs: llm.json (llmData), evidence.json (32_resolve_evidence.js: quote, character span, status per value cell), the protocol markdown
 (llm.json "input", its sha256 must equal the evidence file's), and with --annotation the annotation evidence of the entry (31_annotation_evidence.py).
@@ -377,6 +379,123 @@ def write_feedback(run_dir, annotation):
     return fb
 
 
+# ---------------------------------------------------------------------------------------------------- statistics
+def pearson(x, y):
+    n = len(x)
+    if n < 3:
+        return None
+    mx, my = sum(x) / n, sum(y) / n
+    sxx, syy = sum((a - mx) ** 2 for a in x), sum((b - my) ** 2 for b in y)
+    if sxx == 0 or syy == 0:
+        return None
+    return sum((a - mx) * (b - my) for a, b in zip(x, y)) / math.sqrt(sxx * syy)
+
+
+def ranks(v):
+    order = sorted(range(len(v)), key=lambda i: v[i])
+    r, i = [0.0] * len(v), 0
+    while i < len(v):
+        j = i
+        while j + 1 < len(v) and v[order[j + 1]] == v[order[i]]:
+            j += 1
+        for k in range(i, j + 1):
+            r[order[k]] = (i + j) / 2 + 1
+        i = j + 1
+    return r
+
+
+def spearman(x, y):
+    return pearson(ranks(x), ranks(y)) if len(x) >= 3 else None
+
+
+# ---------------------------------------------------------------------------------------------------- validation
+def validate():
+    import csv
+    board = {}
+    with open(ROOT / "work/eval/leaderboard.csv") as f:
+        for r in csv.DictReader(f):
+            if r["annotation"] == S.HEADLINE_ANNOTATION:
+                board[(r["case"], r["label"])] = r
+    rows, skipped = [], []
+    for case in ("sdy1", "phage", "ux511", "biolector034"):
+        for label, run in S.discover(case).items():
+            d = run["dir"]
+            if "_v7" not in d.name:
+                continue
+            r = board.get((case, label))
+            if run["status"] != "ok" or r is None or not (d / "evidence.json").exists():
+                skipped.append((case, d.name, run["status"], run["reason"]))
+                continue
+            fb = write_feedback(d, annotation=False)
+            rows.append({"case": case, "run": d.name, "recall": float(r["record_r"]), "precision": float(r["record_p"]),
+                         "f1": float(r["record_f1"]), "coverage": fb["coverage"]["share"],
+                         "vnq": fb["value_not_in_quote_share"], "traceable": float(r["traceable_share"]) if r["traceable_share"] else None})
+    return rows, skipped
+
+
+def corr_table(rows, xkey, ykey):
+    """per entry and pooled (raw and entry-centred) Pearson / Spearman."""
+    out = {}
+    for case in sorted({r["case"] for r in rows}):
+        sub = [r for r in rows if r["case"] == case]
+        x, y = [r[xkey] for r in sub], [r[ykey] for r in sub]
+        out[case] = {"n": len(sub), "pearson": pearson(x, y), "spearman": spearman(x, y)}
+    x, y = [r[xkey] for r in rows], [r[ykey] for r in rows]
+    out["pooled"] = {"n": len(rows), "pearson": pearson(x, y), "spearman": spearman(x, y)}
+    cx, cy = [], []
+    for case in {r["case"] for r in rows}:
+        sub = [r for r in rows if r["case"] == case]
+        mx, my = sum(r[xkey] for r in sub) / len(sub), sum(r[ykey] for r in sub) / len(sub)
+        cx += [r[xkey] - mx for r in sub]
+        cy += [r[ykey] - my for r in sub]
+    out["pooled_within_entry"] = {"n": len(rows), "pearson": pearson(cx, cy), "spearman": spearman(cx, cy)}
+    return out
+
+
+def verdict(tab, expected_sign):
+    pooled = tab["pooled"]["pearson"]
+    signs = [tab[c]["pearson"] for c in tab if c not in ("pooled", "pooled_within_entry") and tab[c]["pearson"] is not None]
+    holds = sum(1 for r in signs if (r > 0) == (expected_sign > 0))
+    usable = pooled is not None and abs(pooled) >= 0.5 and (pooled > 0) == (expected_sign > 0) and holds >= 4
+    return usable, holds, len(signs)
+
+
+def fmt(v):
+    return "-" if v is None else f"{v:+.2f}"
+
+
+def run_validate():
+    rows, skipped = validate()
+    L = ["# Evidence feedback: validation of the annotation-free signals (phase A)", "",
+         f"Runs: {len(rows)} v7* runs of the five entries with evidence and a successful extraction, scored against the headline annotation ({S.HEADLINE_ANNOTATION}); "
+         f"{len(skipped)} v7* runs skipped (failed extraction or no evidence file):", ""]
+    L += [f"- {c} `{n}`: {s} {r}"[:200] for c, n, s, r in skipped]
+    L += ["", "Rule (fixed in the plan): a signal is usable only if |r| >= 0.5 pooled (Pearson, raw pool) and the sign holds in at least 4 of 5 entries.", ""]
+    results = {}
+    for title, xk, yk, sign in (("source coverage vs record recall", "coverage", "recall", +1),
+                                ("value_not_in_quote share vs record precision", "vnq", "precision", -1)):
+        tab = corr_table(rows, xk, yk)
+        usable, holds, tot = verdict(tab, sign)
+        results[title] = {"table": tab, "usable": usable, "sign_holds": f"{holds}/{tot}"}
+        L += [f"## {title} (expected sign {'+' if sign > 0 else '-'})", "", "| group | n | Pearson | Spearman |", "|---|---|---|---|"]
+        for g, v in tab.items():
+            L.append(f"| {g} | {v['n']} | {fmt(v['pearson'])} | {fmt(v['spearman'])} |")
+        L += ["", f"**Verdict: {'USABLE' if usable else 'NOT usable'}** (pooled r {fmt(tab['pooled']['pearson'])}, sign holds in {holds} of {tot} entries; "
+              f"within-entry pooled r {fmt(tab['pooled_within_entry']['pearson'])}).", ""]
+    # extra, reported not decisive: traceable share vs precision
+    tab = corr_table([r for r in rows if r["traceable"] is not None], "traceable", "precision")
+    L += ["## For reference: traceable share vs record precision", "", "| group | n | Pearson | Spearman |", "|---|---|---|---|"]
+    for g, v in tab.items():
+        L.append(f"| {g} | {v['n']} | {fmt(v['pearson'])} | {fmt(v['spearman'])} |")
+    L += ["", "Pooled runs mix models and prompts, so the raw pool is confounded by entry and model; "
+          "the within-entry pool removes the entry mean only."]
+    out = ROOT / "work/eval/EVIDENCE_FEEDBACK_validation.md"
+    out.write_text("\n".join(L) + "\n")
+    (ROOT / "work/eval/EVIDENCE_FEEDBACK_validation.json").write_text(json.dumps({"rows": rows, "results": results}, indent=1))
+    print("\n".join(L))
+    return rows, results
+
+
 # ---------------------------------------------------------------------------------------------------- controls
 def control():
     fails = []
@@ -440,6 +559,10 @@ def control():
         g_all = annotation_missed(gev, [(0, len(txt))], secs)
         check("annotation: no quote spans -> all verified cells missed", g_none["missed"] == g_none["verified_annotation_cells"] > 0, str(g_none["missed"]))
         check("annotation: whole text covered -> none missed", g_all["missed"] == 0)
+        # 5. statistics: perfect and anti-correlation, and a constant series
+        check("pearson +1 / -1", abs(pearson([1, 2, 3, 4], [2, 4, 6, 8]) - 1) < 1e-9 and abs(pearson([1, 2, 3, 4], [8, 6, 4, 2]) + 1) < 1e-9)
+        check("spearman of a monotone nonlinear relation is 1", abs(spearman([1, 2, 3, 4], [1, 8, 27, 64]) - 1) < 1e-9)
+        check("pearson of a constant is undefined", pearson([1, 1, 1], [1, 2, 3]) is None)
     print("CONTROLS PASS" if not fails else f"CONTROLS FAILED: {fails}")
     return not fails
 
@@ -448,6 +571,9 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if args == ["--control"]:
         sys.exit(0 if control() else 1)
+    if args == ["--validate"]:
+        run_validate()
+        sys.exit(0)
     if not args or args[0].startswith("--"):
         sys.exit(__doc__)
     fb = write_feedback(args[0], "--annotation" in args)

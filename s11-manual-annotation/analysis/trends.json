@@ -1,0 +1,360 @@
+{
+ "n_runs_v6": 120,
+ "n_failed_v6": 15,
+ "measures": {
+  "sdy1": {
+   "cells_human": 934,
+   "input_words": 83,
+   "tables_human": 5,
+   "input_chars": 1459,
+   "rows_human": 186
+  },
+  "phage": {
+   "cells_human": 266,
+   "input_words": 700,
+   "tables_human": 6,
+   "input_chars": 10932,
+   "rows_human": 45
+  },
+  "ux511": {
+   "cells_human": 2631,
+   "input_words": 1365,
+   "tables_human": 10,
+   "input_chars": 22765,
+   "rows_human": 468
+  },
+  "biolector034": {
+   "cells_human": 634,
+   "input_words": 539,
+   "tables_human": 6,
+   "input_chars": 11164,
+   "rows_human": 92
+  },
+  "pux782": {
+   "cells_human": 1085,
+   "input_words": 815,
+   "tables_human": 10,
+   "input_chars": 18414,
+   "rows_human": 113
+  }
+ },
+ "H1_recall_vs_cells_human": {
+  "mean_rho": -0.6375,
+  "models": 8,
+  "n_negative": 8,
+  "perm_p_two_sided": 0.016666666666666666,
+  "per_model": {
+   "Claude Opus": -0.49999999999999994,
+   "Claude Sonnet 5.5": -0.39999999999999997,
+   "DeepSeek-V4.1-Flash": -0.6,
+   "GLM-4.7-Flash (local LM Studio)": -0.19999999999999998,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.9999999999999999,
+   "Gemma-4-31B (local LM Studio)": -0.9999999999999999,
+   "MiniMax-M3-4bit (local oMLX)": -0.7999999999999999,
+   "dots-3-note-preview (OpenRouter free)": -0.6
+  }
+ },
+ "H1_recall_vs_input_words": {
+  "mean_rho": -0.2375,
+  "models": 8,
+  "n_negative": 5,
+  "perm_p_two_sided": 0.6333333333333333,
+  "per_model": {
+   "Claude Opus": -0.7,
+   "Claude Sonnet 5.5": 0.19999999999999998,
+   "DeepSeek-V4.1-Flash": 0.19999999999999998,
+   "GLM-4.7-Flash (local LM Studio)": 0.39999999999999997,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.6,
+   "Gemma-4-31B (local LM Studio)": -0.6,
+   "MiniMax-M3-4bit (local oMLX)": -0.6,
+   "dots-3-note-preview (OpenRouter free)": -0.19999999999999998
+  }
+ },
+ "H1_recall_vs_input_chars": {
+  "mean_rho": -0.39999999999999997,
+  "models": 8,
+  "n_negative": 5,
+  "perm_p_two_sided": 0.3,
+  "per_model": {
+   "Claude Opus": -0.8999999999999998,
+   "Claude Sonnet 5.5": 0.0,
+   "DeepSeek-V4.1-Flash": 0.09999999999999999,
+   "GLM-4.7-Flash (local LM Studio)": 0.3,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.7,
+   "Gemma-4-31B (local LM Studio)": -0.7,
+   "MiniMax-M3-4bit (local oMLX)": -0.7999999999999999,
+   "dots-3-note-preview (OpenRouter free)": -0.49999999999999994
+  }
+ },
+ "H1_recall_vs_tables_human": {
+  "mean_rho": -0.3030516090994697,
+  "models": 8,
+  "n_negative": 6,
+  "perm_p_two_sided": 0.5333333333333333,
+  "per_model": {
+   "Claude Opus": -0.7378647873726218,
+   "Claude Sonnet 5.5": -0.05270462766947299,
+   "DeepSeek-V4.1-Flash": 0.10540925533894598,
+   "GLM-4.7-Flash (local LM Studio)": 0.5270462766947298,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.6324555320336759,
+   "Gemma-4-31B (local LM Studio)": -0.6324555320336759,
+   "MiniMax-M3-4bit (local oMLX)": -0.7905694150420949,
+   "dots-3-note-preview (OpenRouter free)": -0.21081851067789195
+  }
+ },
+ "H1_f1_vs_cells_human": {
+  "mean_rho": -0.38749999999999996,
+  "models": 8,
+  "n_negative": 7,
+  "perm_p_two_sided": 0.35,
+  "per_model": {
+   "Claude Opus": 0.09999999999999999,
+   "Claude Sonnet 5.5": -0.09999999999999999,
+   "DeepSeek-V4.1-Flash": -0.09999999999999999,
+   "GLM-4.7-Flash (local LM Studio)": -0.49999999999999994,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.9999999999999999,
+   "Gemma-4-31B (local LM Studio)": -0.8999999999999998,
+   "MiniMax-M3-4bit (local oMLX)": -0.3,
+   "dots-3-note-preview (OpenRouter free)": -0.3
+  }
+ },
+ "H1_precision_vs_cells_human": {
+  "mean_rho": 0.4125,
+  "models": 8,
+  "n_negative": 3,
+  "perm_p_two_sided": 0.36666666666666664,
+  "per_model": {
+   "Claude Opus": 0.7999999999999999,
+   "Claude Sonnet 5.5": 0.8999999999999998,
+   "DeepSeek-V4.1-Flash": 0.7,
+   "GLM-4.7-Flash (local LM Studio)": 0.7999999999999999,
+   "Gemma-4-31B (cluster vLLM, QAT w4a16)": -0.09999999999999999,
+   "Gemma-4-31B (local LM Studio)": -0.19999999999999998,
+   "MiniMax-M3-4bit (local oMLX)": 0.49999999999999994,
+   "dots-3-note-preview (OpenRouter free)": -0.09999999999999999
+  }
+ },
+ "cells_ai_over_cells_human_median": {
+  "sdy1": 0.42023554603854385,
+  "phage": 1.25,
+  "ux511": 0.30444697833523376,
+  "biolector034": 1.362776025236593,
+  "pux782": 0.4497695852534562
+ },
+ "cells_ai_median": {
+  "sdy1": 392.5,
+  "phage": 332.5,
+  "ux511": 801.0,
+  "biolector034": 864.0,
+  "pux782": 488.0
+ },
+ "H1_run_level": {
+  "slope_recall_per_ln_cell": -0.1617453795680887,
+  "recall_change_per_doubling": -0.11211335381621887,
+  "n_runs": 92,
+  "perm_p_two_sided": 0.008333333333333333
+ },
+ "failed_share_by_entry": {
+  "sdy1": 0.16666666666666666,
+  "phage": 0.0,
+  "ux511": 0.2916666666666667,
+  "biolector034": 0.125,
+  "pux782": 0.041666666666666664
+ },
+ "failed_vs_cells_human_spearman": {
+  "rho": 0.7
+ },
+ "entry_means": {
+  "sdy1": {
+   "f1": 0.35446642458710004,
+   "precision": 0.5824371710992307,
+   "recall": 0.2883297644539614
+  },
+  "phage": {
+   "f1": 0.5459448174686857,
+   "precision": 0.5553866159474031,
+   "recall": 0.5747180451127819
+  },
+  "ux511": {
+   "f1": 0.2857234545389289,
+   "precision": 0.6491865017513259,
+   "recall": 0.20305408366311173
+  },
+  "biolector034": {
+   "f1": 0.2969162801968165,
+   "precision": 0.299392233603455,
+   "recall": 0.33190626408292023
+  },
+  "pux782": {
+   "f1": 0.33068589197228826,
+   "precision": 0.5744055921688749,
+   "recall": 0.2617511520737327
+  }
+ },
+ "H2_entry_f1_rank_vs_cells_human_spearman": {
+  "rho": -0.7,
+  "n_entries": 5,
+  "exact_two_sided_p_if_|rho|=1": 0.016666666666666666
+ },
+ "H2_entry_f1_vs_ref_tables_spearman": {
+  "rho": -0.5797509043642028
+ },
+ "H3_pdf_vs_html": {
+  "precision": {
+   "mean_change": -0.11987558955359631,
+   "n_models": 5,
+   "n_lower_with_pdf": 3,
+   "wilcoxon_p_two_sided": null
+  },
+  "recall": {
+   "mean_change": -0.1575660242683797,
+   "n_models": 5,
+   "n_lower_with_pdf": 4,
+   "wilcoxon_p_two_sided": null
+  },
+  "f1": {
+   "mean_change": -0.15297175194035667,
+   "n_models": 5,
+   "n_lower_with_pdf": 4,
+   "wilcoxon_p_two_sided": null
+  },
+  "pairs": [
+   {
+    "model": "Claude Opus",
+    "html_precision": 0.7117585848074922,
+    "html_recall": 0.7323340471092077,
+    "html_f1": 0.7218997361477574,
+    "pdf_precision": 0.3571428571428571,
+    "pdf_recall": 0.2944325481798715,
+    "pdf_f1": 0.3227699530516432,
+    "n_html": 1,
+    "n_pdf": 1
+   },
+   {
+    "model": "DeepSeek-V4.1-Flash",
+    "html_precision": 0.39390451832907075,
+    "html_recall": 0.13847251962883653,
+    "html_f1": 0.1833056656796781,
+    "pdf_precision": 0.4235432411476625,
+    "pdf_recall": 0.33226266952177014,
+    "pdf_f1": 0.355634537552815,
+    "n_html": 3,
+    "n_pdf": 3
+   },
+   {
+    "model": "GLM-4.7-Flash (local LM Studio)",
+    "html_precision": 0.4261353898886032,
+    "html_recall": 0.0915417558886509,
+    "html_f1": 0.134829144459963,
+    "pdf_precision": 0.4516129032258064,
+    "pdf_recall": 0.0299785867237687,
+    "pdf_f1": 0.0562248995983935,
+    "n_html": 2,
+    "n_pdf": 1
+   },
+   {
+    "model": "Gemma-4-31B (local LM Studio)",
+    "html_precision": 0.7649293588890904,
+    "html_recall": 0.2805139186295503,
+    "html_f1": 0.40712368723207737,
+    "pdf_precision": 0.7102031153370438,
+    "pdf_recall": 0.1870092790863668,
+    "pdf_f1": 0.295463577012645,
+    "n_html": 3,
+    "n_pdf": 3
+   },
+   {
+    "model": "MiniMax-M3-4bit (local oMLX)",
+    "html_precision": 0.5522950698499519,
+    "html_recall": 0.5267665952890792,
+    "html_f1": 0.5383400222013491,
+    "pdf_precision": 0.3071428571428571,
+    "pdf_recall": 0.1381156316916488,
+    "pdf_f1": 0.190546528803545,
+    "n_html": 2,
+    "n_pdf": 1
+   }
+  ]
+ },
+ "H4_precision_vs_extra_steps_within_entry": {
+  "rho": -0.2298334973030465,
+  "p": 5.514342220541056e-06,
+  "n": 383
+ },
+ "H4_recall_vs_extra_steps_within_entry": {
+  "rho": 0.4544588588696822,
+  "p": 6.4522329518216925e-21,
+  "n": 383
+ },
+ "H4_precision_vs_extra_rows_share_within_entry": {
+  "rho": -0.5119505399554012,
+  "p": 5.663685455192024e-27,
+  "n": 383
+ },
+ "H4_recall_vs_extra_rows_share_within_entry": {
+  "rho": -0.13305860279051693,
+  "p": 0.009131301450682215,
+  "n": 383
+ },
+ "H4_opus_sonnet_precision_vs_extra_steps": {
+  "rho": -0.19410558768008407,
+  "p": 0.18141403950923252,
+  "n": 49
+ },
+ "H4_per_model": {
+  "models": [
+   {
+    "model": "Claude Opus",
+    "n_runs": 20,
+    "rho_precision": -0.6995489860980625,
+    "rho_recall": -0.3879475169636061
+   },
+   {
+    "model": "Claude Sonnet 5.5",
+    "n_runs": 29,
+    "rho_precision": -0.8432997424216081,
+    "rho_recall": -0.4418949464737763
+   },
+   {
+    "model": "DeepSeek-V4.1-Flash",
+    "n_runs": 26,
+    "rho_precision": -0.22191813355914605,
+    "rho_recall": -0.09527078372929529
+   },
+   {
+    "model": "GLM-4.7-Flash (local LM Studio)",
+    "n_runs": 37,
+    "rho_precision": -0.4152533051434498,
+    "rho_recall": -0.11175041001239842
+   },
+   {
+    "model": "Gemma-4-31B (cluster vLLM, QAT w4a16)",
+    "n_runs": 164,
+    "rho_precision": -0.5963985846677228,
+    "rho_recall": -0.34649513620900496
+   },
+   {
+    "model": "Gemma-4-31B (local LM Studio)",
+    "n_runs": 69,
+    "rho_precision": -0.6844054035691515,
+    "rho_recall": -0.1406375440304077
+   },
+   {
+    "model": "Kimi-K3 (Kimi Code)",
+    "n_runs": 17,
+    "rho_precision": -0.6466262536237698,
+    "rho_recall": 0.029465935570399
+   }
+  ],
+  "n_models": 7,
+  "n_negative_precision": 7,
+  "sign_test_p_two_sided": 0.015625,
+  "mean_rho_precision": -0.5867786298689872,
+  "mean_rho_recall": -0.21350434312115568
+ },
+ "H4_pooled_rho_bootstrap_over_models_95ci": [
+  -0.6257282620603382,
+  -0.3900264157674451
+ ],
+ "failed_share_all_v6_runs": 0.11627906976744186
+}
